@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import FarmingEfficiency from './pages/FarmingEfficiency';
 import EssentialHeroesPage from './pages/EssentialHeroesPage';
-
+import RaidGuidePage from './pages/RaidGuidePage';
 
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/farming" element={<FarmingEfficiency />} />
         <Route path="/essential-heroes" element={<EssentialHeroesPage />} />
-
+        <Route path="/raid-guide" element={<RaidGuidePage />} />
       </Routes>
     </Router>
   );

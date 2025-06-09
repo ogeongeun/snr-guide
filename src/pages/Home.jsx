@@ -11,8 +11,14 @@ const Home = () => {
     {
       title: '필수 육성 영웅',
       path: '/essential-heroes',
-      description: '보스 및 속성별 추천 영웅 정리',
+      description: '레이드,공성전 및 요일별 추천 영웅 정리',
       emoji: '⭐'
+    },
+    {
+      title: '레이드 공략',
+      path: '/raid-guide',
+      description: '레이드 영웅장비 및 추천 스킬순서',
+      emoji: '🐉'
     }
     // 앞으로 여기에 기능 추가
   ];
