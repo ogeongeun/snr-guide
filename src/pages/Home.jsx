@@ -38,6 +38,12 @@ const Home = () => {
           ))}
         </div>
       </div>
+      <div className="mt-12 text-center text-sm text-gray-500">
+        made by 건근
+      </div>
+       <div className="absolute bottom-2 right-4 text-xs text-gray-400">
+        sj
+      </div>
     </div>
   );
 };
