@@ -71,13 +71,7 @@ const RaidGuidePage = () => {
     </ul>
   );
 
-  const renderSkills = () => (
-    <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
-      {selectedBoss.skillOrder.map((line, i) => (
-        <li key={i}>{line}</li>
-      ))}
-    </ul>
-  );
+  
 
   const renderSeian = () =>
     selectedBoss.seianUsage ? (
