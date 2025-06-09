@@ -1,7 +1,9 @@
+import { useState } from 'react';
 import data from '../data/essential-heroes.json';
 
 const EssentialHeroesPage = () => {
   const { bossCounters, elementalEffects, siegeCounters } = data || {};
+  const [tab, setTab] = useState('boss'); // 'boss', 'elemental', 'siege'
 
   const renderHeroes = (heroes) => {
     if (!Array.isArray(heroes)) return null;
@@ -59,9 +61,32 @@ const EssentialHeroesPage = () => {
       <div className="max-w-5xl mx-auto bg-white shadow-md rounded-2xl p-6">
         <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">📋 필수 육성 영웅</h1>
 
-        {bossCounters && renderSection('🛡 보스별 필수 영웅', 'blue', bossCounters)}
-        {elementalEffects && renderSection('🌈 속성별 특수효과 영웅', 'green', elementalEffects)}
-        {siegeCounters && renderSection('🏰 공성전 필수 영웅', 'purple', siegeCounters)}
+        {/* 탭 선택 버튼 */}
+        <div className="flex justify-center mb-6 space-x-4">
+          <button
+            className={`px-4 py-2 rounded-full text-sm font-semibold ${tab === 'boss' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-700'}`}
+            onClick={() => setTab('boss')}
+          >
+            🛡 보스별
+          </button>
+          <button
+            className={`px-4 py-2 rounded-full text-sm font-semibold ${tab === 'elemental' ? 'bg-green-500 text-white' : 'bg-gray-200 text-gray-700'}`}
+            onClick={() => setTab('elemental')}
+          >
+            🌈 요일별
+          </button>
+          <button
+            className={`px-4 py-2 rounded-full text-sm font-semibold ${tab === 'siege' ? 'bg-purple-500 text-white' : 'bg-gray-200 text-gray-700'}`}
+            onClick={() => setTab('siege')}
+          >
+            🏰 공성전
+          </button>
+        </div>
+
+        {/* 탭별 콘텐츠 렌더링 */}
+        {tab === 'boss' && bossCounters && renderSection('🛡 보스별 필수 영웅', 'blue', bossCounters)}
+        {tab === 'elemental' && elementalEffects && renderSection('🌈 요일별 특수효과 영웅', 'green', elementalEffects)}
+        {tab === 'siege' && siegeCounters && renderSection('🏰 공성전 필수 영웅', 'purple', siegeCounters)}
       </div>
     </div>
   );
