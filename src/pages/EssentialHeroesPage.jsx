@@ -117,30 +117,29 @@ const EssentialHeroesPage = () => {
           <div className="mt-4">
             <h3 className="text-xl font-bold text-gray-700 mb-4">{selectedCategory}</h3>
 
-            {/* 스킬순서 탭 */}
             {tab === 'siege' && subTab === 'skill' ? (
-              <div className="space-y-6">
-                {/* 스킬 리스트 */}
-                <ul className="grid grid-cols-2 sm:grid-cols-3 gap-6">
-                  {siegeSkills[selectedCategory]?.skills?.length > 0 ? (
-                    siegeSkills[selectedCategory].skills.map((skill, idx) => (
-                      <li key={idx} className="flex flex-col items-center text-center">
-                        <img
-                          src={`/images/skills/${skill.image}`}
-                          alt={`Skill ${idx + 1}`}
-                          className="w-50 h-50 object-contain mb-2"
-                        />
-                        <p className="text-base font-medium text-gray-800 leading-snug">
-                          {skill.description}
-                        </p>
-                      </li>
-                    ))
-                  ) : (
-                    <p className="text-sm italic text-gray-500">스킬 정보 없음</p>
-                  )}
-                </ul>
-              </div>
-            ) : (
+  <div className="space-y-6">
+    {siegeSkills[selectedCategory]?.skills?.length > 0 ? (
+      siegeSkills[selectedCategory].skills.map((skill, idx) => (
+        <div
+          key={idx}
+          className="flex flex-col items-center text-center bg-gray-100 p-4 rounded-xl shadow-sm"
+        >
+          <img
+            src={`/images/skills/${skill.image}`}
+            alt={`Skill ${idx + 1}`}
+            className="w-50 h-50 object-contain mb-3"
+          />
+          <p className="text-base sm:text-lg text-gray-800 leading-relaxed">{skill.description}</p>
+        </div>
+      ))
+    ) : (
+      <p className="text-sm italic text-gray-500">스킬 정보 없음</p>
+    )}
+  </div>
+) : (
+  
+
               // 영웅 출력 탭
               <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                 {Object.entries(currentData[selectedCategory]).map(([trait, heroes], i) =>
