@@ -1,0 +1,67 @@
+{
+  "수호자의 성 (월요일)": {
+    "bossImage": "mon.png",
+    "skills": [
+      {
+        "image": "mon_skill.png",
+        "description": "루디 방어준비 사용시 버프해제 스킬 사용"
+      }
+     
+    ]
+  },
+  "포디나의 성 (화요일)": {
+    "bossImage": "tus.png",
+    "skills": [
+      {
+        "image": "tus_skill.png",
+        "description": "룩이 투창 사용시 턴감소 스킬 사용(세라)"
+      }
+     
+    ]
+  },
+  "불멸의 성 (수요일)": {
+    "bossImage": "wed.png",
+    "skills": [
+      {
+        "image": "wed_skill.png",
+        "description": "레이첼이 불새 사용시 디버프해제 스킬 사용"
+      }
+    ]
+  },
+  "죽음의 성 (목요일)": {
+    "bossImage": "thu.png",
+    "skills": [
+      {
+
+        "description": "델론즈 죽음의 일격 사용전에 리 도발 사용"
+      }
+    ]
+  },
+  "고대용의 성 (금요일)": {
+    "bossImage": "fri.png",
+    "skills": [
+      {
+        "image": "stfri_skill.png",
+        "description": "3라운드 진입시 메이 실명부여 사용"
+      }
+    ]
+  },
+  "흑한의 성 (토요일)": {
+    "bossImage": "sat1.png",
+    "skills": [
+      {
+        "image": "sat_skill.png",
+        "description": "첸슬러 분쇄 사용시 버프해제 스킬 사용"
+      }
+    ]
+  },
+  "지옥의 성 (일요일)": {
+    "bossImage": "sun.png",
+    "skills": [
+      {
+        "image": "sun_skill.png",
+        "description": "3라운드 진입시 크리스에게 집중공격 사용"
+      }
+    ]
+  }
+}

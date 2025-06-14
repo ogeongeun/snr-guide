@@ -347,11 +347,9 @@
           "image": "vanessa.png"
         }
       ],
-      "방깍(택1)": [
-        {
-          "name": "바네사",
-          "image": "vanessa.png"
-        },
+      "방깍": [
+        "description : 바네사 2초월 시 에이스 사용 비추천 (방깍 패시브 중첩 안됨, 대신 레이첼 추천)",
+        
         {
           "name": "에이스",
           "image": "ace.png"
@@ -397,6 +395,7 @@
         }
       ],
       "방깍(택1)": [
+        "description : 방깍 대신 레이첼 사용 가능",
         {
           "name": "바네사",
           "image": "vanessa.png"
@@ -450,6 +449,7 @@
         }
       ],
       "방깍(택1)": [
+        "description : 방깍 대신 레이첼 사용 가능",
         {
           "name": "바네사",
           "image": "vanessa.png"
@@ -500,6 +500,7 @@
         }
       ],
       "방깍(택)": [
+        "description : 방깍 대신 레이첼 사용 가능",
         {
           "name": "에이스",
           "image": "ace.png"
@@ -529,6 +530,10 @@
           "image": "bidam.png"
         },
         {
+          "name": "레이첼",
+          "image": "rachel.png"
+        },
+        {
           "name": "발리스타",
           "image": "ballista.png"
         }
@@ -553,6 +558,7 @@
         }
       ],
       "방깍": [
+        "description : 방깍 대신 레이첼 사용 가능",
         {
           "name": "에이스",
           "image": "ace.png"
@@ -572,6 +578,10 @@
         {
           "name": "비담",
           "image": "bidam.png"
+        },
+        {
+          "name": "레이첼",
+          "image": "rachel.png"
         },
         {
           "name": "발리스타",
@@ -606,6 +616,8 @@
         }
       ],
       "방깍": [
+        "description : 바네사 2초월 시 에이스 사용 비추천 (방깍 패시브 중첩 안됨, 대신 레이첼 추천)",
+        
         {
           "name": "에이스",
           "image": "ace.png"
@@ -635,6 +647,10 @@
           "image": "bidam.png"
         },
         {
+          "name": "레이첼",
+          "image": "rachel.png"
+        },
+        {
           "name": "발리스타",
           "image": "ballista.png"
         }
@@ -655,6 +671,7 @@
         }
       ],
       "방깍(택1)": [
+        "description : 방깍 대신 레이첼 사용 가능",
         {
           "name": "에이스",
           "image": "ace.png"
