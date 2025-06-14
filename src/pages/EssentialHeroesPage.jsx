@@ -128,7 +128,7 @@ const EssentialHeroesPage = () => {
                         <img
                           src={`/images/skills/${skill.image}`}
                           alt={`Skill ${idx + 1}`}
-                          className="w-32 h-32 object-contain mb-2"
+                          className="w-50 h-50 object-contain mb-2"
                         />
                         <p className="text-base font-medium text-gray-800 leading-snug">
                           {skill.description}
