@@ -38,10 +38,7 @@ const Home = () => {
         <h1 className="text-3xl font-bold text-center text-gray-800 mb-2">
           세븐나이츠 리버스 공략 도우미
         </h1>
-        <p className="text-center text-sm text-gray-500 mb-6">
-          현재 방문자 수: {count}명
-        </p>
-
+        
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {features.map((feature, index) => (
             <Link
