@@ -54,7 +54,7 @@ const EssentialHeroesPage = () => {
           {[
             { key: 'boss', label: '🛡 보스별', color: 'blue' },
             { key: 'elemental', label: '🌈 요일별', color: 'green' },
-            { key: 'siege', label: '🏰 공성전', color: 'purple' },
+            
           ].map(({ key, label, color }) => (
             <button
               key={key}

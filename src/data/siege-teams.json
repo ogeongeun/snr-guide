@@ -1,0 +1,298 @@
+ {
+ "siegeTeams": {
+    "수호자의 성 (월요일)": [
+      {
+        "team": [
+          {
+            "name": "에반",
+            "image": "evan.png"
+          },
+          {
+            "name": "노호",
+            "image": "noho.png"
+          },
+          {
+            "name": "바네사",
+            "image": "vanessa.png"
+          },
+          {
+            "name": "리나",
+            "image": "lina.png"
+          },
+          {
+            "name": "루리",
+            "image": "luri.png"
+          }
+        ],
+        "tags": [
+          "기절면역",
+          "버프해제",
+          "방깍",
+          "힐러",
+          "딜러"
+        ],
+        "note": "바네사는 2초월 기준으로 사용"
+      }
+    ],
+    "포디나의 성 (화요일)": [
+      {
+        "team": [
+          {
+            "name": "클로에",
+            "image": "chloe.png"
+          },
+          
+          {
+            "name": "바네사",
+            "image": "vanessa.png"
+          },
+          {
+            "name": "루리",
+            "image": "luri.png"
+          },
+          {
+            "name": "리나",
+            "image": "lina.png"
+          },
+          {
+            "name": "연희",
+            "image": "Yeonhee.png"
+          }
+        ],
+        "tags": [
+          "턴감소x, 피해면역동안 버프스킬 쓰면서 버팀"
+        ]
+        
+      },
+       {
+        "team": [
+          {
+            "name": "클로에",
+            "image": "chloe.png"
+          },
+          
+          {
+            "name": "세라",
+            "image": "sera.png"
+          },
+          {
+            "name": "루리",
+            "image": "luri.png"
+          },
+          {
+            "name": "리나",
+            "image": "lina.png"
+          },
+          {
+            "name": "연희",
+            "image": "Yeonhee.png"
+          }
+        ],
+        "tags": [
+          "세라를 이용한 피해면역 해제( 연희 기용)"
+        ]
+        
+      },{
+        "team": [
+          {
+            "name": "클로에",
+            "image": "chloe.png"
+          },
+          
+          {
+            "name": "세라",
+            "image": "sera.png"
+          },
+          {
+            "name": "루리",
+            "image": "luri.png"
+          },
+          {
+            "name": "리나",
+            "image": "lina.png"
+          },
+          {
+            "name": "바네사",
+            "image": "vanessa.png"
+          }
+        ],
+        "tags": [
+          "세라를 이용한 피해면역 해제(바네사 기용)"
+        ]
+        
+      }
+     
+
+    ],
+    "불멸의 성 (수요일)": [
+      {
+        "team": [
+          {
+            "name": "유이",
+            "image": "yui.png"
+          },
+          {
+            "name": "클로에",
+            "image": "chloe.png"
+          },
+          {
+            "name": "바네사",
+            "image": "vanessa.png"
+          },
+          {
+            "name": "리나",
+            "image": "lina.png"
+          },
+          {
+            "name": "세라",
+            "image": "sera.png"
+          }
+        ],
+        "tags": [
+          "화상면역",
+          "디버프해제",
+          "방깍",
+          "힐러",
+          "딜러"
+        ],
+        "note": ""
+      }
+    ],
+    "죽음의 성 (목요일)": [
+      {
+        "team": [
+          {
+            "name": "진",
+            "image": "jin.png"
+          },
+          {
+            "name": "리",
+            "image": "lee.png"
+          },
+          {
+            "name": "에이스",
+            "image": "ace.png"
+          },
+          {
+            "name": "유이",
+            "image": "yui.png"
+          },
+          {
+            "name": "타카",
+            "image": "taka.png"
+          }
+        ],
+        "tags": [
+          "침묵면역",
+          "도발탱커",
+          "방깍",
+          "힐러",
+          "딜러"
+        ],
+        "note": ""
+      }
+    ],
+    "고대용의 성 (금요일)": [
+      {
+        "team": [
+          {
+            "name": "에반",
+            "image": "evan.png"
+          },
+          {
+            "name": "유이",
+            "image": "yui.png"
+          },
+          {
+            "name": "에이스",
+            "image": "ace.png"
+          },
+          {
+            "name": "메이",
+            "image": "mei.png"
+          },
+          {
+            "name": "타카",
+            "image": "taka.png"
+          }
+        ],
+        "tags": [
+          "기절면역",
+          "화상면역",
+          "방깍",
+          "실명부여",
+          "딜러"
+        ],
+        "note": ""
+      }
+    ],
+    "흑한의 성 (토요일)": [
+      {
+        "team": [
+          {
+            "name": "풍연",
+            "image": "poongyeon.png"
+          },
+          {
+            "name": "노호",
+            "image": "noho.png"
+          },
+          {
+            "name": "바네사",
+            "image": "vanessa.png"
+          },
+          {
+            "name": "리나",
+            "image": "lina.png"
+          },
+          {
+            "name": "비담",
+            "image": "bidam.png"
+          }
+        ],
+        "tags": [
+          "빙결면역",
+          "버프해제",
+          "방깍",
+          "힐러",
+          "딜러"
+        ],
+        "note": ""
+      }
+    ],
+    "지옥의 성 (일요일)": [
+      {
+        "team": [
+          {
+            "name": "레오",
+            "image": "leo.png"
+          },
+          {
+            "name": "아수라",
+            "image": "asura.png"
+          },
+          {
+            "name": "바네사",
+            "image": "vanessa.png"
+          },
+          {
+            "name": "엘리스",
+            "image": "elise.png"
+          },
+          {
+            "name": "세인",
+            "image": "sein.png"
+          }
+        ],
+        "tags": [
+          "즉사면역",
+          "집중공격",
+          "방깍",
+          "힐러",
+          "딜러"
+        ],
+        "note": ""
+      }
+    ]
+  }
+}

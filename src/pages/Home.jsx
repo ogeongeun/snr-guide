@@ -19,6 +19,12 @@ const Home = () => {
       path: '/raid-guide',
       description: '레이드 영웅장비 및 추천 스킬순서',
       emoji: '🐉'
+    },
+    {
+      title: '공성전 공략',
+      path: '/siege',
+      description: '요일별 공성전 영웅, 스킬순서',
+      emoji: '🏰'
     }
     // 앞으로 여기에 기능 추가
   ];

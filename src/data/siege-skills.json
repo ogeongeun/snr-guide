@@ -1,67 +1,308 @@
 {
-  "수호자의 성 (월요일)": {
-    "bossImage": "mon.png",
-    "skills": [
-      {
-        "image": "mon_skill.png",
-        "description": "루디 방어준비 사용시 버프해제 스킬 사용"
-      }
+  "수호자의 성 (월요일)": [
+    {
+      "stage": "정석 빌드",
+      "skills": [
+        {
+          "stageTitle": "1스테이지",
+          "images": ["Yeonhee1.png"]
+        },
+        {
+          "stageTitle": "2스테이지",
+          "images": ["Yeonhee2.png"]
+        }
+      ]
+    }
+  ],
+  
+  "포디나의 성 (화요일)": [
+    {
      
-    ]
-  },
-  "포디나의 성 (화요일)": {
-    "bossImage": "tus.png",
-    "skills": [
-      {
-        "image": "tus_skill.png",
-        "description": "룩이 투창 사용시 턴감소 스킬 사용(세라)"
-      }
+      "skillOrders": [
+        {
+          "orderTitle": "분쇄 먼저(과금러)",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["vanessa1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["vanessa2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "lina2.png", "chloe2.png", "luri2.png", "luri1.png",
+                "Yeonhee1.png", "lina1.png", "vanessa1.png",
+                "vanessa2.png", "chloe2.png", "lina2.png",
+                "luri2.png", "luri1.png", "vanessa1.png"
+              ],
+              "labels": {
+                "3": "분쇄"
+               
+               }
+               
+            }
+          ]
+        },
+        {
+          "orderTitle": "투창 먼저",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["Yeonhee1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["luri1.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "luri2.png", "vanessa2.png", "lina1.png", "vanessa1.png",
+                "lina2.png", "chloe2.png", "luri2.png",
+                "luri1.png", "Yeonhee1.png", "Yeonhee2.png",
+                "lina1.png", "chloe2.png", "lina2.png", "luri2.png"
+              ],
+              "labels": {
+                "3": "투창",
+                "5":"분쇄"
+               }
+            }
+          ]
+        },
+        {
+          "orderTitle": "분쇄 먼저",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["Yeonhee1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["luri1.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+             "images": [
+                "lina2.png", "chloe2.png", "luri2.png", "vanessa1.png",
+                "lina1.png", "vanessa2.png", "chloe2.png",
+                "lina2.png", "luri2.png", "luri1.png",
+                "Yeonhee1.png"
+              ],
+              "labels": {
+                "3": "분쇄",
+                "5":"투창"
+               }
+            }
+          ]
+        }
+      ]
+    },
+    {
      
-    ]
-  },
-  "불멸의 성 (수요일)": {
-    "bossImage": "wed.png",
-    "skills": [
-      {
-        "image": "wed_skill.png",
-        "description": "레이첼이 불새 사용시 디버프해제 스킬 사용"
-      }
-    ]
-  },
-  "죽음의 성 (목요일)": {
-    "bossImage": "thu.png",
-    "skills": [
-      {
+      "skillOrders": [
+        {
+          "orderTitle": "분쇄 먼저",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["sera1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["luri2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "lina2.png", "chloe2.png", "luri1.png", "Yeonhee1.png",
+                "lina1.png", "sera2.png", "luri2.png",
+                "luri1.png", "chloe2.png", "lina2.png",
+                "luri2.png", "sera2.png"
+              ],
+               "labels": {
+                "3": "분쇄",
+                "5":"투창"
+               }
+            }
+          ]
+        },
+        
+        {
+          "orderTitle": "투창 먼저",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["sera1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["luri2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "lina2.png", "chloe2.png", "luri1.png", "sera2.png",
+                "Yeonhee1.png", "luri2.png", "lina1.png",
+                "sera1.png", "chloe2.png", "lina2.png",
+                "sera2.png"
+              ],
+              "labels": {
+                "3": "투창",
+                "5":"분쇄"
+               }
+            }
+          ]
+        }
+        
+      ]
+    },
+    {
+     
+      "skillOrders": [
+        {
+          "orderTitle": "분쇄 먼저",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["sera1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["luri2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "lina2.png", "chloe2.png", "luri1.png", "vanessa1.png",
+                "lina1.png", "sera2.png", "luri2.png",
+                "luri1.png", "chloe2.png", "lina2.png",
+                "luri2.png", "sera2.png"
+              ],
+              "labels": {
+                "3": "분쇄",
+                "5":"투창"
+               }
+            }
+          ]
+        },
+        
+        {
+          "orderTitle": "투창 먼저",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["sera1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["luri2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "lina2.png", "chloe2.png", "luri1.png", "sera2.png",
+                "sera1.png", "luri2.png", "lina1.png",
+                "vanessa1.png", "chloe2.png", "lina2.png",
+                "sera2.png"
+              ],
+              "labels": {
+                "3": "투창",
+                "5":"분쇄"
+               }
+            }
+          ]
+        }
+        
+      ]
+    }
+  ],
 
-        "description": "델론즈 죽음의 일격 사용전에 리 도발 사용"
-      }
-    ]
-  },
-  "고대용의 성 (금요일)": {
-    "bossImage": "fri.png",
-    "skills": [
-      {
-        "image": "stfri_skill.png",
-        "description": "3라운드 진입시 메이 실명부여 사용"
-      }
-    ]
-  },
-  "흑한의 성 (토요일)": {
-    "bossImage": "sat1.png",
-    "skills": [
-      {
-        "image": "sat_skill.png",
-        "description": "첸슬러 분쇄 사용시 버프해제 스킬 사용"
-      }
-    ]
-  },
-  "지옥의 성 (일요일)": {
-    "bossImage": "sun.png",
-    "skills": [
-      {
-        "image": "sun_skill.png",
-        "description": "3라운드 진입시 크리스에게 집중공격 사용"
-      }
-    ]
-  }
+
+
+  "불멸의 성 (수요일)": [
+    {
+      "stage": "기본 루트",
+      "skills": [
+        {
+          "stageTitle": "1스테이지",
+          "images": ["lina1.png"]
+        },
+        {
+          "stageTitle": "2스테이지",
+          "images": ["chloe2.png"]
+        },
+        {
+          "stageTitle": "3스테이지",
+          "images": ["Yeonhee1.png"]
+        }
+      ]
+    }
+  ],
+  "죽음의 성 (목요일)": [
+    {
+      "stage": "도발 대응 루트",
+      "skills": [
+        {
+          "stageTitle": "1스테이지",
+          "images": ["lee1.png"]
+        },
+        {
+          "stageTitle": "2스테이지",
+          "images": ["delons1.png"]
+        },
+        {
+          "stageTitle": "3스테이지",
+          "images": []
+        }
+      ]
+    }
+  ],
+  "고대용의 성 (금요일)": [
+    {
+      "stage": "실명 대응 루트",
+      "skills": [
+        {
+          "stageTitle": "1스테이지",
+          "images": ["mei1.png"]
+        },
+        {
+          "stageTitle": "2스테이지",
+          "images": ["lina2.png"]
+        }
+      ]
+    }
+  ],
+  "흑한의 성 (토요일)": [
+    {
+      "stage": "버프 해제 루트",
+      "skills": [
+        {
+          "stageTitle": "1스테이지",
+          "images": ["chancellor1.png"]
+        },
+        {
+          "stageTitle": "2스테이지",
+          "images": ["luri1.png"]
+        }
+      ]
+    }
+  ],
+  "지옥의 성 (일요일)": [
+    {
+      "stage": "집중공격 루트",
+      "skills": [
+        {
+          "stageTitle": "1스테이지",
+          "images": ["chris1.png"]
+        },
+        {
+          "stageTitle": "2스테이지",
+          "images": ["luri2.png"]
+        }
+      ]
+    }
+  ]
 }
