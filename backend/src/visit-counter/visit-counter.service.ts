@@ -10,11 +10,21 @@ export class VisitCounterService {
   ) {}
 
   async increment(): Promise<void> {
-    await this.counterModel.updateOne({}, { $inc: { count: 1 } }, { upsert: true });
+    const today = new Date().toISOString().slice(0, 10); // '2025-06-25'
+
+    await this.counterModel.updateOne(
+      { date: today },
+      {
+        $inc: { count: 1 },
+        $setOnInsert: { createdAt: new Date() },
+      },
+      { upsert: true }
+    );
   }
 
   async getCount(): Promise<number> {
-    const counter = await this.counterModel.findOne();
+    const today = new Date().toISOString().slice(0, 10);
+    const counter = await this.counterModel.findOne({ date: today });
     return counter?.count || 0;
   }
 }

@@ -1,14 +1,16 @@
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
-import { VisitCounter, VisitCounterSchema } from './visit-counter.schema';
 import { VisitCounterService } from './visit-counter.service';
 import { VisitCounterController } from './visit-counter.controller';
+import { VisitCounter, VisitCounterSchema } from './visit-counter.schema';
 
 @Module({
   imports: [
-    MongooseModule.forFeature([{ name: VisitCounter.name, schema: VisitCounterSchema }])
+    MongooseModule.forFeature([
+      { name: VisitCounter.name, schema: VisitCounterSchema },
+    ]),
   ],
   controllers: [VisitCounterController],
-  providers: [VisitCounterService]
+  providers: [VisitCounterService],
 })
 export class VisitCounterModule {}
