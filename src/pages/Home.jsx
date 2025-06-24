@@ -4,16 +4,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   const [count, setCount] = useState(0);
 
-  useEffect(() => {
-    const BACKEND_URL = 'https://efficient-nurturing-production.up.railway.app';
-
-    fetch(`${BACKEND_URL}/visit-counter`, { method: 'POST' });
-
-    fetch(`${BACKEND_URL}/visit-counter`)
-      .then(res => res.json())
-      .then(data => setCount(data.count));
-  }, []);
-
+  
   const features = [
     {
       title: '쫄작 효율 비교',
