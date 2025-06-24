@@ -36,9 +36,10 @@ const Home = () => {
     <div className="min-h-screen bg-gray-100 py-10 px-4">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-3xl font-bold text-center text-gray-800 mb-2">
-          세븐나이츠 리버스 공략 도우미
+          세븐나이츠 리버스 공략 도우미 
+          
         </h1>
-        
+       <p1>made by 건근</p1>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {features.map((feature, index) => (
             <Link
@@ -53,9 +54,7 @@ const Home = () => {
           ))}
         </div>
       </div>
-      <div className="mt-12 text-center text-sm text-gray-500">
-        made by 건근
-      </div>
+      
       <div className="absolute bottom-2 right-4 text-xs text-gray-400">
         sj
       </div>
