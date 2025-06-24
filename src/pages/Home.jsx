@@ -1,6 +1,19 @@
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    const BACKEND_URL = 'https://efficient-nurturing-production.up.railway.app';
+
+    fetch(`${BACKEND_URL}/visit-counter`, { method: 'POST' });
+
+    fetch(`${BACKEND_URL}/visit-counter`)
+      .then(res => res.json())
+      .then(data => setCount(data.count));
+  }, []);
+
   const features = [
     {
       title: '쫄작 효율 비교',
@@ -26,15 +39,17 @@ const Home = () => {
       description: '요일별 공성전 영웅, 스킬순서',
       emoji: '🏰'
     }
-    // 앞으로 여기에 기능 추가
   ];
 
   return (
     <div className="min-h-screen bg-gray-100 py-10 px-4">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-3xl font-bold text-center text-gray-800 mb-8">
+        <h1 className="text-3xl font-bold text-center text-gray-800 mb-2">
           세븐나이츠 리버스 공략 도우미
         </h1>
+        <p className="text-center text-sm text-gray-500 mb-6">
+          현재 방문자 수: {count}명
+        </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {features.map((feature, index) => (
@@ -53,7 +68,7 @@ const Home = () => {
       <div className="mt-12 text-center text-sm text-gray-500">
         made by 건근
       </div>
-       <div className="absolute bottom-2 right-4 text-xs text-gray-400">
+      <div className="absolute bottom-2 right-4 text-xs text-gray-400">
         sj
       </div>
     </div>
