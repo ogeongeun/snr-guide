@@ -128,16 +128,89 @@
       {
         "team": [
           {
-            "name": "유이",
-            "image": "yui.png"
+            "name": "아리엘",
+            "image": "ariel.png"
           },
           {
-            "name": "클로에",
-            "image": "chloe.png"
+            "name": "리나",
+            "image": "lina.png"
+          },
+          {
+            "name": "루리",
+            "image": "luri.png"
           },
           {
             "name": "바네사",
             "image": "vanessa.png"
+          },
+          {
+            "name": "연희",
+            "image": "Yeonhee.png"
+          }
+        ],
+        "tags": [
+          "화상면역 -> 아리엘"
+        ]
+      },
+      {
+        "team": [
+          {
+            "name": "유이",
+            "image": "yui.png"
+          },
+          {
+            "name": "리나",
+            "image": "lina.png"
+          },
+          {
+            "name": "루리",
+            "image": "luri.png"
+          },
+          {
+            "name": "바네사",
+            "image": "vanessa.png"
+          },
+          {
+            "name": "연희",
+            "image": "Yeonhee.png"
+          }
+        ],
+        "tags": [
+          "화상면역 -> 유이"
+        ]
+      },
+      {
+        "team": [
+          {
+            "name": "아리엘",
+            "image": "ariel.png"
+          },
+          {
+            "name": "리나",
+            "image": "lina.png"
+          },
+          {
+            "name": "루리",
+            "image": "luri.png"
+          },
+          {
+            "name": "바네사",
+            "image": "vanessa.png"
+          },
+          {
+            "name": "클로에",
+            "image": "chloe.png"
+          }
+        ],
+        "tags": [
+          "클로에 -> 마공증가"
+        ]
+      },
+      {
+        "team": [
+          {
+            "name": "아리엘",
+            "image": "ariel.png"
           },
           {
             "name": "리나",
@@ -146,16 +219,47 @@
           {
             "name": "세라",
             "image": "sera.png"
+          },
+          {
+            "name": "바네사",
+            "image": "vanessa.png"
+          },
+          {
+            "name": "클로에",
+            "image": "chloe.png"
           }
         ],
         "tags": [
-          "화상면역",
-          "디버프해제",
-          "방깍",
-          "힐러",
-          "딜러"
+           "클로에 -> 마공증가 , 루리 - > 세라"
+        ]
+      }
+      ,
+      {
+        "team": [
+          {
+            "name": "아리엘",
+            "image": "ariel.png"
+          },
+          {
+            "name": "리나",
+            "image": "lina.png"
+          },
+          {
+            "name": "루리",
+            "image": "luri.png"
+          },
+          {
+            "name": "연희",
+            "image": "Yeonhee.png"
+          },
+          {
+            "name": "클로에",
+            "image": "chloe.png"
+          }
         ],
-        "note": ""
+        "tags": [
+          "바네사 - > 연희"
+        ]
       }
     ],
     "죽음의 성 (목요일)": [
