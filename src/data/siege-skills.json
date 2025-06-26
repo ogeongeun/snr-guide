@@ -404,7 +404,7 @@
           "skills": [
             {
               "stageTitle": "1스테이지",
-              "images": ["jin1.png"]
+              "images": ["rachel2.png","jin1.png"]
             },
             {
               "stageTitle": "2스테이지",
@@ -433,7 +433,7 @@
      
       "skillOrders": [
         {
-          "orderTitle": "운빨",
+          "orderTitle": "정석",
           "skills": [
             {
               "stageTitle": "1스테이지",
@@ -462,7 +462,7 @@
      
       "skillOrders": [
         {
-          "orderTitle": "운빨",
+          "orderTitle": "정석",
           "skills": [
             {
               "stageTitle": "1스테이지",
