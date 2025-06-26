@@ -495,7 +495,7 @@
           "skills": [
             {
               "stageTitle": "1스테이지",
-              "images": ["jin1.png"]
+              "images": ["jin1.png","poongyeon2.png"]
             },
             {
               "stageTitle": "2스테이지",
