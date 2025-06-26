@@ -1,0 +1,40 @@
+{
+  "파멸의 눈동자": [
+    {
+      "team": [
+        { "name": "세인", "image": "sein.png" },
+        { "name": "에반", "image": "evan.png" },
+        { "name": "유이", "image": "yui.png" },
+        { "name": "레이첼", "image": "rachel.png" },
+        { "name": "리나", "image": "lina.png" }
+      ],
+      
+      "note": "리나대신 딜러 가능"
+    }
+  ],
+  "우마왕": [
+    {
+      "team": [
+        { "name": "에스파다", "image": "espada.png" },
+        { "name": "유이", "image": "yui.png" },
+        { "name": "블랙로즈", "image": "blackrose.png" },
+        { "name": "카론", "image": "karon.png" },
+        { "name": "에반", "image": "evan.png" }
+      ],
+      "note": "블랙로즈 쫄컷 중요"
+    }
+  ],
+  "강철의 포식자": [
+    {
+      "team": [
+        { "name": "파스칼", "image": "pascal.png" },
+        { "name": "루시", "image": "lucy.png" },
+        { "name": "빅토리아", "image": "victoria.png" },
+        { "name": "아수라", "image": "asura.png" },
+        { "name": "에반", "image": "evan.png" }
+      ],
+     
+      "note": "파스칼 3방, 앞라인 부실or 파스칼 4~5방, 앞라인 튼튼 "
+    }
+  ]
+}
