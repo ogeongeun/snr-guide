@@ -6,6 +6,7 @@ import EssentialHeroesPage from './pages/EssentialHeroesPage';
 import RaidGuidePage from './pages/RaidGuidePage';
 import SiegePage from './pages/SiegePage';
 import SiegeSkillDetailPage from './pages/SiegeSkillDetailPage';
+import SkillOrderPage from './pages/SkillOrderPage';
 const App = () => {
   return (
     <Router>
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/raid-guide" element={<RaidGuidePage />} />
         <Route path="/siege" element={<SiegePage />} />
         <Route path="/siege-skill/:day/:teamIndex" element={<SiegeSkillDetailPage />} />
+        <Route path="/skill-order" element={<SkillOrderPage />} />
        
 
       </Routes>

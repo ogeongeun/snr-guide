@@ -1,10 +1,6 @@
-
 import { Link } from 'react-router-dom';
 
 const Home = () => {
-  
-
-  
   const features = [
     {
       title: '쫄작 효율 비교',
@@ -29,6 +25,12 @@ const Home = () => {
       path: '/siege',
       description: '요일별 공성전 영웅, 스킬순서',
       emoji: '🏰'
+    },
+    {
+      title: '스킬 강화 순서',
+      path: '/skill-order',
+      description: '영웅별 스킬 강화 우선순위 추천',
+      emoji: '💡'
     }
   ];
 
@@ -38,11 +40,13 @@ const Home = () => {
         <h1 className="text-3xl font-bold text-center text-gray-800 mb-2">
           세븐나이츠 리버스 공략 도우미 
           <p className="text-center text-xs text-gray-500 mb-4 italic">
-  본 콘텐츠는 천우회 길드 전용이며, 무단 사용 및 복제를 금합니다.
-</p>
+            본 콘텐츠는 천우회 길드 전용이며, 무단 사용 및 복제를 금합니다.
+          </p>
         </h1>
-       <p1>made by 건근</p1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <p className="text-center text-sm text-gray-500 mb-6 italic">made by 건근</p>
+
+        {/* 카드 리스트 */}
+        <div className="grid grid-cols-2 gap-4">
           {features.map((feature, index) => (
             <Link
               to={feature.path}
@@ -56,7 +60,8 @@ const Home = () => {
           ))}
         </div>
       </div>
-      
+
+      {/* 오른쪽 하단 마크 */}
       <div className="absolute bottom-2 right-4 text-xs text-gray-400">
         sj
       </div>
