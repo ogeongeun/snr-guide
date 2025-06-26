@@ -466,7 +466,7 @@
           "skills": [
             {
               "stageTitle": "1스테이지",
-              "images": ["jin1.png"]
+              "images": ["jin1.png","rachel2.png"]
             },
             {
               "stageTitle": "2스테이지",
@@ -505,7 +505,7 @@
               "stageTitle": "3스테이지",
               "images": [
                 "taka1.png", "lee1.png", "ace2.png", "poongyeon1.png",
-                "poongyeon2.png", "taka2.png", "lee1.png","taka1.png","jin2.png"
+                "poongyeon2.png", "taka2.png", "lee1.png","taka1.png","jin2.png","poongyeon1.png","taka2.png","poongyeon2.png"
                 
               ]
               
