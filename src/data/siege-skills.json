@@ -427,13 +427,41 @@
     },
      
      
-      
+      {
+     
+      "skillOrders": [
+        {
+          "orderTitle": "팀2정석",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["jin1.png","poongyeon2.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["jin2.png","taka2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "taka1.png", "lee1.png", "lina2.png", "poongyeon1.png",
+                "poongyeon2.png", "taka2.png", "lee1.png","taka1.png","jin1.png","lina1.png","poongyeon1.png","lee1.png","lina2.png","taka2.png","poongyeon2.png","taka1.png"
+                
+              ]
+              
+               
+            }
+          ]
+        }
+        
+      ]
+    },
     
     {
      
       "skillOrders": [
         {
-          "orderTitle": "정석",
+          "orderTitle": "팀3정석",
           "skills": [
             {
               "stageTitle": "1스테이지",
@@ -462,7 +490,7 @@
      
       "skillOrders": [
         {
-          "orderTitle": "정석",
+          "orderTitle": "팀4정석",
           "skills": [
             {
               "stageTitle": "1스테이지",

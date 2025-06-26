@@ -294,6 +294,34 @@
       {
         "team": [
           {
+            "name": "풍연",
+            "image": "poongyeon.png"
+          },
+          {
+            "name": "리",
+            "image": "lee.png"
+          },
+          {
+            "name": "타카",
+            "image": "taka.png"
+          },
+          {
+            "name": "진",
+            "image": "jin.png"
+          },
+          {
+            "name": "리나",
+            "image": "lina.png"
+          }
+        ],
+        "tags": [
+          
+        ],
+        "note": ""
+      },
+      {
+        "team": [
+          {
             "name": "에이스",
             "image": "ace.png"
           },
@@ -352,7 +380,7 @@
         "team": [
           {
             "name": "풍연",
-            "image": "ace.png"
+            "image": "poongyeon.png"
           },
           {
             "name": "리",
