@@ -266,35 +266,117 @@
       {
         "team": [
           {
-            "name": "진",
-            "image": "jin.png"
+            "name": "레이첼",
+            "image": "rachel.png"
           },
           {
             "name": "리",
             "image": "lee.png"
           },
           {
+            "name": "타카",
+            "image": "taka.png"
+          },
+          {
+            "name": "진",
+            "image": "jin.png"
+          },
+          {
+            "name": "리나",
+            "image": "lina.png"
+          }
+        ],
+        "tags": [
+          
+        ],
+        "note": ""
+      },
+      {
+        "team": [
+          {
             "name": "에이스",
             "image": "ace.png"
           },
           {
-            "name": "유이",
-            "image": "yui.png"
+            "name": "리",
+            "image": "lee.png"
           },
           {
             "name": "타카",
             "image": "taka.png"
+          },
+          {
+            "name": "진",
+            "image": "jin.png"
+          },
+          {
+            "name": "리나",
+            "image": "lina.png"
           }
         ],
         "tags": [
-          "침묵면역",
-          "도발탱커",
-          "방깍",
-          "힐러",
-          "딜러"
+          "레이첼 ->에이스"
+        ],
+        "note": ""
+      },
+      
+      {
+        "team": [
+          {
+            "name": "레이첼",
+            "image": "rachel.png"
+          },
+          {
+            "name": "리",
+            "image": "lee.png"
+          },
+          {
+            "name": "타카",
+            "image": "taka.png"
+          },
+          {
+            "name": "진",
+            "image": "jin.png"
+          },
+          {
+            "name": "유이",
+            "image": "yui.png"
+          }
+        ],
+        "tags": [
+          "리나 -> 유이"
+        ],
+        "note": ""
+      },
+      {
+        "team": [
+          {
+            "name": "풍연",
+            "image": "ace.png"
+          },
+          {
+            "name": "리",
+            "image": "lee.png"
+          },
+          {
+            "name": "타카",
+            "image": "taka.png"
+          },
+          {
+            "name": "진",
+            "image": "jin.png"
+          },
+          {
+            "name": "에이스",
+            "image": "ace.png"
+          }
+        ],
+        "tags": [
+          "많이 약할때 리나대신 딜러"
         ],
         "note": ""
       }
+      
     ],
     "고대용의 성 (금요일)": [
       {

@@ -371,22 +371,152 @@
   ],
   "죽음의 성 (목요일)": [
     {
-      "stage": "도발 대응 루트",
-      "skills": [
+     
+      "skillOrders": [
         {
-          "stageTitle": "1스테이지",
-          "images": ["lee1.png"]
+          "orderTitle": "진 강할떄",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["jin1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["taka2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "lee1.png", "lina2.png", "taka1.png", "jin2.png",
+                "rachel2.png", "taka2.png", "lee1.png","lina1.png","jin2.png"
+                
+              ]
+              
+               
+            }
+          ]
         },
+        
+      
+     
         {
-          "stageTitle": "2스테이지",
-          "images": ["delons1.png"]
-        },
-        {
-          "stageTitle": "3스테이지",
-          "images": []
+          "orderTitle": "진 약할때",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["jin1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["jin2.png","taka2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "taka1.png", "lee1.png", "lina2.png", "rachel2.png",
+                "jin1.png", "taka2.png", "lee1.png","taka1.png","jin2.png","lina1.png" ,"rachel2.png","lee1.png","lina2.png","taka2.png","jin1.png","taka1.png"
+                
+              ]
+              
+               
+            }
+          ]
         }
+        
+      ]
+    },
+     
+     
+      
+    
+    {
+     
+      "skillOrders": [
+        {
+          "orderTitle": "운빨",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["jin1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["taka2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "lee1.png", "lina2.png", "taka1.png", "jin2.png",
+                "ace2.png", "taka2.png", "lee1.png","lina1.png","jin2.png"
+                
+              ]
+              
+               
+            }
+          ]
+        }
+        
+      ]
+    },
+    {
+     
+      "skillOrders": [
+        {
+          "orderTitle": "운빨",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["jin1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["jin2.png","taka2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "taka1.png", "lee1.png", "yui1.png", "rachel2.png",
+                "jin1.png", "taka2.png", "lee1.png","jin2.png","lina1.png"
+                
+              ]
+              
+               
+            }
+          ]
+        }
+        
+      ]
+    },
+    {
+     
+      "skillOrders": [
+        {
+          "orderTitle": "딜 우겨넣기",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["jin1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["jin2.png","taka2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "taka1.png", "lee1.png", "ace2.png", "poongyeon1.png",
+                "poongyeon2.png", "taka2.png", "lee1.png","taka1.png","jin2.png"
+                
+              ]
+              
+               
+            }
+          ]
+        }
+        
       ]
     }
+   
   ],
   "고대용의 성 (금요일)": [
     {
