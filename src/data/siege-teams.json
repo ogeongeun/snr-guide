@@ -500,31 +500,55 @@
             "image": "poongyeon.png"
           },
           {
-            "name": "노호",
-            "image": "noho.png"
-          },
-          {
             "name": "바네사",
             "image": "vanessa.png"
+          },
+          {
+            "name": "타카",
+            "image": "taka.png"
           },
           {
             "name": "리나",
             "image": "lina.png"
           },
           {
-            "name": "비담",
-            "image": "bidam.png"
+            "name": "레이첼",
+            "image": "rachel.png"
           }
         ],
         "tags": [
-          "빙결면역",
-          "버프해제",
-          "방깍",
-          "힐러",
-          "딜러"
+          "바네사 자리에 노호,조커,소이 대체가능"
+        ],
+        "note": ""
+      },{
+        "team": [
+          {
+            "name": "풍연",
+            "image": "poongyeon.png"
+          },
+          {
+            "name": "바네사",
+            "image": "vanessa.png"
+          },
+          {
+            "name": "타카",
+            "image": "taka.png"
+          },
+          {
+            "name": "유이",
+            "image": "yui.png"
+          },
+          {
+            "name": "레이첼",
+            "image": "rachel.png"
+          }
+        ],
+        "tags": [
+          "바네사 자리에 노호,조커,소이 대체가능"
         ],
         "note": ""
       }
+
     ],
     "지옥의 성 (일요일)": [
       {
