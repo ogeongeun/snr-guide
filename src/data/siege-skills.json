@@ -725,6 +725,28 @@
                
             }
           ]
+        },
+        {
+          "orderTitle": "레이첼 명함~1초(고점)",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["taka1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["poongyeon2.png","poongyeon1.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "rachel2.png","vanessa1.png","lina2.png","poongyeon2.png","taka2.png","taka1.png","poongyeon1.png","rachel2.png","vanessa1.png","lina1.png","taka2.png","poongyeon2.png","taka1.png","poongyeon1.png","vanessa1.png","taka2.png"
+                
+              ]
+              
+               
+            }
+          ]
         }
         
         
