@@ -410,6 +410,34 @@
       {
         "team": [
           {
+            "name": "지크",
+            "image": "zick.png"
+          },
+          {
+            "name": "유이",
+            "image": "yui.png"
+          },
+          {
+            "name": "타카",
+            "image": "taka.png"
+          },
+          {
+            "name": "리나",
+            "image": "lina.png"
+          },
+          {
+            "name": "레이첼",
+            "image": "rachel.png"
+          }
+        ],
+        "tags": [
+          "운빨최고점"
+        ],
+        "note": ""
+      },
+       {
+        "team": [
+          {
             "name": "에반",
             "image": "evan.png"
           },
@@ -418,24 +446,20 @@
             "image": "yui.png"
           },
           {
-            "name": "에이스",
-            "image": "ace.png"
-          },
-          {
-            "name": "메이",
-            "image": "mei.png"
-          },
-          {
             "name": "타카",
             "image": "taka.png"
+          },
+          {
+            "name": "풍연",
+            "image": "poongyeon.png"
+          },
+          {
+            "name": "레이첼",
+            "image": "rachel.png"
           }
         ],
         "tags": [
-          "기절면역",
-          "화상면역",
-          "방깍",
-          "실명부여",
-          "딜러"
+          "정석"
         ],
         "note": ""
       }

@@ -548,16 +548,106 @@
   ],
   "고대용의 성 (금요일)": [
     {
-      "stage": "실명 대응 루트",
-      "skills": [
+     
+      "skillOrders": [
         {
-          "stageTitle": "1스테이지",
-          "images": ["mei1.png"]
+          "orderTitle": "팀1정석",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["taka2.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["taka1.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "rachel2.png","lina2.png","yui1.png","zick2.png","zick1.png","taka2.png","rachel2.png","taka1.png","zick2.png","lina1.png","lina2.png","taka2.png","rachel2.png","yui1.png","taka1.png","zick2.png","taka2.png"
+                
+              ]
+              
+               
+            }
+          ]
+        }
+        
+      ]
+    },
+    {
+     
+      "skillOrders": [
+        {
+          "orderTitle": "한방",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["taka2.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["poongyeon2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "taka1.png","rachel2.png","yui1.png","poongyeon1.png","poongyeon2.png","taka2.png","taka1.png","rachel2.png","evan2.png"
+                
+              ]
+              
+               
+            }
+          ]
+        },
+        
+      
+       
+        {
+          "orderTitle": "두방",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["poongyeon2.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["poongyeon1.png","taka2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "evan2.png","rachel2.png","yui1.png","taka1.png","poongyeon1.png","taka2.png","rachel2.png","poongyeon2.png","evan2.png","taka1.png","taka2.png"
+                
+              ]
+              
+               
+            }
+          ]
         },
         {
-          "stageTitle": "2스테이지",
-          "images": ["lina2.png"]
+          "orderTitle": "약할때",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["poongyeon2.png","taka1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["poongyeon1.png","taka2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "evan2.png","rachel2.png","yui1.png","poongyeon2.png","poongyeon1.png","taka2.png","taka1.png","rachel2.png","evan2.png","poongyeon2.png","taka2.png"
+                
+              ]
+              
+               
+            }
+          ]
         }
+        
       ]
     }
   ],
