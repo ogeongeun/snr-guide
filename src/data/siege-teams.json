@@ -462,6 +462,34 @@
           "정석"
         ],
         "note": ""
+      },
+       {
+        "team": [
+          {
+            "name": "에반",
+            "image": "evan.png"
+          },
+          {
+            "name": "유이",
+            "image": "yui.png"
+          },
+          {
+            "name": "타카",
+            "image": "taka.png"
+          },
+          {
+            "name": "풍연",
+            "image": "poongyeon.png"
+          },
+          {
+            "name": "메이",
+            "image": "mei.png"
+          }
+        ],
+        "tags": [
+          "반격 상쇄"
+        ],
+        "note": ""
       }
     ],
     "흑한의 성 (토요일)": [

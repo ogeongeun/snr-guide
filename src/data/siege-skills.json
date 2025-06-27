@@ -559,7 +559,7 @@
             },
             {
               "stageTitle": "2스테이지",
-              "images": ["taka1.png"]
+              "images": ["zick1.png","taka1.png"]
             },
             {
               "stageTitle": "3스테이지",
@@ -640,6 +640,33 @@
               "stageTitle": "3스테이지",
               "images": [
                 "evan2.png","rachel2.png","yui1.png","poongyeon2.png","poongyeon1.png","taka2.png","taka1.png","rachel2.png","evan2.png","poongyeon2.png","taka2.png"
+                
+              ]
+              
+               
+            }
+          ]
+        }
+        
+      ]
+    },{
+     
+      "skillOrders": [
+        {
+          "orderTitle": "메이 스강전",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["poongyeon2.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["poongyeon1.png","taka2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "mei1.png","yui1.png","taka1.png","poongyeon1.png","taka2.png","mei1.png","poongyeon2.png","evan2.png","taka1.png","poongyeon1.png","taka2.png","mei1.png","yui1.png","poongyeon2.png"
                 
               ]
               
