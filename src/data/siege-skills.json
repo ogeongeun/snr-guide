@@ -551,11 +551,11 @@
      
       "skillOrders": [
         {
-          "orderTitle": "팀1정석",
+          "orderTitle": "1,2스테이지 타카 원킬나면 지크 스킬x",
           "skills": [
             {
               "stageTitle": "1스테이지",
-              "images": ["taka2.png"]
+              "images": ["zick2.png","taka2.png"]
             },
             {
               "stageTitle": "2스테이지",
