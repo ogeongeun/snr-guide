@@ -96,8 +96,12 @@ const SiegePage = () => {
         <p className="font-semibold text-gray-700 mb-2">팀 {i + 1} 클릭하세요!</p>
         {renderHeroes(team.team)}
         {team.tags && (
-          <p className="mt-2 text-xs text-gray-500">설명: {team.tags.join(', ')}</p>
-        )}
+  <p className="mt-2 text-xs text-gray-500">설명: {team.tags.join(', ')}</p>
+)}
+{team.note && (
+  <p className="text-[11px] text-red-500 mt-1 italic">※ {team.note}</p>
+)}
+
       </Link>
     </li>
   ))}

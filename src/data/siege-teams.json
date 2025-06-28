@@ -554,9 +554,33 @@
       {
         "team": [
           {
+            "name": "아수라",
+            "image": "asura.png"
+          },
+          {
+            "name": "바네사",
+            "image": "vanessa.png"
+          },
+          {
+            "name": "파스칼",
+            "image": "pascal.png"
+          },
+          {
             "name": "레오",
             "image": "leo.png"
           },
+          {
+            "name": "에스파다",
+            "image": "espada.png"
+          }
+        ],
+        "tags": [
+          "에스파다 기용"
+        ],
+        "note": "파스칼 2스킬은 피없을떄 알아서 사용"
+      },
+      {
+        "team": [
           {
             "name": "아수라",
             "image": "asura.png"
@@ -566,8 +590,12 @@
             "image": "vanessa.png"
           },
           {
-            "name": "엘리스",
-            "image": "elise.png"
+            "name": "파스칼",
+            "image": "pascal.png"
+          },
+          {
+            "name": "레오",
+            "image": "leo.png"
           },
           {
             "name": "세인",
@@ -575,13 +603,9 @@
           }
         ],
         "tags": [
-          "즉사면역",
-          "집중공격",
-          "방깍",
-          "힐러",
-          "딜러"
+          "세인 기용"
         ],
-        "note": ""
+         "note": "파스칼 2스킬은 피없을떄 알아서 사용"
       }
     ]
   }
