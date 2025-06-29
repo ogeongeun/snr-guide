@@ -903,7 +903,7 @@
           ]
         },
        {
-          "orderTitle": "파스칼2초,아수라6초",
+          "orderTitle": "파스칼0초~1초,아수라6초",
           "skills": [
             {
               "stageTitle": "1스테이지",
@@ -924,7 +924,7 @@
             }
           ]
         },{
-         "orderTitle": "파스칼2초,아수라6초",
+         "orderTitle": "파스칼0초~1초,아수라6초x",
           "skills": [
             {
               "stageTitle": "1스테이지",
