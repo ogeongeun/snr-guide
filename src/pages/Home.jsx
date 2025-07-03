@@ -3,6 +3,30 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   const features = [
     {
+      title: '공성전 공략',
+      path: '/siege',
+      description: '요일별 공성전 영웅, 스킬순서',
+      emoji: '🏰'
+    },
+     {
+  title: '모험',
+  path: '/adventure',
+  description: '모험 콘텐츠용 클리어 덱',
+  emoji: '🗺️'
+},
+    {
+      title: '레이드 공략',
+      path: '/raid-guide',
+      description: '레이드 영웅장비 및 추천 스킬순서',
+      emoji: '🐉'
+    },
+    {
+      title: '스킬 강화 순서',
+      path: '/skill-order',
+      description: '영웅별 스킬 강화 우선순위 추천',
+      emoji: '💡'
+    },
+    {
       title: '쫄작 효율 비교',
       path: '/farming',
       description: '경험치/루비 손익 기준 효율 계산',
@@ -14,24 +38,11 @@ const Home = () => {
       description: '레이드,공성전 및 요일별 추천 영웅 정리',
       emoji: '⭐'
     },
-    {
-      title: '레이드 공략',
-      path: '/raid-guide',
-      description: '레이드 영웅장비 및 추천 스킬순서',
-      emoji: '🐉'
-    },
-    {
-      title: '공성전 공략',
-      path: '/siege',
-      description: '요일별 공성전 영웅, 스킬순서',
-      emoji: '🏰'
-    },
-    {
-      title: '스킬 강화 순서',
-      path: '/skill-order',
-      description: '영웅별 스킬 강화 우선순위 추천',
-      emoji: '💡'
-    }
+    
+    
+    
+   
+
   ];
 
   return (

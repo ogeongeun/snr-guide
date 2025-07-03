@@ -1,0 +1,50 @@
+{
+  "악몽1-30": {
+    "team1": [
+      { "name": "Velika", "image": "/images/heroes/velika.png" },
+      { "name": "Evan", "image": "/images/heroes/evan.png" },
+      { "name": "Aris", "image": "/images/heroes/aris.png" },
+      { "name": "Rei", "image": "/images/heroes/rei.png" },
+      { "name": "Rudy", "image": "/images/heroes/rudy.png" }
+    ],
+    "team2": [
+      { "name": "Victoria", "image": "/images/heroes/victoria.png" },
+      { "name": "Dellons", "image": "/images/heroes/dellons.png" },
+      { "name": "Yui", "image": "/images/heroes/yui.png" },
+      { "name": "Eileene", "image": "/images/heroes/eileene.png" },
+      { "name": "Teo", "image": "/images/heroes/teo.png" }
+    ]
+  },
+  "악몽2-30": {
+    "team1": [
+      { "name": "Chris", "image": "/images/heroes/chris.png" },
+      { "name": "Spike", "image": "/images/heroes/spike.png" },
+      { "name": "Shane", "image": "/images/heroes/shane.png" },
+      { "name": "Rachel", "image": "/images/heroes/rachel.png" },
+      { "name": "Ace", "image": "/images/heroes/ace.png" }
+    ],
+    "team2": [
+      { "name": "Jave", "image": "/images/heroes/jave.png" },
+      { "name": "Karon", "image": "/images/heroes/karon.png" },
+      { "name": "Chloe", "image": "/images/heroes/chloe.png" },
+      { "name": "Lina", "image": "/images/heroes/lina.png" },
+      { "name": "SoYi", "image": "/images/heroes/soyi.png" }
+    ]
+  },
+   "악몽3-30": {
+    "team1": [
+      { "name": "Chris", "image": "/images/heroes/chris.png" },
+      { "name": "Spike", "image": "/images/heroes/spike.png" },
+      { "name": "Shane", "image": "/images/heroes/shane.png" },
+      { "name": "Rachel", "image": "/images/heroes/rachel.png" },
+      { "name": "Ace", "image": "/images/heroes/ace.png" }
+    ],
+    "team2": [
+      { "name": "Jave", "image": "/images/heroes/jave.png" },
+      { "name": "Karon", "image": "/images/heroes/karon.png" },
+      { "name": "Chloe", "image": "/images/heroes/chloe.png" },
+      { "name": "Lina", "image": "/images/heroes/lina.png" },
+      { "name": "SoYi", "image": "/images/heroes/soyi.png" }
+    ]
+  }
+}
