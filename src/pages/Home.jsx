@@ -6,37 +6,43 @@ const Home = () => {
       title: '공성전 공략',
       path: '/siege',
       description: '요일별 공성전 영웅, 스킬순서',
-      emoji: '🏰'
+      
     },
      {
   title: '모험',
   path: '/adventure',
   description: '모험 콘텐츠용 클리어 덱',
-  emoji: '🗺️'
+  
+},{
+  title: '무한의 탑',
+  path: '/infinity-tower',
+  description: '층별 조건에 맞춘 공략 덱 정보',
+  
 },
+
     {
       title: '레이드 공략',
       path: '/raid-guide',
       description: '레이드 영웅장비 및 추천 스킬순서',
-      emoji: '🐉'
+      
     },
     {
       title: '성장던전',
       path: '/essential-heroes',
       description: '요일별 성장던전 클리어덱',
-      emoji: '⭐'
+      
     },
     {
       title: '스킬 강화 순서',
       path: '/skill-order',
       description: '영웅별 스킬 강화 우선순위 추천',
-      emoji: '💡'
+      
     },
     {
       title: '쫄작 효율 비교',
       path: '/farming',
       description: '경험치/루비 손익 기준 효율 계산',
-      emoji: '🔍'
+    
     },
     
     
@@ -65,7 +71,7 @@ const Home = () => {
               key={index}
               className="bg-white shadow hover:shadow-lg rounded-xl p-5 transition transform hover:-translate-y-1"
             >
-              <div className="text-4xl mb-2">{feature.emoji}</div>
+              
               <h2 className="text-lg font-semibold text-gray-800">{feature.title}</h2>
               <p className="text-sm text-gray-600 mt-1">{feature.description}</p>
             </Link>

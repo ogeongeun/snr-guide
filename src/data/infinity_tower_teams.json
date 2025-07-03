@@ -1,0 +1,18 @@
+{
+  "1층": {
+    "description": "기절 면역이 필요",
+    "heroes": [
+      { "name": "에반", "image": "/images/heroes/evan.png" },
+      { "name": "루디", "image": "/images/heroes/rudy.png" },
+      { "name": "세인", "image": "/images/heroes/sein.png" }
+    ]
+  },
+  "2층": {
+    "description": "즉사 저항 필요. 연희로 클리어.",
+    "heroes": [
+      { "name": "연희", "image": "/images/heroes/Yeonhee.png" },
+      { "name": "루디", "image": "/images/heroes/rudy.png" },
+      { "name": "크리스", "image": "/images/heroes/chris.png" }
+    ]
+  }
+}

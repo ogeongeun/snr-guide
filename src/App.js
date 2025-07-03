@@ -10,6 +10,8 @@ import SkillOrderPage from './pages/SkillOrderPage';
 import RaidSkillDetailPage from './pages/RaidSkillDetailPage';
 import AdventureDetailPage from './pages/AdventureDetailPage';
 import Adventure from './pages/Adventure';
+import InfinityTowerDetailPage from './pages/InfinityTowerDetailPage';
+import InfinityTowerPage from './pages/InfinityTowerPage';
 const App = () => {
   return (
     <Router>
@@ -24,7 +26,8 @@ const App = () => {
         <Route path="/raid-guide" element={<RaidGuidePage/>} />
         <Route path="/adventure" element={<Adventure/>} />
         <Route path="/adventure/:stage" element={<AdventureDetailPage />} />
-       
+       <Route path="/infinity-tower" element={<InfinityTowerPage />} />
+       <Route path="/infinity-tower/:floor" element={<InfinityTowerDetailPage />} />
 
       </Routes>
     </Router>
