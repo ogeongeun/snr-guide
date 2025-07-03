@@ -21,6 +21,12 @@ const Home = () => {
       emoji: '🐉'
     },
     {
+      title: '성장던전',
+      path: '/essential-heroes',
+      description: '요일별 성장던전 클리어덱',
+      emoji: '⭐'
+    },
+    {
       title: '스킬 강화 순서',
       path: '/skill-order',
       description: '영웅별 스킬 강화 우선순위 추천',
@@ -32,12 +38,7 @@ const Home = () => {
       description: '경험치/루비 손익 기준 효율 계산',
       emoji: '🔍'
     },
-    {
-      title: '필수 육성 영웅',
-      path: '/essential-heroes',
-      description: '레이드,공성전 및 요일별 추천 영웅 정리',
-      emoji: '⭐'
-    },
+    
     
     
     

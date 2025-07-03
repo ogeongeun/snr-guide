@@ -22,11 +22,11 @@ const AdventureDetailPage = () => {
             className="w-14 h-14 object-contain"
           />
           <p className="text-[10px] mt-1 text-center">{hero.name}</p>
-           {hero.subText && (
-          <p className="text-[10px] text-red-500 font-semibold mt-0.5">
-            {hero.subText}
-          </p>
-             )}
+          {hero.subText && (
+            <p className="text-[10px] text-red-500 font-semibold mt-0.5">
+              {hero.subText}
+            </p>
+          )}
         </div>
       ))}
     </div>
@@ -37,29 +37,26 @@ const AdventureDetailPage = () => {
       <div className="max-w-5xl mx-auto bg-white shadow-md rounded-2xl p-6">
         <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">🗺️ {stage} 모험 덱</h1>
 
-        {["team1", "team2"].map((mainTeamKey, i) => (
+        {Object.entries(stageData).map(([mainTeamKey, subTeams], i) => (
           <div
             key={mainTeamKey}
             className="mb-8 bg-gray-100 border border-gray-200 rounded-xl p-4 shadow-sm"
           >
             <h2 className="text-xl font-semibold text-purple-700 mb-3">팀 {i + 1}</h2>
 
-            {["team1", "team2"].map((subKey, j) => {
-              const subTeam = stageData[mainTeamKey][subKey];
-              return (
-                <div key={subKey} className="mb-4">
-                  <p className="text-sm font-semibold text-gray-600 mb-1">
-                    서브팀 {j + 1}
+            {Object.entries(subTeams).map(([subKey, subTeam], j) => (
+              <div key={subKey} className="mb-4">
+                <p className="text-sm font-semibold text-gray-600 mb-1">
+                  서브팀 {j + 1}
+                </p>
+                {subTeam.description && (
+                  <p className="text-xs text-gray-500 italic mb-1">
+                    {subTeam.description}
                   </p>
-                  {subTeam.description && (
-                    <p className="text-xs text-gray-500 italic mb-1">
-                      {subTeam.description}
-                    </p>
-                  )}
-                  {renderHeroes(subTeam.heroes)}
-                </div>
-              );
-            })}
+                )}
+                {renderHeroes(subTeam.heroes)}
+              </div>
+            ))}
           </div>
         ))}
       </div>
