@@ -1,16 +1,34 @@
 {
   "수호자의 성 (월요일)": [
     {
-      "stage": "정석 빌드",
-      "skills": [
+     
+      "skillOrders": [
         {
-          "stageTitle": "1스테이지",
-          "images": ["Yeonhee1.png"]
-        },
-        {
-          "stageTitle": "2스테이지",
-          "images": ["Yeonhee2.png"]
+          "orderTitle": "최고점",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["vanessa2.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["Yeonhee1.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "lina2.png", "vanessa1.png", "luri2.png", "luri1.png",
+                "lina1.png", "Yeonhee1.png", "evan2.png",
+                "vanessa1.png", "vanessa1.png", "lina2.png",
+                "luri2.png", "luri1.png","Yeonhee1.png"
+              ]
+              
+            }
+          ]
         }
+        
+      
+        
       ]
     }
   ],

@@ -22,6 +22,16 @@
         { "name": "에반", "image": "evan.png" }
       ],
       "note": "블랙로즈 쫄컷 중요"
+    },
+    {
+      "team": [
+        { "name": "에스파다", "image": "espada.png" },
+       
+        { "name": "블랙로즈", "image": "blackrose.png" },
+        { "name": "카론", "image": "karon.png" }
+       
+      ],
+      "note": "2쫄작"
     }
   ],
   "강철의 포식자": [
@@ -35,6 +45,18 @@
       ],
      
       "note": "파스칼 3방, 앞라인 부실or 파스칼 4~5방, 앞라인 튼튼 "
+    },
+     {
+      "team": [
+        { "name": "파스칼", "image": "pascal.png" },
+        { "name": "루시", "image": "lucy.png" },
+        { "name": "빅토리아", "image": "victoria.png" },
+        { "name": "아수라", "image": "asura.png" }
+        
+      ],
+     
+      "note": "1쫄작"
     }
+    
   ]
 }

@@ -31,7 +31,7 @@ const RaidGuidePage = () => {
                           key={idx}
                           src={`/images/heroes/${hero.image}`}
                           alt={hero.name}
-                          className="w-16 h-16 object-contain border rounded"
+                          className="w-14 h-14 object-contain border rounded"
                           title={hero.name}
                         />
                       ))}

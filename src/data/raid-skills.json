@@ -1,12 +1,178 @@
 {
-  "doom_eye": [
+  "파멸의 눈동자": [
     {
-      "skillOrders": []
+     
+      "skillOrders": [
+        {
+          "orderTitle": "자동",
+          "skills": [
+           
+            {
+              
+              "images": [
+                "rachel2.png", "sein1.png", "yui1.png", 
+                "lina1.png",  "rachel1.png",
+                "evan2.png"
+              ]
+              
+            }
+          ]
+        }
+        
+      
+        
+      ]
     }
   ],
-  "uma_king_10": [
+  "우마왕": [
     {
-      "skillOrders": []
+     
+      "skillOrders": [
+        {
+          "orderTitle": "자동(정석1) ",
+          "skills": [
+           
+            {
+              
+              "images": [
+                "blackrose1.png", "evan2.png", "yui1.png","espada1.png", "espada2.png",
+                 "Caron2.png", "Caron1.png"
+                
+              ]
+              
+            }
+          ]
+        },
+         {
+          "orderTitle": "자동(정석2) ",
+          "skills": [
+           
+            {
+              
+              "images": [
+                "blackrose1.png", "evan2.png","espada1.png", "espada2.png",
+                "yui1.png", "Caron2.png", "Caron1.png"
+                
+              ]
+              
+            }
+          ]
+        }
+        
+        
+      
+        
+      ]
+    },
+    {
+     
+      "skillOrders": [
+        {
+          "orderTitle": "자동(2쫄작) ",
+          "skills": [
+           
+            {
+              
+              "images": [
+                "blackrose1.png", "espada1.png", "espada2.png",
+                 "Caron2.png", "blackrose2.png","Caron1.png"
+                
+              ]
+              
+            }
+          ]
+        }
+        
+        
+        
+      
+        
+      ]
+    }
+  ],
+   "강철의 포식자": [
+    {
+     
+      "skillOrders": [
+        {
+          "orderTitle": "자동(표준) ",
+          "skills": [
+           
+            {
+              
+              "images": [
+                "evan2.png", "lucy2.png", "asura1.png","pascal2.png", "pascal1.png",
+                  "asura2.png"
+                
+              ]
+              
+            }
+          ]
+        },
+         {
+          "orderTitle": "자동(앞라인 단단) ",
+          "skills": [
+           
+            {
+              
+              "images": [
+                "evan2.png",  "asura1.png","victoria2.png","pascal2.png", "pascal1.png",
+                  "asura2.png"
+                
+              ]
+              
+            }
+          ]
+        },
+         {
+          "orderTitle": "자동(딜 부족) ",
+          "skills": [
+           
+            {
+              
+              "images": [
+                "evan2.png", "lucy2.png", "asura1.png","victoria2.png","pascal2.png", "pascal1.png",
+                  "asura2.png"
+                
+              ]
+              
+            }
+          ]
+        }
+        
+        
+        
+        
+      
+        
+      ]
+    },
+    {
+     
+      "skillOrders": [
+        {
+          "orderTitle": "자동(1쫄작) ",
+          "skills": [
+           
+            {
+              
+              "images": [
+                "asura2.png", "lucy2.png", "asura1.png","pascal2.png", "pascal1.png",
+                  "lucy1.png"
+                
+              ]
+              
+            }
+          ]
+        }
+         
+        
+        
+        
+        
+      
+        
+      ]
     }
   ]
 }

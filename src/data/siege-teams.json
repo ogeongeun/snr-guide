@@ -8,30 +8,26 @@
             "image": "evan.png"
           },
           {
-            "name": "노호",
-            "image": "noho.png"
+            "name": "연희",
+            "image": "Yeonhee.png"
           },
           {
-            "name": "바네사",
-            "image": "vanessa.png"
+            "name": "루리",
+            "image": "luri.png"
           },
           {
             "name": "리나",
             "image": "lina.png"
           },
           {
-            "name": "루리",
-            "image": "luri.png"
+           "name": "바네사",
+            "image": "vanessa.png"
           }
         ],
         "tags": [
-          "기절면역",
-          "버프해제",
-          "방깍",
-          "힐러",
-          "딜러"
+          "바네사 자리에 노호,조커,소이 대체가능(바네사 스킬자리에 버프해제 스킬로 대체)"
         ],
-        "note": "바네사는 2초월 기준으로 사용"
+        "note": "바네사는 2초월부터 버프해제가능"
       }
     ],
     "포디나의 성 (화요일)": [
