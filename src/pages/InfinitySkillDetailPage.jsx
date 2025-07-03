@@ -5,9 +5,11 @@ const InfinitySkillDetailPage = () => {
   const { floor, teamIndex } = useParams();
 
   const decodedFloor = decodeURIComponent(floor);
-  const teamKey = parseInt(teamIndex)?.toString(); // "0", "1" 문자열로 변환
+  const teamKey = teamIndex !== undefined ? parseInt(teamIndex).toString() : "0";
 
-  const stageData = infinitySkills?.[decodedFloor]?.[teamKey];
+  const stageData =
+    infinitySkills?.[decodedFloor]?.[teamKey] ??
+    infinitySkills?.["171층"]?.[teamKey];
 
   const stageTitles = ["1스테이지", "2스테이지", "3스테이지"];
 
@@ -16,7 +18,7 @@ const InfinitySkillDetailPage = () => {
       <div className="p-6 text-center text-red-600">
         ⚠️ 스킬 정보를 찾을 수 없습니다.
         <br />
-        층: <strong>{decodedFloor}</strong>, 팀: <strong>{teamIndex}</strong>
+        층: <strong>{decodedFloor}</strong>, 팀: <strong>{teamKey}</strong>
       </div>
     );
   }
@@ -26,6 +28,9 @@ const InfinitySkillDetailPage = () => {
       <div className="max-w-3xl mx-auto bg-white shadow-md rounded-2xl p-6">
         <h1 className="text-2xl font-bold text-gray-800 mb-6 text-center">
           🗼 {decodedFloor} - 팀 {parseInt(teamKey) + 1} 스킬 순서
+          <p className="text-[15px] text-red-500 mt-1 text-center">
+            힐스킬 알아서, 3스테이지까지 다 살아야함
+          </p>
         </h1>
 
         {stageTitles.map((title, idx) => {
@@ -38,17 +43,28 @@ const InfinitySkillDetailPage = () => {
               </h2>
 
               <div className="flex flex-wrap justify-center gap-4">
-                {images?.map((img, i) => (
-                  <div key={i} className="flex flex-col items-center">
-                    <img
-                      src={`/images/skills/${img}`}
-                      alt={`Skill ${i + 1}`}
-                      title={img}
-                      className="w-12 h-12 object-contain border rounded-md"
-                    />
-                    <span className="text-xs mt-1 text-gray-500">#{i + 1}</span>
-                  </div>
-                ))}
+                {images?.map((img, i) => {
+                  const isObject = typeof img === "object" && img !== null;
+                  const imageSrc = isObject ? img.image : img;
+                  const label = isObject ? img.label : null;
+
+                  return (
+                    <div key={i} className="flex flex-col items-center">
+                      <img
+                        src={`/images/skills/${imageSrc}`}
+                        alt={`Skill ${i + 1}`}
+                        title={imageSrc}
+                        className="w-12 h-12 object-contain border rounded-md"
+                      />
+                      <span className="text-xs mt-1 text-gray-500">#{i + 1}</span>
+                      {label && (
+                        <span className="text-[11px] text-blue-500 italic mt-0.5">
+                          {label}
+                        </span>
+                      )}
+                    </div>
+                  );
+                })}
               </div>
 
               {idx !== stageTitles.length - 1 && (
