@@ -9,27 +9,60 @@ const AdventureDetailPage = () => {
     return <div className="p-6">해당 스테이지 정보를 찾을 수 없습니다.</div>;
   }
 
-  return (
-    <div className="p-6">
-      <h2 className="text-2xl font-bold mb-4">{stage} 추천 덱</h2>
-
-      {["team1", "team2"].map((teamKey, i) => (
-        <div key={teamKey} className="mb-6">
-          <h3 className="text-xl font-semibold mb-2">팀 {i + 1}</h3>
-          <div className="grid grid-cols-3 gap-4">
-            {stageData[teamKey].map((hero, idx) => (
-              <div key={idx} className="text-center">
-                <img
-                  src={hero.image}
-                  alt={hero.name}
-                  className="w-24 h-24 mx-auto rounded-lg shadow"
-                />
-                <p className="mt-1 text-sm">{hero.name}</p>
-              </div>
-            ))}
-          </div>
+  const renderHeroes = (heroes) => (
+    <div className="grid grid-cols-5 gap-2 mt-2">
+      {heroes.map((hero, idx) => (
+        <div
+          key={idx}
+          className="flex flex-col items-center bg-white border rounded-lg p-1 shadow-sm"
+        >
+          <img
+            src={hero.image}
+            alt={hero.name}
+            className="w-14 h-14 object-contain"
+          />
+          <p className="text-[10px] mt-1 text-center">{hero.name}</p>
+           {hero.subText && (
+          <p className="text-[10px] text-red-500 font-semibold mt-0.5">
+            {hero.subText}
+          </p>
+             )}
         </div>
       ))}
+    </div>
+  );
+
+  return (
+    <div className="min-h-screen bg-gray-50 px-4 py-8">
+      <div className="max-w-5xl mx-auto bg-white shadow-md rounded-2xl p-6">
+        <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">🗺️ {stage} 모험 덱</h1>
+
+        {["team1", "team2"].map((mainTeamKey, i) => (
+          <div
+            key={mainTeamKey}
+            className="mb-8 bg-gray-100 border border-gray-200 rounded-xl p-4 shadow-sm"
+          >
+            <h2 className="text-xl font-semibold text-purple-700 mb-3">팀 {i + 1}</h2>
+
+            {["team1", "team2"].map((subKey, j) => {
+              const subTeam = stageData[mainTeamKey][subKey];
+              return (
+                <div key={subKey} className="mb-4">
+                  <p className="text-sm font-semibold text-gray-600 mb-1">
+                    서브팀 {j + 1}
+                  </p>
+                  {subTeam.description && (
+                    <p className="text-xs text-gray-500 italic mb-1">
+                      {subTeam.description}
+                    </p>
+                  )}
+                  {renderHeroes(subTeam.heroes)}
+                </div>
+              );
+            })}
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

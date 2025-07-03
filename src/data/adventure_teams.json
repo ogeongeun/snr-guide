@@ -1,50 +1,96 @@
 {
   "악몽1-30": {
-    "team1": [
-      { "name": "Velika", "image": "/images/heroes/velika.png" },
-      { "name": "Evan", "image": "/images/heroes/evan.png" },
-      { "name": "Aris", "image": "/images/heroes/aris.png" },
-      { "name": "Rei", "image": "/images/heroes/rei.png" },
-      { "name": "Rudy", "image": "/images/heroes/rudy.png" }
-    ],
-    "team2": [
-      { "name": "Victoria", "image": "/images/heroes/victoria.png" },
-      { "name": "Dellons", "image": "/images/heroes/dellons.png" },
-      { "name": "Yui", "image": "/images/heroes/yui.png" },
-      { "name": "Eileene", "image": "/images/heroes/eileene.png" },
-      { "name": "Teo", "image": "/images/heroes/teo.png" }
+     "team1": {
+    "team1": {
+        "description": "녹스로 즉사+파스칼로 한명씩 잘라먹기",
+           "heroes": [
+      { "name": "녹스", "image": "/images/heroes/nox.png" },
+      { "name": "바네사", "image": "/images/heroes/vanessa.png" },
+      { "name": "파스칼", "image": "/images/heroes/pascal.png" },
+      { "name": "연희", "image": "/images/heroes/Yeonhee.png" },
+      { "name": "유이", "image": "/images/heroes/yui.png","subText": "대체 가능" }
     ]
+},
+    "team2": {
+         "description": "크리스로 즉사+ 세인으로 한명씩 잘라먹기",
+         "heroes": [
+      { "name": "에반", "image": "/images/heroes/evan.png" },
+      { "name": "크리스", "image": "/images/heroes/chris.png" },
+      { "name": "세인", "image": "/images/heroes/sein.png" },
+      { "name": "에이스", "image": "/images/heroes/ace.png" },
+      { "name": "리나", "image": "/images/heroes/lina.png" }
+    ]
+}
+},
+
+"team2": {
+    "team1": {
+        "description": "파스칼로 한명씩 잘라먹기",
+           "heroes": [
+      { "name": "멜키르", "image": "/images/heroes/melkir.png" },
+      { "name": "바네사", "image": "/images/heroes/vanessa.png" },
+       { "name": "연희", "image": "/images/heroes/Yeonhee.png" },
+      { "name": "파스칼", "image": "/images/heroes/pascal.png" },
+      { "name": "유이", "image": "/images/heroes/yui.png" }
+    ]
+},
+    "team2": {
+         "description": "공덱",
+         "heroes": [
+      { "name": "에반", "image": "/images/heroes/evan.png" },
+      { "name": "크리스", "image": "/images/heroes/chris.png" },
+      { "name": "태오", "image": "/images/heroes/teo.png" },
+      { "name": "에이스", "image": "/images/heroes/ace.png" },
+      { "name": "리나", "image": "/images/heroes/lina.png" }
+    ]
+}
+}
   },
-  "악몽2-30": {
-    "team1": [
-      { "name": "Chris", "image": "/images/heroes/chris.png" },
-      { "name": "Spike", "image": "/images/heroes/spike.png" },
-      { "name": "Shane", "image": "/images/heroes/shane.png" },
-      { "name": "Rachel", "image": "/images/heroes/rachel.png" },
-      { "name": "Ace", "image": "/images/heroes/ace.png" }
-    ],
-    "team2": [
-      { "name": "Jave", "image": "/images/heroes/jave.png" },
-      { "name": "Karon", "image": "/images/heroes/karon.png" },
-      { "name": "Chloe", "image": "/images/heroes/chloe.png" },
-      { "name": "Lina", "image": "/images/heroes/lina.png" },
-      { "name": "SoYi", "image": "/images/heroes/soyi.png" }
+     "악몽2-30": {
+     "team1": {
+    "team1": {
+        "description": "속공 중심 조합",
+           "heroes": [
+      { "name": "녹스", "image": "/images/heroes/nox.png" },
+      { "name": "바네사", "image": "/images/heroes/vanessa.png" },
+      { "name": "파스칼", "image": "/images/heroes/pascal.png" },
+      { "name": "연희", "image": "/images/heroes/Yeonhee.png" },
+      { "name": "유이", "image": "/images/heroes/yui.png" }
     ]
-  },
-   "악몽3-30": {
-    "team1": [
-      { "name": "Chris", "image": "/images/heroes/chris.png" },
-      { "name": "Spike", "image": "/images/heroes/spike.png" },
-      { "name": "Shane", "image": "/images/heroes/shane.png" },
-      { "name": "Rachel", "image": "/images/heroes/rachel.png" },
-      { "name": "Ace", "image": "/images/heroes/ace.png" }
-    ],
-    "team2": [
-      { "name": "Jave", "image": "/images/heroes/jave.png" },
-      { "name": "Karon", "image": "/images/heroes/karon.png" },
-      { "name": "Chloe", "image": "/images/heroes/chloe.png" },
-      { "name": "Lina", "image": "/images/heroes/lina.png" },
-      { "name": "SoYi", "image": "/images/heroes/soyi.png" }
+},
+    "team2": {
+         "description": "속공 중심 조합",
+         "heroes": [
+      { "name": "에반", "image": "/images/heroes/victoria.png" },
+      { "name": "크리스", "image": "/images/heroes/dellons.png" },
+      { "name": "세인", "image": "/images/heroes/yui.png" },
+      { "name": "에이스", "image": "/images/heroes/eileene.png" },
+      { "name": "리나", "image": "/images/heroes/teo.png" }
     ]
+}
+},
+
+"team2": {
+    "team1": {
+        "description": "속공 중심 조합",
+           "heroes": [
+      { "name": "녹스", "image": "/images/heroes/nox.png" },
+      { "name": "바네사", "image": "/images/heroes/vanessa.png" },
+      { "name": "파스칼", "image": "/images/heroes/pascal.png" },
+      { "name": "연희", "image": "/images/heroes/Yeonhee.png" },
+      { "name": "유이", "image": "/images/heroes/yui.png" }
+    ]
+},
+    "team2": {
+         "description": "속공 중심 조합",
+         "heroes": [
+      { "name": "에반", "image": "/images/heroes/victoria.png" },
+      { "name": "크리스", "image": "/images/heroes/dellons.png" },
+      { "name": "세인", "image": "/images/heroes/yui.png" },
+      { "name": "에이스", "image": "/images/heroes/eileene.png" },
+      { "name": "리나", "image": "/images/heroes/teo.png" }
+    ]
+}
+}
   }
 }
