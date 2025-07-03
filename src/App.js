@@ -12,6 +12,7 @@ import AdventureDetailPage from './pages/AdventureDetailPage';
 import Adventure from './pages/Adventure';
 import InfinityTowerDetailPage from './pages/InfinityTowerDetailPage';
 import InfinityTowerPage from './pages/InfinityTowerPage';
+import InfinitySkillDetailPage from './pages/InfinitySkillDetailPage';
 const App = () => {
   return (
     <Router>
@@ -28,6 +29,8 @@ const App = () => {
         <Route path="/adventure/:stage" element={<AdventureDetailPage />} />
        <Route path="/infinity-tower" element={<InfinityTowerPage />} />
        <Route path="/infinity-tower/:floor" element={<InfinityTowerDetailPage />} />
+        <Route path="/infinity-skill/:floor/:teamIndex" element={<InfinitySkillDetailPage />} />
+
 
       </Routes>
     </Router>

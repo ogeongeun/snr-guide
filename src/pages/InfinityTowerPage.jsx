@@ -6,6 +6,7 @@ const InfinityTowerPage = () => {
   const grouped = groupFloorsByRange(Object.keys(data), 10); // 10층 단위로 묶기
   const [openGroup, setOpenGroup] = useState(null);
 
+  // ⚠️ TypeScript 문법 제거 (string[], number → 제거)
   function groupFloorsByRange(floors, rangeSize) {
     const parsed = floors
       .map(f => parseInt(f.replace(/[^0-9]/g, '')))
@@ -14,9 +15,11 @@ const InfinityTowerPage = () => {
 
     const groups = {};
     parsed.forEach(floorNum => {
-      const groupKey = `${Math.floor((floorNum - 1) / rangeSize) * rangeSize + 1}~${Math.floor((floorNum - 1) / rangeSize + 1) * rangeSize}`;
-      groups[groupKey] = groups[groupKey] || [];
-      groups[groupKey].push(`${floorNum}층`);
+      const start = Math.floor((floorNum - 1) / rangeSize) * rangeSize + 1;
+      const end = start + rangeSize - 1;
+      const key = `${start}~${end}`;
+      if (!groups[key]) groups[key] = [];
+      groups[key].push(`${floorNum}층`);
     });
 
     return groups;
@@ -24,7 +27,7 @@ const InfinityTowerPage = () => {
 
   return (
     <div className="p-6 max-w-3xl mx-auto">
-      <h1 className="text-3xl font-bold mb-6 text-center">🏯 무한의 탑 공략</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center">🗼 무한의 탑 공략</h1>
       <div className="space-y-4">
         {Object.entries(grouped).map(([range, floors]) => (
           <div key={range} className="border rounded-xl shadow-sm bg-white">

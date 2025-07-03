@@ -1,30 +1,45 @@
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import data from '../data/infinity_tower_teams.json';
 
 const InfinityTowerDetailPage = () => {
   const { floor } = useParams();
-  const teamData = data[decodeURIComponent(floor)];
+  const decodedFloor = decodeURIComponent(floor);
+  const towerData = data[decodedFloor];
 
-  if (!teamData) {
-    return <div className="p-6">해당 층 정보를 찾을 수 없습니다.</div>;
+  if (!towerData || !towerData.teams) {
+    return <div className="p-6 text-center text-red-600">해당 층의 팀 정보가 없습니다.</div>;
   }
 
   return (
-    <div className="p-6 max-w-3xl mx-auto">
-      <h1 className="text-2xl font-bold mb-4 text-center">🏯 {floor}</h1>
-      <p className="text-sm italic text-gray-600 mb-4">{teamData.description}</p>
+    <div className="p-6 max-w-4xl mx-auto">
+      <h1 className="text-2xl font-bold mb-6 text-center">🏯 {decodedFloor}</h1>
 
-      <div className="grid grid-cols-5 gap-2">
-        {teamData.heroes.map((hero, idx) => (
-          <div key={idx} className="flex flex-col items-center bg-white border rounded-lg p-1 shadow-sm">
-            <img src={hero.image} alt={hero.name} className="w-14 h-14 object-contain" />
-            <p className="text-[10px] mt-1 text-center">{hero.name}</p>
-            {hero.subText && (
-              <p className="text-[10px] text-red-500 font-semibold mt-0.5">
-                {hero.subText}
-              </p>
-            )}
-          </div>
+      <div className="space-y-6">
+        {towerData.teams.map((team, idx) => (
+          <Link
+            to={`/infinity-skill/${encodeURIComponent(decodedFloor)}/${idx}`}  // ⬅️ 팀 번호 포함
+            key={idx}
+            className="block border border-purple-300 bg-white rounded-xl shadow hover:shadow-md transition duration-200 p-4"
+          >
+            <h2 className="text-lg font-semibold text-purple-700 mb-2">팀 {idx + 1}</h2>
+            <p className="text-sm italic text-gray-600 mb-3">{team.description}</p>
+
+            <div className="grid grid-cols-5 gap-2">
+              {team.heroes.map((hero, i) => (
+                <div
+                  key={i}
+                  className="flex flex-col items-center bg-gray-50 border rounded-lg p-1 shadow-sm"
+                >
+                  <img
+                    src={hero.image}
+                    alt={hero.name}
+                    className="w-14 h-14 object-contain"
+                  />
+                  <p className="text-[10px] mt-1 text-center">{hero.name}</p>
+                </div>
+              ))}
+            </div>
+          </Link>
         ))}
       </div>
     </div>

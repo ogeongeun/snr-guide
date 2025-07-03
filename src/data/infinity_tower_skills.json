@@ -1,0 +1,17 @@
+{
+  "170층": {
+    "0": {
+      "1스테이지": ["Yeonhee2.png","yushin2.png","melkir1.png","yui1.png","Yeonhee1.png","yushin1.png","evan2.png"],
+      "2스테이지": ["melkir2.png","yushin2.png","Yeonhee2.png","melkir1.png","yushin1.png","yui1.png","evan1.png"],
+      "3스테이지": [
+        "melkir2.png", "evan2.png", "yushin2.png", "Yeonhee2.png",
+        "Yeonhee1.png", "yushin1.png", "yui1.png"
+      ]
+    },
+    "1": {
+      "1스테이지": ["teo1.png","Yeonhee2.png","teo2.png"],
+      "2스테이지": ["melkir1.png","Yeonhee1.png","yui1.png","vanessa2.png","vanessa1.png","teo2.png"],
+      "3스테이지": ["melkir1.png", "melkir2.png","yui2.png","Yeonhee2.png","teo1.png","vanessa2.png","yui1.png","Yeonhee1.png"]
+    }
+  }
+}
