@@ -57,7 +57,7 @@ const Home = () => {
       <div className="max-w-3xl mx-auto">
         <h1 className="text-3xl font-bold text-center text-gray-800 mb-2">
           세븐나이츠 리버스 공략 도우미 
-          <p className="text-center text-xs text-gray-500 mb-4 italic">
+          <p className="text-center text-xs text-red-500 mb-4 italic">
             본 콘텐츠는 천우회 길드 전용이며, 무단 사용 및 복제를 금합니다.
           </p>
         </h1>
