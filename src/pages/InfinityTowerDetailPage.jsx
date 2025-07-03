@@ -10,7 +10,7 @@ const InfinityTowerDetailPage = () => {
   console.log("data keys:", Object.keys(data));
 
   const originalData = data[decodedFloor];
-  const isFallback = !originalData;
+  //const isFallback = !originalData;
   const towerData = originalData || data["171층"];
 
   if (!towerData || !towerData.teams || !Array.isArray(towerData.teams)) {
