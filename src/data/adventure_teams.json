@@ -2,7 +2,7 @@
   "악몽1-30": {
      "team1": {
     "team1": {
-        "description": "녹스로 즉사+파스칼로 한명씩 잘라먹기",
+        "description": "녹스로 즉사 + 파스칼로 한명씩 잘라먹기",
            "heroes": [
       { "name": "녹스", "image": "/images/heroes/nox.png" },
       { "name": "바네사", "image": "/images/heroes/vanessa.png" },
@@ -12,36 +12,36 @@
     ]
 },
     "team2": {
-         "description": "크리스로 즉사+ 세인으로 한명씩 잘라먹기",
+         "description": "크리스로 즉사 + 세인으로 한명씩 잘라먹기",
          "heroes": [
-      { "name": "에반", "image": "/images/heroes/evan.png" },
+      { "name": "에반", "image": "/images/heroes/evan.png" ,"subText": "대체 가능"},
       { "name": "크리스", "image": "/images/heroes/chris.png" },
       { "name": "세인", "image": "/images/heroes/sein.png" },
       { "name": "에이스", "image": "/images/heroes/ace.png" },
-      { "name": "리나", "image": "/images/heroes/lina.png" }
+      { "name": "리나", "image": "/images/heroes/lina.png","subText": "대체 가능" }
     ]
 }
 },
 
 "team2": {
     "team1": {
-        "description": "파스칼로 한명씩 잘라먹기",
+        "description": "멜키르 최생뎀 + 파스칼로 한명씩 잘라먹기",
            "heroes": [
       { "name": "멜키르", "image": "/images/heroes/melkir.png" },
       { "name": "바네사", "image": "/images/heroes/vanessa.png" },
        { "name": "연희", "image": "/images/heroes/Yeonhee.png" },
       { "name": "파스칼", "image": "/images/heroes/pascal.png" },
-      { "name": "유이", "image": "/images/heroes/yui.png" }
+      { "name": "유이", "image": "/images/heroes/yui.png","subText": "대체 가능" }
     ]
 },
     "team2": {
          "description": "공덱",
          "heroes": [
-      { "name": "에반", "image": "/images/heroes/evan.png" },
+      { "name": "에반", "image": "/images/heroes/evan.png" ,"subText": "대체 가능"},
       { "name": "크리스", "image": "/images/heroes/chris.png" },
       { "name": "태오", "image": "/images/heroes/teo.png" },
       { "name": "에이스", "image": "/images/heroes/ace.png" },
-      { "name": "리나", "image": "/images/heroes/lina.png" }
+      { "name": "리나", "image": "/images/heroes/lina.png" ,"subText": "대체 가능"}
     ]
 }
 }
