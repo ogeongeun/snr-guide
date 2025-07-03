@@ -9,6 +9,9 @@ const Adventure = () => {
       <h2 className="text-2xl font-bold text-center text-gray-800 mb-6">
         📘 모험 덱 목록
       </h2>
+      <p className="text-sm font-semibold text-center text-red-500 mb-4">
+    스테이지를 클릭하세여! 팀구성 화면으로 넘어갑니다
+  </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 max-w-4xl mx-auto">
         {stages.map((stage) => (

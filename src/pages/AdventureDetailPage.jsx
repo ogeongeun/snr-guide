@@ -36,6 +36,7 @@ const AdventureDetailPage = () => {
     <div className="min-h-screen bg-gray-50 px-4 py-8">
       <div className="max-w-5xl mx-auto bg-white shadow-md rounded-2xl p-6">
         <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">🗺️ {stage} 모험 덱</h1>
+        
 
         {Object.entries(stageData).map(([mainTeamKey, subTeams], i) => (
           <div

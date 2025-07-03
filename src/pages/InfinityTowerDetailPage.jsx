@@ -15,12 +15,16 @@ const InfinityTowerDetailPage = () => {
       <h1 className="text-2xl font-bold mb-6 text-center">🏯 {decodedFloor}</h1>
 
       <div className="space-y-6">
+        <p className="text-sm font-semibold text-center text-red-500 mb-4">
+    스테이지를 클릭하세여! 팀구성 화면으로 넘어갑니다
+  </p>
         {towerData.teams.map((team, idx) => (
           <Link
             to={`/infinity-skill/${encodeURIComponent(decodedFloor)}/${idx}`}  // ⬅️ 팀 번호 포함
             key={idx}
             className="block border border-purple-300 bg-white rounded-xl shadow hover:shadow-md transition duration-200 p-4"
           >
+            
             <h2 className="text-lg font-semibold text-purple-700 mb-2">팀 {idx + 1}</h2>
             <p className="text-sm italic text-gray-600 mb-3">{team.description}</p>
 
