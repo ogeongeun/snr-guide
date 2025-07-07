@@ -66,6 +66,33 @@
           ]
         },
         {
+          "orderTitle": "투창 먼저(과금러)",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["Yeonhee1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["vanessa2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "lina2.png", "luri2.png", "luri1.png","vanessa1.png","chloe2.png",
+                "Yeonhee2.png", "Yeonhee1.png", "luri2.png","luri1.png",
+                "vanessa1.png","lina2.png","lina1.png","chloe2.png",
+                "luri2.png", "luri1.png", "Yeonhee1.png"
+              ],
+              "labels": {
+                "3": "분쇄"
+               
+               }
+               
+            }
+          ]
+        },
+        {
           "orderTitle": "투창 먼저",
           "skills": [
             {
