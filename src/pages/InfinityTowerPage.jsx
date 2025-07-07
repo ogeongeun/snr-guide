@@ -74,6 +74,9 @@ const InfinityTowerPage = () => {
   return (
     <div className="p-6 max-w-3xl mx-auto">
       <h1 className="text-3xl font-bold mb-6 text-center">🗼 무한의 탑 공략</h1>
+       <p className="text-[15px] text-red-500 text-center mb-6">
+          최소조건 : 3스테이지까지 다 살고, 최소 속공 넘기
+        </p>
       <div className="space-y-4">
         {Object.entries(grouped).map(([range, floors]) => (
           <div key={range} className="border rounded-xl shadow-sm bg-white">

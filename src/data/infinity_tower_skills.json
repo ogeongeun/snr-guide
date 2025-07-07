@@ -58,7 +58,87 @@
     }
      
   },
-  
+  "142층": {
+     "0": {
+      "1스테이지": ["melkir1.png","melkir2.png","Yeonhee1.png", "vanessa1.png","lina2.png"],
+      "2스테이지": ["Yeonhee2.png","yushin1.png","vanessa2.png"],
+      "3스테이지": ["melkir1.png","melkir2.png","yushin2.png"]
+    }
+   
+     
+  },
+  "145층": {
+     "0": {
+      "1스테이지": ["melkir1.png","melkir2.png","Yeonhee1.png", "vanessa1.png","lina2.png"],
+      "2스테이지": ["Yeonhee2.png","yushin1.png","vanessa2.png"],
+      "3스테이지": ["melkir1.png","melkir2.png","yushin2.png"]
+    }
+   
+     
+  },
+  "150층": {
+     "0": {
+      "1스테이지": {
+  "skills": [
+    "teo1.png",
+     { "image": "vanessa1.png", "label": "불사해제" }
+   
+    
+  ],
+  "note": "태오 1스킬에 한번에 안죽으면 리나2스킬 후 태오 1스킬"
+},
+      "2스테이지": ["teo2.png","Yeonhee2.png","yushin1.png","vanessa2.png"],
+      "3스테이지": ["yushin2.png","teo1.png","teo2.png"]
+    },
+     "1": {
+      "videoUrl": "https://youtu.be/8xqPPVSoixE?t=728&si=Qyh7UaFr77J_Hig7",
+      "1스테이지": {
+  "skills": [
+    "teo1.png","Yushin1.png",
+      "lina2.png","lina1.png"
+    
+  ],
+  "note": "태오 1스킬에 한번에 안죽으면 리나2스킬 후 태오 1스킬"
+},
+      "2스테이지": ["teo2.png","Yeonhee2.png","vanessa2.png"],
+      "3스테이지": ["yushin2.png","teo1.png","teo2.png"]
+    }
+   
+   
+  },
+  "163층": {
+    "0": {
+      "videoUrl": "https://youtu.be/8xqPPVSoixE?t=1045&si=38Im7pKTWOm5i4dP",
+      "1스테이지": ["teo1.png","Yeonhee1.png","lina2.png"],
+      "2스테이지": ["Yeonhee2.png","vanessa2.png","lina1.png"],
+      "3스테이지": [
+        "melkir1.png","melkir2.png","teo1.png","teo2.png","Yeonhee1.png"
+      ]
+    }
+    
+  },
+   "164층": {
+    "0": {
+      "videoUrl": "https://youtu.be/8xqPPVSoixE?t=1201&si=MRirGGgX8WjKGIvX",
+      "1스테이지": ["melkir1.png","teo1.png","Yeonhee1.png","vanessa1.png","lina2.png"],
+      "2스테이지": ["Yeonhee2.png","teo2.png","vanessa2.png","Yeonhee1.png"],
+      "3스테이지": [
+        "melkir1.png","melkir2.png","teo1.png","teo2.png","Yeonhee1.png"
+      ]
+    }
+    
+  },
+   "169층": {
+    "0": {
+      "videoUrl": "https://youtu.be/8xqPPVSoixE?t=1389&si=K5M7EBcEPN3ceAe_",
+      "1스테이지": ["teo1.png","Yeonhee1.png","vanessa1.png","lina2.png"],
+      "2스테이지": ["Yeonhee2.png","teo2.png","vanessa2.png","Yeonhee1.png"],
+      "3스테이지": [
+        "melkir1.png","melkir2.png","teo1.png","teo2.png","Yeonhee1.png"
+      ]
+    }
+    
+  },
   "170층": {
     "0": {
       "1스테이지": ["Yeonhee2.png","yushin2.png","melkir1.png","yui1.png","Yeonhee1.png","yushin1.png","evan2.png"],
@@ -72,6 +152,12 @@
       "1스테이지": ["teo1.png","Yeonhee2.png","teo2.png"],
       "2스테이지": ["melkir1.png","Yeonhee1.png","yui1.png","vanessa2.png","vanessa1.png","teo2.png"],
       "3스테이지": ["melkir1.png", "melkir2.png","yui2.png","Yeonhee2.png","teo1.png","vanessa2.png","yui1.png","Yeonhee1.png"]
+    },
+     "2": {
+       "videoUrl": "https://youtu.be/8xqPPVSoixE?t=1564&si=zadR3suRrxEpkfJL",
+      "1스테이지": ["melkir1.png","teo1.png","Yeonhee1.png","lina1.png","lina2.png"],
+      "2스테이지": ["Yeonhee2.png","teo2.png","vanessa1.png"],
+      "3스테이지": ["melkir1.png", "melkir2.png","teo1.png","Yeonhee1.png",{ "image": "teo1.png", "label": "태오 불사" },{ "image": "teo2.png", "label": "태오 불사" }]
     }
   },
    "180층": {

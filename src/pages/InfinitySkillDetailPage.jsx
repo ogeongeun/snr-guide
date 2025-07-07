@@ -11,6 +11,14 @@ const InfinitySkillDetailPage = () => {
     infinitySkills?.[decodedFloor]?.[teamKey] ??
     infinitySkills?.["171층"]?.[teamKey];
 
+  // ✅ 오류 방지: videoUrl 안전하게 추출
+  const videoUrl =
+    typeof stageData === 'object' &&
+    !Array.isArray(stageData) &&
+    stageData?.videoUrl
+      ? stageData.videoUrl
+      : null;
+
   const stageTitles = ["1스테이지", "2스테이지", "3스테이지"];
 
   if (!stageData || typeof stageData !== 'object') {
@@ -26,15 +34,30 @@ const InfinitySkillDetailPage = () => {
   return (
     <div className="min-h-screen bg-gray-50 px-4 py-8">
       <div className="max-w-3xl mx-auto bg-white shadow-md rounded-2xl p-6">
-        <h1 className="text-2xl font-bold text-gray-800 mb-6 text-center">
+        <h1 className="text-2xl font-bold text-gray-800 mb-3 text-center">
           🗼 {decodedFloor} - 팀 {parseInt(teamKey) + 1} 스킬 순서
-          <p className="text-[15px] text-red-500 mt-1 text-center">
-            힐스킬 알아서, 3스테이지까지 다 살아야함
-          </p>
         </h1>
 
+        {/* ✅ 유튜브 링크 출력 */}
+        {videoUrl && (
+          <div className="text-center mb-4">
+            <a
+              href={videoUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 text-sm underline"
+            >
+              📺 공략 영상 보기
+            </a>
+          </div>
+        )}
+
+       
+
         {stageTitles.map((title, idx) => {
-          const images = stageData[title];
+          const stage = stageData[title];
+          const images = Array.isArray(stage) ? stage : stage?.skills;
+          const note = !Array.isArray(stage) ? stage?.note : null;
 
           return (
             <div key={idx} className="mb-8">
@@ -66,6 +89,12 @@ const InfinitySkillDetailPage = () => {
                   );
                 })}
               </div>
+
+              {note && (
+                <p className="mt-2 text-center text-[13px] text-gray-500 italic">
+                  {note}
+                </p>
+              )}
 
               {idx !== stageTitles.length - 1 && (
                 <hr className="my-6 border-gray-300" />
