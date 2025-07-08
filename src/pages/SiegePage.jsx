@@ -64,7 +64,7 @@ const SiegePage = () => {
           <h3 className="text-xl font-bold text-gray-700 mb-4">{selectedDay}</h3>
            
             <p className="text-sm font-semibold text-red-500 mb-4">
-    팀을 클릭하세여! 스킬순서 화면으로 넘어갑니다(윗팀부터 고점순)
+    팀을 클릭하세여! 스킬순서 화면으로 넘어갑니다
   </p>
           {viewMode === 'skills' ? (
             <div className="space-y-6">
