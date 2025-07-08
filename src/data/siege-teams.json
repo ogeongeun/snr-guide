@@ -116,6 +116,35 @@
           "세라를 이용한 피해면역 해제(바네사 기용)"
         ]
         
+      },
+    {
+        "team": [
+          {
+            "name": "클로에",
+            "image": "chloe.png"
+          },
+          {
+            "name": "연희",
+            "image": "Yeonhee.png"
+          },
+          {
+            "name": "세라",
+            "image": "sera.png"
+          },
+          
+          {
+            "name": "리나",
+            "image": "lina.png"
+          },
+          {
+            "name": "바네사",
+            "image": "vanessa.png"
+          }
+        ],
+        "tags": [
+          "세라를 이용한 피해면역 해제(바네사 기용)"
+        ]
+        
       }
      
 
