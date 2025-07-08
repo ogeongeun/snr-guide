@@ -264,6 +264,40 @@
         }
         
       ]
+    },
+    {
+     
+      "skillOrders": [
+        
+        
+        {
+          "orderTitle": "투창 먼저",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["Yeonhee1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["sera1.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "lina2.png", "chloe2.png", "sera2.png", "vanessa2.png",
+                "sera1.png", "Yeonhee1.png", "vanessa1.png",
+                 "chloe2.png", "lina1.png",
+                "sera2.png"
+              ],
+              "labels": {
+                "3": "투창",
+                "5":"분쇄"
+               }
+            }
+          ]
+        }
+        
+      ]
     }
   ],
 
