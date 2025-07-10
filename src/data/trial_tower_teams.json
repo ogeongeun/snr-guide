@@ -2,6 +2,23 @@
 {
   
 
+"1층": {
+    "description": "침묵면역",
+  "teams": [
+    {
+      
+      "heroes": [
+        { "name": "진", "image": "/images/heroes/jin.png" },
+         { "name": "바네사", "image": "/images/heroes/vanessa.png" },
+          { "name": "태오", "image": "/images/heroes/teo.png" },
+        { "name": "연희", "image": "/images/heroes/Yeonhee.png" },
+        { "name": "멜키르", "image": "/images/heroes/Melkir.png" }
+      ]
+    }
+    
+  ]
+
+},
 "2층": {
     "description": "조건:에이스,아수라 효과적중35%이상",
   "teams": [
@@ -18,5 +35,25 @@
     
   ]
 
+},
+
+"3층": {
+    "description": "침묵면역",
+  "teams": [
+    {
+      
+      "heroes": [
+        { "name": "진", "image": "/images/heroes/jin.png" },
+         { "name": "바네사", "image": "/images/heroes/vanessa.png" },
+          { "name": "태오", "image": "/images/heroes/teo.png" },
+        { "name": "연희", "image": "/images/heroes/Yeonhee.png" },
+        { "name": "멜키르", "image": "/images/heroes/Melkir.png" }
+      ]
+    }
+    
+  ]
+
 }
+
+
 }

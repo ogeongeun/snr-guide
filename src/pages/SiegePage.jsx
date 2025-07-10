@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import siegeTeamsData from '../data/siege-teams.json';
 import siegeSkills from '../data/siege-skills.json';
-import { Link } from 'react-router-dom'; // 추가
+import { Link } from 'react-router-dom';
+
 const dayOrder = [
   "수호자의 성 (월요일)",
   "포디나의 성 (화요일)",
@@ -17,22 +18,35 @@ const SiegePage = () => {
   const [viewMode, setViewMode] = useState('heroes');
 
   const renderHeroes = (heroes) => (
-  <div className="grid grid-cols-5 gap-2 mt-4">
-    {heroes.map((hero, idx) => (
-      <div
-        key={idx}
-        className="flex flex-col items-center justify-center bg-white border rounded-lg p-1 shadow-sm"
-      >
-        <img
-          src={`/images/heroes/${hero.image}`}
-          alt={hero.name}
-          className="w-14 h-14 object-contain"
-        />
-        <p className="text-[10px] mt-1 text-center">{hero.name}</p>
-      </div>
-    ))}
-  </div>
-);
+    <div className="grid grid-cols-5 gap-2 mt-4">
+      {heroes.map((hero, idx) => {
+        const imagePath = hero.image?.startsWith('/images/')
+          ? hero.image
+          : `/images/heroes/${hero.image}`;
+
+        return (
+          <div
+            key={idx}
+            className="flex flex-col items-center justify-start bg-white border rounded-lg p-1 shadow-sm h-[110px]"
+          >
+            <img
+              src={imagePath}
+              alt={hero.name}
+              className="w-14 h-14 object-contain"
+            />
+            <p className="text-[10px] mt-1 text-center">{hero.name}</p>
+            {hero.note ? (
+              <p className="text-[9px] text-red-500 text-center italic mt-0.5">
+                {hero.note}
+              </p>
+            ) : (
+              <div className="h-[14px]" /> // 빈 공간 확보용
+            )}
+          </div>
+        );
+      })}
+    </div>
+  );
 
   return (
     <div className="min-h-screen bg-gray-50 px-4 py-8">
@@ -57,15 +71,14 @@ const SiegePage = () => {
           ))}
         </div>
 
-      
-
         {/* 콘텐츠 영역 */}
         <div className="mt-4">
           <h3 className="text-xl font-bold text-gray-700 mb-4">{selectedDay}</h3>
-           
-            <p className="text-sm font-semibold text-red-500 mb-4">
-    팀을 클릭하세여! 스킬순서 화면으로 넘어갑니다
-  </p>
+
+          <p className="text-sm font-semibold text-red-500 mb-4">
+            팀을 클릭하세여! 스킬순서 화면으로 넘어갑니다
+          </p>
+
           {viewMode === 'skills' ? (
             <div className="space-y-6">
               {siegeSkills[selectedDay]?.skills?.length > 0 ? (
@@ -89,24 +102,25 @@ const SiegePage = () => {
               )}
             </div>
           ) : (
-        <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-  {siegeTeamsData.siegeTeams[selectedDay]?.map((team, i) => (
-    <li key={i} className="bg-gray-50 border border-gray-200 rounded-lg p-3 hover:shadow-md transition">
-      <Link to={`/siege-skill/${encodeURIComponent(selectedDay)}/${i}`}>
-        <p className="font-semibold text-gray-700 mb-2">팀 {i + 1} 클릭하세요!</p>
-        {renderHeroes(team.team)}
-        {team.tags && (
-  <p className="mt-2 text-xs text-gray-500">설명: {team.tags.join(', ')}</p>
-)}
-{team.note && (
-  <p className="text-[11px] text-red-500 mt-1 italic">※ {team.note}</p>
-)}
-
-      </Link>
-    </li>
-  ))}
-</ul>
-
+            <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+              {siegeTeamsData.siegeTeams[selectedDay]?.map((team, i) => (
+                <li
+                  key={i}
+                  className="bg-gray-50 border border-gray-200 rounded-lg p-3 hover:shadow-md transition"
+                >
+                  <Link to={`/siege-skill/${encodeURIComponent(selectedDay)}/${i}`}>
+                    <p className="font-semibold text-gray-700 mb-2">팀 {i + 1} 클릭하세요!</p>
+                    {renderHeroes(team.team)}
+                    {team.tags && (
+                      <p className="mt-2 text-xs text-gray-500">설명: {team.tags.join(', ')}</p>
+                    )}
+                    {team.note && (
+                      <p className="text-[11px] text-red-500 mt-1 italic">※ {team.note}</p>
+                    )}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           )}
         </div>
       </div>

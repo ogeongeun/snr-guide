@@ -10,7 +10,7 @@ const SiegeSkillDetailPage = () => {
   const teamStages = siegeSkills[decodedDay];
   const teamData = teamStages?.[teamIdx];
 
-  const [tabIndex, setTabIndex] = useState(0); // 탭 인덱스 관리
+  const [tabIndex, setTabIndex] = useState(0);
 
   const skillOrders = teamData?.skillOrders ?? [];
 
@@ -18,11 +18,11 @@ const SiegeSkillDetailPage = () => {
     <div className="min-h-screen bg-gray-50 px-4 py-8">
       <div className="max-w-3xl mx-auto bg-white shadow-md rounded-2xl p-6">
         <h1 className="text-2xl font-bold text-gray-800 mb-6">
-          {decodedDay} - 팀 {teamIdx + 1} 
+          {decodedDay} - 팀 {teamIdx + 1}
         </h1>
 
         {/* 탭 버튼 */}
-        <div className="flex space-x-2 mb-4">
+        <div className="flex flex-wrap gap-2 mb-4">
           {skillOrders.map((order, index) => (
             <button
               key={index}
@@ -47,27 +47,28 @@ const SiegeSkillDetailPage = () => {
                   {stage.stageTitle}
                 </p>
                 <div className="flex flex-wrap justify-center gap-4 mb-4">
-    {stage.images.map((img, i) => (
-  <div key={i} className="flex flex-col items-center">
-    <img
-      src={`/images/skills/${img}`}
-      alt={`Skill ${i + 1}`}
-      title={img}
-      className="w-10 h-10 object-contain border rounded-md"
-    />
-    <span className="text-xs text-gray-600 mt-1">#{i + 1}</span>
+                  {stage.images.map((img, i) => {
+                    // 객체형 or 문자열형 모두 처리
+                    const imageSrc = typeof img === 'string' ? img : img.image;
+                    const label = typeof img === 'object' ? img.label : null;
 
-    {/* JSON에서 해당 인덱스에 부가 설명이 있는 경우 출력 */}
-    {stage.labels && stage.labels[i.toString()] && (
-      <span className="text-xs text-red-500 mt-1">
-        {stage.labels[i.toString()]}
-      </span>
-    )}
-  </div>
-))}
-
-
-
+                    return (
+                      <div key={i} className="flex flex-col items-center">
+                        <img
+                          src={`/images/skills/${imageSrc}`}
+                          alt={`Skill ${i + 1}`}
+                          title={imageSrc}
+                          className="w-10 h-10 object-contain border rounded-md"
+                        />
+                        <span className="text-xs text-gray-600 mt-1">#{i + 1}</span>
+                        {label && (
+                          <span className="text-[11px] text-red-500 mt-1 text-center leading-snug">
+                            {label}
+                          </span>
+                        )}
+                      </div>
+                    );
+                  })}
                 </div>
 
                 {idx !== skillOrders[tabIndex].skills.length - 1 && (

@@ -773,7 +773,7 @@
             },
             {
               "stageTitle": "2스테이지",
-              "images": ["poongyeon1.png"]
+              "images": [{ "image": "taka2.png", "label": "풍연1스킬로 처리되면 안써도됨" },"poongyeon1.png"]
             },
             {
               "stageTitle": "3스테이지",
@@ -795,7 +795,7 @@
             },
             {
               "stageTitle": "2스테이지",
-              "images": ["poongyeon1.png"]
+              "images": [{ "image": "taka2.png", "label": "풍연1스킬로 처리되면 안써도됨" },"poongyeon1.png"]
             },
             {
               "stageTitle": "3스테이지",
@@ -817,7 +817,7 @@
             },
             {
               "stageTitle": "2스테이지",
-              "images": ["taka2.png","poongyeon1.png"]
+              "images": [{ "image": "taka2.png", "label": "풍연1스킬로 처리되면 안써도됨" },"poongyeon1.png"]
             },
             {
               "stageTitle": "3스테이지",

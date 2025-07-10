@@ -524,10 +524,7 @@
             "name": "풍연",
             "image": "poongyeon.png"
           },
-          {
-            "name": "바네사",
-            "image": "vanessa.png"
-          },
+           { "name": "바네사", "image": "/images/heroes/vanessa.png" ,"note": "2초월" },
           {
             "name": "타카",
             "image": "taka.png"
