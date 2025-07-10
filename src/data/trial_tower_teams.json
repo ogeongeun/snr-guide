@@ -1,21 +1,7 @@
 
 {
   
- "1층": {
-  "teams": [
-    {
-      "description": "유신자리 cc캐릭 대체 가능",
-      "heroes": [
-        { "name": "바네사", "image": "/images/heroes/vanessa.png" },
-         { "name": "연희", "image": "/images/heroes/Yeonhee.png" },
-          { "name": "멜키르", "image": "/images/heroes/Melkir.png","note": "뒤배치(복수자/효생 받받)" },
-        { "name": "유신", "image": "/images/heroes/Yushin.png" ,"note": "대체 가능"},
-        { "name": "리나", "image": "/images/heroes/lina.png" }
-      ]
-    }
-    
-  ]
-},
+
 "2층": {
     "description": "조건:에이스,아수라 효과적중35%이상",
   "teams": [
