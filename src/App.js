@@ -13,6 +13,9 @@ import Adventure from './pages/Adventure';
 import InfinityTowerDetailPage from './pages/InfinityTowerDetailPage';
 import InfinityTowerPage from './pages/InfinityTowerPage';
 import InfinitySkillDetailPage from './pages/InfinitySkillDetailPage';
+import TrialSkillDetailPage from './pages/TrialSkillDetailPage';
+import TrialTowerDetailPage from './pages/TrialTowerDetailPage';
+import TrialTowerPage from './pages/TrialTowerPage';
 const App = () => {
   return (
     <Router>
@@ -30,6 +33,9 @@ const App = () => {
        <Route path="/infinity-tower" element={<InfinityTowerPage />} />
        <Route path="/infinity-tower/:floor" element={<InfinityTowerDetailPage />} />
         <Route path="/infinity-skill/:floor/:teamIndex" element={<InfinitySkillDetailPage />} />
+        <Route path="/trial-tower" element={<TrialTowerPage />} />
+<Route path="/trial-tower/:floor" element={<TrialTowerDetailPage />} />
+<Route path="/trial-skill/:floor/:teamIndex" element={<TrialSkillDetailPage />} />
 
 
       </Routes>

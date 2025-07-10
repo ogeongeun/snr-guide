@@ -18,6 +18,11 @@ const Home = () => {
   path: '/infinity-tower',
   description: '층별 조건에 맞춘 공략 덱 정보',
   emoji: '🏯'
+},{
+  title: '시련의 탑',
+  path: '/trial-tower',
+  description: '층별 조건에 맞춘 공략 덱 정보',
+  emoji: '💀'
 },
 
     {

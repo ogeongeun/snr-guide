@@ -1,0 +1,32 @@
+{
+   
+  "2층": {
+    "0": {
+      "note": "파스칼 딜 잘 나올때",
+      "skills": [
+        "pascal2.png","ace2.png", "pascal1.png","asura1.png","lina2.png","pascal2.png","pascal1.png",{ "image": "pascal2.png", "label": "로지 패시브 빠짐" },{ "image": "lina1.png", "label": "로지 1스킬 써야함" },{ "image": "ace1.png", "label": "로지 1스킬+패시브 대응" },"pascal1.png","pascal2.png","asura1.png","pascal1.png","lina2.png","pascal2.png","pascal1.png",{ "image": "ace1.png", "label": "로지 1스킬 대응" },"pascal2.png"
+       
+      ]
+    },
+    "0-1": {
+      "note": "파스칼 딜 안나올떄(운빨).",
+      "skills": [
+        "pascal2.png","pascal1.png", { "image": "asura1.png", "label": "로지 맞아야함" },"lina2.png","pascal2.png", { "image": "ace1.png", "label": "로지 1스킬 대응" },"pascal1.png", { "image": "pascal2.png", "label": "로지 패시브 빠짐" },"lina1.png",{ "image": "ace1.png", "label": "로지 1스킬+패시브 대응" },{ "image": "pascal1.png", "label": "망자의 탐식 써야함" },"pascal2.png","asura1.png","pascal1.png",{ "image": "ace1.png", "label": "로지 1스킬 대응" },"pascal2.png","pascal1.png","lina2.png","pascal2.png"
+       
+      ]
+    }   
+  },
+
+
+  
+   "169층": {
+    "0": {
+      "videoUrl": "https://youtu.be/8xqPPVSoixE?t=1389&si=K5M7EBcEPN3ceAe_",
+      "1스테이지": ["teo1.png","Yeonhee1.png","vanessa1.png","lina2.png"],
+      "2스테이지": ["Yeonhee2.png","teo2.png","vanessa2.png","Yeonhee1.png"],
+      "3스테이지": [
+        "melkir1.png","melkir2.png","teo1.png","teo2.png","Yeonhee1.png"
+      ]
+    }
+}
+}
