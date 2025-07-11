@@ -16,6 +16,9 @@ import InfinitySkillDetailPage from './pages/InfinitySkillDetailPage';
 import TrialSkillDetailPage from './pages/TrialSkillDetailPage';
 import TrialTowerDetailPage from './pages/TrialTowerDetailPage';
 import TrialTowerPage from './pages/TrialTowerPage';
+import GuildDefensePage from './pages/GuildDefensePage';
+import GuildDefenseBuildPage from './pages/GuildDefenseBuildPage';
+import GuildDefenseDetailPage from './pages/GuildDefenseDetailPage';
 const App = () => {
   return (
     <Router>
@@ -36,7 +39,9 @@ const App = () => {
         <Route path="/trial-tower" element={<TrialTowerPage />} />
 <Route path="/trial-tower/:floor" element={<TrialTowerDetailPage />} />
 <Route path="/trial-skill/:floor/:teamIndex" element={<TrialSkillDetailPage />} />
-
+ <Route path="/guild-defense" element={<GuildDefensePage />} />
+  <Route path="/guild-defense/build" element={<GuildDefenseBuildPage />} />
+<Route path="/guild-defense/:teamId" element={<GuildDefenseDetailPage />} />
 
       </Routes>
     </Router>

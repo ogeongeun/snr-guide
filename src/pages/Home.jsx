@@ -8,6 +8,12 @@ const Home = () => {
       description: '요일별 공성전 영웅, 스킬순서',
       emoji: '🏰'
     },
+       {
+      title: '길드전 공략',
+      path: '/guild-defense',
+      description: '길드전 방어팀 공격팀 추천',
+      emoji: '🛡️'
+    },
      {
   title: '모험',
   path: '/adventure',
