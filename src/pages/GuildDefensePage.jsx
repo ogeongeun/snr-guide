@@ -8,35 +8,42 @@ export default function GuildDefensePage() {
     {
       label: '방어팀 구축',
       path: '/guild-defense/build',
-      bg: 'bg-indigo-600'
+      bg: 'bg-indigo-600',
+      description: '길드 방어팀을 설정하고 관리합니다.',
+      category: '방어 관련'
     },
     {
-      label: '공격전 결과',
-      path: '/guild-defense/result',
-      bg: 'bg-gray-400',
-      disabled: true // 추후 기능 예고용
+      label: '공격팀 편성',
+      path: '/guild-offense/setup',
+      bg: 'bg-rose-500',
+      description: '길드원별 공격팀을 구성합니다.',
+      category: '공격 관련'
     }
   ];
 
   return (
     <div className="p-6">
-      <h1 className="text-3xl font-bold text-center mb-10">길드전</h1>
+      <h1 className="text-3xl font-bold text-center mb-10">길드전 기능 선택</h1>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl mx-auto">
-        {features.map((feature, index) => (
-          <button
-            key={index}
-            onClick={() => {
-              if (!feature.disabled) navigate(feature.path);
-            }}
-            className={`h-36 flex items-center justify-center text-xl font-semibold rounded-xl shadow-md transition transform hover:scale-105 active:scale-95 ${
-              feature.disabled
-                ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
-                : `${feature.bg} text-white`
-            }`}
-          >
-            {feature.label}
-          </button>
+      <div className="space-y-10 max-w-2xl mx-auto">
+        {['방어 관련', '공격 관련'].map((category) => (
+          <div key={category}>
+            <h2 className="text-xl font-semibold mb-4 text-gray-700">{category}</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              {features
+                .filter((f) => f.category === category)
+                .map((feature, index) => (
+                  <button
+                    key={index}
+                    onClick={() => navigate(feature.path)}
+                    className={`h-36 flex flex-col items-start justify-center px-6 py-4 text-left rounded-xl shadow-md transition transform hover:scale-[1.03] active:scale-[0.97] ${feature.bg} text-white`}
+                  >
+                    <div className="text-xl font-semibold mb-2">{feature.label}</div>
+                    <div className="text-sm text-white/80">{feature.description}</div>
+                  </button>
+                ))}
+            </div>
+          </div>
         ))}
       </div>
     </div>

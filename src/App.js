@@ -19,6 +19,8 @@ import TrialTowerPage from './pages/TrialTowerPage';
 import GuildDefensePage from './pages/GuildDefensePage';
 import GuildDefenseBuildPage from './pages/GuildDefenseBuildPage';
 import GuildDefenseDetailPage from './pages/GuildDefenseDetailPage';
+import GuildOffenseSetupPage from './pages/GuildOffenseSetupPage';
+
 const App = () => {
   return (
     <Router>
@@ -42,6 +44,7 @@ const App = () => {
  <Route path="/guild-defense" element={<GuildDefensePage />} />
   <Route path="/guild-defense/build" element={<GuildDefenseBuildPage />} />
 <Route path="/guild-defense/:teamId" element={<GuildDefenseDetailPage />} />
+<Route path="/guild-offense/setup" element={<GuildOffenseSetupPage />} />
 
       </Routes>
     </Router>
