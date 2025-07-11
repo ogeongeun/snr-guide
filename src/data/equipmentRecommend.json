@@ -177,5 +177,66 @@
         
       }
     }
+  },
+   "ballista": {
+    "name": "발리스타",
+    "image": "/images/heroes/ballista.png",
+    "roles": {
+      "딜러": {
+       
+        "전체": [
+              {
+            "set": "복수자",
+            "mainOption": "치확/치확/모공%/모공%",
+            "note": "치확 100% 맞추기"
+          },
+          {
+            "set": "암살자",
+            "mainOption": "치확/치피/모공%/모공%",
+            "note": "치확 100% 맞추기"
+          }
+          
+        ]
+       
+      }
+    }
+  },
+  "chancellor": {
+    "name": "첸슬러",
+    "image": "/images/heroes/chancellor.png",
+    "roles": {
+      "딜러": {
+       
+        "전체": [
+              {
+            "set": "조율자",
+            "mainOption": "생%/생%/막/막"
+           
+          }
+          
+          
+        ]
+       
+      }
+    }
+  },
+  "aragon": {
+    "name": "아라곤",
+    "image": "/images/heroes/aragon.png",
+    "roles": {
+      "딜러": {
+       
+        "전체": [
+              {
+            "set": "조율자",
+            "mainOption": "방%/방%/막/막"
+           
+          }
+          
+          
+        ]
+       
+      }
+    }
   }
 }
