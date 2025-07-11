@@ -1,11 +1,10 @@
 // src/pages/GuildOffenseDetailPage.jsx
 
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams } from 'react-router-dom'; // ✅ useNavigate 제거
 import data from '../data/guildCounter.json';
 
 export default function GuildOffenseDetailPage() {
   const { index } = useParams();
- 
   const entry = data.teams[parseInt(index)];
 
   const renderHeroCard = (hero) => (
@@ -17,15 +16,15 @@ export default function GuildOffenseDetailPage() {
         <img
           src={hero.image}
           alt={hero.name}
-           className="w-14 h-14 object-contain"
+          className="w-14 h-14 object-contain"
         />
       </div>
       <p className="text-[10px] mt-1 text-center">{hero.name}</p>
-       {hero.note && (
-      <p className="text-[9px] text-red-500 italic mt-[2px] text-center">
-        {hero.note}
-      </p>
-    )}
+      {hero.note && (
+        <p className="text-[9px] text-red-500 italic mt-[2px] text-center">
+          {hero.note}
+        </p>
+      )}
     </div>
   );
 
@@ -39,9 +38,9 @@ export default function GuildOffenseDetailPage() {
         <div
           key={j}
           className="mb-6 border border-gray-300 rounded-xl p-4 bg-white shadow-md"
-        > 
+        >
           <div className="grid grid-cols-3 gap-2">{counter.team.map(renderHeroCard)}</div>
-          <p className="text-sm text-gray-600 mt-2 italic"> {counter.note}</p>
+          <p className="text-sm text-gray-600 mt-2 italic">{counter.note}</p>
         </div>
       ))}
     </div>
