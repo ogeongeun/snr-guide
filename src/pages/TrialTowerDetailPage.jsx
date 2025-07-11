@@ -20,7 +20,7 @@ const TrialTowerDetailPage = () => {
     <div className="p-6 max-w-4xl mx-auto">
       <h1 className="text-2xl font-bold mb-6 text-center">🔥 {decodedFloor}</h1>
       <p className="text-sm font-semibold text-center text-red-500 mb-4">
-        스테이지를 클릭하세요! 스킬 순서 화면으로 이동합니다.
+        팀을 클릭하세요! 스킬 순서 화면으로 이동합니다.
       </p>
 
       <div className="space-y-6">
@@ -31,7 +31,8 @@ const TrialTowerDetailPage = () => {
             className="block border border-red-300 bg-white rounded-xl shadow hover:shadow-md transition duration-200 p-4"
           >
             <h2 className="text-lg font-semibold text-red-700 mb-2">팀 {idx + 1}</h2>
-            <p className="text-sm italic text-gray-600 mb-3">{team.description}</p>
+           <p className="text-sm italic text-dark-600 mb-3">{towerData.description}</p>
+
 
             <div className="grid grid-cols-5 gap-2">
               {team.heroes.map((hero, i) => (
