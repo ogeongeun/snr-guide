@@ -1,5 +1,5 @@
 // src/pages/GuildOffenseDetailPage.jsx
-import React from 'react';
+
 import { useParams, useNavigate } from 'react-router-dom';
 import data from '../data/guildCounter.json';
 
