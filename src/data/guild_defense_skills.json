@@ -1,24 +1,8 @@
 {
   "skills": {
-    "0": {
-      "note": "아라곤 cc이후 노호 체력25% -> 발리스타 막타",
-      "sequence": [
-           "aragon1.png",
-        "noho1.png",
-        "ballista1.png"
    
-      ]
-    },
-     "1": {
-      "note": "제이브 반격+카르마",
-      "sequence": [
-           "chancellor2.png",
-        "carma2.png"
-      
-   
-      ]
-    },
-     "2": {
+    
+     "0": {
       "note": "연희 + 유신cc",
       "sequence": [
            "Yushin1.png",
@@ -29,12 +13,30 @@
       ]
     },
     
-     "3": {
+     "1": {
       "note": "태오 + 아일린 cc",
       "sequence": [
                "eileene2.png",
         "teo2.png"
        
+      
+   
+      ]
+    },
+     "2": {
+      "note": "아라곤 cc이후 노호 체력25% -> 발리스타 막타",
+      "sequence": [
+           "aragon1.png",
+        "noho1.png",
+        "ballista1.png"
+   
+      ]
+    },
+     "3": {
+      "note": "제이브 반격+카르마",
+      "sequence": [
+           "chancellor2.png",
+        "carma2.png"
       
    
       ]
