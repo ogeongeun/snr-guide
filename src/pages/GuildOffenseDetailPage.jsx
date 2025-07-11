@@ -5,7 +5,7 @@ import data from '../data/guildCounter.json';
 
 export default function GuildOffenseDetailPage() {
   const { index } = useParams();
-  const navigate = useNavigate();
+ 
   const entry = data.teams[parseInt(index)];
 
   const renderHeroCard = (hero) => (
