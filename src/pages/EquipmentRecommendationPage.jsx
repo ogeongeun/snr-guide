@@ -1,146 +1,140 @@
-import React, { useState, useEffect, useMemo } from 'react';
-import equipmentData from '../data/equipmentRecommend.json';
+import React, { useEffect, useMemo, useState } from "react";
+import equipmentData from "../data/equipmentRecommend.json";
 
-const EquipmentRecommendPage = () => {
-  const [searchTerm, setSearchTerm] = useState('');
-  const [selectedHeroKey, setSelectedHeroKey] = useState(null);
+const EquipmentRecommendationPage = () => {
+  const [selectedRoleFilter, setSelectedRoleFilter] = useState(null);
+  const [selectedHero, setSelectedHero] = useState(null);
   const [selectedRole, setSelectedRole] = useState(null);
   const [selectedStage, setSelectedStage] = useState(null);
 
-  const heroEntries = Object.entries(equipmentData).filter(([_, hero]) =>
-    hero.name.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const filteredHeroes = useMemo(() => {
+    if (!selectedRoleFilter) return Object.entries(equipmentData);
+    return Object.entries(equipmentData).filter(([_, hero]) =>
+      Object.keys(hero.roles).includes(selectedRoleFilter)
+    );
+  }, [selectedRoleFilter]);
 
-  const selectedHero = selectedHeroKey ? equipmentData[selectedHeroKey] : null;
+  useEffect(() => {
+    if (filteredHeroes.length > 0) {
+      setSelectedHero(filteredHeroes[0][0]);
+    }
+  }, [filteredHeroes]);
 
-  // ✅ useMemo로 roleKeys, stageKeys 안정화
+  const hero = selectedHero ? equipmentData[selectedHero] : null;
+
   const roleKeys = useMemo(() => {
-    return selectedHero ? Object.keys(selectedHero.roles) : [];
-  }, [selectedHero]);
+    return hero ? Object.keys(hero.roles || {}) : [];
+  }, [hero]);
 
   const stageKeys = useMemo(() => {
-    return selectedHero && selectedRole
-      ? Object.keys(selectedHero.roles[selectedRole] || {})
-      : [];
-  }, [selectedHero, selectedRole]);
+    const selected = hero?.roles?.[selectedRole];
+    if (!selected) return [];
+    return Object.keys(selected);
+  }, [hero, selectedRole]);
 
-  // 역할 자동 선택
   useEffect(() => {
-    if (selectedHero && roleKeys.length === 1) {
+    if (!selectedRole && roleKeys.length > 0) {
       setSelectedRole(roleKeys[0]);
     }
-  }, [selectedHeroKey, roleKeys]);
+  }, [roleKeys, selectedRole]);
 
-  // 초월 단계 자동 선택
   useEffect(() => {
-    if (selectedRole && stageKeys.length === 1) {
+    if (!selectedStage && stageKeys.length > 0) {
       setSelectedStage(stageKeys[0]);
     }
-  }, [selectedRole, stageKeys]);
+  }, [stageKeys, selectedStage]);
 
   return (
-    <div className="p-6 max-w-5xl mx-auto">
-      <h1 className="text-2xl font-bold text-center mb-6">🛡️ 장비 추천</h1>
+    <div className="p-4 max-w-4xl mx-auto">
+      <h1 className="text-2xl font-bold mb-4">장비 추천</h1>
 
-      <input
-        type="text"
-        placeholder="영웅 이름 검색"
-        value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
-        className="w-full px-4 py-2 mb-6 border rounded-lg shadow"
-      />
-
-      <div className="grid grid-cols-3 sm:grid-cols-5 gap-4 mb-6">
-        {heroEntries.map(([key, hero]) => (
+      <div className="mb-4 flex gap-2">
+        {["딜러", "서포터", "탱커"].map((role) => (
           <button
-            key={key}
+            key={role}
+            className={`px-3 py-1 rounded ${
+              selectedRoleFilter === role
+                ? "bg-blue-600 text-white"
+                : "bg-gray-200"
+            }`}
             onClick={() => {
-              setSelectedHeroKey(key);
+              setSelectedRoleFilter(role);
               setSelectedRole(null);
               setSelectedStage(null);
             }}
-            className="flex flex-col items-center border rounded-lg p-2 bg-white hover:shadow"
           >
-            <img
-              src={hero.image}
-              alt={hero.name}
-              className="w-16 h-16 object-contain"
-            />
-            <p className="text-xs mt-1 text-center">{hero.name}</p>
+            {role}
           </button>
         ))}
       </div>
 
-      {/* 역할 선택 */}
-      {selectedHero && roleKeys.length > 1 && (
-        <div className="mb-4 text-center">
-          <h2 className="text-lg font-semibold mb-2">역할 선택</h2>
-          <div className="flex justify-center flex-wrap gap-3">
+      <div className="grid grid-cols-4 gap-4">
+        {filteredHeroes.map(([key, hero]) => (
+          <div
+            key={key}
+            className={`p-2 border rounded cursor-pointer ${
+              selectedHero === key ? "border-blue-500" : "border-gray-300"
+            }`}
+            onClick={() => {
+              setSelectedHero(key);
+              setSelectedRole(null);
+              setSelectedStage(null);
+            }}
+          >
+            <img src={hero.image} alt={hero.name} className="w-full" />
+            <p className="text-center mt-2 text-sm">{hero.name}</p>
+          </div>
+        ))}
+      </div>
+
+      {hero && selectedRole && selectedStage && (
+        <div className="mt-6">
+          <h2 className="text-xl font-semibold mb-2">{hero.name} - {selectedRole}</h2>
+
+          <div className="mb-4 flex gap-2">
             {roleKeys.map((role) => (
               <button
                 key={role}
+                className={`px-3 py-1 rounded ${
+                  selectedRole === role
+                    ? "bg-green-600 text-white"
+                    : "bg-gray-200"
+                }`}
                 onClick={() => {
                   setSelectedRole(role);
                   setSelectedStage(null);
                 }}
-                className={`px-4 py-1 rounded-full border shadow text-sm transition ${
-                  selectedRole === role
-                    ? 'bg-indigo-600 text-white'
-                    : 'bg-gray-100 hover:bg-gray-200'
-                }`}
               >
                 {role}
               </button>
             ))}
           </div>
-        </div>
-      )}
 
-      {/* 초월 단계 선택 */}
-      {selectedHero && selectedRole && stageKeys.length > 1 && (
-        <div className="mb-4 text-center">
-          <h2 className="text-md font-medium mb-2">초월 단계 선택</h2>
-          <div className="flex justify-center flex-wrap gap-2">
+          <div className="mb-4 flex gap-2">
             {stageKeys.map((stage) => (
               <button
                 key={stage}
-                onClick={() => setSelectedStage(stage)}
-                className={`px-3 py-1 rounded-full border text-sm transition ${
+                className={`px-3 py-1 rounded ${
                   selectedStage === stage
-                    ? 'bg-blue-600 text-white'
-                    : 'bg-gray-100 hover:bg-gray-200'
+                    ? "bg-purple-600 text-white"
+                    : "bg-gray-200"
                 }`}
+                onClick={() => setSelectedStage(stage)}
               >
                 {stage}
               </button>
             ))}
           </div>
-        </div>
-      )}
 
-      {/* 장비 세팅 출력 */}
-      {selectedHero && selectedRole && selectedStage && (
-        <div className="border-t pt-6">
-          <h3 className="text-xl font-semibold text-center mb-4">
-            {selectedHero.name} ({selectedRole}, {selectedStage}) 장비 세팅
-          </h3>
-
-          {selectedHero.roles[selectedRole][selectedStage].map((build, idx) => (
-            <div
-              key={idx}
-              className="border rounded-lg p-4 bg-gray-50 shadow-sm mb-4"
-            >
-              <p className="font-semibold text-sm">세트: {build.set}</p>
-              <p className="text-sm mt-1">주 옵션: {build.mainOption}</p>
-              {build.note && (
-                <p className="text-xs text-gray-500 mt-2 italic">💬 {build.note}</p>
-              )}
-            </div>
-          ))}
+          <div className="border p-4 rounded bg-gray-50">
+            <p><strong>세트:</strong> {hero.roles[selectedRole][selectedStage].set}</p>
+            <p><strong>주 옵션:</strong> {hero.roles[selectedRole][selectedStage].mainOption}</p>
+            <p><strong>비고:</strong> {hero.roles[selectedRole][selectedStage].note}</p>
+          </div>
         </div>
       )}
     </div>
   );
 };
 
-export default EquipmentRecommendPage;
+export default EquipmentRecommendationPage;
