@@ -52,6 +52,7 @@ export default function GuildDefenseBuildPage() {
             <li>메인 딜러 한명</li>
             <li>cc영웅 한명</li>
             <li>속공 최대한 높게</li>
+            <li>아래는 팀 추천입니다.다 키우실 필요없고 갖고있는영웅중에 가장쎈 애들만 추천팀 참고해서 1,2,3팀으로 넣어주세요</li>
           </ul>
         </div>
 <p className="text-sm font-semibold text-red-500 mb-4">
