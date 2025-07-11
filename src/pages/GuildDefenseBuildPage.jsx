@@ -48,7 +48,7 @@ export default function GuildDefenseBuildPage() {
         <div className="bg-yellow-50 border border-yellow-300 rounded-lg p-4 text-sm text-gray-800 mb-8">
           <p className="font-semibold mb-1">방어팀 구성 팁</p>
           <ul className="list-disc list-inside leading-relaxed">
-             <li>가장쎈 팀 3개 1,2,3번에 구성(배치할때 편함)</li>
+             <li>5편성 영웅 부족시: 가장쏀 팀 1,2,3팀 편성 나머지 2팀 약팀 구성</li>
             <li>메인 딜러 한명</li>
             <li>cc영웅 한명</li>
             <li>속공 최대한 높게</li>
