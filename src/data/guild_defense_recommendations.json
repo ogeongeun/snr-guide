@@ -24,25 +24,17 @@
       "heroes": [
         { "name": "바네사", "image": "vanessa.png" },
         { "name": "연희", "image": "Yeonhee.png" , "note": "딜러" },
-        { "name": "유신", "image": "Yushin.png" }
+        { "name": "유신", "image": "Yushin.png" ,"note": "cc아무나(멜키르 대체가능)"}
       ]
     },
-    {
-      "teamId": 2,
-      "name": "방어팀 3",
-      "heroes": [
-        { "name": "바네사", "image": "vanessa.png" },
-        { "name": "연희", "image": "Yeonhee.png" , "note": "딜러" },
-        { "name": "멜키르", "image": "Melkir.png" }
-      ]
-    },
+    
      {
       "teamId": 3,
       "name": "방어팀 4",
       "heroes": [
-        { "name": "아일린", "image": "eileene.png" },
+        { "name": "아일린", "image": "eileene.png","note": "cc"  },
         { "name": "태오", "image": "teo.png" , "note": "딜러" },
-        { "name": "델론즈", "image": "dellons.png" }
+        { "name": "델론즈", "image": "dellons.png","note":"속공 셔틀 아무난" }
       ]
     }
   ]
