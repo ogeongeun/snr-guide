@@ -54,9 +54,13 @@ export default function GuildDefenseBuildPage() {
             <li>속공 최대한 높게</li>
           </ul>
         </div>
-
+<p className="text-sm font-semibold text-red-500 mb-4">
+            팀을 클릭하세여! 스킬순서 화면으로 넘어갑니다
+          </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            
           {guildData.teams.map((team, index) => (
+            
             <div
               key={index}
               className="bg-gray-50 border border-gray-200 rounded-lg p-3 hover:shadow-md transition"

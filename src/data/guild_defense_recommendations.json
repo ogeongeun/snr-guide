@@ -5,7 +5,7 @@
       "name": "방어팀 1",
       "heroes": [
         { "name": "노호", "image": "noho.png" },
-        { "name": "발리스타", "image": "ballista.png" , "note": "딜러" },
+        { "name": "발리스타", "image": "ballista.png" , "note": "실베스타 대체가능" },
         { "name": "아라곤", "image": "aragon.png", "note": "cc" }
       ]
     },
