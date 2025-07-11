@@ -23,14 +23,14 @@ const EquipmentRecommendPage = () => {
     if (selectedHero && roleKeys.length === 1) {
       setSelectedRole(roleKeys[0]);
     }
-  }, [selectedHeroKey]);
+  }, [selectedHero, roleKeys]);
 
   // 초월 단계 자동 선택
   useEffect(() => {
     if (selectedRole && stageKeys.length === 1) {
       setSelectedStage(stageKeys[0]);
     }
-  }, [selectedRole]);
+  }, [selectedRole, stageKeys]);
 
   return (
     <div className="p-6 max-w-5xl mx-auto">
