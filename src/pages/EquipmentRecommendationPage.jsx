@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import equipmentData from '../data/equipmentRecommend.json';
 
 const EquipmentRecommendPage = () => {
@@ -12,18 +12,24 @@ const EquipmentRecommendPage = () => {
   );
 
   const selectedHero = selectedHeroKey ? equipmentData[selectedHeroKey] : null;
-  const roleKeys = selectedHero ? Object.keys(selectedHero.roles) : [];
-  const stageKeys =
-    selectedHero && selectedRole
+
+  // ✅ useMemo로 roleKeys, stageKeys 안정화
+  const roleKeys = useMemo(() => {
+    return selectedHero ? Object.keys(selectedHero.roles) : [];
+  }, [selectedHero]);
+
+  const stageKeys = useMemo(() => {
+    return selectedHero && selectedRole
       ? Object.keys(selectedHero.roles[selectedRole] || {})
       : [];
+  }, [selectedHero, selectedRole]);
 
   // 역할 자동 선택
   useEffect(() => {
     if (selectedHero && roleKeys.length === 1) {
       setSelectedRole(roleKeys[0]);
     }
-  }, [selectedHero, roleKeys]);
+  }, [selectedHeroKey, roleKeys]);
 
   // 초월 단계 자동 선택
   useEffect(() => {
