@@ -1,25 +1,9 @@
 {
   "teams": [
+    
+   
     {
       "teamId": 0,
-      "name": "방어팀 1",
-      "heroes": [
-        { "name": "노호", "image": "noho.png" },
-        { "name": "발리스타", "image": "ballista.png" , "note": "실베스타 대체가능" },
-        { "name": "아라곤", "image": "aragon.png", "note": "cc" }
-      ]
-    },
-   {
-      "teamId": 1,
-      "name": "방어팀 2",
-      "heroes": [
-        { "name": "카르마", "image": "carma.png" },
-        { "name": "제이브", "image": "jave.png" , "note": "딜러" },
-        { "name": "첸슬러", "image": "chancellor.png" }
-      ]
-    },
-    {
-      "teamId": 2,
       "name": "방어팀 3",
       "heroes": [
         { "name": "바네사", "image": "vanessa.png" },
@@ -29,12 +13,30 @@
     },
     
      {
-      "teamId": 3,
+      "teamId": 1,
       "name": "방어팀 4",
       "heroes": [
         { "name": "아일린", "image": "eileene.png","note": "cc"  },
         { "name": "태오", "image": "teo.png" , "note": "딜러" },
         { "name": "델론즈", "image": "dellons.png","note":"속공 셔틀 아무난" }
+      ]
+    },
+    {
+      "teamId": 2,
+      "name": "방어팀 1",
+      "heroes": [
+        { "name": "노호", "image": "noho.png" },
+        { "name": "발리스타", "image": "ballista.png" , "note": "실베스타 대체가능" },
+        { "name": "아라곤", "image": "aragon.png", "note": "cc" }
+      ]
+    },
+    {
+      "teamId": 3,
+      "name": "방어팀 2",
+      "heroes": [
+        { "name": "카르마", "image": "carma.png" },
+        { "name": "제이브", "image": "jave.png" , "note": "딜러" },
+        { "name": "첸슬러", "image": "chancellor.png" }
       ]
     }
   ]
