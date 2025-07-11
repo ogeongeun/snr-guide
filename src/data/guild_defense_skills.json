@@ -3,11 +3,13 @@
    
     
      "0": {
-      "note": "연희 + 유신cc",
+      "note": "연희 + 멜키르cc",
       "sequence": [
-           "Yushin1.png",
-        "vanessa1.png",
-        "Yeonhee1.png"
+        "Melkir1.png",
+       
+       
+         "vanessa1.png",
+          "Yeonhee1.png"
       
    
       ]
@@ -23,7 +25,18 @@
    
       ]
     },
-     "2": {
+    "2": {
+      "note": "린 + 유신cc",
+      "sequence": [
+           "yushin1.png",
+           "rin2.png",
+        "vanessa1.png"
+        
+      
+   
+      ]
+    },
+     "3": {
       "note": "아라곤 cc이후 노호 체력25% -> 발리스타 막타",
       "sequence": [
            "aragon1.png",
@@ -32,7 +45,7 @@
    
       ]
     },
-     "3": {
+     "4": {
       "note": "제이브 반격+카르마",
       "sequence": [
            "chancellor2.png",
