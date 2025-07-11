@@ -1,0 +1,140 @@
+{
+  "teams": [
+    {
+      "id": "team1",
+      "label": "태오 공덱",
+      "defenseTeam": [
+    
+        { "name": "태오", "image": "/images/heroes/teo.png" }
+       
+      ],
+      "recommendedCounters": [
+        {
+           
+          "team": [
+            
+            { "name": "아일린", "image": "/images/heroes/eileene.png","note":"속공높은 아무나 대체가능" },
+            { "name": "태오", "image": "/images/heroes/teo.png" },
+            { "name": "델론즈", "image": "/images/heroes/dellons.png", "note":"속공높은 아무나 대체가능"}
+          ],
+          "note": "속공이 더 높아야함"
+        },
+        {
+             
+          "team": [
+            { "name": "유신", "image": "/images/heroes/yushin.png" ,"note":"멜키르 대체가능"},
+            { "name": "연희", "image": "/images/heroes/yeonhee.png","note":"린 대체가능" },
+            { "name": "바네사", "image": "/images/heroes/vanessa.png","note":"속공높은 아무나 대체가능" }
+          ],
+          "note": "속공 더 높아야함"
+        }
+      ]
+    },
+    {
+      "id": "team2",
+      "label": "연희 , 린 마덱",
+      "defenseTeam": [
+       
+        { "name": "연희", "image": "/images/heroes/yeonhee.png" }
+      ],
+      "recommendedCounters": [
+       {
+           
+          "team": [
+            
+            { "name": "아일린", "image": "/images/heroes/eileene.png","note":"속공높은 아무나 대체가능" },
+            { "name": "태오", "image": "/images/heroes/teo.png" },
+            { "name": "델론즈", "image": "/images/heroes/dellons.png", "note":"속공높은 아무나 대체가능"}
+          ],
+          "note": "속공이 더 높아야함"
+        },
+        {
+             
+          "team": [
+            { "name": "유신", "image": "/images/heroes/yushin.png" ,"note":"멜키르 대체가능"},
+            { "name": "연희", "image": "/images/heroes/yeonhee.png","note":"린 대체가능" },
+            { "name": "바네사", "image": "/images/heroes/vanessa.png","note":"속공높은 아무나 대체가능" }
+          ],
+          "note": "속공 더 높아야함"
+        }
+      ]
+    },
+    {
+      "id": "team3",
+      "label": "즉사 방덱",
+      "defenseTeam": [
+       
+        { "name": "크리스", "image": "/images/heroes/chris.png" },
+        { "name": "녹스", "image": "/images/heroes/nox.png" }
+      ],
+      "recommendedCounters": [
+        {
+          "team": [
+            { "name": "레오", "image": "/images/heroes/leo.png" },
+            { "name": "파스칼", "image": "/images/heroes/pascal.png" },
+            { "name": "세인", "image": "/images/heroes/sein.png" }
+          ],
+          "note": "즉사 면역 + 한명씩 자르기"
+        },
+        {
+          "team": [
+            { "name": "레오", "image": "/images/heroes/leo.png" },
+            { "name": "발리스타", "image": "/images/heroes/ballista.png" },
+            { "name": "노호", "image": "/images/heroes/noho.png" }
+          ],
+          "note": "즉사 면역 + 관통 자르기"
+        }
+        
+      ]
+    },
+    {
+      "id": "team4",
+      "label": "발리스타 노호덱",
+      "defenseTeam": [
+       
+        { "name": "발리스타", "image": "/images/heroes/ballista.png" },
+        { "name": "노호", "image": "/images/heroes/noho.png" },
+        { "name": "아라곤", "image": "/images/heroes/aragon.png" }
+      ],
+      "recommendedCounters": [
+        {
+          "team": [
+            { "name": "에반", "image": "/images/heroes/evan.png" ,"note":"아라곤 대응 기절면역(아라곤아니라 다른 상태이상이면 다른면역캐 대체)"},
+            { "name": "루리", "image": "/images/heroes/luri.png" },
+            { "name": "풍연", "image": "/images/heroes/poongyeon.png","note":"아무나" }
+          ],
+          "note": "상태 면역후 노호 녹이고 시작"
+        }
+      ]
+    },
+     {
+      "id": "team3",
+      "label": "방덱",
+      "defenseTeam": [
+       
+        { "name": "카르마", "image": "/images/heroes/carma.png" }
+      ],
+      "recommendedCounters": [
+        {
+          "team": [
+            { "name": "멜키르", "image": "/images/heroes/Melkir.png" },
+            { "name": "연희", "image": "/images/heroes/yeonhee.png" },
+            { "name": "바네사", "image": "/images/heroes/vanessa.png" }
+          ],
+          "note": "멜키르 최생퍼뎀"
+        },
+        {
+          "team": [
+            { "name": "에이스", "image": "/images/heroes/ace.png" },
+            { "name": "타카", "image": "/images/heroes/taka.png" },
+            { "name": "파스칼", "image": "/images/heroes/pascal.png" }
+          ],
+          "note": "짬뽕덱"
+        }
+
+        
+        
+      ]
+    }
+  ]
+}

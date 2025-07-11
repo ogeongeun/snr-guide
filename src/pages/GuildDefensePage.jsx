@@ -13,12 +13,20 @@ export default function GuildDefensePage() {
       category: '방어 관련'
     },
     {
-      label: '공격팀 편성',
+      label: '공격팀 배치',
       path: '/guild-offense/setup',
       bg: 'bg-rose-500',
-      description: '길드원별 공격팀을 구성합니다.',
+      description: '길드원별 본성,내성,외성을 배치합니다.',
       category: '공격 관련'
-    }
+    },
+     {
+      label: '공격팀 편성',
+      path: '/guild-offense/counter',
+      bg: 'bg-rose-400',
+      description: '방어팀에 대한 추천 카운터팀을 확인합니다.',
+      category: '공격 관련',
+    },
+    
   ];
 
   return (
