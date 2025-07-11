@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   const features = [
     {
-      title: '공성전 공략',
+      title: '공성전',
       path: '/siege',
       description: '요일별 공성전 영웅, 스킬순서',
       emoji: '🏰'
     },
        {
-      title: '길드전 공략',
+      title: '길드전',
       path: '/guild-defense',
       description: '길드전 방어팀 공격팀 추천',
       emoji: '🛡️'
@@ -31,9 +31,14 @@ const Home = () => {
   path: '/adventure',
   description: '모험 콘텐츠용 클리어 덱',
   emoji: '🗺️'
+}, {
+  title: '장비 추천',
+  path: '/equipment',
+  description: '영웅들의 장비 추천',
+  emoji: '🛠'
 },
     {
-      title: '레이드 공략',
+      title: '레이드',
       path: '/raid-guide',
       description: '레이드 영웅장비 및 추천 스킬순서',
       emoji: '🐉'

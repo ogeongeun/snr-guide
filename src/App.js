@@ -20,7 +20,7 @@ import GuildDefensePage from './pages/GuildDefensePage';
 import GuildDefenseBuildPage from './pages/GuildDefenseBuildPage';
 import GuildDefenseDetailPage from './pages/GuildDefenseDetailPage';
 import GuildOffenseSetupPage from './pages/GuildOffenseSetupPage';
-
+import EquipmentRecommendationPage from './pages/EquipmentRecommendationPage';
 const App = () => {
   return (
     <Router>
@@ -45,7 +45,7 @@ const App = () => {
   <Route path="/guild-defense/build" element={<GuildDefenseBuildPage />} />
 <Route path="/guild-defense/:teamId" element={<GuildDefenseDetailPage />} />
 <Route path="/guild-offense/setup" element={<GuildOffenseSetupPage />} />
-
+<Route path="/equipment" element={<EquipmentRecommendationPage />} />
       </Routes>
     </Router>
   );
