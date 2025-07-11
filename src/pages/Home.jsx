@@ -14,12 +14,7 @@ const Home = () => {
       description: '길드전 방어팀 공격팀 추천',
       emoji: '🛡️'
     },
-     {
-  title: '모험',
-  path: '/adventure',
-  description: '모험 콘텐츠용 클리어 덱',
-  emoji: '🗺️'
-},{
+    {
   title: '무한의 탑',
   path: '/infinity-tower',
   description: '층별 조건에 맞춘 공략 덱 정보',
@@ -31,6 +26,12 @@ const Home = () => {
   emoji: '💀'
 },
 
+     {
+  title: '모험',
+  path: '/adventure',
+  description: '모험 콘텐츠용 클리어 덱',
+  emoji: '🗺️'
+},
     {
       title: '레이드 공략',
       path: '/raid-guide',
