@@ -13,29 +13,25 @@ const EquipmentRecommendPage = () => {
 
   const selectedHero = selectedHeroKey ? equipmentData[selectedHeroKey] : null;
 
-  const getRoleKeys = () =>
-    selectedHero ? Object.keys(selectedHero.roles || {}) : [];
-
-  const getStageKeys = () =>
-    selectedHero && selectedRole
-      ? Object.keys(selectedHero.roles[selectedRole] || {})
-      : [];
-
   // 역할 자동 선택
   useEffect(() => {
-    const roleKeys = getRoleKeys();
-    if (selectedHero && roleKeys.length === 1) {
-      setSelectedRole(roleKeys[0]);
+    if (selectedHero) {
+      const roleKeys = Object.keys(selectedHero.roles || {});
+      if (roleKeys.length === 1) {
+        setSelectedRole(roleKeys[0]);
+      }
     }
   }, [selectedHero]);
 
   // 초월 단계 자동 선택
   useEffect(() => {
-    const stageKeys = getStageKeys();
-    if (selectedRole && stageKeys.length === 1) {
-      setSelectedStage(stageKeys[0]);
+    if (selectedHero && selectedRole) {
+      const stageKeys = Object.keys(selectedHero.roles[selectedRole] || {});
+      if (stageKeys.length === 1) {
+        setSelectedStage(stageKeys[0]);
+      }
     }
-  }, [selectedRole, selectedHero]);
+  }, [selectedHero, selectedRole]);
 
   return (
     <div className="p-6 max-w-5xl mx-auto">
@@ -71,11 +67,11 @@ const EquipmentRecommendPage = () => {
       </div>
 
       {/* 역할 선택 */}
-      {selectedHero && getRoleKeys().length > 1 && (
+      {selectedHero && Object.keys(selectedHero.roles || {}).length > 1 && (
         <div className="mb-4 text-center">
           <h2 className="text-lg font-semibold mb-2">역할 선택</h2>
           <div className="flex justify-center flex-wrap gap-3">
-            {getRoleKeys().map((role) => (
+            {Object.keys(selectedHero.roles || {}).map((role) => (
               <button
                 key={role}
                 onClick={() => {
@@ -96,26 +92,28 @@ const EquipmentRecommendPage = () => {
       )}
 
       {/* 초월 단계 선택 */}
-      {selectedHero && selectedRole && getStageKeys().length > 1 && (
-        <div className="mb-4 text-center">
-          <h2 className="text-md font-medium mb-2">초월 단계 선택</h2>
-          <div className="flex justify-center flex-wrap gap-2">
-            {getStageKeys().map((stage) => (
-              <button
-                key={stage}
-                onClick={() => setSelectedStage(stage)}
-                className={`px-3 py-1 rounded-full border text-sm transition ${
-                  selectedStage === stage
-                    ? 'bg-blue-600 text-white'
-                    : 'bg-gray-100 hover:bg-gray-200'
-                }`}
-              >
-                {stage}
-              </button>
-            ))}
+      {selectedHero &&
+        selectedRole &&
+        Object.keys(selectedHero.roles[selectedRole] || {}).length > 1 && (
+          <div className="mb-4 text-center">
+            <h2 className="text-md font-medium mb-2">초월 단계 선택</h2>
+            <div className="flex justify-center flex-wrap gap-2">
+              {Object.keys(selectedHero.roles[selectedRole] || {}).map((stage) => (
+                <button
+                  key={stage}
+                  onClick={() => setSelectedStage(stage)}
+                  className={`px-3 py-1 rounded-full border text-sm transition ${
+                    selectedStage === stage
+                      ? 'bg-blue-600 text-white'
+                      : 'bg-gray-100 hover:bg-gray-200'
+                  }`}
+                >
+                  {stage}
+                </button>
+              ))}
+            </div>
           </div>
-        </div>
-      )}
+        )}
 
       {/* 장비 세팅 출력 */}
       {selectedHero && selectedRole && selectedStage && (
