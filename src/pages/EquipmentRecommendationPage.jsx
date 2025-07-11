@@ -12,31 +12,35 @@ const EquipmentRecommendPage = () => {
   );
 
   const selectedHero = selectedHeroKey ? equipmentData[selectedHeroKey] : null;
-  const roleKeys = selectedHero ? Object.keys(selectedHero.roles) : [];
-  const stageKeys =
+
+  const getRoleKeys = () =>
+    selectedHero ? Object.keys(selectedHero.roles || {}) : [];
+
+  const getStageKeys = () =>
     selectedHero && selectedRole
       ? Object.keys(selectedHero.roles[selectedRole] || {})
       : [];
 
   // 역할 자동 선택
   useEffect(() => {
+    const roleKeys = getRoleKeys();
     if (selectedHero && roleKeys.length === 1) {
       setSelectedRole(roleKeys[0]);
     }
-  }, [selectedHero, roleKeys]);
+  }, [selectedHero]);
 
   // 초월 단계 자동 선택
   useEffect(() => {
+    const stageKeys = getStageKeys();
     if (selectedRole && stageKeys.length === 1) {
       setSelectedStage(stageKeys[0]);
     }
-  }, [selectedRole, stageKeys]);
+  }, [selectedRole, selectedHero]);
 
   return (
     <div className="p-6 max-w-5xl mx-auto">
       <h1 className="text-2xl font-bold text-center mb-6">🛡️ 장비 추천</h1>
 
-      {/* 검색창 */}
       <input
         type="text"
         placeholder="영웅 이름 검색"
@@ -45,7 +49,6 @@ const EquipmentRecommendPage = () => {
         className="w-full px-4 py-2 mb-6 border rounded-lg shadow"
       />
 
-      {/* 영웅 목록 */}
       <div className="grid grid-cols-3 sm:grid-cols-5 gap-4 mb-6">
         {heroEntries.map(([key, hero]) => (
           <button
@@ -55,9 +58,7 @@ const EquipmentRecommendPage = () => {
               setSelectedRole(null);
               setSelectedStage(null);
             }}
-            className={`flex flex-col items-center border rounded-lg p-2 hover:shadow transition ${
-              selectedHeroKey === key ? 'border-blue-500' : 'bg-white'
-            }`}
+            className="flex flex-col items-center border rounded-lg p-2 bg-white hover:shadow"
           >
             <img
               src={hero.image}
@@ -70,11 +71,11 @@ const EquipmentRecommendPage = () => {
       </div>
 
       {/* 역할 선택 */}
-      {selectedHero && roleKeys.length > 1 && (
+      {selectedHero && getRoleKeys().length > 1 && (
         <div className="mb-4 text-center">
           <h2 className="text-lg font-semibold mb-2">역할 선택</h2>
           <div className="flex justify-center flex-wrap gap-3">
-            {roleKeys.map((role) => (
+            {getRoleKeys().map((role) => (
               <button
                 key={role}
                 onClick={() => {
@@ -95,11 +96,11 @@ const EquipmentRecommendPage = () => {
       )}
 
       {/* 초월 단계 선택 */}
-      {selectedHero && selectedRole && stageKeys.length > 1 && (
+      {selectedHero && selectedRole && getStageKeys().length > 1 && (
         <div className="mb-4 text-center">
           <h2 className="text-md font-medium mb-2">초월 단계 선택</h2>
           <div className="flex justify-center flex-wrap gap-2">
-            {stageKeys.map((stage) => (
+            {getStageKeys().map((stage) => (
               <button
                 key={stage}
                 onClick={() => setSelectedStage(stage)}
