@@ -16,19 +16,20 @@ export default function GuildDefenseBuildPage() {
         return (
           <div
             key={idx}
-            className="flex flex-col items-center bg-white border rounded-lg p-1 shadow-sm h-[110px]"
+            className="flex flex-col items-center bg-white border rounded-lg p-1 shadow-sm "
           >
             <img
               src={imagePath}
               alt={hero.name}
               className="w-14 h-14 object-contain"
             />
-            <p className="text-[10px] mt-1 text-center">{hero.name}</p>
             {hero.note ? (
               <p className="text-[9px] text-red-500 italic mt-0.5 text-center">{hero.note}</p>
             ) : (
               <div className="h-[14px]" />
             )}
+            <p className="text-[10px] mt-1 text-center">{hero.name}</p>
+            
           </div>
         );
       })}
@@ -67,9 +68,7 @@ export default function GuildDefenseBuildPage() {
           </ul>
         </div>
 
-        <p className="text-sm font-semibold text-red-500 mb-4">
-          팀을 클릭하세여! 스킬순서 화면으로 넘어갑니다
-        </p>
+        
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {guildData.teams.map((team, index) => (
@@ -79,13 +78,14 @@ export default function GuildDefenseBuildPage() {
             >
               <Link to={`/guild-defense/${index}`}>
                 <p className="font-semibold text-gray-700 mb-2">팀 {index + 1} 클릭!</p>
+                 {team.note && (
+                  <p className="text-[11px] text-red-500 mt-1 italic">※ {team.note}</p>
+                )}
                 {renderHeroes(team.heroes)}
                 {team.tags && (
                   <p className="mt-2 text-xs text-gray-500">설명: {team.tags.join(', ')}</p>
                 )}
-                {team.note && (
-                  <p className="text-[11px] text-red-500 mt-1 italic">※ {team.note}</p>
-                )}
+               
               </Link>
 
               {/* 스킬 순서 바로 출력 */}

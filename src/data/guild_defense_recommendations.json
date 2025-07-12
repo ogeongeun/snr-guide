@@ -6,52 +6,108 @@
       "teamId": 0,
       "name": "방어팀 3",
       "heroes": [
-        { "name": "바네사", "image": "vanessa.png" ,"note":"대체가능"},
-        { "name": "연희", "image": "Yeonhee.png" , "note": "딜러(린 대체가능)" },
-        { "name": "멜키르", "image": "Melkir.png" ,"note": "cc아무나(유신 대체가능)"}
+        { "name": "루디", "image": "rudy.png" },
+        { "name": "연희", "image": "Yeonhee.png" , "note": "딜러(뒤배치)"},
+        { "name": "유신", "image": "Yushin.png","note": "cc"  }
       ],
       "skillOrder": [
-    "vanessa1.png",
+    "yushin1.png",
     "Yeonhee2.png",
-    "Melkir1.png"
-  ]
+    "Yeonhee1.png"
+  ],
+  "note":"속공이 낮을떄 "
     },
     
+     
      {
+      "teamId": 0,
+      "name": "방어팀 3",
+      "heroes": [
+        { "name": "니아", "image": "nia.png", "note":"속공 높은애 아무나"},
+        { "name": "연희", "image": "Yeonhee.png" , "note": "딜러(뒤배치)"},
+        { "name": "유신", "image": "Yushin.png" ,"note": "cc" }
+      ],
+      "skillOrder": [
+    "yushin1.png",
+    "Yeonhee2.png",
+    "Yeonhee1.png"
+  ],
+  "note":"속공이 높을때 "
+    },
+    {
       "teamId": 1,
       "name": "방어팀 4",
       "heroes": [
         { "name": "아일린", "image": "eileene.png","note": "cc"  },
         { "name": "태오", "image": "teo.png" , "note": "딜러(뒤배치)" },
-        { "name": "델론즈", "image": "dellons.png","note":"속공 셔틀 아무난" }
-      ]
+        { "name": "니아", "image": "nia.png","note":"속공 높은애 아무나" }
+      ],
+      "skillOrder": [
+    "eileene2.png",
+    "teo2.png",
+    "teo1.png"
+  ]
     },
+     
      {
       "teamId": 2,
       "name": "방어팀 3",
       "heroes": [
         { "name": "바네사", "image": "vanessa.png" },
         { "name": "린", "image": "rin.png" , "note": "딜러(뒤배치)" },
-        { "name": "유신", "image": "Yushin.png" ,"note": "cc아무나"}
-      ]
+        { "name": "니아", "image": "nia.png" ,"note": "속공 높은애 아무나"}
+      ],
+       
+      "skillOrder": [
+    "rin2.png",
+    "vanessa1.png",
+    "rin1.png"
+  ]
     },
     {
       "teamId": 3,
       "name": "방어팀 1",
       "heroes": [
-        { "name": "노호", "image": "noho.png" },
-        { "name": "발리스타", "image": "ballista.png" , "note": "실베스타 대체가능" },
-        { "name": "아라곤", "image": "aragon.png", "note": "cc" }
-      ]
+        { "name": "에이스", "image": "ace.png" },
+        { "name": "델론즈", "image": "dellons.png" ,"note":"2초월이상(뒤배치)" },
+        { "name": "레이첼", "image": "rachel.png" }
+      ],
+       "skillOrder": [
+    "rachel2.png",
+   
+    "dellons2.png",
+     "dellons1.png"
+  ]
     },
     {
       "teamId": 4,
       "name": "방어팀 2",
       "heroes": [
-        { "name": "카르마", "image": "carma.png" },
+        { "name": "카르마", "image": "carma.png" ,"note":"방템이나 딜탱 템일떄(장비추천 참고)"},
         { "name": "제이브", "image": "jave.png" , "note": "딜러(뒤배치)" },
         { "name": "첸슬러", "image": "chancellor.png" }
+      ],
+       "skillOrder": [
+    "chancellor2.png",
+   
+    "carma2.png"
+     
+  ]
+    },
+    {
+      "teamId": 4,
+      "name": "방어팀 2",
+      "heroes": [
+        { "name": "루디", "image": "rudy.png" },
+        { "name": "카르마", "image": "carma.png" ,"note":"딜탱 템일떄(장비추천 참고)"},
+        { "name": "첸슬러", "image": "chancellor.png" }
       ]
+      , "skillOrder": [
+    "chancellor2.png",
+   "rudy2.png",
+    "carma2.png"
+     
+  ]
     }
   ]
 }
