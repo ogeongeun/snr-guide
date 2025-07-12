@@ -18,7 +18,7 @@ import TrialTowerDetailPage from './pages/TrialTowerDetailPage';
 import TrialTowerPage from './pages/TrialTowerPage';
 import GuildDefensePage from './pages/GuildDefensePage';
 import GuildDefenseBuildPage from './pages/GuildDefenseBuildPage';
-import GuildDefenseDetailPage from './pages/GuildDefenseDetailPage';
+
 import GuildOffenseSetupPage from './pages/GuildOffenseSetupPage';
 import EquipmentRecommendationPage from './pages/EquipmentRecommendationPage';
 import GuildOffenseCounterPage from './pages/GuildOffenseCounterPage';
@@ -45,7 +45,7 @@ const App = () => {
 <Route path="/trial-skill/:floor/:teamIndex" element={<TrialSkillDetailPage />} />
  <Route path="/guild-defense" element={<GuildDefensePage />} />
   <Route path="/guild-defense/build" element={<GuildDefenseBuildPage />} />
-<Route path="/guild-defense/:teamId" element={<GuildDefenseDetailPage />} />
+
 <Route path="/guild-offense/setup" element={<GuildOffenseSetupPage />} />
 <Route path="/equipment" element={<EquipmentRecommendationPage />} />
 <Route path="/guild-offense/counter" element={<GuildOffenseCounterPage />} />

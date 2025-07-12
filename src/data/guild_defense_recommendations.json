@@ -9,7 +9,12 @@
         { "name": "바네사", "image": "vanessa.png" ,"note":"대체가능"},
         { "name": "연희", "image": "Yeonhee.png" , "note": "딜러(린 대체가능)" },
         { "name": "멜키르", "image": "Melkir.png" ,"note": "cc아무나(유신 대체가능)"}
-      ]
+      ],
+      "skillOrder": [
+    "vanessa1.png",
+    "Yeonhee2.png",
+    "Melkir1.png"
+  ]
     },
     
      {
