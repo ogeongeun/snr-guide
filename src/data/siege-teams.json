@@ -13,7 +13,8 @@
           },
           {
             "name": "루리",
-            "image": "luri.png"
+            "image": "luri.png",
+            "note": "뒤배치"
           },
           {
             "name": "리나",
@@ -39,6 +40,7 @@
           {
             "name": "세라",
             "image": "sera.png"
+            ,"note": "뒤배치"
           },
           {
             "name": "리나",
@@ -67,6 +69,7 @@
           {
             "name": "루리",
             "image": "luri.png"
+            ,"note": "뒤배치"
           },
           {
             "name": "리나",
@@ -96,6 +99,7 @@
           {
             "name": "루리",
             "image": "luri.png"
+            ,"note": "뒤배치"
           },
           {
             "name": "리나",
@@ -124,6 +128,7 @@
           {
             "name": "루리",
             "image": "luri.png"
+            ,"note": "뒤배치"
           },
           {
             "name": "리나",
@@ -152,6 +157,7 @@
           {
             "name": "세라",
             "image": "sera.png"
+            ,"note": "뒤배치"
           },
           
           {
@@ -185,6 +191,7 @@
           {
             "name": "루리",
             "image": "luri.png"
+            ,"note": "뒤배치"
           },
           {
             "name": "바네사",
@@ -212,6 +219,7 @@
           {
             "name": "루리",
             "image": "luri.png"
+            ,"note": "뒤배치"
           },
           {
             "name": "바네사",
@@ -239,6 +247,7 @@
           {
             "name": "루리",
             "image": "luri.png"
+            ,"note": "뒤배치"
           },
           {
             "name": "바네사",
@@ -266,6 +275,7 @@
           {
             "name": "세라",
             "image": "sera.png"
+            ,"note": "뒤배치"
           },
           {
             "name": "바네사",
@@ -294,6 +304,7 @@
           {
             "name": "루리",
             "image": "luri.png"
+            ,"note": "뒤배치"
           },
           {
             "name": "연희",
@@ -323,6 +334,7 @@
           {
             "name": "타카",
             "image": "taka.png"
+            ,"note": "뒤배치"
           },
           {
             "name": "진",
@@ -351,6 +363,7 @@
           {
             "name": "타카",
             "image": "taka.png"
+            ,"note": "뒤배치"
           },
           {
             "name": "진",
@@ -379,6 +392,7 @@
           {
             "name": "타카",
             "image": "taka.png"
+            ,"note": "뒤배치"
           },
           {
             "name": "진",
@@ -408,6 +422,7 @@
           {
             "name": "타카",
             "image": "taka.png"
+            ,"note": "뒤배치"
           },
           {
             "name": "진",
@@ -436,6 +451,7 @@
           {
             "name": "타카",
             "image": "taka.png"
+            ,"note": "뒤배치"
           },
           {
             "name": "진",
@@ -467,6 +483,7 @@
           {
             "name": "타카",
             "image": "taka.png"
+            ,"note": "뒤배치"
           },
           {
             "name": "리나",
@@ -495,6 +512,7 @@
           {
             "name": "타카",
             "image": "taka.png"
+            ,"note": "뒤배치"
           },
           {
             "name": "풍연",
@@ -523,6 +541,7 @@
           {
             "name": "타카",
             "image": "taka.png"
+            ,"note": "뒤배치"
           },
           {
             "name": "풍연",
@@ -550,6 +569,7 @@
           {
             "name": "타카",
             "image": "taka.png"
+            ,"note": "뒤배치"
           },
           {
             "name": "리나",
@@ -577,6 +597,7 @@
           {
             "name": "타카",
             "image": "taka.png"
+            ,"note": "뒤배치"
           },
           {
             "name": "유이",
@@ -608,6 +629,7 @@
           {
             "name": "파스칼",
             "image": "pascal.png"
+            ,"note": "뒤배치"
           },
           {
             "name": "레오",
@@ -636,6 +658,7 @@
           {
             "name": "파스칼",
             "image": "pascal.png"
+            ,"note": "뒤배치"
           },
           {
             "name": "레오",

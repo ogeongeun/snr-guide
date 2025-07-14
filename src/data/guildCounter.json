@@ -15,11 +15,11 @@
               
               { "name": "니아", "image": "/images/heroes/nia.png" ,"note":"속공 높은애 아무나 대체"},
               { "name": "린", "image": "/images/heroes/rin.png" },
-              { "name": "바네사", "image": "/images/heroes/vanessa.png"}
+              { "name": "유신", "image": "/images/heroes/yushin.png"}
             ],
             "skillOrder": [
       "rin2.png",
-      "vanessa1.png",
+      "Yushin1.png",
       "rin1.png"
             ]
           },
@@ -31,6 +31,7 @@
               { "name": "태오", "image": "/images/heroes/teo.png" },
               { "name": "클로에", "image": "/images/heroes/chloe.png", "note":"감전 면역"}
             ],
+             "note":"속공 딸릴때",
             "skillOrder": [
       "eileene2.png",
       "teo2.png",
@@ -40,17 +41,20 @@
           {
               
             "team": [
-              { "name": "유신", "image": "/images/heroes/yushin.png" },
-              { "name": "연희", "image": "/images/heroes/yeonhee.png","note":"린 대체가능" },
+              { "name": "바네사", "image": "/images/heroes/vanessa.png","note":"유신 대체가능" },
+              { "name": "연희", "image": "/images/heroes/yeonhee.png" },
               { "name": "클로에", "image": "/images/heroes/chloe.png", "note":"감전 면역"}
             ],
+             "note":"속공 딸릴때",
             "skillOrder": [
-      "Yushin1.png",
+      "vanessa1.png",
       "Yeonhee2.png",
       "Yeonhee1.png"
             ]
           }
-        ]
+        
+       
+         ]
       },
      
       {
@@ -72,12 +76,70 @@
               { "name": "연희", "image": "/images/heroes/yeonhee.png" },
               { "name": "유신", "image": "/images/heroes/yushin.png" }
             ],
+            
             "skillOrder": [
       "Yushin1.png",
       "Yeonhee2.png",
       "Yeonhee1.png"
             ],
-            "note":"유신 스킬 안쓰고 연희 스킬 먼저쓰면 답없음"
+            "note":"속공 딸릴때"
+          },
+           {
+              
+            "team": [
+               { "name": "노호", "image": "/images/heroes/noho.png"},
+              { "name": "발리스타", "image": "/images/heroes/ballista.png" },
+              { "name": "레이첼", "image": "/images/heroes/rachel.png"}
+            ],
+            
+            "skillOrder": [
+      "noho1.png",
+      "ballista1.png",
+      "dellons2.png"
+            ],
+            "note":"속공 먼저 따아햠"
+          }
+        ]
+      },
+      {
+        "id": "team2",
+        "label": "린 마덱(답없음 속공 먼저 따야됨)",
+        "defenseTeam": [
+           { "name": "멜키르", "image": "/images/heroes/Melkir.png" },
+          { "name": "린", "image": "/images/heroes/rin.png" },
+      
+          { "name": "바네사", "image": "/images/heroes/vanessa.png" }
+        ],
+        "recommendedCounters": [
+        
+          
+           {
+              
+            "team": [
+               { "name": "니아", "image": "/images/heroes/nia.png" ,"note":"속공 높은애 아무나"},
+              { "name": "린", "image": "/images/heroes/rin.png" },
+              { "name": "바네사", "image": "/images/heroes/vanessa.png" }
+            ],
+            "skillOrder": [
+      "rin2.png",
+      "vanessa1.png",
+      "rin1.png"
+            ],
+            "note":"걍 운빨(이러고 질수도있음)-속공 못따면 걍짐"
+          },
+          {
+              
+            "team": [
+               { "name": "리나", "image": "/images/heroes/lina.png" },
+              { "name": "태오", "image": "/images/heroes/teo.png" },
+              { "name": "아일린", "image": "/images/heroes/eileene.png" }
+            ],
+            "skillOrder": [
+      "eileene2.png",
+      "teo2.png",
+      "teo1.png"
+            ],
+            "note":"그나마 태오 공덱(속공 따여도 이김)"
           }
         ]
       },
@@ -95,13 +157,53 @@
             
             "team": [
               
-              { "name": "리", "image": "/images/heroes/lee.png" },
+           { "name": "리", "image": "/images/heroes/lee.png","note":"속공 조금 챙겨주기" },
         
           { "name": "델론즈", "image": "/images/heroes/dellons.png" },
-              { "name": "에이스", "image": "/images/heroes/ace.png" }
+              { "name": "레이첼", "image": "/images/heroes/rachel.png" }
               
+            ],
+             "skillOrder": [
+              "lee1.png",
+      "dellons2.png",
+      "rachel2.png"
+      
             ]
           
+          },
+          {
+              
+            "team": [
+               { "name": "노호", "image": "/images/heroes/noho.png"},
+              { "name": "발리스타", "image": "/images/heroes/ballista.png" },
+             { "name": "리", "image": "/images/heroes/lee.png","note":"속공 조금 챙겨주기" }
+            ],
+            
+            "skillOrder": [
+              "lee1.png",
+      "noho1.png",
+      "ballista1.png"
+      
+            ],
+            "note":"속공 먼저 따아햠"
+          },
+          {
+            
+            "team": [
+              
+           { "name": "바네사", "image": "/images/heroes/vanessa.png"},
+        
+          { "name": "풍연", "image": "/images/heroes/poongyeon.png" },
+              { "name": "유신", "image": "/images/heroes/yushin.png" }
+              
+            ],
+             "skillOrder": [
+              "Yushin1.png",
+      "vanessa1.png",
+      "vanessa2.png"
+      
+            ]
+          ,"note": "씹 카운터 명함으로도 이김"
           }
           
         ]
@@ -112,76 +214,179 @@
         "defenseTeam": [
         
           { "name": "크리스", "image": "/images/heroes/chris.png" },
-          { "name": "녹스", "image": "/images/heroes/nox.png" }
+          { "name": "루디", "image": "/images/heroes/rudy.png" }
         ],
         "recommendedCounters": [
           {
             "team": [
               { "name": "레오", "image": "/images/heroes/leo.png" },
-              { "name": "파스칼", "image": "/images/heroes/pascal.png" },
-              { "name": "세인", "image": "/images/heroes/sein.png" }
+              { "name": "파스칼", "image": "/images/heroes/pascal.png" ,"note":"세인 대체가능"},
+              { "name": "유이", "image": "/images/heroes/yui.png" }
             ],
-            "note": "즉사 면역 + 한명씩 자르기"
+            "note": "즉사 면역 + 한명씩 자르기",
+             "skillOrder": [
+      "pascal2.png",
+      "yui1.png",
+      "pascal1.png"
+            ]
           },
           {
             "team": [
               { "name": "레오", "image": "/images/heroes/leo.png" },
-              { "name": "발리스타", "image": "/images/heroes/ballista.png" },
-              { "name": "노호", "image": "/images/heroes/noho.png" }
+              { "name": "루리", "image": "/images/heroes/luri.png","note":" 상대 녹스2초이상 도발있을때 " },
+             { "name": "유이", "image": "/images/heroes/yui.png" }
             ],
-            "note": "즉사 면역 + 관통 자르기"
+            "note": "즉사 면역 + 루리로 정리",
+             "skillOrder": [
+      "luri2.png",
+      "yui1.png",
+      "luri1.png"
+            ]
+          
+          },
+          {
+            "team": [
+              { "name": "레오", "image": "/images/heroes/leo.png" },
+              { "name": "루리", "image": "/images/heroes/luri.png"},
+             { "name": "노호", "image": "/images/heroes/noho.png" }
+            ],
+            "note": "노호 + 멜키르",
+             "skillOrder": [
+      "noho1.png",
+      "luri2.png",
+      "luri1.png"
+     
+            ]
           }
           
         ]
       },
       {
         "id": "team4",
-        "label": "발리스타 노호덱",
+        "label": "방덱(제이브 카르마 말고 룩이나 엘리스같은 방덱도 포함)",
         "defenseTeam": [
         
-          { "name": "발리스타", "image": "/images/heroes/ballista.png" },
-          { "name": "노호", "image": "/images/heroes/noho.png" },
-          { "name": "아라곤", "image": "/images/heroes/aragon.png" }
+          { "name": "루디", "image": "/images/heroes/rudy.png" },
+         
+          { "name": "제이브", "image": "/images/heroes/jave.png" },
+           { "name": "카르마", "image": "/images/heroes/carma.png" }
         ],
         "recommendedCounters": [
           {
             "team": [
-              { "name": "에반", "image": "/images/heroes/evan.png" ,"note":"아라곤 대응 기절면역(아라곤아니라 다른 상태이상이면 다른면역캐 대체)"},
-              { "name": "루리", "image": "/images/heroes/luri.png" },
-              { "name": "풍연", "image": "/images/heroes/poongyeon.png","note":"아무나" }
+              { "name": "녹스", "image": "/images/heroes/nox.png" },
+              { "name": "크리스", "image": "/images/heroes/chris.png" },
+              { "name": "루디", "image": "/images/heroes/rudy.png","note":"탱커로 대체(룩,에반,첸슬러,엘리스 등)" }
             ],
-            "note": "상태 면역후 노호 녹이고 시작"
+            "note": "즉사로 정리",
+             "skillOrder": [
+      "nox1.png",
+      "chris2.png",
+      "nox2.png"
+     
+            ]
+          },
+           {
+            "team": [
+              { "name": "루리", "image": "/images/heroes/luri.png","note":"비슷한 계열 아무나" },
+              { "name": "멜키르", "image": "/images/heroes/Melkir.png" },
+             { "name": "노호", "image": "/images/heroes/noho.png" }
+            ],
+            "note": "노호 + 멜키르",
+             "skillOrder": [
+      "noho1.png",
+      "Melkir2.png",
+      "luri1.png"
+     
+            ]
+          },
+           {
+            "team": [
+              { "name": "리나", "image": "/images/heroes/lina.png","note":"유이 대체가능"},
+              { "name": "타카", "image": "/images/heroes/taka.png" },
+             { "name": "노호", "image": "/images/heroes/noho.png" }
+            ],
+            "note": "노호 + 멜키르",
+             "skillOrder": [
+      "noho1.png",
+      "taka2.png"
+      
+     
+            ]
+          },
+          {
+           "team": [
+              { "name": "에이스", "image": "/images/heroes/ace.png" },
+              { "name": "델론즈", "image": "/images/heroes/dellons.png","note":"2초월이상(추적자 세팅)" },
+              { "name": "세인", "image": "/images/heroes/sein.png","note":"파스칼 대체가능"}
+            ],
+            "note": "딜 찍누",
+             "skillOrder": [
+      "dellons2.png",
+      "sein1.png"
+      
+     
+            ]
+          },
+          {
+          "team": [
+              { "name": "크리스", "image": "/images/heroes/chris.png","note":"아무나 속공 높은애" },
+              { "name": "파스칼", "image": "/images/heroes/pascal.png" ,"note":"세인 대체가능"},
+              { "name": "유이", "image": "/images/heroes/yui.png" }
+            ],
+            "note": "파스칼 원콤덱",
+             "skillOrder": [
+      "pascal2.png",
+      "yui1.png",
+      "pascal1.png"
+            ]
           }
+          
         ]
       },
-      {
-        "id": "team3",
-        "label": "방덱",
+       {
+        "id": "team4",
+        "label": "한방덱",
         "defenseTeam": [
         
-          { "name": "카르마", "image": "/images/heroes/carma.png" }
+          { "name": "세인", "image": "/images/heroes/sein.png" },
+         
+          { "name": "파스칼", "image": "/images/heroes/pascal.png" }
+          
         ],
         "recommendedCounters": [
           {
             "team": [
-              { "name": "멜키르", "image": "/images/heroes/Melkir.png" },
-              { "name": "연희", "image": "/images/heroes/yeonhee.png" },
-              { "name": "바네사", "image": "/images/heroes/vanessa.png" }
+              { "name": "풍연", "image": "/images/heroes/poongyeon.png" },
+              { "name": "발리스타", "image": "/images/heroes/ballista.png" },
+              { "name": "리", "image": "/images/heroes/lee.png","note":"속공 조금 챙겨주기" }
             ],
-            "note": "멜키르 최생퍼뎀"
+            "note": "도발 걸고 패기",
+             "skillOrder": [
+      "lee1.png",
+     "poongyeon1.png",
+      "ballista1.png"
+     
+            ]
           },
           {
             "team": [
-              { "name": "에이스", "image": "/images/heroes/ace.png" },
-              { "name": "타카", "image": "/images/heroes/taka.png" },
-              { "name": "파스칼", "image": "/images/heroes/pascal.png" }
+              { "name": "리나", "image": "/images/heroes/lina.png" },
+              { "name": "풍연", "image": "/images/heroes/ballista.png" },
+              { "name": "리", "image": "/images/heroes/lee.png","note":"속공 조금 챙겨주기" }
             ],
-            "note": "짬뽕덱"
+            "note": "도발 걸고 패기",
+             "skillOrder": [
+      "lee1.png",
+     "poongyeon1.png",
+      "poongyeon2.png"
+     
+            ]
           }
-
           
           
         ]
       }
+      
     ]
   }
