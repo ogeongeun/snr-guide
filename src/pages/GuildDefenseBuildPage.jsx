@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+
 import guildData from '../data/guild_defense_recommendations.json';
 
 export default function GuildDefenseBuildPage() {
