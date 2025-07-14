@@ -1,62 +1,35 @@
 import React from 'react';
-import offenseData from '../data/guildOffense.json';
-import { ShieldCheck, Target, AlertTriangle } from 'lucide-react';
+import { Users } from 'lucide-react';
 
 const GuildOffenseSetupPage = () => {
-  const { conditions } = offenseData;
-
-  const sectionOrder = ['본성', '내성', '외성'];
-
-  const colorMap = {
-    본성: 'red-500',
-    내성: 'green-500',
-    외성: 'yellow-500',
+  const userGroups = {
+    '본성': ['겁많아요', '아도어', '건근', '하이퍼울트라캡짱', '이향', '풉키'],
+    '본성~내성': ['빈빈빈', '오리시기', '시기1'],
+    '내성': ['purplesky', '준석아범', '명랑한화', '홍일기', '법원', '호두2', '갱자아빠'],
+    '내성~외성': ['버터1203호', '사랑이 차차차', '야왕조조'],
+    '외성': ['nest', '지옥신', '차사고 낸놈', '시로', 'uhyun', '함북이', '여뚜', '랄릴'],
+    '방벽': ['주브벨링엄', '둥둥진', '복실티모']
   };
+
+  const displayOrder = ['본성', '본성~내성', '내성', '내성~외성', '외성', '방벽'];
 
   return (
     <div className="p-6 max-w-3xl mx-auto">
-      <h1 className="text-3xl font-extrabold mb-6 text-center text-gray-800">🛡️ 길드전 공격 조건 안내</h1>
-<p className="text-sm font-semibold text-red-500 mb-4">
-           
-          </p>
+      <h1 className="text-3x1 font-extrabold mb-6 text-center text-gray-800">🛡️ 길드전 사용자별 공격 배치</h1>
+
       <div className="space-y-6">
-        {sectionOrder.map((key) => {
-          const section = conditions[key];
-          if (!section) return null;
-
-          const borderColor = colorMap[key] || 'gray-400';
-
-          return (
-            <div
-              key={key}
-              className={`border-l-4 border-${borderColor} bg-white rounded-xl shadow p-5`}
-            >
-              <h2 className={`text-xl font-bold text-${borderColor} flex items-center mb-1`}>
-                <ShieldCheck className="w-5 h-5 mr-2" />
-                {key}
-              </h2>
-
-              <p className="text-sm text-gray-600 mb-4">{section.설명}</p>
-
-              <div className="mb-3">
-                <h3 className="text-sm font-semibold text-gray-800 mb-1 flex items-center">
-                  <AlertTriangle className="w-4 h-4 mr-1 text-red-400" />
-                  추천 조건
-                </h3>
-                <ul className="list-disc list-inside text-sm text-gray-700 space-y-1 ml-1">
-                  {section.추천조건.map((cond, i) => (
-                    <li key={i} className="pl-1">{cond}</li>
-                  ))}
-                </ul>
-              </div>
-
-              <div className="text-xs text-gray-500 italic flex items-center mt-2">
-                <Target className="w-4 h-4 mr-1 text-indigo-400" />
-                {section.공격목표}
-              </div>
-            </div>
-          );
-        })}
+        {displayOrder.map((group) => (
+          <div key={group} className="bg-gray-50 border rounded-lg p-4 shadow">
+            <h3 className="text-md font-bold text-gray-800 flex items-center mb-2">
+              <Users className="w-4 h-4 mr-1" /> {group}
+            </h3>
+            <ul className="text-sm text-gray-700 list-disc list-inside ml-1">
+              {userGroups[group].map((user) => (
+                <li key={user}>{user}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </div>
     </div>
   );

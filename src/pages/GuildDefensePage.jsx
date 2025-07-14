@@ -6,7 +6,7 @@ export default function GuildDefensePage() {
 
   const features = [
     {
-      label: '방어팀 구축',
+      label: '방어팀 편성',
       path: '/guild-defense/build',
       bg: 'bg-indigo-600',
       description: '길드 방어팀을 설정하고 관리합니다.',
