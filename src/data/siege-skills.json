@@ -27,6 +27,40 @@
             }
           ]
         }
+         
+        
+      
+        
+      ]
+    },
+    {
+     
+      "skillOrders": [
+        {
+          "orderTitle": "최고점",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["vanessa2.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["Yeonhee1.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "lina2.png", "vanessa1.png", "sera2.png", "sera1.png",
+                 "Yeonhee2.png","evan1.png","evan2.png",
+                "vanessa1.png", 
+                 "sera2.png", "sera1.png","vanessa2.png","lina2.png","Yeonhee1.png",
+                "vanessa1.png", "sera2.png", "sera1.png","evan2.png"
+              ]
+              
+            }
+          ]
+        }
+         
         
       
         

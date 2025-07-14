@@ -19,15 +19,37 @@
             "name": "리나",
             "image": "lina.png"
           },
+          { "name": "바네사", "image": "/images/heroes/vanessa.png" ,"note": "2초월" }
+        ],
+        "tags": [
+          "바네사 자리에 노호,조커,소이 대체가능(바네사 스킬자리에 버프해제 스킬로 대체)"
+        ]
+        
+      },
+        {
+        "team": [
           {
-           "name": "바네사",
-            "image": "vanessa.png"
-          }
+            "name": "에반",
+            "image": "evan.png"
+          },
+          {
+            "name": "연희",
+            "image": "Yeonhee.png"
+          },
+          {
+            "name": "세라",
+            "image": "sera.png"
+          },
+          {
+            "name": "리나",
+            "image": "lina.png"
+          },
+          { "name": "바네사", "image": "/images/heroes/vanessa.png" ,"note": "2초월" }
         ],
         "tags": [
           "바네사 자리에 노호,조커,소이 대체가능(바네사 스킬자리에 버프해제 스킬로 대체)"
         ],
-        "note": "바네사는 2초월부터 버프해제가능"
+        "note": "루리2초월 전에는 세라 6초월 이상이 더 좋음"
       }
     ],
     "포디나의 성 (화요일)": [
