@@ -77,8 +77,8 @@ export default function GuildDefenseBuildPage() {
               key={index}
               className="bg-gray-50 border border-gray-200 rounded-lg p-3 hover:shadow-md transition"
             >
-              <Link to={`/guild-defense/${index}`}>
-                <p className="font-semibold text-gray-700 mb-2">팀 {index + 1} 클릭!</p>
+              
+                <p className="font-semibold text-gray-700 mb-2">팀 {index + 1} </p>
                  {team.note && (
                   <p className="text-[11px] text-red-500 mt-1 italic">※ {team.note}</p>
                 )}
@@ -87,7 +87,7 @@ export default function GuildDefenseBuildPage() {
                   <p className="mt-2 text-xs text-gray-500">설명: {team.tags.join(', ')}</p>
                 )}
                
-              </Link>
+             
 
               {/* 스킬 순서 바로 출력 */}
               {team.skillOrder && renderSkillOrder(team.skillOrder)}
