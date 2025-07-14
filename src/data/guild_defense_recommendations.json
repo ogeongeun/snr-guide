@@ -54,7 +54,7 @@
       "name": "방어팀 3",
       "heroes": [
         { "name": "멜키르", "image": "Melkir.png" },
-        { "name": "린", "image": "rin.png" , "note": "실베스타 대체가능" },
+        { "name": "린", "image": "rin.png"  },
         { "name": "니아", "image": "nia.png" , "note": "실베스타 or 속공높은 cc대체가능"}
       ],
        
