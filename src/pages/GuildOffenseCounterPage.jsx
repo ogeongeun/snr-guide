@@ -43,7 +43,7 @@ export default function GuildOffenseListPage() {
           className="w-full mb-6 border rounded-xl p-4 shadow bg-white text-left"
         >
          
-          <h2 className="text-xl font-semibold mb-2">상대 방어팀 #{idx + 1}</h2>
+          <h2 className="text-xl font-semibold mb-2">상대 방어팀 #{idx + 1} 클릭</h2>
  {/* 덱 이름(label) 표시 */}
           {entry.label && (
             <p className="text-sm font-medium text-red-600 mb-1"> {entry.label}</p>
