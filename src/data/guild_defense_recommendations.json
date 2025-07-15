@@ -89,6 +89,7 @@
         { "name": "제이브", "image": "jave.png" ,"note":"뒤배치" },
         { "name": "크리스", "image": "chris.png"  }
       ],
+      "note":"cc3마리 넣기",
        "skillOrder": [
   
    
