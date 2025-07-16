@@ -33,6 +33,7 @@ export default function GuildOffenseListPage() {
              <li>상대 속공이길수있으면 걍 미러전 하면됨(면역캐 안넣어도됨)</li>
              <li>힐러는 상대 방덱아니면 굳이 넣지않기</li>
           <li class="text-red-500">도전하고 지면 공지방 구글 스프레드시트에 꼭 정보 작성</li>
+           <li class="text-red-500">도전할 때 구글 스프레드시트 정보보고 공격</li>
 
           </ul>
         </div>
