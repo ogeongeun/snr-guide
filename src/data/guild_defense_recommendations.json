@@ -186,15 +186,15 @@
       "teamId": 0,
       "name": "방어팀 3",
       "heroes": [
-         { "name": "리나", "image": "lina.png" },
+         { "name": "유이", "image": "yui.png" },
         { "name": "제이브", "image": "jave.png" ,"note":"즉사 반지"},
         { "name": "루디", "image": "rudy.png" }
       ], "skillOrder": [
   
    
-    "lina1.png",
-      "rudy2.png",
-     "jave1.png"
+    "yui2.png",
+      "yui1.png",
+     "rudy2.png"
   ],
      
   "note":"가끔 터지는 제이브 즉사+버티기"
