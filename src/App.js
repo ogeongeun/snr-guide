@@ -48,8 +48,11 @@ const App = () => {
 
 <Route path="/guild-offense/setup" element={<GuildOffenseSetupPage />} />
 <Route path="/equipment" element={<EquipmentRecommendationPage />} />
-<Route path="/guild-offense/counter" element={<GuildOffenseCounterPage />} />
-        <Route path="/guild-offense-detail/:index" element={<GuildOffenseDetailPage />} />
+ <Route path="/guild-offense" element={<GuildOffenseCounterPage />} />
+      <Route path="/guild-offense-detail/:category/:teamIndex" element={<GuildOffenseDetailPage />} />
+
+
+
 
 
       </Routes>

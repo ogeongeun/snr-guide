@@ -21,7 +21,7 @@ export default function GuildDefensePage() {
     },
      {
       label: '공격팀 편성',
-      path: '/guild-offense/counter',
+      path: '/guild-offense',
       bg: 'bg-rose-400',
       description: '방어팀에 대한 추천 카운터팀을 확인합니다.',
       category: '공격 관련',

@@ -1,5 +1,6 @@
   {
-    "teams": [
+ "categories": {
+    "공덱": [
       {
         "id": "team1",
         "label": "태오 공덱",
@@ -21,6 +22,20 @@
       "rin2.png",
       "Yushin1.png",
       "rin1.png"
+            ]
+          },
+          {
+            
+            "team": [
+              
+              { "name": "루디", "image": "/images/heroes/rudy.png" ,"note":"조율자 세팅/2초이상"},
+              { "name": "제이브", "image": "/images/heroes/jave.png" },
+              { "name": "리나", "image": "/images/heroes/lina.png"}
+            ],
+            "skillOrder": [
+      "lina1.png",
+      "rudy2.png",
+      "jave1.png"
             ]
           },
           {
@@ -55,93 +70,6 @@
         
        
          ]
-      },
-     
-      {
-        "id": "team2",
-        "label": "연희 마덱",
-        "defenseTeam": [
-           { "name": "유신", "image": "/images/heroes/yushin.png" },
-          { "name": "연희", "image": "/images/heroes/yeonhee.png" },
-      
-          { "name": "바네사", "image": "/images/heroes/vanessa.png" }
-        ],
-        "recommendedCounters": [
-        
-          
-           {
-              
-            "team": [
-               { "name": "빅토리아", "image": "/images/heroes/victoria.png" ,"note":"마비 면역"},
-              { "name": "연희", "image": "/images/heroes/yeonhee.png" },
-              { "name": "유신", "image": "/images/heroes/yushin.png" }
-            ],
-            
-            "skillOrder": [
-      "Yushin1.png",
-      "Yeonhee2.png",
-      "Yeonhee1.png"
-            ],
-            "note":"속공 딸릴때"
-          },
-           {
-              
-            "team": [
-               { "name": "노호", "image": "/images/heroes/noho.png"},
-              { "name": "발리스타", "image": "/images/heroes/ballista.png" },
-              { "name": "레이첼", "image": "/images/heroes/rachel.png"}
-            ],
-            
-            "skillOrder": [
-      "noho1.png",
-      "ballista1.png",
-      "dellons2.png"
-            ],
-            "note":"속공 먼저 따아햠"
-          }
-        ]
-      },
-      {
-        "id": "team2",
-        "label": "린 마덱(답없음 속공 먼저 따야됨)",
-        "defenseTeam": [
-           { "name": "멜키르", "image": "/images/heroes/Melkir.png" },
-          { "name": "린", "image": "/images/heroes/rin.png" },
-      
-          { "name": "바네사", "image": "/images/heroes/vanessa.png" }
-        ],
-        "recommendedCounters": [
-        
-          
-           {
-              
-            "team": [
-               { "name": "니아", "image": "/images/heroes/nia.png" ,"note":"속공 높은애 아무나"},
-              { "name": "린", "image": "/images/heroes/rin.png" },
-              { "name": "바네사", "image": "/images/heroes/vanessa.png" }
-            ],
-            "skillOrder": [
-      "rin2.png",
-      "vanessa1.png",
-      "rin1.png"
-            ],
-            "note":"걍 운빨(이러고 질수도있음)-속공 못따면 걍짐"
-          },
-          {
-              
-            "team": [
-               { "name": "리나", "image": "/images/heroes/lina.png" },
-              { "name": "태오", "image": "/images/heroes/teo.png" },
-              { "name": "아일린", "image": "/images/heroes/eileene.png" }
-            ],
-            "skillOrder": [
-      "eileene2.png",
-      "teo2.png",
-      "teo1.png"
-            ],
-            "note":"그나마 태오 공덱(속공 따여도 이김)"
-          }
-        ]
       },
        {
         "id": "team2",
@@ -207,7 +135,124 @@
           }
           
         ]
+      }
+    ],
+    "마덱": [
+      {
+        "id": "team2",
+        "label": "연희 마덱",
+        "defenseTeam": [
+           { "name": "유신", "image": "/images/heroes/yushin.png" },
+          { "name": "연희", "image": "/images/heroes/yeonhee.png" },
+      
+          { "name": "바네사", "image": "/images/heroes/vanessa.png" }
+        ],
+        "recommendedCounters": [
+        
+           {
+              
+            "team": [
+               { "name": "니아", "image": "/images/heroes/nia.png" ,"note":"바네사,유신 패시브 벗기기"},
+              { "name": "델론즈", "image": "/images/heroes/dellons.png" },
+              { "name": "에이스", "image": "/images/heroes/ace.png" ,"note":"속공 높은애 아무나"}
+            ],
+            
+            "skillOrder": [
+      "nia2.png",
+      "dellons2.png",
+      "dellons1.png"
+            ],
+            "note":"상대 패시브 벗기고 패기"
+          },
+           {
+              
+            "team": [
+               { "name": "빅토리아", "image": "/images/heroes/victoria.png" ,"note":"마비 면역"},
+              { "name": "연희", "image": "/images/heroes/yeonhee.png" },
+              { "name": "유신", "image": "/images/heroes/yushin.png" }
+            ],
+            
+            "skillOrder": [
+      "Yushin1.png",
+      "Yeonhee2.png",
+      "Yeonhee1.png"
+            ],
+            "note":"속공 딸릴때"
+          },
+           {
+              
+            "team": [
+               { "name": "노호", "image": "/images/heroes/noho.png"},
+              { "name": "발리스타", "image": "/images/heroes/ballista.png" },
+              { "name": "레이첼", "image": "/images/heroes/rachel.png"}
+            ],
+            
+            "skillOrder": [
+      "noho1.png",
+      "ballista1.png",
+      "dellons2.png"
+            ],
+            "note":"속공 먼저 따아햠"
+          }
+        ]
       },
+      {
+        "id": "team2",
+        "label": "린 마덱",
+        "defenseTeam": [
+           { "name": "멜키르", "image": "/images/heroes/Melkir.png" },
+          { "name": "린", "image": "/images/heroes/rin.png" },
+      
+          { "name": "바네사", "image": "/images/heroes/vanessa.png" }
+        ],
+        "recommendedCounters": [
+        
+                     {
+              
+            "team": [
+               { "name": "루디", "image": "/images/heroes/rudy.png" },
+              { "name": "제이브", "image": "/images/heroes/jave.png" },
+              { "name": "리나", "image": "/images/heroes/lina.png" }
+            ],
+            "skillOrder": [
+      "lina1.png",
+      "rudy2.png",
+      "jave1.png"
+            ],
+            "note":"방덱"
+          },
+           {
+              
+            "team": [
+               { "name": "니아", "image": "/images/heroes/nia.png" ,"note":"속공 높은애 아무나"},
+              { "name": "린", "image": "/images/heroes/rin.png" },
+              { "name": "바네사", "image": "/images/heroes/vanessa.png" }
+            ],
+            "skillOrder": [
+      "rin2.png",
+      "vanessa1.png",
+      "rin1.png"
+            ],
+            "note":"걍 운빨(이러고 질수도있음)-속공 못따면 걍짐"
+          },
+          {
+              
+            "team": [
+               { "name": "리나", "image": "/images/heroes/lina.png" },
+              { "name": "태오", "image": "/images/heroes/teo.png" },
+              { "name": "아일린", "image": "/images/heroes/eileene.png" }
+            ],
+            "skillOrder": [
+      "eileene2.png",
+      "teo2.png",
+      "teo1.png"
+            ],
+            "note":"그나마 태오 공덱(속공 따여도 이김)"
+          }
+        ]
+      }
+    ],
+      "즉사방덱":[
       {
         "id": "team3",
         "label": "즉사 방덱",
@@ -232,7 +277,9 @@
           }
           
         ]
-      },
+      }
+    ],
+    "방덱":[
       {
         "id": "team4",
         "label": "방덱 상대 힐 없을때(태오공덱절대 금지)",
@@ -321,7 +368,9 @@
           
           
         ]
-      },
+      }
+    ],
+    "번외":[
        {
         "id": "team4",
         "label": "한방덱",
@@ -367,4 +416,5 @@
       }
       
     ]
+  }
   }
