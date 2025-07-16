@@ -31,6 +31,9 @@ export default function GuildOffenseListPage() {
              <li>공격하기전에 리플레이로 상대 속공,스킬순서 파악하기</li>
             <li>한번 사용한 영웅 재사용 안됨(신중히 배치)</li>
              <li>상대 속공이길수있으면 걍 미러전 하면됨(면역캐 안넣어도됨)</li>
+             <li>힐러는 상대 방덱아니면 굳이 넣지않기</li>
+          <li class="text-red-500">도전하고 지면 공지방 구글 스프레드시트에 꼭 정보 작성</li>
+
           </ul>
         </div>
         <p className="text-sm font-semibold text-red-500 mb-4">
