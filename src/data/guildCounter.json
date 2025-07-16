@@ -212,7 +212,7 @@
         "id": "team3",
         "label": "즉사 방덱",
         "defenseTeam": [
-        
+           { "name": "녹스", "image": "/images/heroes/nox.png" },
           { "name": "크리스", "image": "/images/heroes/chris.png" },
           { "name": "루디", "image": "/images/heroes/rudy.png" }
         ],
@@ -229,48 +229,37 @@
       "chris2.png",
       "nox2.png"
             ]
-          },
+          }
+          
+        ]
+      },
+      {
+        "id": "team4",
+        "label": "방덱 상대 힐 없을때",
+        "defenseTeam": [
+        
+          { "name": "루디", "image": "/images/heroes/rudy.png" },
+         
+          { "name": "제이브", "image": "/images/heroes/jave.png" },
+           { "name": "첸슬러", "image": "/images/heroes/chancellor.png" }
+        ],
+        "recommendedCounters": [
           {
             "team": [
-              { "name": "레오", "image": "/images/heroes/leo.png" },
-              { "name": "파스칼", "image": "/images/heroes/pascal.png" ,"note":"세인 대체가능"},
+              { "name": "에반", "image": "/images/heroes/evan.png" },
+              { "name": "노호", "image": "/images/heroes/noho.png","note":"속공세팅" },
               { "name": "유이", "image": "/images/heroes/yui.png" }
             ],
-            "note": "즉사 면역 + 한명씩 자르기",
-             "skillOrder": [
-      "pascal2.png",
-      "yui1.png",
-      "pascal1.png"
-            ]
-          },
-          {
-            "team": [
-              { "name": "레오", "image": "/images/heroes/leo.png" },
-              { "name": "루리", "image": "/images/heroes/luri.png","note":" 상대 녹스2초이상 도발있을때 " },
-             { "name": "유이", "image": "/images/heroes/yui.png" }
-            ],
-            "note": "즉사 면역 + 루리로 정리",
-             "skillOrder": [
-      "luri2.png",
-      "yui1.png",
-      "luri1.png"
-            ]
-          
-          },
-          {
-            "team": [
-              { "name": "레오", "image": "/images/heroes/leo.png" },
-              { "name": "루리", "image": "/images/heroes/luri.png"},
-             { "name": "노호", "image": "/images/heroes/noho.png" }
-            ],
-            "note": "노호 + 멜키르",
+            "note": "상대 제이브일때(노호로 피깍후 버티기)",
              "skillOrder": [
       "noho1.png",
-      "luri2.png",
-      "luri1.png"
+      "evan2.png",
+      "yui1.png"
      
             ]
           }
+          
+         
           
         ]
       },
@@ -288,14 +277,14 @@
           {
             "team": [
               { "name": "에반", "image": "/images/heroes/evan.png" },
-              { "name": "노호", "image": "/images/heroes/noho.png","note":"속공세팅" },
+              { "name": "루리", "image": "/images/heroes/luri.png" },
               { "name": "유이", "image": "/images/heroes/yui.png" }
             ],
-            "note": "상대 제이브일때(노호로 피깍후 버티기)",
+            "note": "카르마 제이브 딜 버티고 딜",
              "skillOrder": [
-      "noho1.png",
       "evan2.png",
-      "yui1.png"
+      "yui1.png",
+      "luri1.png"
      
             ]
           },
@@ -313,23 +302,10 @@
      
             ]
           },
+          
            {
             "team": [
-              { "name": "루리", "image": "/images/heroes/luri.png","note":"비슷한 계열 아무나" },
-              { "name": "멜키르", "image": "/images/heroes/Melkir.png" },
-             { "name": "노호", "image": "/images/heroes/noho.png" }
-            ],
-            "note": "노호 + 멜키르",
-             "skillOrder": [
-      "noho1.png",
-      "Melkir2.png",
-      "luri1.png"
-     
-            ]
-          },
-           {
-            "team": [
-              { "name": "리나", "image": "/images/heroes/lina.png","note":"유이 대체가능"},
+              { "name": "유이", "image": "/images/heroes/yui.png"},
               { "name": "타카", "image": "/images/heroes/taka.png" },
              { "name": "노호", "image": "/images/heroes/noho.png" }
             ],
@@ -340,34 +316,9 @@
       
      
             ]
-          },
-          {
-           "team": [
-              { "name": "에이스", "image": "/images/heroes/ace.png" },
-              { "name": "델론즈", "image": "/images/heroes/dellons.png","note":"2초월이상(추적자 세팅)" },
-              { "name": "세인", "image": "/images/heroes/sein.png","note":"파스칼 대체가능"}
-            ],
-            "note": "딜 찍누",
-             "skillOrder": [
-      "dellons2.png",
-      "sein1.png"
-      
-     
-            ]
-          },
-          {
-          "team": [
-              { "name": "크리스", "image": "/images/heroes/chris.png","note":"아무나 속공 높은애" },
-              { "name": "파스칼", "image": "/images/heroes/pascal.png" ,"note":"세인 대체가능"},
-              { "name": "유이", "image": "/images/heroes/yui.png" }
-            ],
-            "note": "파스칼 원콤덱",
-             "skillOrder": [
-      "pascal2.png",
-      "yui1.png",
-      "pascal1.png"
-            ]
           }
+          
+          
           
         ]
       },
