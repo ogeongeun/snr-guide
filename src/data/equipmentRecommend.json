@@ -221,6 +221,27 @@
        
       }
     }
+    
+  },
+   "eileene": {
+    "name": "아일린",
+    "image": "/images/heroes/eileene.png",
+    "roles": {
+      "cc": {
+       
+        "전체": [
+              {
+            "set": "조율자",
+            "mainOption": "효적/효적/막/막"
+           
+          }
+          
+          
+        ]
+       
+      }
+    }
+    
   },
   "aragon": {
     "name": "아라곤",
