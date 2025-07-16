@@ -220,6 +220,19 @@
           {
             "team": [
               { "name": "레오", "image": "/images/heroes/leo.png" },
+              { "name": "크리스", "image": "/images/heroes/chris.png" },
+              { "name": "녹스", "image": "/images/heroes/nox.png" }
+            ],
+            "note": "즉사 면역 + 미러전",
+             "skillOrder": [
+      "nox1.png",
+      "chris2.png",
+      "nox2.png"
+            ]
+          },
+          {
+            "team": [
+              { "name": "레오", "image": "/images/heroes/leo.png" },
               { "name": "파스칼", "image": "/images/heroes/pascal.png" ,"note":"세인 대체가능"},
               { "name": "유이", "image": "/images/heroes/yui.png" }
             ],
