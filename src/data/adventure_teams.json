@@ -114,5 +114,52 @@
     ]
 }
 }
+  },
+   "악몽12-30": {
+     "team1": {
+    "team1": {
+        "description": "녹스로 즉사 + 파스칼로 한명씩 잘라먹기",
+           "heroes": [
+       { "name": "엘리스", "image": "/images/heroes/elise.png" },
+      { "name": "룩", "image": "/images/heroes/look.png" ,"note":"클로에 데려가도됨ㄴ"},
+      { "name": "크리스", "image": "/images/heroes/chris.png" },
+      { "name": "루디", "image": "/images/heroes/rudy.png" },
+      { "name": "녹스", "image": "/images/heroes/nox.png" }
+    ]
+},
+    "team2": {
+         "description": "태오+연희",
+         "heroes": [
+      { "name": "연희", "image": "/images/heroes/Yeonhee.png"},
+      { "name": "바네사", "image": "/images/heroes/vanessa.png" },
+      { "name": "테오", "image": "/images/heroes/teo.png" },
+      { "name": "델론즈", "image": "/images/heroes/dellons.png" },
+      { "name": "아일린", "image": "/images/heroes/eileene.png"}
+    ]
+}
+},
+
+"team2": {
+    "team1": {
+        "description": "녹스로 즉사 + 파스칼로 한명씩 잘라먹기",
+           "heroes": [
+      { "name": "엘리스", "image": "/images/heroes/elise.png" },
+      { "name": "룩", "image": "/images/heroes/look.png" ,"note":"클로에 데려가도됨ㄴ"},
+      { "name": "크리스", "image": "/images/heroes/chris.png" },
+      { "name": "루디", "image": "/images/heroes/rudy.png" },
+      { "name": "녹스", "image": "/images/heroes/nox.png" }
+    ]
+},
+    "team2": {
+         "description": "마덱",
+         "heroes": [
+      { "name": "연희", "image": "/images/heroes/Yeonhee.png"},
+      { "name": "바네사", "image": "/images/heroes/vanessa.png" },
+      { "name": "연희", "image": "/images/heroes/Yeonhee.png" },
+      { "name": "멜키르", "image": "/images/heroes/melkir.png" },
+      { "name": "테오", "image": "/images/heroes/teo.png"}
+    ]
+}
+}
   }
 }

@@ -343,6 +343,29 @@
      
       "skillOrders": [
         {
+          "orderTitle": "최고점(바네사 6초이상)",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["Yeonhee1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["vanessa2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "lina2.png", "ariel1.png", "vanessa1.png", "luri2.png",
+                "luri1.png","ariel2.png","ariel1.png", "Yeonhee1.png", "vanessa2.png","luri2.png","lina1.png","luri1.png","ariel1.png","lina2.png","vanessa1.png","luri2.png","Yeonhee1.png"
+                
+              ]
+              
+               
+            }
+          ]
+        },
+        {
           "orderTitle": "최고점",
           "skills": [
             {
@@ -358,6 +381,36 @@
               "images": [
                 "lina2.png", "ariel2.png", "ariel1.png", "luri2.png",
                 "luri1.png", "Yeonhee1.png", "lina1.png"
+                
+              ]
+              
+               
+            }
+          ]
+        }
+        
+      ]
+    },
+    {
+     
+      "skillOrders": [
+        {
+          "orderTitle": "고점",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["vanessa1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["vanessa2.png","ariel2.png" ]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+              "lina2.png", "ariel1.png", "Yeonhee1.png", "sera2.png",
+                "sera1.png", "vanessa1.png","lina1.png","ariel1.png"
+                , "ariel2.png"
                 
               ]
               

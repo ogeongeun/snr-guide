@@ -31,8 +31,16 @@ const TrialTowerDetailPage = () => {
             className="block border border-red-300 bg-white rounded-xl shadow hover:shadow-md transition duration-200 p-4"
           >
             <h2 className="text-lg font-semibold text-red-700 mb-2">팀 {idx + 1}</h2>
-           <p className="text-sm italic text-dark-600 mb-3">{towerData.description}</p>
 
+            {team.description && (
+              <p className="text-sm italic text-gray-700 mb-1">{team.description}</p>
+            )}
+
+            {team.medal && (
+              <p className="text-lg font-bold text-yellow-600 mb-3">
+                🥇 {team.medal}메달
+              </p>
+            )}
 
             <div className="grid grid-cols-5 gap-2">
               {team.heroes.map((hero, i) => (
@@ -47,7 +55,9 @@ const TrialTowerDetailPage = () => {
                   />
                   <p className="text-[10px] mt-1 text-center">{hero.name}</p>
                   {hero.note && (
-                    <div className="text-xs text-red-500 italic mt-0.5">{hero.note}</div>
+                    <div className="text-xs text-red-500 italic mt-0.5">
+                      {hero.note}
+                    </div>
                   )}
                 </div>
               ))}

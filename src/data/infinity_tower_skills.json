@@ -179,9 +179,18 @@
       "3스테이지": [
         { "image": "Yeonhee2.png", "label": "상대 힐" },"lee1.png","yushin2.png","yushin1.png","melkir2.png","melkir1.png","lee1.png"
       ]
+    },
+    "1": {
+      
+      "1스테이지": ["melkir1.png","Yeonhee2.png","Yeonhee1.png","lina1.png"],
+      "2스테이지": ["yushin2.png","melkir2.png" ,"vanessa2.png","yushin1.png","vanessa1.png","lina2.png"],
+      "3스테이지": [
+        "melkir1.png","Yeonhee2.png","yushin2.png","Yeonhee1.png"
+      ]
     }
    
   },
+  
   "200층": {
     "0": {
        "videoUrl": "https://www.youtube.com/watch?v=J7D8-KJmNho",
@@ -190,7 +199,16 @@
       "3스테이지": [
         "melkir2.png","lee1.png","melkir1.png","Yeonhee2.png","yushin2.png","yushin1.png","melkir2.png","melkir1.png","lee1.png"
       ]
+    },
+    "1": {
+        "videoUrl": "https://www.youtube.com/watch?v=KTdMMImgIZ0",
+      "1스테이지": ["teo1.png","Yeonhee2.png","Yeonhee1.png","teo2.png","lina2.png"],
+      "2스테이지": [{ "image": "Melkir1.png", "label": "파이 cc아니면 리트(3~4명 cc)" },"melkir2.png","teo1.png","yushin2.png","lina1.png","Yeonhee1.png","Yeonhee2.png","teo2.png"],
+      "3스테이지": [
+        "melkir1.png","melkir2.png","teo1.png","yushin2.png"
+      ]
     }
+    
    
   },
   "일반층": {

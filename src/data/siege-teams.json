@@ -209,6 +209,34 @@
       {
         "team": [
           {
+            "name": "아리엘",
+            "image": "ariel.png"
+          },
+          {
+            "name": "리나",
+            "image": "lina.png"
+          },
+          {
+            "name": "새라",
+            "image": "sera.png"
+            ,"note": "뒤배치"
+          },
+          {
+            "name": "바네사",
+            "image": "vanessa.png"
+          },
+          {
+            "name": "연희",
+            "image": "Yeonhee.png"
+          }
+        ],
+        "tags": [
+          "화상면역 -> 아리엘"
+        ]
+      },
+      {
+        "team": [
+          {
             "name": "유이",
             "image": "yui.png"
           },

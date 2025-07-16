@@ -257,10 +257,22 @@
         { "name": "유이", "image": "/images/heroes/yui.png" }
     
       ]
+    },
+    {
+      "description": "팀속공172이상",
+      "heroes": [
+        { "name": "멜키르", "image": "/images/heroes/Melkir.png" },
+          { "name": "유신", "image": "/images/heroes/Yushin.png"},
+              { "name": "연희", "image": "/images/heroes/Yeonhee.png","note":"뒤 배치"  },
+           { "name": "리나", "image": "/images/heroes/lina.png" },
+        { "name": "바네사", "image": "/images/heroes/vanessa.png" }
+    
+      ]
     }
     
     
   ]
+  
 },
 "200층": {
   "teams": [
@@ -269,6 +281,17 @@
       "heroes": [
         { "name": "유신", "image": "/images/heroes/Yushin.png" },
           { "name": "멜키르", "image": "/images/heroes/Melkir.png" },
+              { "name": "연희", "image": "/images/heroes/Yeonhee.png" },
+           { "name": "리", "image": "/images/heroes/lee.png" ,"note":"주술사(효저100%+효적100%)+ cc반지" },
+        { "name": "유이", "image": "/images/heroes/yui.png" }
+    
+      ]
+    },
+    {
+     
+      "heroes": [
+        { "name": "유신", "image": "/images/heroes/Yushin.png" },
+          { "name": "테오", "image": "/images/heroes/teo.png" },
               { "name": "연희", "image": "/images/heroes/Yeonhee.png" },
            { "name": "리", "image": "/images/heroes/lee.png" ,"note":"주술사(효저100%+효적100%)+ cc반지" },
         { "name": "유이", "image": "/images/heroes/yui.png" }

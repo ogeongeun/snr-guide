@@ -53,6 +53,91 @@
     
   ]
 
+},
+"4층": {
+   
+     
+  "teams": [
+    { "description": "기도메타",
+      "medal": 6,
+      "heroes": [
+        { "name": "클로에", "image": "/images/heroes/chloe.png" },
+         { "name": "메이", "image": "/images/heroes/mei.png" },
+          { "name": "제인", "image": "/images/heroes/pascal.png" },
+        { "name": "녹스", "image": "/images/heroes/nox.png" ,"note":"2초월 이상"},
+        { "name": "리", "image": "/images/heroes/lee.png" }
+      ]
+    },
+    {
+       "description": "바네사 2초안되면(소이,조커,노호 등 사용)",
+       "medal": 3,
+      "heroes": [
+        { "name": "연희", "image": "/images/heroes/Yeonhee.png" },
+         { "name": "리나", "image": "/images/heroes/lina.png" },
+          { "name": "파스칼", "image": "/images/heroes/pascal.png" },
+        { "name": "바네사", "image": "/images/heroes/vanessa.png" ,"note":"2초월 이상"},
+        { "name": "리", "image": "/images/heroes/lee.png" }
+      ]
+    }
+     
+    
+  ]
+  
+
+},
+"6층": {
+    "description": "평타로 피격30회 까기",
+     
+  "teams": [
+    {
+       "medal": 3,
+      "heroes": [
+        { "name": "카론", "image": "/images/heroes/caron.png" ,"note":"엘리스도 2초이상이면 사용"},
+         { "name": "리나", "image": "/images/heroes/lina.png" },
+          { "name": "파스칼", "image": "/images/heroes/pascal.png" },
+        { "name": "에반", "image": "/images/heroes/evan.png" },
+        { "name": "유이", "image": "/images/heroes/yui.png" }
+      ]
+    }
+    
+  ]
+
+},
+"8층": {
+    "description": "개쎔 파스칼 부활시켜야됨",
+     
+  "teams": [
+    {
+       "medal": 3,
+      "heroes": [
+        { "name": "바네사", "image": "/images/heroes/vanessa.png" ,"note":"방깍용(대체가능)"},
+         { "name": "리나", "image": "/images/heroes/lina.png" },
+          { "name": "파스칼", "image": "/images/heroes/pascal.png" },
+        { "name": "에반", "image": "/images/heroes/evan.png" },
+        { "name": "유이", "image": "/images/heroes/yui.png" }
+      ]
+    }
+    
+  ]
+
+},
+"10층": {
+    "description": "개쎔 파스칼 부활시켜야됨",
+      
+  "teams": [
+    {
+      "medal": 3,
+      "heroes": [
+        { "name": "에반", "image": "/images/heroes/evan.png"},
+         { "name": "리나", "image": "/images/heroes/lina.png" },
+          { "name": "세인", "image": "/images/heroes/sein.png" },
+        { "name": "클로에", "image": "/images/heroes/chloe.png" },
+        { "name": "유이", "image": "/images/heroes/yui.png" }
+      ]
+    }
+    
+  ]
+
 }
 
 
