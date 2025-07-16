@@ -27,6 +27,7 @@ export default function GuildDefensePage() {
       category: '공격 관련',
     },
     
+    
   ];
 
   return (

@@ -274,6 +274,20 @@
         "recommendedCounters": [
           {
             "team": [
+              { "name": "에반", "image": "/images/heroes/evan.png" },
+              { "name": "노호", "image": "/images/heroes/noho.png","note":"속공세팅" },
+              { "name": "유이", "image": "/images/heroes/yui.png" }
+            ],
+            "note": "상대 제이브일때(노호로 피깍후 버티기)",
+             "skillOrder": [
+      "noho1.png",
+      "evan2.png",
+      "yui1.png"
+     
+            ]
+          },
+          {
+            "team": [
               { "name": "녹스", "image": "/images/heroes/nox.png" },
               { "name": "크리스", "image": "/images/heroes/chris.png" },
               { "name": "루디", "image": "/images/heroes/rudy.png","note":"탱커로 대체(룩,에반,첸슬러,엘리스 등)" }
