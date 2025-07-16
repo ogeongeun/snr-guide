@@ -262,6 +262,23 @@
     
   ]
 },
+"200층": {
+  "teams": [
+    {
+      "description": "팀속공166이상",
+      "heroes": [
+        { "name": "유신", "image": "/images/heroes/Yushin.png" },
+          { "name": "멜키르", "image": "/images/heroes/Melkir.png" },
+              { "name": "연희", "image": "/images/heroes/Yeonhee.png" },
+           { "name": "리", "image": "/images/heroes/lee.png" ,"note":"주술사(효저100%+효적100%)+ cc반지" },
+        { "name": "유이", "image": "/images/heroes/yui.png" }
+    
+      ]
+    }
+    
+    
+  ]
+},
 "일반층": {
   "teams": [
     {
