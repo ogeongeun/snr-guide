@@ -265,7 +265,7 @@
       },
       {
         "id": "team4",
-        "label": "방덱(제이브 카르마 말고 룩이나 엘리스같은 방덱도 포함)",
+        "label": "방덱(카르마 쎌때)",
         "defenseTeam": [
         
           { "name": "루디", "image": "/images/heroes/rudy.png" },
