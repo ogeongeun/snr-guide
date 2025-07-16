@@ -243,6 +243,26 @@
     }
     
   },
+  "jave": {
+    "name": "제이브",
+    "image": "/images/heroes/jave.png",
+    "roles": {
+      "cc": {
+       
+        "전체": [
+              {
+            "set": "수문장",
+            "mainOption": "효적/효적/막/막",
+           "note":"즉사 반지"
+          }
+          
+          
+        ]
+       
+      }
+    }
+    
+  },
   "aragon": {
     "name": "아라곤",
     "image": "/images/heroes/aragon.png",
