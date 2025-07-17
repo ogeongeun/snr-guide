@@ -630,7 +630,7 @@
      
       "skillOrders": [
         {
-          "orderTitle": "팀3정석",
+          "orderTitle": "한방",
           "skills": [
             {
               "stageTitle": "1스테이지",
@@ -645,6 +645,29 @@
               "images": [
                 "lee1.png", "lina2.png", "taka1.png", "jin2.png",
                 "ace2.png", "taka2.png", "lee1.png","lina1.png","jin2.png"
+                
+              ]
+              
+               
+            }
+          ]
+        },
+        {
+          "orderTitle": "두방",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["jin1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["ace2.png","taka2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "lee1.png", "lina2.png", "taka1.png", "jin2.png",
+                "ace2.png", "taka2.png", "lee1.png","lina1.png","jin2.png","taka1.png","lina2.png","lee1.png","ace2.png","taka2.png"
                 
               ]
               
