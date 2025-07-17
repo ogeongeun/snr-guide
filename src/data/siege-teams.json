@@ -382,7 +382,8 @@
         "team": [
           {
             "name": "풍연",
-            "image": "poongyeon.png"
+            "image": "poongyeon.png",
+            "note": "비담2초이상 대체가능(풍연1스-비담1스/풍연2스-비담2스)"
           },
           {
             "name": "리",
