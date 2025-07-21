@@ -98,7 +98,7 @@
       "heroes": [
         { "name": "에이스", "image": "ace.png"},
         { "name": "발리스타", "image": "ballista.png" },
-        { "name": "노호", "image": "noho.png" }
+        { "name": "노호", "image": "noho.png","note":"속공세팅" }
       ],
        "skillOrder": [
   

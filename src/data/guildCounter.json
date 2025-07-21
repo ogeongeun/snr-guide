@@ -473,7 +473,7 @@
             "team": [
               { "name": "노호", "image": "/images/heroes/noho.png" },
               { "name": "발리", "image": "/images/heroes/ballista.png" },
-              { "name": "에이스", "image": "/images/heroes/ace.png","note":"아무거나"}
+              { "name": "에이스", "image": "/images/heroes/ace.png","note":"아무거나(풍연도 괜찮)"}
             ],
           
              "skillOrder": [
