@@ -130,7 +130,7 @@
       "skillOrder": [
     "nia2.png",
     
-    "Yeonhee2.png",
+    "Yushin2.png",
    "Yeonhee1.png"
   ],
     "note":"니아랑 바네사랑 같이 쓰지말것"
@@ -150,23 +150,7 @@
     "Melkir1.png"
   ]
     },
-    {
-      "teamId": 0,
-      "name": "방어팀 3",
-      "heroes": [
-        { "name": "바네사", "image": "vanessa.png"},
-        { "name": "연희", "image": "Yeonhee.png" , "note": "딜러(뒤배치)"},
-         { "name": "멜키르", "image": "Melkir.png"}
-      ],
-      "skillOrder": [
-        
-    "vanessa1.png",
-  
-    "Yeonhee2.png",
-    "Yeonhee1.png"
-  ],
-  "note":"니아랑 바네사랑 같이 쓰지말것"
-    },
+    
     {
       "teamId": 0,
       "name": "방어팀 3",
@@ -196,28 +180,12 @@
        
       "skillOrder": [
     "rin2.png",
-    "Melkir1.png",
-    "rin1.png"
-  ]
-    },
-     
-    
-    {
-      "teamId": 2,
-      "name": "방어팀 3",
-      "heroes": [
-        { "name": "멜키르", "image": "Melkir.png" },
-       
-        { "name": "실베스타", "image": "silvesta.png" , "note": "뒤배치"},
-         { "name": "바네사", "image": "vanessa.png"  }
-      ],
-       
-      "skillOrder": [
-    "vanessa1.png",
-    "Melkir1.png",
-    "silvesta1.png"
+    "Melkir2.png",
+    "Melkir1.png"
   ]
     }
+     
+    
     
   ]
      },
