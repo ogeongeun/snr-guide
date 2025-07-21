@@ -145,8 +145,8 @@
       ],
        
       "skillOrder": [
-    "vanessa1.png",
-    "vanessa2.png",
+        "rin2.png",
+    "Melkir2.png",
     "Melkir1.png"
   ]
     },
@@ -159,6 +159,7 @@
          { "name": "멜키르", "image": "Melkir.png"}
       ],
       "skillOrder": [
+        
     "vanessa1.png",
   
     "Yeonhee2.png",
