@@ -81,12 +81,12 @@ export default function GuildDefenseBuildPage() {
         </div>
 
         {/* 카테고리 선택 탭 */}
-        <div className="flex gap-3 justify-center mb-6">
+        <div className="flex gap-2 mb-6 justify-center flex-wrap">
           {categoryNames.map((category) => (
             <button
               key={category}
               onClick={() => setSelectedCategory(category)}
-              className={`px-4 py-1 rounded-full border text-sm font-medium ${
+              className={`px-4 py-2 rounded-full border text-sm ${
                 selectedCategory === category
                   ? 'bg-blue-600 text-white border-blue-600'
                   : 'bg-white text-gray-700 border-gray-300'
