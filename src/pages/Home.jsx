@@ -37,6 +37,13 @@ const Home = () => {
   description: '영웅들의 장비 추천',
   emoji: '🛠'
 },
+{
+  title: '장신구 세공법',
+  path: '/accessory-custom',
+  description: '무탑/결장/보스/쫄작용 추천 조합',
+  emoji: '💍'
+},
+
     {
       title: '레이드',
       path: '/raid-guide',

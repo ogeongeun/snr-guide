@@ -23,6 +23,7 @@ import GuildOffenseSetupPage from './pages/GuildOffenseSetupPage';
 import EquipmentRecommendationPage from './pages/EquipmentRecommendationPage';
 import GuildOffenseCounterPage from './pages/GuildOffenseCounterPage';
 import GuildOffenseDetailPage from './pages/GuildOffenseDetailPage';
+import AccessoryCustomPage from './pages/AccessoryCustomPage';
 const App = () => {
   return (
     <Router>
@@ -50,7 +51,7 @@ const App = () => {
 <Route path="/equipment" element={<EquipmentRecommendationPage />} />
  <Route path="/guild-offense" element={<GuildOffenseCounterPage />} />
       <Route path="/guild-offense-detail/:category/:teamIndex" element={<GuildOffenseDetailPage />} />
-
+<Route path="/accessory-custom" element={<AccessoryCustomPage />} />
 
 
 
