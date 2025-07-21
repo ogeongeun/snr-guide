@@ -20,6 +20,50 @@
       }
     }
   },
+  "taka": {
+    "name": "타카",
+    "image": "/images/heroes/taka.png",
+    "roles": {
+      "딜러": {
+       
+        "전체": [
+             {
+            "set": "복수자",
+            "mainOption": "치확/치피/모공%/모공%",
+            "note": "치확 100 맞추기"
+          },
+          {
+            "set": "암살자",
+            "mainOption": "치확/치피/모공%/모공%",
+            "note": "치확 100 맞추기"
+          }
+        ]
+      }
+    }
+  },
+  "teo": {
+    "name": "태오",
+    "image": "/images/heroes/teo.png",
+    "roles": {
+      "딜러": {
+        "0~5초월": [
+             {
+            "set": "암살자",
+            "mainOption": "치확/치피/모공%/모공%",
+            "note": "치확 70 맞추기"
+          }
+          
+        ],
+        "6초월": [
+             {
+            "set": "복수자",
+            "mainOption": "치피/치피/모공%/모공%",
+            "note": "6초월(치확100임)"
+          }]
+          
+      }
+    }
+  },
   "yui": {
     "name": "유이",
     "image": "/images/heroes/yui.png",
