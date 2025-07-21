@@ -456,6 +456,36 @@
           
           
         ]
+      },
+      {
+        "id": "team4",
+        "label": "한방덱",
+        "defenseTeam": [
+        
+          { "name": "에반", "image": "/images/heroes/yui.png" },
+         
+          { "name": "풍연", "image": "/images/heroes/poongyeon.png" },
+           { "name": "유이", "image": "/images/heroes/yui.png" }
+          
+        ],
+        "recommendedCounters": [
+          {
+            "team": [
+              { "name": "노호", "image": "/images/heroes/nogo.png" },
+              { "name": "발리", "image": "/images/heroes/ballista.png" },
+              { "name": "에이스", "image": "/images/heroes/ace.png"}
+            ],
+          
+             "skillOrder": [
+      "noho1.png",
+     "ballista1.png"
+     
+     
+            ]
+          }
+  
+          
+        ]
       }
       
     ]
