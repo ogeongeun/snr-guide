@@ -24,6 +24,26 @@
     
     },
     {
+      "teamId": 1,
+      "name": "방어팀 4",
+      "heroes": [
+        { "name": "아일린", "image": "eileene.png","note": "cc"  },
+        { "name": "태오", "image": "teo.png" , "note": "딜러(뒤배치)" },
+        { "name": "델론즈", "image": "pie.png","note":"델론즈,에이스 대체" }
+      ],
+      "skillOrder": [
+    
+    "eileene2.png",
+   
+    "teo2.png",
+   "dellons2.png"
+   
+  ],
+  
+  "note":"니아대체 cc영웅 사용시(니아스킬 대신 그 영웅cc스킬) "
+    
+    },
+    {
       "teamId": 3,
       "name": "방어팀 1",
       "heroes": [
