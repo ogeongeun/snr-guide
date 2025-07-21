@@ -123,7 +123,7 @@
       "teamId": 0,
       "name": "방어팀 3",
       "heroes": [
-        { "name": "유신", "image": "Yushin.png","note": "멜키르 대체가능"},
+        { "name": "유신", "image": "Yushin.png"},
         { "name": "연희", "image": "Yeonhee.png" , "note": "딜러(뒤배치)"},
         { "name": "니아", "image": "nia.png"  }
       ],
@@ -134,13 +134,29 @@
    "Yeonhee1.png"
   ],
     "note":"니아랑 바네사랑 같이 쓰지말것"
-    }, {
+    }, 
+    {
+      "teamId": 2,
+      "name": "방어팀 3",
+      "heroes": [
+        { "name": "멜키르", "image": "Melkir.png" },
+        { "name": "린", "image": "rin.png"  },
+        { "name": "바네사", "image": "vanessa.png" , "note": "조율자(효적/효적/막/막)"}
+      ],
+       
+      "skillOrder": [
+    "vanessa1.png",
+    "vanessa2.png",
+    "Melkir1.png"
+  ]
+    },
+    {
       "teamId": 0,
       "name": "방어팀 3",
       "heroes": [
         { "name": "바네사", "image": "vanessa.png"},
         { "name": "연희", "image": "Yeonhee.png" , "note": "딜러(뒤배치)"},
-         { "name": "멜키르", "image": "Melkir.png","note": "유신 대체가능"}
+         { "name": "멜키르", "image": "Melkir.png"}
       ],
       "skillOrder": [
     "vanessa1.png",
@@ -159,7 +175,7 @@
          { "name": "린", "image": "rin.png","note":"쥬리 대체가능"}
       ],
       "skillOrder": [
-    "rin1.png",
+    "rin2.png",
     "vanessa1.png",
     "Yeonhee2.png"
   ],
@@ -183,36 +199,8 @@
     "rin1.png"
   ]
     },
-     {
-      "teamId": 2,
-      "name": "방어팀 3",
-      "heroes": [
-        { "name": "멜키르", "image": "Melkir.png" },
-        { "name": "린", "image": "rin.png"  },
-        { "name": "바네사", "image": "vanessa.png" , "note": "조율자(효적/효적/막/막)"}
-      ],
-       
-      "skillOrder": [
-    "vanessa1.png",
-    "vanessa2.png",
-    "Melkir1.png"
-  ]
-    },
-    {
-      "teamId": 0,
-      "name": "방어팀 3",
-      "heroes": [
-        { "name": "실베스타", "image": "silvesta.png"},
-        { "name": "린", "image": "rin.png" , "note": "딜러(뒤배치)"},
-        { "name": "로지", "image": "lozy.png"  }
-      ],
-      "skillOrder": [
-    "rin1.png",
-    "silvesta1.png",
-    "rin2.png"
-  ]
+     
     
-    },
     {
       "teamId": 2,
       "name": "방어팀 3",
@@ -228,23 +216,8 @@
     "Melkir1.png",
     "silvesta1.png"
   ]
-    },
-    {
-      "teamId": 2,
-      "name": "방어팀 3",
-      "heroes": [
-        { "name": "에반", "image": "evan.png" },
-        { "name": "연희", "image": "Yeonhee.png"  },
-        { "name": "유이", "image": "Yui.png" }
-      ],
-       
-      "skillOrder": [
-    "evan2.png",
-    "Yeonhee2.png",
-    "Yeonhee1.png"
-  ],
-  "note":"연희만 있고 나머지영웅이 없거나 너무 약할때"
     }
+    
   ]
      },
     "방덱": {
