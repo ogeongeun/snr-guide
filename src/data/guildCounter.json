@@ -323,7 +323,7 @@
           {
             "team": [
               { "name": "에반", "image": "/images/heroes/evan.png" },
-              { "name": "파스칼", "image": "/images/heroes/paxcal.png"},
+              { "name": "파스칼", "image": "/images/heroes/pascal.png"},
               { "name": "유이", "image": "/images/heroes/yui.png" }
             ],
             "note": "상대 제이브일때(노호로 피깍후 버티기)",
@@ -471,7 +471,7 @@
         "recommendedCounters": [
           {
             "team": [
-              { "name": "노호", "image": "/images/heroes/nogo.png" },
+              { "name": "노호", "image": "/images/heroes/noho.png" },
               { "name": "발리", "image": "/images/heroes/ballista.png" },
               { "name": "에이스", "image": "/images/heroes/ace.png"}
             ],
