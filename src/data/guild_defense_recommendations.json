@@ -96,7 +96,7 @@
       "teamId": 3,
       "name": "방어팀 1",
       "heroes": [
-        { "name": "에이스", "image": "ace.png"},
+        { "name": "진", "image": "jin.png","note":"주술사(효적/치확/모공/모공)+속공"},
         { "name": "발리스타", "image": "ballista.png" },
         { "name": "노호", "image": "noho.png","note":"속공세팅" }
       ],
@@ -282,29 +282,8 @@
     }
     ]
   },
-   "즉사 방덱": {
-         
-      "teams":[
-      {
-      "teamId": 2,
-      "name": "방어팀 3",
-      "heroes": [
-        { "name": "로지", "image": "lozy.png" },
-        { "name": "크리스", "image": "chris.png" ,"note":"암살자(치확/치확/모공/모공" },
-        { "name": "루디", "image": "rudy.png" }
-      ],
-       
-      "skillOrder": [
-    "chris1.png",
-    "chris2.png",
-    "rudy2.png"
-  ],
-  "note":"무조건 크리스 딜템일때만"
-    }
-  ]
-    
-  
-},
+
+
    "번외": {
          
       "teams":[
