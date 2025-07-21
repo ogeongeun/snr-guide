@@ -28,13 +28,28 @@
             
             "team": [
               
-              { "name": "루디", "image": "/images/heroes/rudy.png" ,"note":"조율자 세팅/2초이상"},
-              { "name": "제이브", "image": "/images/heroes/jave.png" },
-              { "name": "리나", "image": "/images/heroes/lina.png"}
+              { "name": "첸슬러", "image": "/images/heroes/chancellor.png" },
+              { "name": "아라곤", "image": "/images/heroes/aragon.png","note":"다른 탱커로 가능" },
+              { "name": "엘리스", "image": "/images/heroes/elise.png"}
             ],
             "skillOrder": [
-      "lina1.png",
-      "rudy2.png",
+      "aragon1.png",
+      "chancellor2.png",
+      "elise2.png"
+            ]
+          },
+          {
+            
+            "team": [
+              
+              { "name": "루디", "image": "/images/heroes/rudy.png" ,"note":"조율자 세팅/2초이상"},
+              { "name": "제이브", "image": "/images/heroes/jave.png" },
+              { "name": "카르마", "image": "/images/heroes/carma.png"}
+            ],
+            "skillOrder": [
+              "rudy2.png",
+      "carma2.png",
+      
       "jave1.png"
             ]
           },
@@ -304,6 +319,20 @@
       "yui1.png"
      
             ]
+          },
+          {
+            "team": [
+              { "name": "에반", "image": "/images/heroes/evan.png" },
+              { "name": "파스칼", "image": "/images/heroes/paxcal.png"},
+              { "name": "유이", "image": "/images/heroes/yui.png" }
+            ],
+            "note": "상대 제이브일때(노호로 피깍후 버티기)",
+             "skillOrder": [
+      "evan2.png",
+      "pascal2.png",
+      "pascal1.png"
+     
+            ]
           }
           
          
@@ -321,6 +350,20 @@
            { "name": "카르마", "image": "/images/heroes/carma.png" }
         ],
         "recommendedCounters": [
+          {
+            "team": [
+              { "name": "에반", "image": "/images/heroes/evan.png" },
+              { "name": "파스칼", "image": "/images/heroes/pascal.png"},
+              { "name": "유이", "image": "/images/heroes/yui.png" }
+            ],
+            "note": "상대 제이브일때(노호로 피깍후 버티기)",
+             "skillOrder": [
+      "evan2.png",
+      "pascal2.png",
+      "pascal1.png"
+     
+            ]
+          },
           {
             "team": [
               { "name": "에반", "image": "/images/heroes/evan.png" },
@@ -388,7 +431,7 @@
               { "name": "발리스타", "image": "/images/heroes/ballista.png" },
               { "name": "리", "image": "/images/heroes/lee.png","note":"속공 조금 챙겨주기" }
             ],
-            "note": "도발 걸고 패기",
+            "note": "속공 이길때",
              "skillOrder": [
       "lee1.png",
      "poongyeon1.png",
@@ -398,15 +441,15 @@
           },
           {
             "team": [
-              { "name": "리나", "image": "/images/heroes/lina.png" },
-              { "name": "풍연", "image": "/images/heroes/ballista.png" },
-              { "name": "리", "image": "/images/heroes/lee.png","note":"속공 조금 챙겨주기" }
+              { "name": "에이스", "image": "/images/heroes/ace.png" },
+              { "name": "풍연", "image": "/images/heroes/poongyeon.png" },
+              { "name": "레이", "image": "/images/heroes/rei.png"}
             ],
-            "note": "도발 걸고 패기",
+            "note": "속공 질때",
              "skillOrder": [
-      "lee1.png",
-     "poongyeon1.png",
-      "poongyeon2.png"
+      "poongyeon1.png",
+     "poongyeon2.png",
+      "rei2.png"
      
             ]
           }

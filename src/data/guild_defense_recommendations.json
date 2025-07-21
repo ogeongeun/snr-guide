@@ -27,7 +27,7 @@
       "teamId": 3,
       "name": "방어팀 1",
       "heroes": [
-        { "name": "로지", "image": "rozy.png" },
+        { "name": "로지", "image": "lozy.png" },
         { "name": "테오", "image": "teo.png" ,"note":"뒤배치" },
         { "name": "아일린", "image": "eileene.png","note":"고초월 스파이크 대체가능" }
       ],
@@ -74,9 +74,44 @@
      "ballista1.png"
   ],
   "note":"델론즈 2초월안되면 그냥 태오 공덱에 사용"
+    },
+    {
+      "teamId": 3,
+      "name": "방어팀 1",
+      "heroes": [
+        { "name": "에이스", "image": "ace.png"},
+        { "name": "발리스타", "image": "ballista.png" },
+        { "name": "파이", "image": "pie.png" }
+      ],
+       "skillOrder": [
+  
+   
+    "ace2.png",
+      "pie1.png",
+     "ballista1.png"
+  ]
+ 
+    },
+    {
+      "teamId": 3,
+      "name": "방어팀 1",
+      "heroes": [
+        { "name": "에이스", "image": "ace.png"},
+        { "name": "발리스타", "image": "ballista.png" },
+        { "name": "노호", "image": "noho.png" }
+      ],
+       "skillOrder": [
+  
+   
+    "noho1.png",
+      "ballista1.png"
+    
+  ]
+ 
     }
       ]
     },
+    
      "마덱": {
            "desc": "메인딜러(연희,린)두고 \n 나머지 두자리(바네사,실베스타,니아,유신,멜키르,쥬리)중\n  속공 높은거 넣기\n ! 니아 바네사 안겹치게",
       "teams":[
@@ -148,13 +183,28 @@
     "rin1.png"
   ]
     },
+     {
+      "teamId": 2,
+      "name": "방어팀 3",
+      "heroes": [
+        { "name": "멜키르", "image": "Melkir.png" },
+        { "name": "린", "image": "rin.png"  },
+        { "name": "바네사", "image": "vanessa.png" , "note": "조율자(효적/효적/막/막)"}
+      ],
+       
+      "skillOrder": [
+    "vanessa1.png",
+    "vanessa2.png",
+    "Melkir1.png"
+  ]
+    },
     {
       "teamId": 0,
       "name": "방어팀 3",
       "heroes": [
         { "name": "실베스타", "image": "silvesta.png"},
         { "name": "린", "image": "rin.png" , "note": "딜러(뒤배치)"},
-        { "name": "로지", "image": "rozy.png"  }
+        { "name": "로지", "image": "lozy.png"  }
       ],
       "skillOrder": [
     "rin1.png",
@@ -178,28 +228,62 @@
     "Melkir1.png",
     "silvesta1.png"
   ]
+    },
+    {
+      "teamId": 2,
+      "name": "방어팀 3",
+      "heroes": [
+        { "name": "에반", "image": "evan.png" },
+        { "name": "연희", "image": "Yeonhee.png"  },
+        { "name": "유이", "image": "Yui.png" }
+      ],
+       
+      "skillOrder": [
+    "evan2.png",
+    "Yeonhee2.png",
+    "Yeonhee1.png"
+  ],
+  "note":"연희만 있고 나머지영웅이 없거나 너무 약할때"
     }
   ]
      },
     "방덱": {
          
       "teams":[
+        {
+      "teamId": 0,
+      "name": "방어팀 3",
+      "heroes": [
+        
+        { "name": "카르마", "image": "carma.png" , "note": "암살자(치확/치확/막/막) 치확100,막기100"},
+         { "name": "스파이크", "image": "spike.png","note":"암살자(치확/치확/막/막)" },
+        { "name": "에이스", "image": "ace.png" ,"note":"레이첼,제이브 대체가능"}
+      ],
+       "skillOrder": [
+    "spike2.png",
+    "carma2.png",
+    "carma1.png"
+  ]
+     
+ 
+    },
+     
     {
       "teamId": 0,
       "name": "방어팀 3",
       "heroes": [
          { "name": "유이", "image": "yui.png" },
-        { "name": "제이브", "image": "jave.png" ,"note":"즉사 반지"},
-        { "name": "루디", "image": "rudy.png" }
+        { "name": "풍연", "image": "poongyeon.png"},
+        { "name": "에반", "image": "evan.png" }
       ], "skillOrder": [
   
    
-    "yui2.png",
-      "yui1.png",
-     "rudy2.png"
+    "evan2.png",
+      "poongyeon1.png",
+     "poongyeon2.png"
   ],
      
-  "note":"가끔 터지는 제이브 즉사+버티기"
+  "note":"쓸거 없을때"
     }
    ,
     {
