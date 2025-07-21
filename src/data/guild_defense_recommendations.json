@@ -268,6 +268,40 @@
  
     },
      
+    
+    {
+      "teamId": 0,
+      "name": "방어팀 3",
+      "heroes": [
+         { "name": "제이브", "image": "jave.png" },
+        { "name": "카르마", "image": "carma.png" , "note": "암살자(치확/치확/막/막) 치확100,막기100"},
+        { "name": "루디", "image": "rudy.png" }
+      ],
+     
+  "note":"제이브 6성 즉사반지+3명 모두 고초월 일때 사용(특히 카르마 방방막막세팅이면 사용x)"
+    }
+    ]
+  },
+   "번외": {
+         
+      "teams":[
+      {
+      "teamId": 2,
+      "name": "방어팀 3",
+      "heroes": [
+        { "name": "에반", "image": "evan.png" },
+        { "name": "연희", "image": "Yeonhee.png"  },
+        { "name": "유이", "image": "Yui.png" }
+      ],
+       
+      "skillOrder": [
+    "evan2.png",
+    "Yeonhee2.png",
+    "Yeonhee1.png"
+  ],
+  "note":"연희만 있고 나머지영웅이 없거나 너무 약할때"
+    },
+     
     {
       "teamId": 0,
       "name": "방어팀 3",
@@ -290,12 +324,18 @@
       "teamId": 0,
       "name": "방어팀 3",
       "heroes": [
-         { "name": "제이브", "image": "jave.png" },
-        { "name": "카르마", "image": "carma.png" , "note": "암살자(치확/치확/막/막) 치확100,막기100"},
-        { "name": "루디", "image": "rudy.png" }
+         { "name": "에반", "image": "evan.png" },
+        { "name": "루리", "image": "luri.png" , "note": "고초월 타카 대체가능"},
+        { "name": "유이", "image": "yui.png" }
       ],
-     
-  "note":"제이브 6성 즉사반지+3명 모두 고초월 일때 사용(특히 카르마 방방막막세팅이면 사용x)"
+      "skillOrder": [
+  
+   
+    "evan2.png",
+      "luri2.png",
+     "luri1.png"
+  ],
+  "note":""
     }
     ]
   }
