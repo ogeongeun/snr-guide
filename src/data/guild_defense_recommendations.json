@@ -39,7 +39,7 @@
    
   ],
   
-  "note":"방덱 카운터 대비( 현 랭커들이 쓰는덱)"
+  "note":"1티어"
     
     },
     {
@@ -111,7 +111,7 @@
       "dellons1.png",
      "dellons2.png"
   ],
-  "note":"현 랭커들이 쓰는덱"
+  "note":"1티어"
     },
     
     {
@@ -135,7 +135,7 @@
       "teamId": 3,
       "name": "방어팀 1",
       "heroes": [
-        { "name": "에이스", "image": "ace.png"},
+        { "name": "에이스", "image": "ace.png","note":"조율자"},
         { "name": "발리스타", "image": "ballista.png" },
         { "name": "파이", "image": "pie.png" }
       ],
@@ -145,7 +145,8 @@
     "ace2.png",
       "pie1.png",
      "ballista1.png"
-  ]
+  ],
+"note":"1티어"
  
     },
     {
