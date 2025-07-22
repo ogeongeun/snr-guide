@@ -191,6 +191,22 @@
   ],
     "note":"니아랑 바네사랑 같이 쓰지말것"
     }, 
+   {
+      "teamId": 0,
+      "name": "방어팀 3",
+      "heroes": [
+        { "name": "로지", "image": "lozy.png"},
+        { "name": "연희", "image": "Yeonhee.png" , "note": "딜러(뒤배치)"},
+        { "name": "니아", "image": "nia.png"  }
+      ],
+      "skillOrder": [
+    "nia2.png",
+    
+    "Yeonhee2.png",
+   "Yeonhee1.png"
+  ],
+    "note":"니아랑 바네사랑 같이 쓰지말것"
+    }, 
     {
       "teamId": 2,
       "name": "방어팀 3",
