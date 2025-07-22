@@ -20,7 +20,26 @@
    
   ],
   
-  "note":"니아대체 cc영웅 사용시(니아스킬 대신 그 영웅cc스킬) "
+  
+    
+    },
+   {
+      "teamId": 1,
+      "name": "방어팀 4",
+      "heroes": [
+        { "name": "파이", "image": "eileene.png","note": "cc"  },
+        { "name": "태오", "image": "teo.png" , "note": "딜러(뒤배치)" },
+        { "name": "유신", "image": "pie.png","note":"델론즈,에이스 대체" }
+      ],
+      "skillOrder": [
+    
+    "Yushin2.png",
+    "pie1.png",
+    "teo1.png"
+   
+  ],
+  
+  "note":"방덱 카운터 대비( 현 랭커들이 쓰는덱)"
     
     },
     {
@@ -40,7 +59,7 @@
    
   ],
   
-  "note":"니아대체 cc영웅 사용시(니아스킬 대신 그 영웅cc스킬) "
+ 
     
     },
     {
@@ -76,6 +95,23 @@
      "dellons2.png"
   ],
   "note":"델론즈 2초월안되면 그냥 태오 공덱에 사용"
+    },
+   {
+      "teamId": 3,
+      "name": "방어팀 1",
+      "heroes": [
+        { "name": "로지", "image": "pie.png","note":"레이첼,로지 대체가능" },
+        { "name": "델론즈", "image": "dellons.png" ,"note":"2초월이상 (뒤배치)" },
+        { "name": "아일린", "image": "spike.png" }
+      ],
+       "skillOrder": [
+  
+   
+    "eileene2.png",
+      "dellons1.png",
+     "dellons2.png"
+  ],
+  "note":"혀ㄴ 랭커들이 쓰는덱"
     },
     
     {
