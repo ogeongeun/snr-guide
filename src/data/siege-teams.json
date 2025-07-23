@@ -352,6 +352,66 @@
       {
         "team": [
           {
+            "name": "에이스",
+            "image": "ace.png"
+          },
+          {
+            "name": "파이",
+            "image": "pie.png"
+          },
+          {
+            "name": "타카",
+            "image": "taka.png"
+            ,"note": "뒤배치"
+          },
+          {
+            "name": "진",
+            "image": "jin.png"
+          },
+          {
+            "name": "리나",
+            "image": "lina.png"
+            ,"note": "수문장 세트"
+          }
+        ],
+        "tags": [
+          
+        ],
+        "note": "운빨 초고점덱"
+      },
+      {
+        "team": [
+          {
+            "name": "에이스",
+            "image": "ace.png"
+          },
+          {
+            "name": "리",
+            "image": "lee.png"
+          },
+          {
+            "name": "타카",
+            "image": "taka.png"
+            ,"note": "뒤배치"
+          },
+          {
+            "name": "진",
+            "image": "jin.png"
+          },
+          {
+            "name": "리나",
+            "image": "lina.png"
+          }
+        ],
+        "tags": [
+          "레이첼 ->에이스"
+        ],
+        "note": ""
+      },
+      
+      {
+        "team": [
+          {
             "name": "레이첼",
             "image": "rachel.png"
           },
@@ -407,35 +467,6 @@
           
         ],
         "note": "풍연1스=비담1스,풍연2스=비담2스로 대체"
-      },
-      {
-        "team": [
-          {
-            "name": "에이스",
-            "image": "ace.png"
-          },
-          {
-            "name": "리",
-            "image": "lee.png"
-          },
-          {
-            "name": "타카",
-            "image": "taka.png"
-            ,"note": "뒤배치"
-          },
-          {
-            "name": "진",
-            "image": "jin.png"
-          },
-          {
-            "name": "리나",
-            "image": "lina.png"
-          }
-        ],
-        "tags": [
-          "레이첼 ->에이스"
-        ],
-        "note": ""
       },
       
       {

@@ -347,7 +347,7 @@
           "skills": [
             {
               "stageTitle": "1스테이지",
-              "images": ["Yeonhee1.png"]
+              "images": ["ariel2.png"]
             },
             {
               "stageTitle": "2스테이지",
@@ -356,8 +356,8 @@
             {
               "stageTitle": "3스테이지",
               "images": [
-                "lina2.png", "ariel1.png", "vanessa1.png", "luri2.png",
-                "luri1.png","ariel2.png","ariel1.png", "Yeonhee1.png", "vanessa2.png","luri2.png","lina1.png","luri1.png","ariel1.png","lina2.png","vanessa1.png","luri2.png","Yeonhee1.png"
+                "ariel1.png", "lina2.png", "vanessa1.png", "luri2.png",
+                "luri1.png", "Yeonhee1.png","ariel1.png","ariel2.png","lina1.png", "vanessa1.png","luri2.png","luri1.png","ariel1.png","lina2.png","Yeonhee1.png","luri2.png","luri1.png"
                 
               ]
               
@@ -539,6 +539,113 @@
     }
   ],
   "죽음의 성 (목요일)": [
+     {
+     
+      "skillOrders": [
+        {
+          "orderTitle": "최고점 (델론즈 즉격 운빨덱) ",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["jin1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["jin2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "lina2.png", "ace2.png", "taka1.png","taka2.png", "lina1.png",
+                "pie1.png", "pie2.png", "jin2.png","ace2.png","taka2.png","taka1.png","lina2.png","lina1.png","jin1.png","jin2.png","taka2.png","taka1.png"
+                
+              ]
+              
+               
+            }
+          ]
+        }
+        
+      
+     
+       
+      ]
+    },
+    {
+     
+      "skillOrders": [
+        {
+          "orderTitle": "초고점(델론즈즉격 한번 씹기)",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["jin1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["jin2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "ace2.png", "lina2.png", "taka1.png", "taka2.png",
+                "lina1.png", "jin1.png", "lee1.png","ace2.png","taka2.png","taka1.png","lee1.png","lina2.png","jin2.png","ace2.png","taka2.png","lee1.png","taka1.png","jin1.png"
+                
+              ]
+              
+               
+            }
+          ]
+        },
+        {
+          "orderTitle": "한방",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["jin1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["jin2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "ace2.png", "lee1.png", "lina2.png", "taka1.png",
+                "taka2.png", "jin1.png", "lee1.png","ace2.png","jin2.png","taka2.png","lina2.png","lee1.png","taka1.png","jin1.png","taka2.png","ace2.png","lee1.png","jin2.png","taka1.png"
+                
+              ]
+              
+               
+            }
+          ]
+        },
+        {
+          "orderTitle": "두방",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["jin1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["ace2.png","taka2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "lee1.png", "lina2.png", "taka1.png", "jin2.png",
+                "ace2.png", "taka2.png", "lee1.png","lina1.png","jin2.png","taka1.png","lina2.png","lee1.png","ace2.png","taka2.png"
+                
+              ]
+              
+               
+            }
+          ]
+        }
+        
+      ]
+    },
     {
      
       "skillOrders": [
@@ -626,58 +733,7 @@
       ]
     },
     
-    {
-     
-      "skillOrders": [
-        {
-          "orderTitle": "한방",
-          "skills": [
-            {
-              "stageTitle": "1스테이지",
-              "images": ["jin1.png"]
-            },
-            {
-              "stageTitle": "2스테이지",
-              "images": ["taka2.png"]
-            },
-            {
-              "stageTitle": "3스테이지",
-              "images": [
-                "lee1.png", "lina2.png", "taka1.png", "jin2.png",
-                "ace2.png", "taka2.png", "lee1.png","lina1.png","jin2.png"
-                
-              ]
-              
-               
-            }
-          ]
-        },
-        {
-          "orderTitle": "두방",
-          "skills": [
-            {
-              "stageTitle": "1스테이지",
-              "images": ["jin1.png"]
-            },
-            {
-              "stageTitle": "2스테이지",
-              "images": ["ace2.png","taka2.png"]
-            },
-            {
-              "stageTitle": "3스테이지",
-              "images": [
-                "lee1.png", "lina2.png", "taka1.png", "jin2.png",
-                "ace2.png", "taka2.png", "lee1.png","lina1.png","jin2.png","taka1.png","lina2.png","lee1.png","ace2.png","taka2.png"
-                
-              ]
-              
-               
-            }
-          ]
-        }
-        
-      ]
-    },
+    
     {
      
       "skillOrders": [
