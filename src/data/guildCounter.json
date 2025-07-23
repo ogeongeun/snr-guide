@@ -194,6 +194,21 @@
             ],
             "note":"에이스 2스킬로 디버프 해제"
           },
+          {
+              
+            "team": [
+               { "name": "유신", "image": "/images/heroes/yushin.png" ,"note":"2초월 이상(조율자)"},
+              { "name": "연희", "image": "/images/heroes/yeonhee.png" },
+              { "name": "바네사", "image": "/images/heroes/vanessa.png" }
+            ],
+            
+            "skillOrder": [
+      "Yushin1.png",
+      "Yushin2.png",
+      "Yeonhee2.png"
+            ],
+            "note":"상대보다 속공 낮을때(cc맞고 유신1스로 풀기)"
+          },
            {
               
             "team": [
@@ -237,6 +252,21 @@
         ],
         "recommendedCounters": [
         
+          {
+              
+            "team": [
+               { "name": "유신", "image": "/images/heroes/yushin.png" ,"note":"2초월 이상(조율자)"},
+              { "name": "연희", "image": "/images/heroes/yeonhee.png" },
+              { "name": "바네사", "image": "/images/heroes/vanessa.png" }
+            ],
+            
+            "skillOrder": [
+      "Yushin1.png",
+      "Yushin2.png",
+      "Yeonhee2.png"
+            ],
+            "note":"상대보다 속공 낮을때(cc맞고 유신1스로 풀기)"
+          },
           {
               
             "team": [
