@@ -353,6 +353,39 @@
         "team": [
           {
             "name": "에이스",
+            "image": "ace.png",
+             "note":"전반 들어가면 리트확률 낮아짐"
+          },
+          {
+            "name": "레이첼",
+            "image": "rachel.png",
+            "note":"2초월(전반 들어가면 좋음)"
+          },
+          {
+            "name": "타카",
+            "image": "taka.png"
+            ,"note": "뒤배치"
+          },
+          {
+            "name": "진",
+            "image": "jin.png",
+            "note":"전반 들어가면 리트확률 낮아짐"
+          },
+          {
+            "name": "리나",
+            "image": "lina.png"
+          
+          }
+        ],
+        "tags": [
+          
+        ],
+        "note": "파이 대신 레이첼"
+      },
+      {
+        "team": [
+          {
+            "name": "에이스",
             "image": "ace.png"
           },
           {
@@ -366,12 +399,13 @@
           },
           {
             "name": "진",
-            "image": "jin.png"
+            "image": "jin.png",
+             "note":"전반 들어가면 리트확률 낮아짐"
           },
           {
             "name": "리나",
             "image": "lina.png"
-            ,"note": "수문장 세트"
+            
           }
         ],
         "tags": [
