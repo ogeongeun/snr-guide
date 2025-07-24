@@ -1,4 +1,61 @@
 {
+  "pie": {
+    "name": "파이",
+    "image": "/images/heroes/pie.png",
+    "roles": {
+      "딜러": {
+       
+        "전체": [
+             {
+            "set": "복수자",
+            "mainOption": "모공%/모공%/모공%/모공%",
+            "note": ""
+          }
+          
+        ]
+      },
+       "토템": {
+       
+        "전체": [
+             {
+            "set": "수문장",
+            "mainOption": "모공%/모공%/막%/막%",
+            "note": ""
+          }
+          
+        ]
+      }
+    }
+  },
+   "lozy": {
+    "name": "로지",
+    "image": "/images/heroes/lozy.png",
+    "roles": {
+      "딜러": {
+       
+        "전체": [
+             {
+            "set": "수문장",
+            "mainOption": "효적%/효적%/막%/막%",
+            "note": "속공도 중요하고 효적 100%, 막기 100%  "
+          }
+          
+        ]
+      },
+       "토템": {
+       
+        "전체": [
+             {
+            "set": "수문장",
+            "mainOption": "모공%/모공%/막%/막%",
+            "note": ""
+          }
+          
+        ]
+      }
+    }
+  },
+  
   "sein": {
     "name": "세인",
     "image": "/images/heroes/sein.png",
@@ -16,6 +73,43 @@
             "mainOption": "치확/치피/모공%/모공%",
             "note": "치확 59% 맞추기 + 패시브 41%(스킬강화 포함)"
           }
+        ]
+      }
+    }
+  },
+  "dellons": {
+    "name": "델론즈",
+    "image": "/images/heroes/dellons.png",
+    "roles": {
+      "딜러": {
+       
+        "전체": [
+             {
+            "set": "복수자",
+            "mainOption": "치확/치피/모공%/모공%",
+            "note": "치확 100% 맞추기"
+          },
+          {
+            "set": "추적자",
+            "mainOption": "약확/약확/모공%/모공%",
+            "note": "약확 100% 맞추기"
+          },
+          {
+            "set": "암살자",
+            "mainOption": "치확/치피/모공%/모공%",
+            "note": "치확 100% 맞추기"
+          }
+        ]
+      },
+       "토템": {
+       
+        "전체": [
+             {
+            "set": "수문장",
+            "mainOption": "생%/생%/막/막",
+            "note": "막기100% 맞추기"
+          }
+         
         ]
       }
     }
@@ -64,9 +158,101 @@
       }
     }
   },
+  "Yeonhee": {
+    "name": "연희",
+    "image": "/images/heroes/Yeonhee.png",
+    "roles": {
+       "딜러": {
+       
+        "전체": [
+             {
+            "set": "복수자",
+            "mainOption": "치확/치피/모공%/모공%",
+            "note": "종결(치확 100% 맞추기)"
+          },
+          {
+            "set": "암살자",
+            "mainOption": "치확/치피/모공%/모공%",
+            "note": "치확 100% 맞추기"
+          }
+        ]
+      }
+    }
+  },
+  "silvesta": {
+    "name": "실베스타",
+    "image": "/images/heroes/silvesta.png",
+    "roles": {
+       "딜러": {
+       
+        "전체": [
+             {
+            "set": "복수자",
+            "mainOption": "치확/치피/모공%/모공%",
+            "note": "종결(치확 100% 맞추기)"
+          },
+          {
+            "set": "암살자",
+            "mainOption": "치확/치피/모공%/모공%",
+            "note": "치확 100% 맞추기"
+          }
+        ]
+      }
+    }
+  },
+  "luri": {
+    "name": "루리",
+    "image": "/images/heroes/luri.png",
+    "roles": {
+       "딜러": {
+       
+        "0초월~1초월": [
+             
+          {
+            "set": "추적자",
+            "mainOption": "약공%/약공%/모공%/모공%",
+            "note": "약공100% 맞추기"
+          }
+        ],
+        "2초월~6초월": [
+             
+          {
+            "set": "복수자",
+            "mainOption": "치확%/약공%/모공%/모공%",
+         "note": "치확 100% 맞추기, 치확 61%맞추기+패시브 39%"
+          },
+          {
+            "set": "암살자",
+            "mainOption": "치확%/약공%/모공%/모공%",
+         "note": "치확 100% 맞추기, 치확 61%맞추기+패시브 39%"
+          }
+        ]
+      }
+    }
+  },
   "yui": {
     "name": "유이",
     "image": "/images/heroes/yui.png",
+    "roles": {
+      "힐러": {
+        "전체": [
+          {
+            "set": "수문장",
+            "mainOption": "생%/생%/막/막",
+            "note": "전체 구간 공용"
+          },
+          {
+            "set": "성기사",
+            "mainOption": "생%/생%/생%or막"
+          }
+        ]
+      }
+     
+    }
+  },
+  "lina": {
+    "name": "리나",
+    "image": "/images/heroes/lina.png",
     "roles": {
       "힐러": {
         "전체": [
@@ -165,6 +351,51 @@
       }
     }
   },
+  "vanessa": {
+    "name": "바네사",
+    "image": "/images/heroes/vanessa.png",
+    "roles": {
+      "길드전,무탑 등": {
+       
+        "전체": [
+              {
+            "set": "주술사",
+            "mainOption": "효적%/효적%/막%/막%",
+            "note": ""
+          }
+          
+        ]
+        
+      },
+      "토템": {
+       
+        "전체": [
+              {
+            "set": "수문장",
+            "mainOption": "생or방%%/생or방%/막%/막%",
+            "note": ""
+          }
+          
+        ]
+        
+      },
+        "공성전(서브딜러)": {
+       
+        "전체": [
+             {
+            "set": "복수자",
+            "mainOption": "치확/치피/모공%/모공%",
+            "note": "종결(치확 100% 맞추기)"
+          },
+          {
+            "set": "암살자",
+            "mainOption": "치확/치피/모공%/모공%",
+            "note": "치확 100% 맞추기"
+          }
+        ]
+      }
+    }
+  },
   "rin": {
     "name": "린",
     "image": "/images/heroes/rin.png",
@@ -195,17 +426,38 @@
       }
     }
   },
+  
   "rudy": {
     "name": "루디",
     "image": "/images/heroes/rudy.png",
     "roles": {
-      "cc": {
+      "탱커": {
        
         "전체": [
               {
             "set": "조율자",
             "mainOption": "방%/방%/막/막"
-           
+           ,"note":"cc버티고 방준으로 팀원cc풀기"
+          }
+          
+          
+        ]
+       
+      }
+    }
+    
+  },
+  "nox": {
+    "name": "녹스",
+    "image": "/images/heroes/nox.png",
+    "roles": {
+      "cc": {
+       
+        "전체": [
+              {
+            "set": "주술사",
+            "mainOption": "효적%/효적%/막/막"
+           ,"note":"효적 100%, 막기 100%"
           }
           
           
@@ -291,14 +543,33 @@
     "name": "아일린",
     "image": "/images/heroes/eileene.png",
     "roles": {
-      "cc": {
+      "pvp용 cc": {
        
         "전체": [
               {
+            "set": "주술사",
+            "mainOption": "효적/효적/막/막"
+           
+          },
+           {
             "set": "조율자",
             "mainOption": "효적/효적/막/막"
            
           }
+          
+          
+        ]
+       
+      },
+      "토템": {
+       
+        "전체": [
+              {
+            "set": "수문장",
+            "mainOption": "생%or방%/생%or방%/막%/막%"
+           
+          }
+           
           
           
         ]
@@ -318,6 +589,86 @@
             "set": "수문장",
             "mainOption": "효적/효적/막/막",
            "note":"즉사 반지"
+          }
+          
+          
+        ]
+       
+      }
+    }
+    
+  },
+  "rachel": {
+    "name": "레이첼",
+    "image": "/images/heroes/rachel.png",
+    "roles": {
+      "토템": {
+       
+        "전체": [
+              {
+            "set": "수문장",
+            "mainOption": "생%or방%/생%or방%/막%/막%",
+           "note":""
+          }
+          
+          
+        ]
+       
+      }
+    }
+    
+  },
+  "spike": {
+    "name": "스파이크",
+    "image": "/images/heroes/spike.png",
+    "roles": {
+      "탱커": {
+       
+        "전체": [
+              {
+            "set": "수문장",
+            "mainOption": "생%/생%/막%/막%",
+           "note":"막 80%정도 챙기고 나머지 생% 올리기"
+          }
+          
+          
+        ]
+       
+      }
+    }
+    
+  },
+  "chris": {
+    "name": "크리스",
+    "image": "/images/heroes/chris.png",
+    "roles": {
+      "cc": {
+       
+        "전체": [
+              {
+            "set": "주술사",
+            "mainOption": "효적%/효적%/막/막"
+           ,"note":"효적 100%, 막기 100%"
+          }
+          
+          
+        ]
+       
+      }
+    }
+    
+  },
+  "ace": {
+    "name": "에이스",
+    "image": "/images/heroes/ace.png",
+    "roles": {
+      "토템": {
+       
+        "전체": [
+              {
+            "set": "수문장",
+            "mainOption": "생%or방%/생%or방%/막%/막%",
+           "note":""
           }
           
           
@@ -374,6 +725,11 @@
         "전체": [
               {
             "set": "조율자",
+            "mainOption": "효적/효적(남으면 생명)/막/막",
+           "note": "막기100,적중60 맞추기"
+          },
+           {
+            "set": "주술사",
             "mainOption": "효적/효적(남으면 생명)/막/막",
            "note": "막기100,적중60 맞추기"
           }
