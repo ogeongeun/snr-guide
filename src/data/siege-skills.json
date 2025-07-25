@@ -1005,7 +1005,7 @@
             {
               "stageTitle": "3스테이지",
               "images": [
-                "rachel2.png","vanessa1.png","lina2.png","taka2.png","taka1.png","poongyeon1.png","poongyeon2.png","rachel1.png","vanessa1.png","rachel2.png","taka2.png","taka1.png","lina2.png","poongyeon2.png","vanessa1.png","rachel2.png","taka2.png","taka1.png"
+                "rachel2.png",{ "image": "vanessa1.png", "label": "버프해제" },"lina2.png","taka2.png","taka1.png","poongyeon1.png","poongyeon2.png","rachel1.png",{ "image": "vanessa1.png", "label": "버프해제" },"rachel2.png","taka2.png","taka1.png","lina2.png","poongyeon2.png",{ "image": "vanessa1.png", "label": "버프해제" },"rachel2.png","taka2.png","taka1.png"
                 
               ]
               
@@ -1027,7 +1027,7 @@
             {
               "stageTitle": "3스테이지",
               "images": [
-                "rachel2.png","vanessa1.png","lina2.png","poongyeon2.png","taka2.png","taka1.png","poongyeon1.png","lina1.png","vanessa1.png","rachel2.png","taka2.png","poongyeon2.png","taka1.png","poongyeon1.png","vanessa1.png","taka2.png"
+                "rachel2.png",{ "image": "vanessa1.png", "label": "버프해제" },"lina2.png","poongyeon2.png","taka2.png","taka1.png","poongyeon1.png","lina1.png",{ "image": "vanessa1.png", "label": "버프해제" },"rachel2.png","taka2.png","poongyeon2.png","taka1.png","poongyeon1.png",{ "image": "vanessa1.png", "label": "버프해제" },"taka2.png"
                 
               ]
               
@@ -1049,7 +1049,7 @@
             {
               "stageTitle": "3스테이지",
               "images": [
-                "rachel2.png","vanessa1.png","lina2.png","poongyeon2.png","taka2.png","taka1.png","poongyeon1.png","rachel2.png","vanessa1.png","lina1.png","taka2.png","poongyeon2.png","taka1.png","poongyeon1.png","vanessa1.png","taka2.png"
+                "rachel2.png",{ "image": "vanessa1.png", "label": "버프해제" },"lina2.png","poongyeon2.png","taka2.png","taka1.png","poongyeon1.png","rachel2.png",{ "image": "vanessa1.png", "label": "버프해제" },"lina1.png","taka2.png","poongyeon2.png","taka1.png","poongyeon1.png",{ "image": "vanessa1.png", "label": "버프해제" },"taka2.png"
                 
               ]
               
@@ -1071,7 +1071,7 @@
             {
               "stageTitle": "3스테이지",
               "images": [
-                "rachel2.png","vanessa1.png","lina2.png","poongyeon2.png","taka2.png","taka1.png","poongyeon1.png","rachel2.png","vanessa1.png","lina1.png","taka2.png","poongyeon2.png","taka1.png","poongyeon1.png","vanessa1.png","taka2.png"
+                "rachel2.png",{ "image": "vanessa1.png", "label": "버프해제" },"lina2.png","poongyeon2.png","taka2.png","taka1.png","poongyeon1.png","rachel2.png",{ "image": "vanessa1.png", "label": "버프해제" },"lina1.png","taka2.png","poongyeon2.png","taka1.png","poongyeon1.png",{ "image": "vanessa1.png", "label": "버프해제" },"taka2.png"
                 
               ]
               
@@ -1100,7 +1100,7 @@
             {
               "stageTitle": "3스테이지",
               "images": [
-                "rachel2.png","vanessa1.png","yui1.png","taka1.png","poongyeon1.png","taka2.png","rachel2.png","poongyeon2.png","vanessa1.png","rachel1.png","taka1.png","taka2.png","yui1.png","rachel2.png","vanessa1.png"
+                "rachel2.png",{ "image": "vanessa1.png", "label": "버프해제" },"yui1.png","taka1.png","poongyeon1.png","taka2.png","rachel2.png","poongyeon2.png",{ "image": "vanessa1.png", "label": "버프해제" },"rachel1.png","taka1.png","taka2.png","yui1.png","rachel2.png",{ "image": "vanessa1.png", "label": "버프해제" }
                 
               ]
               
