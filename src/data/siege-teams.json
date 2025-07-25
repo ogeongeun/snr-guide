@@ -564,6 +564,36 @@
       
     ],
     "고대용의 성 (금요일)": [
+       {
+        "team": [
+          {
+            "name": "지크",
+            "image": "zick.png"
+          },
+          {
+            "name": "유이",
+            "image": "yui.png"
+          },
+          {
+            "name": "타카",
+            "image": "taka.png"
+            ,"note": "뒤배치"
+          },
+          {
+            "name": "비담",
+            "image": "bidam.png"
+            ,"note": "뒤배치"
+          },
+          {
+            "name": "레이첼",
+            "image": "rachel.png"
+          }
+        ],
+        "tags": [
+          "운빨최고점"
+        ],
+        "note": ""
+      },
       {
         "team": [
           {

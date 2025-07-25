@@ -836,6 +836,34 @@
           "skills": [
             {
               "stageTitle": "1스테이지",
+              "images": ["bidam2.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["taka2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "rachel2.png","taka1.png","bidam1.png","zick1.png","yui1.png","taka2.png","bidam2.png","taka1.png","rachel2.png","zick1.png","taka2.png","bidam1.png","yui1.png","taka1.png","bidam2.png","taka2.png","bidam1.png"
+                
+              ]
+              
+               
+            }
+          ]
+        }
+        
+      ]
+    },
+    {
+     
+      "skillOrders": [
+        {
+          "orderTitle": "1,2스테이지 타카 원킬나면 지크 스킬x",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
               "images": ["zick2.png","taka2.png"]
             },
             {
