@@ -48,6 +48,15 @@
       ]
     }
 },
+"5층": {
+    "0": {
+        
+      "skills": [
+        "Melkir1.png","teo2.png",  { "image": "teo2.png", "label": "테오 죽으면 " },"teo1.png","Yeonhee2.png"
+       
+      ]
+    }
+},
 "6층": {
     "0": {
       

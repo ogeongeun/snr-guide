@@ -85,6 +85,27 @@
   
 
 },
+"5층": {
+   
+     
+  "teams": [
+    { "description": "",
+      "medal": 6,
+      "heroes": [
+        { "name": "바네사", "image": "/images/heroes/vanessa.png" },
+         { "name": "멜키르", "image": "/images/heroes/Melkir.png" },
+          { "name": "테오", "image": "/images/heroes/teo.png" ,"note":"뒤배치"},
+        { "name": "진", "image": "/images/heroes/jin.png" },
+        { "name": "연희", "image": "/images/heroes/Yeonhee.png","note":"불사나 부활 반지는 있어야할듯" }
+      ]
+    }
+    
+     
+    
+  ]
+  
+
+},
 "6층": {
     "description": "평타로 피격30회 까기",
      
