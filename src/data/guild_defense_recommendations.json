@@ -215,7 +215,7 @@
       "heroes": [
         { "name": "멜키르", "image": "Melkir.png" },
         { "name": "린", "image": "rin.png"  },
-        { "name": "바네사", "image": "vanessa.png" , "note": "조율자(효적/효적/막/막)"}
+        { "name": "바네사", "image": "vanessa.png" , "note": "주술사(효적/효적/막/막)"}
       ],
        
       "skillOrder": [
@@ -229,7 +229,7 @@
       "teamId": 0,
       "name": "방어팀 3",
       "heroes": [
-        { "name": "바네사", "image": "vanessa.png"},
+        { "name": "바네사", "image": "vanessa.png","note":"주술사(효적/효적/막/믹)"},
         { "name": "연희", "image": "Yeonhee.png" , "note": "딜러(뒤배치)"},
          { "name": "린", "image": "rin.png","note":"쥬리 대체가능"}
       ],
