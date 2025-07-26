@@ -118,7 +118,7 @@
       "teamId": 3,
       "name": "방어팀 1",
       "heroes": [
-        { "name": "발리스타", "image": "ballista.png","note":"풍연 대체가능" },
+        { "name": "발리스타", "image": "ballista.png","note":"콜트, 풍연 대체가능" },
         { "name": "델론즈", "image": "dellons.png" ,"note":"2초월이상 (뒤배치)" },
         { "name": "스파이크", "image": "spike.png" }
       ],
@@ -136,7 +136,7 @@
       "name": "방어팀 1",
       "heroes": [
         { "name": "에이스", "image": "ace.png","note":"조율자"},
-        { "name": "발리스타", "image": "ballista.png" },
+        { "name": "발리스타", "image": "ballista.png" ,"note":"콜트 대체가능"},
         { "name": "파이", "image": "pie.png" }
       ],
        "skillOrder": [
