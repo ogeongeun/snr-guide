@@ -83,7 +83,7 @@
       "teamId": 3,
       "name": "방어팀 1",
       "heroes": [
-        { "name": "파이", "image": "pie.png","note":"레이첼,로지 대체가능" },
+        { "name": "파이", "image": "pie.png","note":"레이첼,콜트 대체가능" },
         { "name": "델론즈", "image": "dellons.png" ,"note":"2초월이상 (뒤배치)" },
         { "name": "스파이크", "image": "spike.png" }
       ],
