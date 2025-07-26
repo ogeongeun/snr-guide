@@ -302,6 +302,21 @@
     
   ]
 },
+"201층": {
+  "teams": [
+    {
+      "description": "",
+      "heroes": [
+        { "name": "아일린", "image": "/images/heroes/eileene.png" },
+          { "name": "델론즈", "image": "/images/heroes/dellons.png" },
+              { "name": "테오", "image": "/images/heroes/teo.png" },
+           { "name": "리나", "image": "/images/heroes/lina.png" },
+        { "name": "바네사", "image": "/images/heroes/vanessa.png","note":"에이스 대체가능" }
+    
+      ]
+    }
+    ]
+},
 "일반층": {
   "teams": [
     {

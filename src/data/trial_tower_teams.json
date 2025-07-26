@@ -63,7 +63,7 @@
       "heroes": [
         { "name": "클로에", "image": "/images/heroes/chloe.png" },
          { "name": "메이", "image": "/images/heroes/mei.png" },
-          { "name": "제인", "image": "/images/heroes/pascal.png" },
+          { "name": "제인", "image": "/images/heroes/jane.png" },
         { "name": "녹스", "image": "/images/heroes/nox.png" ,"note":"2초월 이상"},
         { "name": "리", "image": "/images/heroes/lee.png" }
       ]

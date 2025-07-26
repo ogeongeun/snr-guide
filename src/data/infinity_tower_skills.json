@@ -211,6 +211,17 @@
     
    
   },
+  "201층": {
+    "0": {
+       "videoUrl": "https://youtu.be/uyAjAAa2D9Q?t=159&si=V6gJbUhjx1LHwdR9",
+      "1스테이지": ["teo2.png","teo1.png","lina2.png"],
+      "2스테이지": ["eileene2.png","dellons1.png","dellons2.png","vanessa2.png","vanessa1.png","lina1.png"],
+      "3스테이지": [
+        "lina2.png","teo1.png","teo2.png","eileene2.png"]
+    }
+    
+   
+  },
   "일반층": {
     "0": {
       "1스테이지": ["melkir2.png","teo1.png","teo2.png"],

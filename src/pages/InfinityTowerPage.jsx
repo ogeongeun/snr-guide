@@ -17,10 +17,10 @@ const InfinityTowerPage = () => {
 
     // ✅ 100~200층 중 존재하는 층만 필터링하여 그룹화
     const keys = Object.keys(data).filter(k => /^\d+층$/.test(k));
-    const numericFloors = keys.map(k => parseInt(k)).filter(n => n >= 100 && n <= 200);
+    const numericFloors = keys.map(k => parseInt(k)).filter(n => n >= 100 && n <= 250);
 
-    for (let start = 100; start <= 190; start += 10) {
-      const end = start === 190 ? 200 : start + 9;
+    for (let start = 100; start <= 240; start += 10) {
+  const end = start + 9;
       const groupKey = `${start}~${end}`;
       const floors = numericFloors
         .filter(num => num >= start && num <= end)
