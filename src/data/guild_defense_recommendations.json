@@ -149,27 +149,7 @@
   ],
 "note":"1티어"
  
-    },
-    {
-      "teamId": 3,
-      "name": "방어팀 1",
-      "heroes": [
-        { "name": "진", "image": "jin.png","note":"주술사(효적/치확/모공/모공)+속공"},
-        { "name": "발리스타", "image": "ballista.png" },
-        { "name": "노호", "image": "noho.png","note":"속공세팅" }
-      ],
-       "skillOrder": [
-  
-   
-    "noho1.png",
-      "ballista1.png"
-    
-  ]
- 
     }
-      ]
-    },
-    
      "마덱": {
            "desc": "메인딜러(연희,린)두고 \n 나머지 두자리(바네사,실베스타,니아,유신,멜키르,쥬리)중\n  속공 높은거 넣기\n ! 니아 바네사 안겹치게",
       "teams":[
