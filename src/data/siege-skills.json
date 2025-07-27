@@ -3,30 +3,31 @@
     {
      
       "skillOrders": [
-        {
-          "orderTitle": "최고점",
+         {
+          "orderTitle": "루리6,바네사6초월(기대값300만점)",
           "skills": [
             {
               "stageTitle": "1스테이지",
-              "images": ["vanessa2.png"]
+              "images": ["Yeonhee1.png"]
             },
             {
               "stageTitle": "2스테이지",
-              "images": ["Yeonhee1.png"]
+              "images": ["vanessa2.png"]
             },
             {
               "stageTitle": "3스테이지",
               "images": [
                 "lina2.png", "vanessa1.png", "luri2.png", "luri1.png",
-                 "Yeonhee2.png","evan1.png","evan2.png",
+                 "Yeonhee2.png","evan2.png","Yeonhee1.png",
                 "vanessa1.png", 
-                "luri2.png", "luri1.png","vanessa2.png","lina2.png","Yeonhee1.png",
-                "vanessa1.png","luri2.png","luri1.png","evan2.png"
+                "luri2.png", "luri1.png","vanessa2.png","lina1.png","lina2.png",
+                "vanessa1.png","luri2.png","luri1.png","Yeonhee1.png","vanessa2.png"
               ]
               
             }
           ]
         }
+        
          
         
       
