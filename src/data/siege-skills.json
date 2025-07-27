@@ -1176,28 +1176,7 @@
             {
               "stageTitle": "3스테이지",
               "images": [
-                "asura1.png","espada1.png","pascal2.png","pascal1.png","pascal2.png","asura2.png","pascal1.png","pascal2.png","espada1.png","asura1.png","pascal1.png","asura2.png","pascal2.png","pascal1.png","pascal2.png","espada2.png","pascal1.png","pascal2.png"
-                
-              ]
-              
-               
-            }
-          ]
-        },{
-          "orderTitle": "아수라 6초x(고점)",
-          "skills": [
-            {
-              "stageTitle": "1스테이지",
-              "images": ["espada1.png","espada2.png"]
-            },
-            {
-              "stageTitle": "2스테이지",
-              "images": ["vanessa1.png","vanessa2.png"]
-            },
-            {
-              "stageTitle": "3스테이지",
-              "images": [
-                 "asura1.png","espada1.png","pascal2.png","pascal1.png","pascal2.png","asura2.png","pascal1.png","pascal2.png","espada1.png","asura1.png","pascal1.png","asura2.png","pascal2.png","pascal1.png","pascal2.png","espada2.png","pascal1.png","pascal2.png"
+                "asura1.png","pascal2.png","pascal1.png","espada1.png","pascal2.png","asura2.png","pascal1.png","pascal2.png","asura1.png","espada1.png","pascal1.png","asura2.png","pascal2.png","pascal1.png","pascal2.png","espada2.png","pascal1.png","pascal2.png"
                 
               ]
               
