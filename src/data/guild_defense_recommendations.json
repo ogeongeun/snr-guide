@@ -161,7 +161,7 @@
       "teamId": 0,
       "name": "방어팀 3",
       "heroes": [
-        { "name": "유신", "image": "Yushin.png","note":"note":"조율자 세팅(주술사일경우 2스킬 연희2스예약)"},
+        { "name": "유신", "image": "Yushin.png","note":"조율자 세팅(주술사일경우 2스킬 연희2스예약)"},
         { "name": "연희", "image": "Yeonhee.png" , "note": "딜러(뒤배치)"},
         { "name": "니아", "image": "nia.png"  }
       ],
