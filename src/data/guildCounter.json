@@ -420,7 +420,7 @@
           {
             "team": [
               { "name": "에반", "image": "/images/heroes/evan.png","note":" 룩 가능" },
-              { "name": "크리스", "image": "/images/heroes/noho.png"},
+              { "name": "크리스", "image": "/images/heroes/chris.png"},
               { "name": "유이", "image": "/images/heroes/yui.png" }
             ],
             "note": "상대 제이브일때(노호로 피깍후 버티기)",
@@ -457,8 +457,9 @@
             ],
             "note": "상대 제이브일때(노호로 피깍후 버티기)",
              "skillOrder": [
-      "noho1.png",
+     
       "evan2.png",
+       "noho1.png",
       "yui1.png"
      
             ]
@@ -466,7 +467,7 @@
            {
             "team": [
               { "name": "에반", "image": "/images/heroes/evan.png","note":" 룩 가능" },
-              { "name": "크리스", "image": "/images/heroes/noho.png"},
+              { "name": "크리스", "image": "/images/heroes/chris.png"},
               { "name": "유이", "image": "/images/heroes/yui.png" }
             ],
             "note": "상대 제이브일때(노호로 피깍후 버티기)",
@@ -511,7 +512,7 @@
            {
             "team": [
               { "name": "에반", "image": "/images/heroes/evan.png","note":" 룩 가능" },
-              { "name": "크리스", "image": "/images/heroes/noho.png"},
+              { "name": "크리스", "image": "/images/heroes/chris.png"},
               { "name": "유이", "image": "/images/heroes/yui.png" }
             ],
             "note": "상대 제이브일때(노호로 피깍후 버티기)",
