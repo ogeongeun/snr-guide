@@ -191,7 +191,7 @@
           "teamId": 0,
           "name": "방어팀 3",
           "heroes": [
-            { "name": "제이브", "image": "jave.png" },
+            { "name": "리나", "image": "lina.png" },
             {
               "name": "카르마",
               "image": "carma.png",
@@ -199,7 +199,8 @@
             },
             { "name": "루디", "image": "rudy.png" }
           ],
-          "note": "제이브 6성 즉사반지+3명 모두 고초월 일때 사용(특히 카르마 방방막막세팅이면 사용x)"
+           "skillOrder": ["rudy2.png", "lina1.png", "carma2.png"],
+          "note": ""
         }
       ]
     },

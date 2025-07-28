@@ -164,6 +164,21 @@
         ],
         "recommendedCounters": [
         
+          {
+              
+            "team": [
+               { "name": "아일린", "image": "/images/heroes/eileene.png" },
+              { "name": "테오", "image": "/images/heroes/teo.png" },
+              { "name": "에이스", "image": "/images/heroes/ace.png" ,"note":"속공 높은애 아무나"}
+            ],
+            
+            "skillOrder": [
+      "teo1.png",
+      "eileene2.png",
+      "teo2.png"
+            ],
+            "note":"상대 패시브 벗기고 패기"
+          },
            {
               
             "team": [
