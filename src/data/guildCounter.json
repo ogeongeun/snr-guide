@@ -119,6 +119,25 @@
             
             "team": [
               
+         
+        
+          { "name": "카르마", "image": "/images/heroes/carma.png" },
+            { "name": "제이브", "image": "/images/heroes/jave.png"},
+              { "name": "루디", "image": "/images/heroes/rudy.png"}
+              
+            ],
+             "skillOrder": [
+              "rudy2.png",
+      "jave1.png",
+      "carma2.png"
+      
+            ]
+          
+          },
+          {
+            
+            "team": [
+              
            { "name": "리", "image": "/images/heroes/lee.png","note":"속공 조금 챙겨주기" },
         
           { "name": "델론즈", "image": "/images/heroes/dellons.png" },
