@@ -100,6 +100,25 @@
             
             "team": [
               
+         
+        
+          { "name": "녹스", "image": "/images/heroes/nox.png" },
+            { "name": "크리스", "image": "/images/heroes/chris.png"},
+              { "name": "로지", "image": "/images/heroes/lozy.png","note":"힐러나 탱커로 대체가능" }
+              
+            ],
+             "skillOrder": [
+              "nox1.png",
+      "chris2.png",
+      "nox2.png"
+      
+            ]
+          
+          },
+          {
+            
+            "team": [
+              
            { "name": "리", "image": "/images/heroes/lee.png","note":"속공 조금 챙겨주기" },
         
           { "name": "델론즈", "image": "/images/heroes/dellons.png" },
@@ -397,6 +416,7 @@
            { "name": "첸슬러", "image": "/images/heroes/chancellor.png" }
         ],
         "recommendedCounters": [
+          
           {
             "team": [
               { "name": "에반", "image": "/images/heroes/evan.png" },
