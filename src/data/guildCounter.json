@@ -412,6 +412,38 @@
         
           { "name": "루디", "image": "/images/heroes/rudy.png" },
          
+          { "name": "카르마", "image": "/images/heroes/carma.png" },
+           { "name": "리나", "image": "/images/heroes/lina.png" }
+        ],
+        "recommendedCounters": [
+          
+          {
+            "team": [
+              { "name": "에반", "image": "/images/heroes/evan.png","note":" 룩 가능" },
+              { "name": "크리스", "image": "/images/heroes/noho.png"},
+              { "name": "유이", "image": "/images/heroes/yui.png" }
+            ],
+            "note": "상대 제이브일때(노호로 피깍후 버티기)",
+             "skillOrder": [
+    
+      "evan2.png",
+      "chris2.png",
+      "yui1.png"
+     
+            ]
+          }
+          
+         
+          
+        ]
+      },
+      {
+        "id": "team4",
+        "label": "방덱 상대 힐 없을때(태오공덱절대 금지)",
+        "defenseTeam": [
+        
+          { "name": "루디", "image": "/images/heroes/rudy.png" },
+         
           { "name": "제이브", "image": "/images/heroes/jave.png" },
            { "name": "첸슬러", "image": "/images/heroes/chancellor.png" }
         ],
@@ -427,6 +459,21 @@
              "skillOrder": [
       "noho1.png",
       "evan2.png",
+      "yui1.png"
+     
+            ]
+          },
+           {
+            "team": [
+              { "name": "에반", "image": "/images/heroes/evan.png","note":" 룩 가능" },
+              { "name": "크리스", "image": "/images/heroes/noho.png"},
+              { "name": "유이", "image": "/images/heroes/yui.png" }
+            ],
+            "note": "상대 제이브일때(노호로 피깍후 버티기)",
+             "skillOrder": [
+    
+      "evan2.png",
+      "chris2.png",
       "yui1.png"
      
             ]
@@ -461,6 +508,21 @@
            { "name": "카르마", "image": "/images/heroes/carma.png" }
         ],
         "recommendedCounters": [
+           {
+            "team": [
+              { "name": "에반", "image": "/images/heroes/evan.png","note":" 룩 가능" },
+              { "name": "크리스", "image": "/images/heroes/noho.png"},
+              { "name": "유이", "image": "/images/heroes/yui.png" }
+            ],
+            "note": "상대 제이브일때(노호로 피깍후 버티기)",
+             "skillOrder": [
+    
+      "evan2.png",
+      "chris2.png",
+      "yui1.png"
+     
+            ]
+          },
           {
             "team": [
               { "name": "에반", "image": "/images/heroes/evan.png" },
