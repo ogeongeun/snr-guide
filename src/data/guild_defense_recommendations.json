@@ -197,17 +197,7 @@
     },
     "번외": {
       "teams": [
-        {
-          "teamId": 2,
-          "name": "방어팀 3",
-          "heroes": [
-            { "name": "에반", "image": "evan.png" },
-            { "name": "연희", "image": "Yeonhee.png" },
-            { "name": "유이", "image": "Yui.png" }
-          ],
-          "skillOrder": ["evan2.png", "Yeonhee2.png", "Yeonhee1.png"],
-          "note": "연희만 있고 나머지영웅이 없거나 너무 약할때"
-        },
+       
         {
           "teamId": 0,
           "name": "방어팀 3",
