@@ -175,29 +175,9 @@
       ]
     },
     "방덱": {
+       "desc": "제이브 방덱 절대 사용 x",
       "teams": [
-        {
-          "teamId": 0,
-          "name": "방어팀 3",
-          "heroes": [
-            {
-              "name": "카르마",
-              "image": "carma.png",
-              "note": "암살자(치확/치확/막/막) 치확100,막기100"
-            },
-            {
-              "name": "스파이크",
-              "image": "spike.png",
-              "note": "암살자(치확/치확/막/막)"
-            },
-            {
-              "name": "에이스",
-              "image": "ace.png",
-              "note": "레이첼,제이브 대체가능"
-            }
-          ],
-          "skillOrder": ["spike2.png", "carma2.png", "carma1.png"]
-        },
+       
         {
           "teamId": 0,
           "name": "방어팀 3",
