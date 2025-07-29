@@ -115,9 +115,9 @@
               "stageTitle": "3스테이지",
               "images": [
                 "lina2.png", "luri2.png", "luri1.png","lina1.png","chloe2.png",
-                "vanessa1.png", "Yeonhee1.png", "luri2.png","luri1.png","vanessa2.png",
-                "vanessa1.png","lina2.png","lina1.png","chloe2.png",
-                "luri2.png", "luri1.png", "Yeonhee1.png"
+                "vanessa1.png", "luri2.png", "luri1.png","Yeonhee1.png","lina2.png",
+                "chloe2.png","vanessa1.png","luri2.png","luri1.png"
+              
               ],
               "labels": {
                 "3": "투창",
@@ -125,58 +125,6 @@
                
                }
                
-            }
-          ]
-        },
-        {
-          "orderTitle": "투창 먼저",
-          "skills": [
-            {
-              "stageTitle": "1스테이지",
-              "images": ["Yeonhee1.png"]
-            },
-            {
-              "stageTitle": "2스테이지",
-              "images": ["luri1.png"]
-            },
-            {
-              "stageTitle": "3스테이지",
-              "images": [
-                "luri2.png", "vanessa2.png", "lina1.png", "vanessa1.png",
-                "lina2.png", "chloe2.png", "luri2.png",
-                "luri1.png", "Yeonhee1.png", "Yeonhee2.png",
-                "lina1.png", "chloe2.png", "lina2.png", "luri2.png"
-              ],
-              "labels": {
-                "3": "투창",
-                "5":"분쇄"
-               }
-            }
-          ]
-        },
-        {
-          "orderTitle": "분쇄 먼저",
-          "skills": [
-            {
-              "stageTitle": "1스테이지",
-              "images": ["Yeonhee1.png"]
-            },
-            {
-              "stageTitle": "2스테이지",
-              "images": ["luri1.png"]
-            },
-            {
-              "stageTitle": "3스테이지",
-             "images": [
-                "lina2.png", "chloe2.png", "luri2.png", "vanessa1.png",
-                "lina1.png", "vanessa2.png", "chloe2.png",
-                "lina2.png", "luri2.png", "luri1.png",
-                "Yeonhee1.png"
-              ],
-              "labels": {
-                "3": "분쇄",
-                "5":"투창"
-               }
             }
           ]
         }

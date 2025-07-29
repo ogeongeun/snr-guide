@@ -48,12 +48,14 @@ const SiegeSkillDetailPage = () => {
                 </p>
                 <div className="flex flex-wrap justify-center gap-4 mb-4">
                   {stage.images.map((img, i) => {
-                    // 객체형 or 문자열형 모두 처리
-                    const imageSrc = typeof img === 'string' ? img : img.image;
-                    const label = typeof img === 'object' ? img.label : null;
+                    const isObject = typeof img === 'object';
+                    const imageSrc = isObject ? img.image : img;
+                    const inlineLabel = isObject ? img.label : null;
+                    const indexLabel = stage.labels?.[i.toString()];
+                    const finalLabel = inlineLabel || indexLabel;
 
                     return (
-                      <div key={i} className="flex flex-col items-center">
+                      <div key={i} className="flex flex-col items-center max-w-[80px]">
                         <img
                           src={`/images/skills/${imageSrc}`}
                           alt={`Skill ${i + 1}`}
@@ -61,9 +63,9 @@ const SiegeSkillDetailPage = () => {
                           className="w-10 h-10 object-contain border rounded-md"
                         />
                         <span className="text-xs text-gray-600 mt-1">#{i + 1}</span>
-                        {label && (
-                          <span className="text-[11px] text-red-500 mt-1 text-center leading-snug">
-                            {label}
+                        {finalLabel && (
+                          <span className="text-[11px] text-red-500 mt-1 text-center leading-snug break-words">
+                            {finalLabel}
                           </span>
                         )}
                       </div>
