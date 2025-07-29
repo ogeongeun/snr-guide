@@ -183,16 +183,17 @@
           "name": "방어팀 3",
           "heroes": [
             
-            {
-              "name": "유신",
-              "image": "Yushin.png",
-              "note":"카르마로 대체가능"
+           
+            { "name": "첸슬러", "image": "chancellor.png" },
+             {
+              "name": "카르마",
+              "image": "carma.png"
+             
 
             },
-            { "name": "첸슬러", "image": "chancellor.png" },
             { "name": "엘리스", "image": "elise.png" }
           ],
-           "skillOrder": ["Yushin1.png", "chancellor2.png", "elise1.png"],
+           "skillOrder": ["chancellor2.png", "carma2.png", "carma1.png"],
           "note": ""
         },
         {
