@@ -74,7 +74,7 @@
      
       "skillOrders": [
         {
-          "orderTitle": "분쇄 먼저(과금러)",
+          "orderTitle": "분쇄 먼저(바네사 6초부터 추천)",
           "skills": [
             {
               "stageTitle": "1스테이지",
@@ -101,7 +101,7 @@
           ]
         },
         {
-          "orderTitle": "투창 먼저(과금러)",
+          "orderTitle": "투창 먼저(바네사 6초부터 추천)",
           "skills": [
             {
               "stageTitle": "1스테이지",
