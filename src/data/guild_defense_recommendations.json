@@ -184,16 +184,16 @@
           "heroes": [
             
            
-            { "name": "첸슬러", "image": "chancellor.png" },
+            { "name": "스파이크", "image": "spike.png" },
              {
-              "name": "카르마",
-              "image": "carma.png"
+              "name": "첸슬러",
+              "image": "chancellor.png"
              
 
             },
-            { "name": "엘리스", "image": "elise.png" }
+            { "name": "에이스", "image": "ace.png" }
           ],
-           "skillOrder": ["chancellor2.png", "carma2.png", "carma1.png"],
+           "skillOrder": ["chancellor2.png", "ace2.png", "spike2.png"],
           "note": ""
         },
         {
