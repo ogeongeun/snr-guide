@@ -177,7 +177,25 @@
     "방덱": {
        "desc": "제이브 방덱 절대 사용 x",
       "teams": [
-       
+       {
+          "teamId": 0,
+          "name": "방어팀 3",
+          "heroes": [
+            
+           
+            { "name": "카르마", "image": "carma.png" },
+             {
+              "name": "콜트",
+              "image": "colt.png",
+              "note":"6초일때만 쓰기"
+             
+
+            },
+            { "name": "첸슬러", "image": "chancellor.png" }
+          ],
+           "skillOrder": ["chancellor2.png", "carma2.png", "colt1.png"],
+          "note": "콜트 6초한정 1티어덱"
+        },
         {
           "teamId": 0,
           "name": "방어팀 3",
@@ -187,7 +205,8 @@
             { "name": "스파이크", "image": "spike.png" },
              {
               "name": "첸슬러",
-              "image": "chancellor.png"
+              "image": "chancellor.png",
+              "note":"헬레니아 대체가능"
              
 
             },
