@@ -426,7 +426,7 @@
     "방덱":[
       {
         "id": "team4",
-        "label": "방덱 상대 힐 없을때(태오공덱절대 금지)",
+        "label": "방덱 상대 유지력 높을땨(태오공덱절대 금지)",
         "defenseTeam": [
         
           { "name": "루디", "image": "/images/heroes/rudy.png" },
