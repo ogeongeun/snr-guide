@@ -42,7 +42,7 @@
             { "name": "스파이크", "image": "spike.png" }
           ],
           "skillOrder": ["spike2.png", "colt1.png", "colt2.png"],
-          "note": "델론즈 2초월안되면 그냥 태오 공덱에 사용"
+          "note": ""
         },
         {
           "teamId": 3,
@@ -178,6 +178,23 @@
        "desc": "제이브 방덱 절대 사용 x",
       "teams": [
        
+        {
+          "teamId": 0,
+          "name": "방어팀 3",
+          "heroes": [
+            
+            {
+              "name": "유신",
+              "image": "Yushin.png",
+              "note":"카르마로 대체가능"
+
+            },
+            { "name": "첸슬러", "image": "chancellor.png" },
+            { "name": "엘리스", "image": "elise.png" }
+          ],
+           "skillOrder": ["Yushin1.png", "chancellor2.png", "elise1.png"],
+          "note": ""
+        },
         {
           "teamId": 0,
           "name": "방어팀 3",
