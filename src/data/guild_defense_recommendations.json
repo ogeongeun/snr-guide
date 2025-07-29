@@ -205,12 +205,12 @@
             { "name": "스파이크", "image": "spike.png" },
              {
               "name": "첸슬러",
-              "image": "chancellor.png",
-              "note":"헬레니아 대체가능"
+              "image": "chancellor.png"
+              
              
 
             },
-            { "name": "에이스", "image": "ace.png" }
+            { "name": "에이스", "image": "ace.png","note":"헬레니아 대체가능" }
           ],
            "skillOrder": ["chancellor2.png", "ace2.png", "spike2.png"],
           "note": ""
