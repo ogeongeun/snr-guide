@@ -85,7 +85,7 @@ const Home = () => {
             본 콘텐츠는 천우회 길드 전용이며, 무단 사용 및 복제를 금합니다.
           </p>
         </h1>
-        <p className="text-center text-sm text-gray-500 mb-6 italic">made by 건근</p>
+        <p className="text-center text-sm text-gray-500 mb-6 italic">made by 건근본</p>
 
         {/* 카드 리스트 */}
         <div className="grid grid-cols-2 gap-4">
