@@ -4,7 +4,7 @@
       "teams": [
         {
           "teamId": 1,
-          "name": "방어팀 4",
+          "name": "방어팀 1",
           "heroes": [
             { "name": "아일린", "image": "eileene.png", "note": "cc" },
             { "name": "태오", "image": "teo.png", "note": "딜러(뒤배치)" },
@@ -14,9 +14,9 @@
         },
         {
           "teamId": 1,
-          "name": "방어팀 4",
+          "name": "방어팀 2",
           "heroes": [
-            { "name": "파이", "image": "pie.png" },
+            { "name": "파이", "image": "pie.png" ,"note":"콜트 대체가능"},
             { "name": "태오", "image": "teo.png", "note": "딜러(뒤배치)" },
             { "name": "유신", "image": "Yushin.png" }
           ],
@@ -25,7 +25,7 @@
         },
         {
           "teamId": 1,
-          "name": "방어팀 4",
+          "name": "방어팀 3",
           "heroes": [
             { "name": "아일린", "image": "eileene.png", "note": "cc" },
             { "name": "태오", "image": "teo.png", "note": "딜러(뒤배치)" },
@@ -35,7 +35,7 @@
         },
         {
           "teamId": 3,
-          "name": "방어팀 1",
+          "name": "방어팀 4",
           "heroes": [
             { "name": "제이브", "image": "jave.png" },
             { "name": "콜트", "image": "colt.png"},
@@ -46,7 +46,7 @@
         },
         {
           "teamId": 3,
-          "name": "방어팀 1",
+          "name": "방어팀 5",
           "heroes": [
             { "name": "로지", "image": "lozy.png" },
             { "name": "테오", "image": "teo.png", "note": "뒤배치" },
@@ -56,9 +56,9 @@
         },
         {
           "teamId": 3,
-          "name": "방어팀 1",
+          "name": "방어팀 6",
           "heroes": [
-            { "name": "파이", "image": "pie.png", "note": "레이첼" },
+            { "name": "파이", "image": "pie.png", "note": "레이첼,제이브 대체" },
             { "name": "델론즈", "image": "dellons.png", "note": "2초월이상 (뒤배치)" },
             { "name": "스파이크", "image": "spike.png" }
           ],
@@ -67,7 +67,7 @@
         },
         {
           "teamId": 3,
-          "name": "방어팀 1",
+          "name": "방어팀 7",
           "heroes": [
             { "name": "로지", "image": "lozy.png" },
             { "name": "델론즈", "image": "dellons.png", "note": "2초월이상 (뒤배치)" },
@@ -78,7 +78,7 @@
         },
         {
           "teamId": 3,
-          "name": "방어팀 1",
+          "name": "방어팀 8",
           "heroes": [
             { "name": "발리스타", "image": "ballista.png", "note": "콜트, 풍연 대체가능" },
             { "name": "델론즈", "image": "dellons.png", "note": "2초월이상 (뒤배치)" },
@@ -89,7 +89,7 @@
         },
         {
           "teamId": 3,
-          "name": "방어팀 1",
+          "name": "방어팀 9",
           "heroes": [
             { "name": "에이스", "image": "ace.png", "note": "조율자" },
             { "name": "발리스타", "image": "ballista.png", "note": "콜트 대체가능" },
@@ -105,7 +105,7 @@
       "teams": [
         {
           "teamId": 0,
-          "name": "방어팀 3",
+          "name": "방어팀 1",
           "heroes": [
             {
               "name": "유신",
@@ -120,7 +120,7 @@
         },
         {
           "teamId": 0,
-          "name": "방어팀 3",
+          "name": "방어팀 2",
           "heroes": [
             { "name": "로지", "image": "lozy.png" },
             { "name": "연희", "image": "Yeonhee.png", "note": "딜러(뒤배치)" },
@@ -145,7 +145,7 @@
         },
         {
           "teamId": 0,
-          "name": "방어팀 3",
+          "name": "방어팀 4",
           "heroes": [
             {
               "name": "바네사",
@@ -160,7 +160,7 @@
         },
         {
           "teamId": 2,
-          "name": "방어팀 3",
+          "name": "방어팀 5",
           "heroes": [
             { "name": "멜키르", "image": "Melkir.png" },
             { "name": "린", "image": "rin.png" },
