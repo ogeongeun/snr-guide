@@ -109,7 +109,7 @@
             },
             {
               "stageTitle": "2스테이지",
-              "images": ["vanessa2.png"]
+              "images": [{ "image": "vanessa2.png", "label": "딜안되면 1스테이지랑 스킬 순서 바꾸기" }]
             },
             {
               "stageTitle": "3스테이지",
@@ -121,7 +121,7 @@
               ],
               "labels": {
                 "3": "투창",
-                "10": "투창"
+                "9": "투창"
                
                }
                
