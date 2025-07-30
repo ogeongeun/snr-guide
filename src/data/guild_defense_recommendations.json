@@ -7,7 +7,7 @@
           "name": "방어팀 1",
           "heroes": [
             { "name": "아일린", "image": "eileene.png", "note": "cc" },
-            { "name": "태오", "image": "teo.png", "note": "딜러(뒤배치)" },
+            { "name": "태오", "image": "teo.png", "note": "가능하면 약공 세팅" },
             { "name": "파이", "image": "pie.png", "note": "델론즈,콜트 대체" }
           ],
           "skillOrder": ["eileene2.png", "pie1.png", "teo1.png"]
@@ -16,23 +16,14 @@
           "teamId": 1,
           "name": "방어팀 2",
           "heroes": [
-            { "name": "파이", "image": "pie.png" ,"note":"콜트 대체가능"},
-            { "name": "태오", "image": "teo.png", "note": "딜러(뒤배치)" },
+            { "name": "파이", "image": "pie.png" ,"note":"콜트,아일린  대체가능"},
+            { "name": "태오", "image": "teo.png", "note": "가능하면 약공 세팅" },
             { "name": "유신", "image": "Yushin.png" }
           ],
           "skillOrder": ["Yushin1.png", "pie1.png", "teo1.png"],
           "note": "1티어"
         },
-        {
-          "teamId": 1,
-          "name": "방어팀 3",
-          "heroes": [
-            { "name": "아일린", "image": "eileene.png", "note": "cc" },
-            { "name": "태오", "image": "teo.png", "note": "딜러(뒤배치)" },
-            { "name": "델론즈", "image": "dellons.png", "note": "콜트 대체" }
-          ],
-          "skillOrder": ["eileene2.png", "teo2.png", "dellons2.png"]
-        },
+        
         {
           "teamId": 3,
           "name": "방어팀 4",
@@ -49,7 +40,7 @@
           "name": "방어팀 5",
           "heroes": [
             { "name": "로지", "image": "lozy.png" },
-            { "name": "테오", "image": "teo.png", "note": "뒤배치" },
+            { "name": "테오", "image": "teo.png", "note": "가능하면 약공 세팅" },
             { "name": "아일린", "image": "eileene.png", "note": "고초월 스파이크 대체가능" }
           ],
           "skillOrder": ["eileene2.png", "teo2.png", "teo1.png"]
@@ -120,6 +111,21 @@
         },
         {
           "teamId": 0,
+          "name": "방어팀 1",
+          "heroes": [
+            {
+              "name": "유신",
+              "image": "Yushin.png",
+              "note": "조율자 세팅(주술사일경우 2스킬 연희2스예약)"
+            },
+            { "name": "연희", "image": "Yeonhee.png", "note": "딜러(뒤배치)" },
+            { "name": "쥬리", "image": "juri.png" }
+          ],
+          "skillOrder": ["Yushin1.png", "juri2.png", "Yeonhee2.png"]
+      
+        },
+        {
+          "teamId": 0,
           "name": "방어팀 2",
           "heroes": [
             { "name": "로지", "image": "lozy.png" },
@@ -134,7 +140,7 @@
           "name": "방어팀 3",
           "heroes": [
             { "name": "멜키르", "image": "Melkir.png" },
-            { "name": "린", "image": "rin.png" },
+            { "name": "린", "image": "rin.png" , "note": "가능하면 약공 세팅"},
             {
               "name": "바네사",
               "image": "vanessa.png",
@@ -153,7 +159,7 @@
               "note": "주술사(효적/효적/막/믹)"
             },
             { "name": "연희", "image": "Yeonhee.png", "note": "딜러(뒤배치)" },
-            { "name": "린", "image": "rin.png", "note": "쥬리 대체가능" }
+            { "name": "린", "image": "rin.png", "note": "가능하면 약공 세팅"}
           ],
           "skillOrder": ["rin2.png", "vanessa1.png", "Yeonhee2.png"],
           "note": ""
@@ -163,7 +169,7 @@
           "name": "방어팀 5",
           "heroes": [
             { "name": "멜키르", "image": "Melkir.png" },
-            { "name": "린", "image": "rin.png" },
+            { "name": "린", "image": "rin.png" , "note": "가능하면 약공 세팅"},
             {
               "name": "실베스타",
               "image": "silvesta.png",
@@ -219,7 +225,7 @@
           "teamId": 0,
           "name": "방어팀 3",
           "heroes": [
-            { "name": "리나", "image": "lina.png" },
+            { "name": "로지", "image": "lozy.png" },
             {
               "name": "카르마",
               "image": "carma.png",
@@ -227,7 +233,7 @@
             },
             { "name": "루디", "image": "rudy.png" }
           ],
-           "skillOrder": ["rudy2.png", "lina1.png", "carma2.png"],
+           "skillOrder": ["lozy1.png", "rudy2.png", "carma2.png"],
           "note": ""
         }
       ]

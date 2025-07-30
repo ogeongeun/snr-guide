@@ -188,6 +188,36 @@
           }
           
         ]
+      },
+      {
+        "id": "team2",
+        "label": "델론즈 공덱",
+        "defenseTeam": [
+          { "name": "발리스타", "image": "/images/heroes/ballista.png" },
+        
+          { "name": "델론즈", "image": "/images/heroes/dellons.png" },
+              { "name": "콜트", "image": "/images/heroes/colt.png" }
+        ],
+        "recommendedCounters": [
+          
+          {
+              
+            "team": [
+               { "name": "노호", "image": "/images/heroes/noho.png","note":"속공 몰빵노호" },
+              { "name": "델론즈", "image": "/images/heroes/ballista.png" },
+             { "name": "발리", "image": "/images/heroes/lee.png" }
+            ],
+            
+            "skillOrder": [
+              "noho1.png",
+      "dellons2.png",
+      "ballista1.png"
+      
+            ],
+            "note":"속공 먼저 따아햠"
+          }
+          
+        ]
       }
     ],
     "마덱": [
@@ -201,7 +231,21 @@
           { "name": "바네사", "image": "/images/heroes/vanessa.png" }
         ],
         "recommendedCounters": [
-        
+        {
+              
+            "team": [
+               { "name": "아라곤", "image": "/images/heroes/aragon.png","note":"카르마 대체가능" },
+              { "name": "첸슬러", "image": "/images/heroes/chancellor.png" },
+              { "name": "엘리스", "image": "/images/heroes/elise.png" ,"note":"리나 대체가능"}
+            ],
+            
+            "skillOrder": [
+      "teo1.png",
+      "eileene2.png",
+      "teo2.png"
+            ],
+            "note":"상대 패시브 벗기고 패기"
+          },
           {
               
             "team": [
@@ -304,7 +348,22 @@
           { "name": "바네사", "image": "/images/heroes/vanessa.png" }
         ],
         "recommendedCounters": [
-        
+        {
+              
+            "team": [
+               { "name": "쥬리", "image": "/images/heroes/juri.png" },
+          { "name": "린", "image": "/images/heroes/rin.png" ,"note":"연희,태오등 대체가능"},
+      
+          { "name": "바네사", "image": "/images/heroes/vanessa.png","note":"유신 등 대체가능" }
+            ],
+            
+            "skillOrder": [
+      "rin2.png",
+      "juri2.png",
+      "vanessa1.png"
+            ]
+            
+          },
           {
               
             "team": [
