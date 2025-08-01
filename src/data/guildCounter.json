@@ -236,7 +236,7 @@
             "team": [
                { "name": "스파이크", "image": "/images/heroes/spike.png" },
               { "name": "콜트", "image": "/images/heroes/colt.png" },
-              { "name": "로지", "image": "/images/heroes/rozy.png" }
+              { "name": "로지", "image": "/images/heroes/lozy.png" }
             ],
             
             "skillOrder": [
@@ -261,26 +261,12 @@
             ],
             "note":"상대 패시브 벗기고 패기"
           },
-           {
-              
-            "team": [
-               { "name": "니아", "image": "/images/heroes/nia.png" ,"note":"바네사,유신 패시브 벗기기"},
-              { "name": "델론즈", "image": "/images/heroes/dellons.png" },
-              { "name": "에이스", "image": "/images/heroes/ace.png" ,"note":"속공 높은애 아무나"}
-            ],
-            
-            "skillOrder": [
-      "nia2.png",
-      "dellons2.png",
-      "dellons1.png"
-            ],
-            "note":"상대 패시브 벗기고 패기"
-          },
+           
           {
               
             "team": [
                { "name": "파이", "image": "/images/heroes/pie.png"},
-              { "name": "발리스타", "image": "/images/heroes/ballista.png" },
+              { "name": "콜트", "image": "/images/heroes/colt.png" ,"note":"6초 추천(발리대체가능)"},
               { "name": "에이스", "image": "/images/heroes/ace.png","note":"조율자 세팅"}
             ],
             
