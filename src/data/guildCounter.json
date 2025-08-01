@@ -223,6 +223,123 @@
     "마덱": [
       {
         "id": "team2",
+        "label": "연희,린 마덱",
+        "defenseTeam": [
+           { "name": "린", "image": "/images/heroes/rin.png" },
+          { "name": "연희", "image": "/images/heroes/yeonhee.png" },
+      
+          { "name": "바네사", "image": "/images/heroes/vanessa.png" }
+        ],
+        "recommendedCounters": [
+        {
+              
+            "team": [
+               { "name": "스파이크", "image": "/images/heroes/spike.png" },
+              { "name": "콜트", "image": "/images/heroes/colt.png" },
+              { "name": "로지", "image": "/images/heroes/rozy.png" }
+            ],
+            
+            "skillOrder": [
+      "spike2.png",
+      "colt1.png",
+      "colt2.png"
+            ],
+            "note":"상대 린 선 혼란시 콜트부터,바네사 선 쿨증시 스파이크2부터"
+          },
+          {
+              
+            "team": [
+               { "name": "발리스타", "image": "/images/heroes/ballista.png" ,"note":"파이,첸슬러,스파이크등 대체"},
+              { "name": "콜트", "image": "/images/heroes/colt.png" },
+              { "name": "엘리스", "image": "/images/heroes/elise.png" }
+            ],
+            
+            "skillOrder": [
+      "teo1.png",
+      "eileene2.png",
+      "teo2.png"
+            ],
+            "note":"상대 패시브 벗기고 패기"
+          },
+           {
+              
+            "team": [
+               { "name": "니아", "image": "/images/heroes/nia.png" ,"note":"바네사,유신 패시브 벗기기"},
+              { "name": "델론즈", "image": "/images/heroes/dellons.png" },
+              { "name": "에이스", "image": "/images/heroes/ace.png" ,"note":"속공 높은애 아무나"}
+            ],
+            
+            "skillOrder": [
+      "nia2.png",
+      "dellons2.png",
+      "dellons1.png"
+            ],
+            "note":"상대 패시브 벗기고 패기"
+          },
+          {
+              
+            "team": [
+               { "name": "파이", "image": "/images/heroes/pie.png"},
+              { "name": "발리스타", "image": "/images/heroes/ballista.png" },
+              { "name": "에이스", "image": "/images/heroes/ace.png","note":"조율자 세팅"}
+            ],
+            
+            "skillOrder": [
+      "pie1.png",
+      "ace2.png",
+      "ballista1.png"
+            ],
+            "note":"에이스 2스킬로 디버프 해제"
+          },
+          {
+              
+            "team": [
+               { "name": "유신", "image": "/images/heroes/yushin.png" ,"note":"2초월 이상(조율자)"},
+              { "name": "연희", "image": "/images/heroes/yeonhee.png" },
+              { "name": "바네사", "image": "/images/heroes/vanessa.png" }
+            ],
+            
+            "skillOrder": [
+      "Yushin1.png",
+      "Yushin2.png",
+      "Yeonhee2.png"
+            ],
+            "note":"상대보다 속공 낮을때(cc맞고 유신1스로 풀기)"
+          },
+           {
+              
+            "team": [
+               { "name": "빅토리아", "image": "/images/heroes/victoria.png" ,"note":"마비 면역"},
+              { "name": "연희", "image": "/images/heroes/yeonhee.png" },
+              { "name": "유신", "image": "/images/heroes/yushin.png" }
+            ],
+            
+            "skillOrder": [
+      "Yushin1.png",
+      "Yeonhee2.png",
+      "Yeonhee1.png"
+            ],
+            "note":"속공 딸릴때"
+          },
+           {
+              
+            "team": [
+               { "name": "노호", "image": "/images/heroes/noho.png","note":"속공 몰빵노호"},
+              { "name": "발리스타", "image": "/images/heroes/ballista.png" },
+              { "name": "레이첼", "image": "/images/heroes/rachel.png"}
+            ],
+            
+            "skillOrder": [
+      "noho1.png",
+      "ballista1.png",
+      "dellons2.png"
+            ],
+            "note":"속공 먼저 따아햠"
+          }
+        ]
+      },
+      {
+        "id": "team2",
         "label": "연희 마덱",
         "defenseTeam": [
            { "name": "유신", "image": "/images/heroes/yushin.png" },
