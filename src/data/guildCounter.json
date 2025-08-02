@@ -552,20 +552,7 @@
             ],
             "note":"상대보다 속공 낮을때(cc맞고 유신1스로 풀기)"
           },
-            {
-              
-            "team": [
-               { "name": "루디", "image": "/images/heroes/rudy.png" },
-              { "name": "제이브", "image": "/images/heroes/jave.png" },
-              { "name": "카르마", "image": "/images/heroes/carma.png" }
-            ],
-            "skillOrder": [
-      "carma2.png",
-      "rudy2.png",
-      "jave1.png"
-            ],
-            "note":"방덱(상대 연희껴있으면 못이김)"
-          },
+            
           {
               
             "team": [
