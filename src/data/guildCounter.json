@@ -14,38 +14,14 @@
             
             "team": [
               
-<<<<<<< HEAD
-              { "name": "루디", "image": "/images/heroes/rudy.png"},
-              { "name": "제이브", "image": "/images/heroes/jave.png" ,"note":"즉사반지"},
-              { "name": "리나", "image": "/images/heroes/lina.png"}
-            ],
-            "skillOrder": [
-      "rudy2.png",
-      "jave1.png",
-      "lina1.png"
-            ]
-          },
-          {
-            
-            "team": [
-              
-              { "name": "카르마", "image": "/images/heroes/carma.png"},
-              { "name": "첸슬러", "image": "/images/heroes/chancellor.png" },
-              { "name": "엘리스", "image": "/images/heroes/elise.png"}
-=======
               { "name": "리나", "image": "/images/heroes/lina.png"},
               { "name": "카르마", "image": "/images/heroes/carma.png" },
               { "name": "첸슬러", "image": "/images/heroes/chancellor.png"}
->>>>>>> c82c9f5 (공성전 목요일)
             ],
             "skillOrder": [
       "chancellor2.png",
       "carma2.png",
-<<<<<<< HEAD
-      "elise1.png"
-=======
       "lina1.png"
->>>>>>> c82c9f5 (공성전 목요일)
             ]
           },
            {
@@ -76,7 +52,21 @@
       "elise2.png"
             ]
           },
-          
+          {
+            
+            "team": [
+              
+              { "name": "루디", "image": "/images/heroes/rudy.png" ,"note":"조율자 세팅/2초이상"},
+              { "name": "제이브", "image": "/images/heroes/jave.png" },
+              { "name": "카르마", "image": "/images/heroes/carma.png","note":"리나 대체가능"}
+            ],
+            "skillOrder": [
+              "rudy2.png",
+      "carma2.png",
+      
+      "jave2.png"
+            ]
+          },
           {
             
             "team": [
@@ -247,137 +237,6 @@
     "마덱": [
       {
         "id": "team2",
-        "label": "연희,린 마덱",
-        "defenseTeam": [
-           { "name": "린", "image": "/images/heroes/rin.png" },
-          { "name": "연희", "image": "/images/heroes/yeonhee.png" },
-      
-          { "name": "바네사", "image": "/images/heroes/vanessa.png" }
-        ],
-        "recommendedCounters": [
-        {
-              
-            "team": [
-               { "name": "스파이크", "image": "/images/heroes/spike.png" },
-              { "name": "콜트", "image": "/images/heroes/colt.png" },
-              { "name": "로지", "image": "/images/heroes/lozy.png" }
-            ],
-            
-            "skillOrder": [
-      "spike2.png",
-      "colt1.png",
-      "colt2.png"
-            ],
-            "note":"상대 린 선 혼란시 콜트부터,바네사 선 쿨증시 스파이크2부터"
-          },
-          {
-              
-            "team": [
-               { "name": "발리스타", "image": "/images/heroes/ballista.png" ,"note":"파이,첸슬러,스파이크등 대체"},
-              { "name": "콜트", "image": "/images/heroes/colt.png" },
-              { "name": "엘리스", "image": "/images/heroes/elise.png" }
-            ],
-            
-            "skillOrder": [
-      "teo1.png",
-      "eileene2.png",
-      "teo2.png"
-            ],
-            "note":"상대 패시브 벗기고 패기"
-          },
-           
-          {
-              
-            "team": [
-               { "name": "파이", "image": "/images/heroes/pie.png"},
-              { "name": "콜트", "image": "/images/heroes/colt.png" ,"note":"6초 추천(발리대체가능)"},
-              { "name": "에이스", "image": "/images/heroes/ace.png","note":"조율자 세팅"}
-            ],
-            
-            "skillOrder": [
-      "pie1.png",
-      "ace2.png",
-      "ballista1.png"
-            ],
-            "note":"에이스 2스킬로 디버프 해제"
-          },
-          {
-            
-            "team": [
-              
-              { "name": "루디", "image": "/images/heroes/rudy.png"},
-              { "name": "제이브", "image": "/images/heroes/jave.png" ,"note":"즉사반지"},
-              { "name": "리나", "image": "/images/heroes/lina.png"}
-            ],
-            "skillOrder": [
-      "rudy2.png",
-      "jave1.png",
-      "lina1.png"
-            ]
-          },
-          {
-            
-            "team": [
-              
-              { "name": "카르마", "image": "/images/heroes/carma.png"},
-              { "name": "첸슬러", "image": "/images/heroes/chancellor.png" },
-              { "name": "엘리스", "image": "/images/heroes/elise.png"}
-            ],
-            "skillOrder": [
-      "chancellor2.png",
-      "carma2.png",
-      "elise1.png"
-            ]
-          },
-          {
-              
-            "team": [
-               { "name": "유신", "image": "/images/heroes/yushin.png" ,"note":"2초월 이상(조율자)"},
-              { "name": "연희", "image": "/images/heroes/yeonhee.png" },
-              { "name": "바네사", "image": "/images/heroes/vanessa.png" }
-            ],
-            
-            "skillOrder": [
-      "Yushin1.png",
-      "Yushin2.png",
-      "Yeonhee2.png"
-            ],
-            "note":"상대보다 속공 낮을때(cc맞고 유신1스로 풀기)"
-          },
-           {
-              
-            "team": [
-               { "name": "빅토리아", "image": "/images/heroes/victoria.png" ,"note":"마비 면역"},
-              { "name": "연희", "image": "/images/heroes/yeonhee.png" },
-              { "name": "유신", "image": "/images/heroes/yushin.png" }
-            ],
-            
-            "skillOrder": [
-      "Yushin1.png",
-      "Yeonhee2.png",
-      "Yeonhee1.png"
-            ],
-            "note":"속공 딸릴때"
-          },
-           {
-              
-            "team": [
-               { "name": "노호", "image": "/images/heroes/noho.png","note":"속공 몰빵노호"},
-              { "name": "발리스타", "image": "/images/heroes/ballista.png" },
-              { "name": "레이첼", "image": "/images/heroes/rachel.png"}
-            ],
-            
-            "skillOrder": [
-      "noho1.png",
-      "ballista1.png",
-      "dellons2.png"
-            ],
-            "note":"속공 먼저 따아햠"
-          }
-        ]
-      },
-      {
-        "id": "team2",
         "label": "연희 마덱",
         "defenseTeam": [
            { "name": "유신", "image": "/images/heroes/yushin.png" },
@@ -386,34 +245,6 @@
           { "name": "바네사", "image": "/images/heroes/vanessa.png" }
         ],
         "recommendedCounters": [
-          {
-            
-            "team": [
-              
-              { "name": "루디", "image": "/images/heroes/rudy.png"},
-              { "name": "제이브", "image": "/images/heroes/jave.png" ,"note":"즉사반지"},
-              { "name": "리나", "image": "/images/heroes/lina.png"}
-            ],
-            "skillOrder": [
-      "rudy2.png",
-      "jave1.png",
-      "lina1.png"
-            ]
-          },
-          {
-            
-            "team": [
-              
-              { "name": "카르마", "image": "/images/heroes/carma.png"},
-              { "name": "첸슬러", "image": "/images/heroes/chancellor.png" },
-              { "name": "엘리스", "image": "/images/heroes/elise.png"}
-            ],
-            "skillOrder": [
-      "chancellor2.png",
-      "carma2.png",
-      "elise1.png"
-            ]
-          },
         {
               
             "team": [
@@ -577,7 +408,20 @@
             ],
             "note":"상대보다 속공 낮을때(cc맞고 유신1스로 풀기)"
           },
-            
+            {
+              
+            "team": [
+               { "name": "루디", "image": "/images/heroes/rudy.png" },
+              { "name": "제이브", "image": "/images/heroes/jave.png" },
+              { "name": "카르마", "image": "/images/heroes/carma.png" }
+            ],
+            "skillOrder": [
+      "carma2.png",
+      "rudy2.png",
+      "jave1.png"
+            ],
+            "note":"방덱(상대 연희껴있으면 못이김)"
+          },
           {
               
             "team": [
@@ -691,7 +535,7 @@
     
       "noho1.png",
       "ballista1.png",
-      "dellons2.png"
+      "de.png"
      
             ]
           }
