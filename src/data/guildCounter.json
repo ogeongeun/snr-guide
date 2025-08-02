@@ -14,6 +14,7 @@
             
             "team": [
               
+<<<<<<< HEAD
               { "name": "루디", "image": "/images/heroes/rudy.png"},
               { "name": "제이브", "image": "/images/heroes/jave.png" ,"note":"즉사반지"},
               { "name": "리나", "image": "/images/heroes/lina.png"}
@@ -31,11 +32,20 @@
               { "name": "카르마", "image": "/images/heroes/carma.png"},
               { "name": "첸슬러", "image": "/images/heroes/chancellor.png" },
               { "name": "엘리스", "image": "/images/heroes/elise.png"}
+=======
+              { "name": "리나", "image": "/images/heroes/lina.png"},
+              { "name": "카르마", "image": "/images/heroes/carma.png" },
+              { "name": "첸슬러", "image": "/images/heroes/chancellor.png"}
+>>>>>>> c82c9f5 (공성전 목요일)
             ],
             "skillOrder": [
       "chancellor2.png",
       "carma2.png",
+<<<<<<< HEAD
       "elise1.png"
+=======
+      "lina1.png"
+>>>>>>> c82c9f5 (공성전 목요일)
             ]
           },
            {
@@ -413,11 +423,26 @@
             ],
             
             "skillOrder": [
-      "teo1.png",
-      "eileene2.png",
-      "teo2.png"
+      "chancellor2.png",
+      "elise1.png",
+      "aragon1.png"
             ],
             "note":"상대 패시브 벗기고 패기"
+          },
+          {
+              
+            "team": [
+               { "name": "리나", "image": "/images/heroes/lina.png" },
+              { "name": "제이브", "image": "/images/heroes/jave.png" },
+              { "name": "루디", "image": "/images/heroes/rudy.png" }
+            ],
+            
+            "skillOrder": [
+      "rudy2.png",
+      "jave1.png",
+      "jave2.png"
+            ],
+            "note":"스킬순서 애매 상대 덱마다 바꿔야할듯"
           },
           {
               
@@ -534,8 +559,8 @@
       "rin2.png",
       "juri2.png",
       "vanessa1.png"
-            ]
-            
+            ],
+             "note":"상대보다 속공 낮을때, 린 약공가면 카운터 가능"
           },
           {
               
@@ -643,6 +668,70 @@
       }
     ],
     "방덱":[
+      {
+        "id": "team4",
+        "label": "콜트 방덱",
+        "defenseTeam": [
+        
+          { "name": "첸슬러", "image": "/images/heroes/chancellor.png" },
+         
+          { "name": "콜트", "image": "/images/heroes/colt.png" },
+           { "name": "카르마", "image": "/images/heroes/carma.png" }
+        ],
+        "recommendedCounters": [
+          
+          {
+            "team": [
+              { "name": "노호", "image": "/images/heroes/noho.png" },
+              { "name": "발리스타", "image": "/images/heroes/ballista.png","note":"6초 이상 추천"},
+              { "name": "델론즈", "image": "/images/heroes/dellons.png" }
+            ],
+            "note": "",
+             "skillOrder": [
+    
+      "noho1.png",
+      "ballista1.png",
+      "dellons2.png"
+     
+            ]
+          }
+          
+         
+          
+        ]
+      },
+      {
+        "id": "team4",
+        "label": "",
+        "defenseTeam": [
+        
+          { "name": "루디", "image": "/images/heroes/rudy.png" },
+         
+          { "name": "카르마", "image": "/images/heroes/carma.png" },
+           { "name": "로지", "image": "/images/heroes/lozy.png" }
+        ],
+        "recommendedCounters": [
+          
+          {
+            "team": [
+              { "name": "노호", "image": "/images/heroes/noho.png" },
+              { "name": "루리", "image": "/images/heroes/luri.png"},
+              { "name": "쥬리", "image": "/images/heroes/juri.png" }
+            ],
+            "note": "",
+             "skillOrder": [
+    
+      "noho1.png",
+      "juri2.png",
+      "luri2.png"
+     
+            ]
+          }
+          
+         
+          
+        ]
+      },
       {
         "id": "team4",
         "label": "방덱 상대 유지력 높을땨(태오공덱절대 금지)",
