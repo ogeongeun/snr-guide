@@ -10,6 +10,34 @@
           { "name": "델론즈", "image": "/images/heroes/dellons.png" }
         ],
         "recommendedCounters": [
+          {
+            
+            "team": [
+              
+              { "name": "루디", "image": "/images/heroes/rudy.png"},
+              { "name": "제이브", "image": "/images/heroes/jave.png" ,"note":"즉사반지"},
+              { "name": "리나", "image": "/images/heroes/lina.png"}
+            ],
+            "skillOrder": [
+      "rudy2.png",
+      "jave1.png",
+      "lina1.png"
+            ]
+          },
+          {
+            
+            "team": [
+              
+              { "name": "카르마", "image": "/images/heroes/carma.png"},
+              { "name": "첸슬러", "image": "/images/heroes/chancellor.png" },
+              { "name": "엘리스", "image": "/images/heroes/elise.png"}
+            ],
+            "skillOrder": [
+      "chancellor2.png",
+      "carma2.png",
+      "elise1.png"
+            ]
+          },
            {
             
             "team": [
@@ -38,21 +66,7 @@
       "elise2.png"
             ]
           },
-          {
-            
-            "team": [
-              
-              { "name": "루디", "image": "/images/heroes/rudy.png" ,"note":"조율자 세팅/2초이상"},
-              { "name": "제이브", "image": "/images/heroes/jave.png" },
-              { "name": "카르마", "image": "/images/heroes/carma.png","note":"리나 대체가능"}
-            ],
-            "skillOrder": [
-              "rudy2.png",
-      "carma2.png",
-      
-      "jave2.png"
-            ]
-          },
+          
           {
             
             "team": [
@@ -278,6 +292,34 @@
             "note":"에이스 2스킬로 디버프 해제"
           },
           {
+            
+            "team": [
+              
+              { "name": "루디", "image": "/images/heroes/rudy.png"},
+              { "name": "제이브", "image": "/images/heroes/jave.png" ,"note":"즉사반지"},
+              { "name": "리나", "image": "/images/heroes/lina.png"}
+            ],
+            "skillOrder": [
+      "rudy2.png",
+      "jave1.png",
+      "lina1.png"
+            ]
+          },
+          {
+            
+            "team": [
+              
+              { "name": "카르마", "image": "/images/heroes/carma.png"},
+              { "name": "첸슬러", "image": "/images/heroes/chancellor.png" },
+              { "name": "엘리스", "image": "/images/heroes/elise.png"}
+            ],
+            "skillOrder": [
+      "chancellor2.png",
+      "carma2.png",
+      "elise1.png"
+            ]
+          },
+          {
               
             "team": [
                { "name": "유신", "image": "/images/heroes/yushin.png" ,"note":"2초월 이상(조율자)"},
@@ -334,6 +376,34 @@
           { "name": "바네사", "image": "/images/heroes/vanessa.png" }
         ],
         "recommendedCounters": [
+          {
+            
+            "team": [
+              
+              { "name": "루디", "image": "/images/heroes/rudy.png"},
+              { "name": "제이브", "image": "/images/heroes/jave.png" ,"note":"즉사반지"},
+              { "name": "리나", "image": "/images/heroes/lina.png"}
+            ],
+            "skillOrder": [
+      "rudy2.png",
+      "jave1.png",
+      "lina1.png"
+            ]
+          },
+          {
+            
+            "team": [
+              
+              { "name": "카르마", "image": "/images/heroes/carma.png"},
+              { "name": "첸슬러", "image": "/images/heroes/chancellor.png" },
+              { "name": "엘리스", "image": "/images/heroes/elise.png"}
+            ],
+            "skillOrder": [
+      "chancellor2.png",
+      "carma2.png",
+      "elise1.png"
+            ]
+          },
         {
               
             "team": [
