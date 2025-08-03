@@ -30,11 +30,11 @@
           "teamId": 3,
           "name": "방어팀 5",
           "heroes": [
-            { "name": "로지", "image": "lozy.png" },
+            { "name": "로지", "image": "lozy.png" ,"note":"즉사 반지"},
             { "name": "테오", "image": "teo.png", "note": "가능하면 약공 세팅" },
             { "name": "아일린", "image": "eileene.png", "note": "고초월 스파이크 대체가능" }
           ],
-          "skillOrder": ["eileene2.png", "teo2.png", "teo1.png"]
+          "skillOrder": ["lozy1.png", "eileene2.png", "teo2.png"]
         },
          {
           "teamId": 3,
