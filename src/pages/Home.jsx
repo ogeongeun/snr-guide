@@ -93,9 +93,14 @@ const Home = () => {
           </p>
         </h1>
         <p className="text-center text-sm text-gray-500 mb-6 italic">made by 건근본</p>
-
+<Link to="/voodoo">
+  <div className="text-center text-lg font-bold text-purple-700 bg-purple-100 rounded-xl py-2 mb-6 shadow-sm hover:bg-purple-200 cursor-pointer transition">
+    🧙‍♂️ 1급 비밀 부두술
+  </div>
+</Link>
         {/* 카드 리스트 */}
-        <div className="grid grid-cols-2 gap-4">
+     <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-4">
+ 
           {features.map((feature, index) => (
             <Link
               to={feature.path}
