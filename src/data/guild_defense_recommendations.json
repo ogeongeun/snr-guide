@@ -51,7 +51,7 @@
           "teamId": 3,
           "name": "방어팀 6",
           "heroes": [
-            { "name": "델론즈", "image": "pie.png" },
+            { "name": "델론즈", "image": "dellons.png" },
             { "name": "콜트", "image": "colt.png","note":"즉사 반지 추천" },
             { "name": "실비아", "image": "silvia.png" ,"note": "복수자(치치모모)/속공옵션"}
           ],
