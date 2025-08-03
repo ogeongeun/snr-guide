@@ -267,6 +267,48 @@
     "마덱": [
       {
         "id": "team2",
+        "label": "연희,린 마덱",
+        "defenseTeam": [
+           { "name": "린", "image": "/images/heroes/rin.png" },
+          { "name": "연희", "image": "/images/heroes/yeonhee.png" },
+      
+          { "name": "바네사", "image": "/images/heroes/vanessa.png" }
+        ],
+        "recommendedCounters": [
+        {
+              
+            "team": [
+               { "name": "아라곤", "image": "/images/heroes/aragon.png","note":"카르마 대체가능" },
+              { "name": "첸슬러", "image": "/images/heroes/chancellor.png" },
+              { "name": "엘리스", "image": "/images/heroes/elise.png" ,"note":"리나 대체가능"}
+            ],
+            
+            "skillOrder": [
+      "chancellor2.png",
+      "elise1.png",
+      "aragon1.png"
+            ],
+            "note":"상대 패시브 벗기고 패기"
+          },
+          {
+              
+            "team": [
+               { "name": "발리스타", "image": "/images/heroes/ballista.png" },
+              { "name": "콜트", "image": "/images/heroes/colt.png" },
+              { "name": "엘리스", "image": "/images/heroes/elise.png" }
+            ],
+            
+            "skillOrder": [
+      "elise1.png",
+      "colt1.png",
+      "colt2.png"
+            ],
+            "note":"상대하고 초월 비슷해야될듯"
+          }
+        ]
+      }, 
+      {
+        "id": "team2",
         "label": "연희 마덱",
         "defenseTeam": [
            { "name": "유신", "image": "/images/heroes/yushin.png" },
@@ -289,6 +331,21 @@
       "aragon1.png"
             ],
             "note":"상대 패시브 벗기고 패기"
+          },
+          {
+              
+            "team": [
+               { "name": "발리스타", "image": "/images/heroes/ballista.png" },
+              { "name": "콜트", "image": "/images/heroes/colt.png" },
+              { "name": "엘리스", "image": "/images/heroes/elise.png" }
+            ],
+            
+            "skillOrder": [
+      "elise1.png",
+      "colt1.png",
+      "colt2.png"
+            ],
+            "note":"상대하고 초월 비슷해야될듯"
           },
           {
               
@@ -407,6 +464,21 @@
           { "name": "바네사", "image": "/images/heroes/vanessa.png" }
         ],
         "recommendedCounters": [
+          {
+              
+            "team": [
+               { "name": "발리스타", "image": "/images/heroes/ballista.png" },
+              { "name": "콜트", "image": "/images/heroes/colt.png" },
+              { "name": "엘리스", "image": "/images/heroes/elise.png" }
+            ],
+            
+            "skillOrder": [
+      "elise1.png",
+      "colt1.png",
+      "colt2.png"
+            ],
+            "note":"상대하고 초월 비슷해야될듯"
+          },
         {
               
             "team": [
