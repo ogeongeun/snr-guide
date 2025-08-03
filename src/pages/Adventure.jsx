@@ -3,15 +3,21 @@ import { Link } from 'react-router-dom';
 import data from '../data/adventure_teams.json';
 
 const Adventure = () => {
-  const grouped = groupByStageNumber(Object.keys(data));
+  const grouped = groupStages(Object.keys(data));
   const [openGroup, setOpenGroup] = useState(null);
 
-  // "악몽1-30" → "1" 추출해서 그룹화
-  function groupByStageNumber(stageKeys) {
+  // 그룹화 로직
+  function groupStages(stageKeys) {
     const groups = {};
 
+    // ⭐ 3별작을 먼저 추가
+    if (stageKeys.includes('3별작')) {
+      groups['⭐ 3별작'] = ['3별작'];
+    }
+
+    // 나머지 악몽 단계들
     stageKeys.forEach((stage) => {
-      const match = stage.match(/악몽(\d+)-/); // 예: "악몽1-30" → 1
+      const match = stage.match(/악몽(\d+)-/);
       if (match) {
         const groupKey = `악몽${match[1]}단계`;
         if (!groups[groupKey]) groups[groupKey] = [];
@@ -19,8 +25,11 @@ const Adventure = () => {
       }
     });
 
-    // 정렬 (ex: 악몽1-20 < 악몽1-30)
-    Object.values(groups).forEach(group => group.sort());
+    // 정렬 (각 그룹 내에서)
+    Object.entries(groups).forEach(([key, group]) => {
+      if (key !== '⭐ 3별작') group.sort();
+    });
+
     return groups;
   }
 

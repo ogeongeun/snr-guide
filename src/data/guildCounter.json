@@ -5,6 +5,36 @@
         "id": "team1",
         "label": "태오 공덱",
         "defenseTeam": [
+          { "name": "파이", "image": "/images/heroes/pie.png" },
+          { "name": "태오", "image": "/images/heroes/teo.png" },
+          { "name": "델론즈", "image": "/images/heroes/dellons.png" }
+        ],
+        "recommendedCounters": [
+          {
+            
+            "team": [
+              
+              { "name": "리", "image": "/images/heroes/lee.png"},
+              { "name": "첸슬러", "image": "/images/heroes/chancellor.png" },
+              { "name": "유이", "image": "/images/heroes/yui.png"}
+            ],
+            "skillOrder": [
+      "lee1.png",
+      "chancellor2.png",
+      "lee2.png"
+            ]
+          }
+          
+          
+          
+        
+       
+         ]
+      },
+      {
+        "id": "team1",
+        "label": "태오 공덱",
+        "defenseTeam": [
           { "name": "아일린", "image": "/images/heroes/eileene.png" },
           { "name": "태오", "image": "/images/heroes/teo.png" },
           { "name": "델론즈", "image": "/images/heroes/dellons.png" }

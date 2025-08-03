@@ -3,7 +3,7 @@ import data from '../data/adventure_teams.json';
 
 const AdventureDetailPage = () => {
   const { stage } = useParams();
-  const stageData = data[stage];
+  const stageData = data[decodeURIComponent(stage)];
 
   if (!stageData) {
     return <div className="p-6">해당 스테이지 정보를 찾을 수 없습니다.</div>;
@@ -23,7 +23,7 @@ const AdventureDetailPage = () => {
           />
           <p className="text-[10px] mt-1 text-center">{hero.name}</p>
           {hero.subText && (
-            <p className="text-[10px] text-red-500 font-semibold mt-0.5">
+            <p className="text-[10px] text-red-500 font-semibold mt-0.5 text-center">
               {hero.subText}
             </p>
           )}
@@ -36,26 +36,28 @@ const AdventureDetailPage = () => {
     <div className="min-h-screen bg-gray-50 px-4 py-8">
       <div className="max-w-5xl mx-auto bg-white shadow-md rounded-2xl p-6">
         <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">🗺️ {stage} 모험 덱</h1>
-        
 
-        {Object.entries(stageData).map(([mainTeamKey, subTeams], i) => (
+        {Object.entries(stageData).map(([mainKey, teamGroup]) => (
           <div
-            key={mainTeamKey}
+            key={mainKey}
             className="mb-8 bg-gray-100 border border-gray-200 rounded-xl p-4 shadow-sm"
           >
-            <h2 className="text-xl font-semibold text-purple-700 mb-3">팀 {i + 1}</h2>
+            <h2 className="text-xl font-bold text-blue-700 mb-3">
+              {/* ✅ "일반맵", "보스맵" 같은 key 그대로 보여주기 */}
+              {mainKey}
+            </h2>
 
-            {Object.entries(subTeams).map(([subKey, subTeam], j) => (
+            {Object.entries(teamGroup).map(([subKey, teamData]) => (
               <div key={subKey} className="mb-4">
                 <p className="text-sm font-semibold text-gray-600 mb-1">
-                  서브팀 {j + 1}
+                  {subKey} {/* team1, team2 그대로 출력 */}
                 </p>
-                {subTeam.description && (
+                {teamData.description && (
                   <p className="text-xs text-gray-500 italic mb-1">
-                    {subTeam.description}
+                    {teamData.description}
                   </p>
                 )}
-                {renderHeroes(subTeam.heroes)}
+                {renderHeroes(teamData.heroes)}
               </div>
             ))}
           </div>

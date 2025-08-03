@@ -14,6 +14,13 @@ const Home = () => {
       description: '길드전 방어팀 공격팀 추천',
       emoji: '🛡️'
     },
+     {
+  title: '총력전',
+  path: '/grand-battle',
+  description: '총력전 전용 팀 구성 및 공략 정보',
+  emoji: '⚔️'
+},
+
     {
   title: '무한의 탑',
   path: '/infinity-tower',
