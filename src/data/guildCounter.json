@@ -248,8 +248,8 @@
               
             "team": [
                { "name": "노호", "image": "/images/heroes/noho.png","note":"속공 몰빵노호" },
-              { "name": "델론즈", "image": "/images/heroes/ballista.png" },
-             { "name": "발리", "image": "/images/heroes/lee.png" }
+              { "name": "델론즈", "image": "/images/heroes/dellons.png" },
+             { "name": "발리", "image": "/images/heroes/ballista.png" }
             ],
             
             "skillOrder": [
