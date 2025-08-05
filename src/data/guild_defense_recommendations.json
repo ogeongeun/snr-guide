@@ -11,7 +11,7 @@
             { "name": "태오", "image": "teo.png", "note": "가능하면 약공 세팅" },
             { "name": "파이", "image": "pie.png", "note": "델론즈,콜트 대체" }
           ],
-          "skillOrder": ["eileene2.png", "pie1.png", "teo1.png"]
+          "skillOrder": [ "pie1.png", "eileene2.png","teo1.png"]
         },
         {
           "teamId": 1,
@@ -21,7 +21,7 @@
             { "name": "태오", "image": "teo.png", "note": "가능하면 약공 세팅" },
             { "name": "유신", "image": "Yushin.png" }
           ],
-          "skillOrder": [ "pie1.png","Yushin1.png", "teo1.png"],
+          "skillOrder": [ "pie1.png", "teo2.png","Yushin1.png"],
           "note": "1티어"
         },
         
