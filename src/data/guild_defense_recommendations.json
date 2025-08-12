@@ -221,7 +221,7 @@
           "heroes": [
             
            
-            { "name": "로지", "image": "lozy.png" },
+            { "name": "로지", "image": "lozy.png","note":"쥬리로 대체가능"  },
              { "name": "콜트", "image": "colt.png"},
              {
               "name": "플라튼",
@@ -255,7 +255,7 @@
           "heroes": [
             
            
-            { "name": "로지", "image": "lozy.png","note":"쥬리로 대체가능" },
+            { "name": "엘리스", "image": "elise.png" },
              { "name": "콜트", "image": "colt.png"},
              {
               "name": "플라튼",
