@@ -13,7 +13,7 @@ import Adventure from './pages/Adventure';
 import InfinityTowerDetailPage from './pages/InfinityTowerDetailPage';
 import InfinityTowerPage from './pages/InfinityTowerPage';
 import InfinitySkillDetailPage from './pages/InfinitySkillDetailPage';
-import TrialSkillDetailPage from './pages/TrialSkillDetailPage';
+
 import TrialTowerDetailPage from './pages/TrialTowerDetailPage';
 import TrialTowerPage from './pages/TrialTowerPage';
 import GuildDefensePage from './pages/GuildDefensePage';
@@ -45,7 +45,7 @@ const App = () => {
         <Route path="/infinity-skill/:floor/:teamIndex" element={<InfinitySkillDetailPage />} />
         <Route path="/trial-tower" element={<TrialTowerPage />} />
 <Route path="/trial-tower/:floor" element={<TrialTowerDetailPage />} />
-<Route path="/trial-skill/:floor/:teamIndex" element={<TrialSkillDetailPage />} />
+
  <Route path="/guild-defense" element={<GuildDefensePage />} />
   <Route path="/guild-defense/build" element={<GuildDefenseBuildPage />} />
 

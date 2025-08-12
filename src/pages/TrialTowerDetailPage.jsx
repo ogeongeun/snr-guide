@@ -25,10 +25,9 @@ const TrialTowerDetailPage = () => {
 
       <div className="space-y-6">
         {towerData.teams.map((team, idx) => (
-          <Link
-            to={`/trial-skill/${encodeURIComponent(decodedFloor)}/${idx}`}
+          <div
             key={idx}
-            className="block border border-red-300 bg-white rounded-xl shadow hover:shadow-md transition duration-200 p-4"
+            className="border border-red-300 bg-white rounded-xl shadow hover:shadow-md transition duration-200 p-4"
           >
             <h2 className="text-lg font-semibold text-red-700 mb-2">팀 {idx + 1}</h2>
 
@@ -42,27 +41,49 @@ const TrialTowerDetailPage = () => {
               </p>
             )}
 
-            <div className="grid grid-cols-5 gap-2">
-              {team.heroes.map((hero, i) => (
-                <div
-                  key={i}
-                  className="flex flex-col items-center bg-gray-50 border rounded-lg p-1 shadow-sm"
-                >
-                  <img
-                    src={hero.image}
-                    alt={hero.name}
-                    className="w-14 h-14 object-contain"
-                  />
-                  <p className="text-[10px] mt-1 text-center">{hero.name}</p>
-                  {hero.note && (
-                    <div className="text-xs text-red-500 italic mt-0.5">
-                      {hero.note}
-                    </div>
-                  )}
-                </div>
-              ))}
-            </div>
-          </Link>
+            {/* 여러 개의 영상 버튼 */}
+            {Array.isArray(team.videos) && team.videos.length > 0 && (
+              <div className="flex flex-wrap gap-2 mb-3">
+                {team.videos.map((videoUrl, videoIdx) => (
+                  <a
+                    key={videoIdx}
+                    href={videoUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block px-3 py-1 bg-red-500 text-white text-xs rounded hover:bg-red-600 transition"
+                  >
+                    🎥 클리어 영상 {videoIdx + 1}
+                  </a>
+                ))}
+              </div>
+            )}
+
+            <Link
+              to={`/trial-skill/${encodeURIComponent(decodedFloor)}/${idx}`}
+              className="block"
+            >
+              <div className="grid grid-cols-5 gap-2">
+                {team.heroes.map((hero, i) => (
+                  <div
+                    key={i}
+                    className="flex flex-col items-center bg-gray-50 border rounded-lg p-1 shadow-sm"
+                  >
+                    <img
+                      src={hero.image}
+                      alt={hero.name}
+                      className="w-14 h-14 object-contain"
+                    />
+                    <p className="text-[10px] mt-1 text-center">{hero.name}</p>
+                    {hero.note && (
+                      <div className="text-xs text-red-500 italic mt-0.5">
+                        {hero.note}
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </Link>
+          </div>
         ))}
       </div>
     </div>
