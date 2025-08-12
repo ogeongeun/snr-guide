@@ -201,15 +201,16 @@
           "heroes": [
             
            
-            { "name": "첸슬러", "image": "chancellor.png" },
+            { "name": "첸슬러", "image": "chancellor.png" ,"note":"6초일때 추천"},
+             { "name": "콜트", "image": "colt.png","note":"발리스타 대체가능"},
              {
               "name": "플라튼",
               "image": "platon.png"
-            },
-            { "name": "발리스타", "image": "ballista.png"}
+            }
+           
           ],
-           "skillOrder": ["platon2.png", "ballista1.png", "chancellor2.png"],
-          "note": ""
+           "skillOrder": ["platon2.png", "colt1.png", "colt2.png"],
+          "note": "1티어(개사기)"
         },
         {
           "teamId": 0,
@@ -218,11 +219,12 @@
             
            
             { "name": "로지", "image": "lozy.png" },
+             { "name": "콜트", "image": "colt.png"},
              {
               "name": "플라튼",
               "image": "platon.png"
-            },
-            { "name": "콜트", "image": "colt.png"}
+            }
+           
           ],
            "skillOrder": ["platon2.png", "colt1.png", "colt2.png"],
           "note": ""
@@ -234,11 +236,12 @@
             
            
             { "name": "발리", "image": "ballista.png" },
+            { "name": "콜트", "image": "colt.png"},
              {
               "name": "플라튼",
               "image": "platon.png"
-            },
-            { "name": "콜트", "image": "colt.png"}
+            }
+            
           ],
            "skillOrder": ["platon2.png", "colt1.png", "colt2.png"],
           "note": ""
@@ -250,11 +253,12 @@
             
            
             { "name": "로지", "image": "lozy.png","note":"쥬리로 대체가능" },
+             { "name": "콜트", "image": "colt.png"},
              {
               "name": "플라튼",
               "image": "platon.png"
-            },
-            { "name": "콜트", "image": "colt.png"}
+            }
+           
           ],
            "skillOrder": ["platon2.png", "colt1.png", "colt2.png"],
           "note": ""
