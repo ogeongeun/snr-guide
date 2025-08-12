@@ -44,6 +44,23 @@
         ]
       }
     }
+  },"platon": {
+    "name": "플라튼",
+    "image": "/images/heroes/platon.png",
+    "roles": {
+      "탱커": {
+       
+        "전체": [
+             {
+            "set": "수문장",
+            "mainOption": "방어>생명%/방어>생명%/막기or받피감%/막기or받피감%",
+            "note": "스펙 되면 조율자도 고려해볼만함"
+          }
+          
+        ]
+      }
+      
+    }
   },
   
   "sein": {
