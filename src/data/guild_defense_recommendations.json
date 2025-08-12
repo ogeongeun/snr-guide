@@ -208,7 +208,7 @@
             },
             { "name": "발리스타", "image": "ballista.png"}
           ],
-           "skillOrder": ["platon2.png", "chancellor2.png", "ballista1.png"],
+           "skillOrder": ["platon2.png", "ballista1.png", "chancellor2.png"],
           "note": ""
         },
         {
