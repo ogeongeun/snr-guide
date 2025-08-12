@@ -42,11 +42,12 @@
           "heroes": [
             { "name": "파이", "image": "pie.png", "note": "레이첼,제이브 대체" },
             { "name": "콜트", "image": "colt.png", "note": "즉사 반지 추천" },
-            { "name": "유신", "image": "Yushin.png" }
+            { "name": "첸슬러", "image": "chancellor.png" }
           ],
-          "skillOrder": ["pie1.png", "Yushin1.png", "colt2.png"],
-          "note": "이거 좋은거같음"
+          "skillOrder": ["chancellor2.png", "colt1.png", "colt2.png"],
+          "note": "1티어 근접"
         },
+        
         {
           "teamId": 3,
           "name": "방어팀 6",
@@ -185,7 +186,7 @@
             { "name": "연희", "image": "Yeonhee.png", "note": "딜러(뒤배치)" },
             { "name": "린", "image": "rin.png", "note": "가능하면 약공 세팅"}
           ],
-          "skillOrder": ["rin2.png", "vanessa1.png", "Yeonhee2.png"],
+          "skillOrder": ["rin2.png", "Yeonhee2.png", "Yeonhee1.png"],
           "note": ""
         }
        
@@ -194,7 +195,70 @@
     "방덱": {
        "desc": "제이브 방덱 절대 사용 x",
       "teams": [
-      
+      {
+          "teamId": 0,
+          "name": "방어팀 3",
+          "heroes": [
+            
+           
+            { "name": "첸슬러", "image": "chancellor.png" },
+             {
+              "name": "플라튼",
+              "image": "platon.png"
+            },
+            { "name": "발리스타", "image": "ballista.png"}
+          ],
+           "skillOrder": ["platon2.png", "chancellor2.png", "ballista1.png"],
+          "note": ""
+        },
+        {
+          "teamId": 0,
+          "name": "방어팀 3",
+          "heroes": [
+            
+           
+            { "name": "로지", "image": "lozy.png" },
+             {
+              "name": "플라튼",
+              "image": "platon.png"
+            },
+            { "name": "콜트", "image": "colt.png"}
+          ],
+           "skillOrder": ["platon2.png", "colt1.png", "colt2.png"],
+          "note": ""
+        },
+        {
+          "teamId": 0,
+          "name": "방어팀 3",
+          "heroes": [
+            
+           
+            { "name": "발리", "image": "ballista.png" },
+             {
+              "name": "플라튼",
+              "image": "platon.png"
+            },
+            { "name": "콜트", "image": "colt.png"}
+          ],
+           "skillOrder": ["platon2.png", "colt1.png", "colt2.png"],
+          "note": ""
+        },
+        {
+          "teamId": 0,
+          "name": "방어팀 3",
+          "heroes": [
+            
+           
+            { "name": "로지", "image": "lozy.png","note":"쥬리로 대체가능" },
+             {
+              "name": "플라튼",
+              "image": "platon.png"
+            },
+            { "name": "콜트", "image": "colt.png"}
+          ],
+           "skillOrder": ["platon2.png", "colt1.png", "colt2.png"],
+          "note": ""
+        },
         {
           "teamId": 0,
           "name": "방어팀 3",
