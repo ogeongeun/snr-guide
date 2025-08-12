@@ -3,17 +3,7 @@
     "공덱": {
        "desc": "테오,델론즈,아일린 조합 사용x 방덱한끼 식사임",
       "teams": [
-        {
-          "teamId": 1,
-          "name": "방어팀 1",
-          "heroes": [
-            { "name": "아일린", "image": "eileene.png", "note": "cc" },
-            { "name": "태오", "image": "teo.png", "note": "가능하면 약공 세팅" },
-            { "name": "파이", "image": "pie.png", "note": "델론즈,콜트 대체" }
-          ],
-          "skillOrder": [ "pie1.png", "eileene2.png","teo1.png"]
-        },
-        {
+         {
           "teamId": 1,
           "name": "방어팀 2",
           "heroes": [
@@ -24,6 +14,28 @@
           "skillOrder": [ "pie1.png", "teo2.png","Yushin1.png"],
           "note": "1티어"
         },
+        {
+          "teamId": 3,
+          "name": "방어팀 6",
+          "heroes": [
+            { "name": "파이", "image": "pie.png" },
+            { "name": "콜트", "image": "colt.png", "note": "즉사 반지 추천" },
+            { "name": "첸슬러", "image": "chancellor.png" }
+          ],
+          "skillOrder": ["chancellor2.png", "colt1.png", "colt2.png"],
+          "note": "1티어 근접"
+        },
+        {
+          "teamId": 1,
+          "name": "방어팀 1",
+          "heroes": [
+            { "name": "아일린", "image": "eileene.png", "note": "cc" },
+            { "name": "태오", "image": "teo.png", "note": "가능하면 약공 세팅" },
+            { "name": "파이", "image": "pie.png", "note": "델론즈,콜트 대체" }
+          ],
+          "skillOrder": [ "pie1.png", "eileene2.png","teo1.png"]
+        },
+       
         
         
         {
@@ -36,17 +48,7 @@
           ],
           "skillOrder": ["lozy1.png", "eileene2.png", "teo2.png"]
         },
-         {
-          "teamId": 3,
-          "name": "방어팀 6",
-          "heroes": [
-            { "name": "파이", "image": "pie.png", "note": "레이첼,제이브 대체" },
-            { "name": "콜트", "image": "colt.png", "note": "즉사 반지 추천" },
-            { "name": "첸슬러", "image": "chancellor.png" }
-          ],
-          "skillOrder": ["chancellor2.png", "colt1.png", "colt2.png"],
-          "note": "1티어 근접"
-        },
+         
         
         {
           "teamId": 3,
@@ -78,8 +80,8 @@
             { "name": "델론즈", "image": "dellons.png", "note": "2초월이상 (뒤배치)" },
             { "name": "아일린", "image": "eileene.png" }
           ],
-          "skillOrder": ["eileene2.png", "dellons1.png", "dellons2.png"],
-          "note": "1티어"
+          "skillOrder": ["eileene2.png", "dellons1.png", "dellons2.png"]
+         
         },
         {
           "teamId": 3,
@@ -108,6 +110,17 @@
     "마덱": {
       "desc": "메인딜러(연희,린)두고 \n 나머지 두자리(바네사,실베스타,니아,유신,멜키르,쥬리)중\n  속공 높은거 넣기\n ! 니아 바네사 안겹치게",
       "teams": [
+         {
+          "teamId": 0,
+          "name": "방어팀 2",
+          "heroes": [
+            { "name": "로지", "image": "lozy.png" },
+            { "name": "연희", "image": "Yeonhee.png", "note": "딜러(뒤배치)" },
+            { "name": "니아", "image": "nia.png" }
+          ],
+          "skillOrder": ["nia2.png", "Yeonhee2.png", "Yeonhee1.png"],
+          "note": "1티어"
+        },
         {
           "teamId": 0,
           "name": "방어팀 1",
@@ -138,17 +151,7 @@
           "skillOrder": ["Yushin1.png", "juri2.png", "Yeonhee2.png"]
       
         },
-        {
-          "teamId": 0,
-          "name": "방어팀 2",
-          "heroes": [
-            { "name": "로지", "image": "lozy.png" },
-            { "name": "연희", "image": "Yeonhee.png", "note": "딜러(뒤배치)" },
-            { "name": "니아", "image": "nia.png" }
-          ],
-          "skillOrder": ["nia2.png", "Yeonhee2.png", "Yeonhee1.png"],
-          "note": "니아랑 바네사랑 같이 쓰지말것"
-        },
+       
         {
           "teamId": 0,
           "name": "방어팀 2",
@@ -187,7 +190,7 @@
             { "name": "린", "image": "rin.png", "note": "가능하면 약공 세팅"}
           ],
           "skillOrder": ["rin2.png", "Yeonhee2.png", "Yeonhee1.png"],
-          "note": ""
+          "note": "덱 부족시 연희 린 같이 사용"
         }
        
       ]
