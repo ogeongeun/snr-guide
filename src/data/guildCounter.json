@@ -5,6 +5,37 @@
         "id": "team1",
         "label": "태오 공덱",
         "defenseTeam": [
+          { "name": "콜트", "image": "/images/heroes/colt.png" },
+          { "name": "태오", "image": "/images/heroes/teo.png" },
+          { "name": "아일린", "image": "/images/heroes/eileene.png" }
+        ],
+        "recommendedCounters": [
+          {
+            
+            "team": [
+              
+              { "name": "루디", "image": "/images/heroes/rudy.png"},
+              { "name": "제이브", "image": "/images/heroes/jave.png" },
+              { "name": "엘리스", "image": "/images/heroes/elise.png"}
+            ],
+            "note":"상대 콜트아래 스킬에 맞춰서 루디 방패로 해제하기",
+            "skillOrder": [
+      "elise1.png",
+      "rudy2.png",
+      "jave2.png"
+            ]
+          }
+          
+          
+          
+        
+       
+         ]
+      },
+      {
+        "id": "team1",
+        "label": "태오 공덱",
+        "defenseTeam": [
           { "name": "파이", "image": "/images/heroes/pie.png" },
           { "name": "태오", "image": "/images/heroes/teo.png" },
           { "name": "델론즈", "image": "/images/heroes/dellons.png" }
@@ -648,7 +679,7 @@
       },
       {
         "id": "team4",
-        "label": "",
+        "label": "카르마 방덱",
         "defenseTeam": [
         
           { "name": "루디", "image": "/images/heroes/rudy.png" },
@@ -680,7 +711,7 @@
       },
       {
         "id": "team4",
-        "label": "방덱 상대 유지력 높을땨(태오공덱절대 금지)",
+        "label": "카르마 방덱(힐러 포함)",
         "defenseTeam": [
         
           { "name": "루디", "image": "/images/heroes/rudy.png" },
@@ -712,7 +743,7 @@
       },
       {
         "id": "team4",
-        "label": "방덱 상대 힐 없을때(태오공덱절대 금지)",
+        "label": "제이브 방덱",
         "defenseTeam": [
         
           { "name": "루디", "image": "/images/heroes/rudy.png" },
@@ -773,7 +804,7 @@
       },
       {
         "id": "team4",
-        "label": "방덱(힐러 있을때),태오공덱절대 금지",
+        "label": "제이브 방덱(힐러 포함)",
         "defenseTeam": [
         
           { "name": "루디", "image": "/images/heroes/rudy.png" },
