@@ -246,7 +246,7 @@
             
            
             { "name": "카린", "image": "carin.png" },
-             { "name": "콜트", "image": "colt.png","note":"발리스타 대체가능"},
+             { "name": "콜트", "image": "colt.png"},
              {
               "name": "플라튼",
               "image": "platon.png"
@@ -263,7 +263,7 @@
             
            
             { "name": "첸슬러", "image": "chancellor.png" ,"note":"6초일때 추천"},
-             { "name": "콜트", "image": "colt.png","note":"발리스타 대체가능"},
+             { "name": "콜트", "image": "colt.png"},
              {
               "name": "플라튼",
               "image": "platon.png"
