@@ -778,21 +778,7 @@
         ],
         "recommendedCounters": [
           
-          {
-            "team": [
-              { "name": "노호", "image": "/images/heroes/noho.png" },
-              { "name": "발리스타", "image": "/images/heroes/ballista.png","note":"6초 이상 추천"},
-              { "name": "델론즈", "image": "/images/heroes/dellons.png" }
-            ],
-            "note": "",
-             "skillOrder": [
-    
-      "noho1.png",
-      "ballista1.png",
-      "de.png"
-     
-            ]
-          }
+         
           
          
           
