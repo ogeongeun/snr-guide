@@ -24,6 +24,36 @@
       "rudy2.png",
       "jave2.png"
             ]
+          },
+          {
+            
+            "team": [
+              
+              { "name": "루디", "image": "/images/heroes/rudy.png"},
+              { "name": "플라튼", "image": "/images/heroes/jave.png" ,"note":"혼자 앞 배치"},
+              { "name": "엘리스", "image": "/images/heroes/elise.png"}
+            ],
+            "note":"상대 콜트아래 스킬에 맞춰서 루디 방패로 해제하기",
+            "skillOrder": [
+      "platon2.png",
+      "rudy2.png",
+      "elise2.png"
+            ]
+          },
+          {
+            
+            "team": [
+              
+              { "name": "바네사", "image": "/images/heroes/vanessa.png"},
+              { "name": "연희", "image": "/images/heroes/yeonhee.png","note":"전반 껴야 할만함" },
+              { "name": "유신", "image": "/images/heroes/yushin.png"}
+            ],
+            "note":"상대 콜트아래 스킬에 맞춰서 유신 아래스킬로로 해제하기",
+            "skillOrder": [
+      "Yeonhee1.png",
+      "Yushin1.png",
+      "vanessa1.png"
+            ]
           }
           
           
@@ -55,6 +85,38 @@
       "lee2.png"
             ]
           }
+          
+          
+          
+        
+       
+         ]
+      },
+      {
+        "id": "team1",
+        "label": "콜트 공덱",
+        "defenseTeam": [
+          { "name": "에이스", "image": "/images/heroes/ace.png" },
+          { "name": "콜트", "image": "/images/heroes/colt.png" },
+          { "name": "델론즈", "image": "/images/heroes/dellons.png" }
+        ],
+        "recommendedCounters": [
+          {
+            
+            "team": [
+              
+              { "name": "바네사", "image": "/images/heroes/vanessa.png"},
+              { "name": "연희", "image": "/images/heroes/yeonhee.png","note":"전반 껴야 할만함" },
+              { "name": "유신", "image": "/images/heroes/yushin.png"}
+            ],
+            "note":"상대 콜트아래 스킬에 맞춰서 유신 아래스킬로로 해제하기",
+            "skillOrder": [
+      "Yeonhee1.png",
+      "Yushin1.png",
+      "vanessa1.png"
+            ]
+          }
+          
           
           
           
@@ -319,7 +381,7 @@
       "elise1.png",
       "aragon1.png"
             ],
-            "note":"상대 패시브 벗기고 패기"
+          "note":"밸런스 진형(앞열 3명두기)"
           },
           {
               
@@ -336,6 +398,65 @@
             ],
             "note":"상대하고 초월 비슷해야될듯"
           }
+        ]
+      }, 
+      {
+        "id": "team2",
+        "label": "린 마덱",
+        "defenseTeam": [
+           { "name": "유신", "image": "/images/heroes/yushin.png" },
+          { "name": "린", "image": "/images/heroes/rin.png" },
+      
+          { "name": "멜키르", "image": "/images/heroes/Melkir.png" }
+        ],
+        "recommendedCounters": [
+        {
+              
+            "team": [
+               { "name": "콜트", "image": "/images/heroes/colt.png" },
+              { "name": "테오", "image": "/images/heroes/teo.png" },
+              { "name": "델론즈", "image": "/images/heroes/dellons.png" ,"note":"아일린 대체가능"}
+            ],
+            
+            "skillOrder": [
+      "colt1.png",
+      "colt2.png",
+      "teo2.png"
+     
+            ],
+             "note":"상대 유신 디버프해제전에 콜트아래 스킬 쓰지않도록 스킬순서 꼬아서 가기"
+      
+          }
+          
+        ]
+      }, 
+      {
+        "id": "team2",
+        "label": "실베스타 마덱",
+        "defenseTeam": [
+           { "name": "유신", "image": "/images/heroes/yushin.png" },
+          { "name": "실베스타", "image": "/images/heroes/silvesta.png" },
+      
+          { "name": "멜키르", "image": "/images/heroes/Melkir.png" }
+        ],
+        "recommendedCounters": [
+        {
+              
+            "team": [
+               { "name": "아라곤", "image": "/images/heroes/aragon.png","note":"카르마 대체가능" },
+              { "name": "첸슬러", "image": "/images/heroes/chancellor.png" },
+              { "name": "엘리스", "image": "/images/heroes/elise.png" ,"note":"리나 대체가능"}
+            ],
+            
+            "skillOrder": [
+      "aragon1.png",
+      "chancellor2.png"
+     
+            ],
+             "note":"밸런스 진형(앞열 3명두기)"
+      
+          }
+          
         ]
       }, 
       {
@@ -669,6 +790,53 @@
       "noho1.png",
       "ballista1.png",
       "de.png"
+     
+            ]
+          }
+          
+         
+          
+        ]
+      },
+      {
+        "id": "team4",
+        "label": "플라튼 방덱",
+        "defenseTeam": [
+        
+          { "name": "첸슬러", "image": "/images/heroes/chancellor.png" },
+         
+          { "name": "스파이크", "image": "/images/heroes/spike.png" },
+           { "name": "플라튼", "image": "/images/heroes/platon.png" }
+        ],
+        "recommendedCounters": [
+          
+          {
+            "team": [
+              { "name": "바네사", "image": "/images/heroes/vanessa.png" },
+              { "name": "린", "image": "/images/heroes/rin.png"},
+              { "name": "멜키르", "image": "/images/heroes/Melkir.png" }
+            ],
+            "note": "",
+             "skillOrder": [
+    
+      "rin2.png",
+      "Melkir1.png",
+      "vanessa1.png"
+     
+            ]
+          },
+           {
+            "team": [
+              { "name": "리나", "image": "/images/heroes/lina.png" },
+              { "name": "플라튼", "image": "/images/heroes/platon.png"},
+              { "name": "카론", "image": "/images/heroes/caron.png" }
+            ],
+            "note": "",
+             "skillOrder": [
+    
+      "platon2.png"
+     
+      
      
             ]
           }

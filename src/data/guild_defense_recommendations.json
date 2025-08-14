@@ -176,12 +176,12 @@
             { "name": "멜키르", "image": "Melkir.png" },
             { "name": "린", "image": "rin.png" , "note": "가능하면 약공 세팅"},
             {
-              "name": "바네사",
-              "image": "vanessa.png",
-              "note": "주술사(효적/효적/막/막)"
+              "name": "유신",
+              "image": "Yushin.png",
+              "note": "2초월 이상"
             }
           ],
-          "skillOrder": ["vanessa1.png", "Melkir2.png", "rin2.png"],
+          "skillOrder": ["Yushin1.png", "rin2.png", "melkir1.png"],
           "note": "1티어"
         },
         {
@@ -207,7 +207,41 @@
       "teams": [
         {
           "teamId": 0,
-          "name": "콜트방덱",
+          "name": "로지방덱",
+          "heroes": [
+            
+           
+            { "name": "로지", "image": "lozy.png" },
+             { "name": "스파이크", "image": "spike.png","note":"6초월시 사용"},
+             {
+              "name": "아라곤",
+              "image": "aragon.png","note":"6초월시 사용"
+            }
+           
+          ],
+           "skillOrder": ["aragon1.png", "lozy1.png","spike2.png"],
+          "note": "2티어"
+        },
+        {
+          "teamId": 0,
+          "name": "플라튼방덱",
+          "heroes": [
+            
+           
+            { "name": "첸슬러", "image": "chancellor.png","note":"6초월시 사용" },
+             { "name": "스파이크", "image": "spike.png","note":"6초월시 사용"},
+             {
+              "name": "플라튼",
+              "image": "platon.png"
+            }
+           
+          ],
+           "skillOrder": [ "platon2.png","chancellor2.png","spike2.png"],
+          "note": "1.5티어"
+        },
+        {
+          "teamId": 0,
+          "name": "콜트+플라튼 방덱",
           "heroes": [
             
            
@@ -222,26 +256,9 @@
            "skillOrder": ["colt1.png", "colt2.png"],
           "note": "1티어"
         },
-         {
-          "teamId": 0,
-          "name": "플라튼덱",
-          "heroes": [
-            
-           
-            { "name": "첸슬러", "image": "chancellor.png" },
-             { "name": "스파이크", "image": "spike.png","note":"6초이상"},
-             {
-              "name": "플라튼",
-              "image": "platon.png"
-            }
-           
-          ],
-           "skillOrder": ["colt1.png", "colt2.png"],
-          "note": "1티어"
-        },
       {
           "teamId": 0,
-          "name": "콜트방덱",
+         "name": "콜트+플라튼 방덱",
           "heroes": [
             
            
@@ -258,7 +275,7 @@
         },
         {
           "teamId": 0,
-          "name": "콜트방덱",
+           "name": "콜트+플라튼 방덱",
           "heroes": [
             
            
@@ -275,7 +292,7 @@
         },
         {
           "teamId": 0,
-          "name": "콜트방덱",
+             "name": "콜트+플라튼 방덱",
           "heroes": [
             
            
@@ -292,7 +309,7 @@
         },
         {
           "teamId": 0,
-          "name": "콜트방덱",
+          "name": "콜트+플라튼 방덱",
           "heroes": [
             
            
@@ -305,7 +322,7 @@
            
           ],
            "skillOrder": ["platon2.png", "colt1.png", "colt2.png"],
-          "note": "1.5티어"
+          "note": "1.5티어(개 가성비)"
         },
         {
           "teamId": 0,
