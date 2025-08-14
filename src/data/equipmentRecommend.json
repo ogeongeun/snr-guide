@@ -735,6 +735,23 @@
        
       }
     }
+  },
+  "helenia": {
+    "name": "헬레니아",
+    "image": "/images/heroes/helenia.png",
+    "roles": {
+      "탱커": {
+       
+        "전체": [
+             {
+            "set": "수문장",
+            "mainOption": "방%/방%/막%/막%",
+            "note": "막기 100 맞추기"
+          }
+         
+        ]
+      }
+    }
   }
   
 }
