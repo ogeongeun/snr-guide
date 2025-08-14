@@ -1,27 +1,32 @@
+// src/pages/GuildDefenseBuildPage.jsx
 import { useState, useMemo } from 'react';
 import guildData from '../data/guild_defense_recommendations.json';
+
+// ✅ 모듈 상수: 빈 배열 참조를 고정 (의존성에 논리식 쓰지 않기 위함)
+const EMPTY_TEAMS = Object.freeze([]);
 
 export default function GuildDefenseBuildPage() {
   const categoryNames = Object.keys(guildData.categories || {});
   const [selectedCategory, setSelectedCategory] = useState(categoryNames[0] || '공덱');
-  const [openGroupName, setOpenGroupName] = useState(null); // 이름(예: "테오덱") 기준으로 토글
+  const [openGroupName, setOpenGroupName] = useState(null);
 
   const currentCategory = guildData.categories[selectedCategory] || {};
   const categoryDesc = currentCategory.desc || '';
-  const teams = currentCategory.teams || [];
 
-  // 1) 같은 name별로 팀들을 묶기 (예: "테오덱" => [팀A, 팀B])
+  // ✅ 의존성에 논리식( || [] )을 직접 쓰지 않고, 고정 참조 상수로 대체
+  const teamsRef = Array.isArray(currentCategory.teams) ? currentCategory.teams : EMPTY_TEAMS;
+
+  // 같은 name(덱명)끼리 묶기
   const groupedByName = useMemo(() => {
     const map = new Map();
-    teams.forEach((team) => {
+    teamsRef.forEach((team) => {
       const key = team.name || '이름없음';
       if (!map.has(key)) map.set(key, []);
       map.get(key).push(team);
     });
-    return map; // Map<name, Team[]>
-  }, [teams]);
+    return map;
+  }, [teamsRef]); // ✅ deps에 teamsRef(고정 참조)만 사용
 
-  // 2) 렌더 함수들
   const renderHeroes = (heroes = []) => (
     <div
       className={`grid gap-2 mt-3 ${
@@ -29,7 +34,6 @@ export default function GuildDefenseBuildPage() {
       }`}
     >
       {heroes.map((hero, idx) => {
-        // 영웅 이미지 경로 처리
         const imagePath = hero.image?.startsWith('/images/')
           ? hero.image
           : `/images/heroes/${hero.image}`;
@@ -74,7 +78,6 @@ export default function GuildDefenseBuildPage() {
     </div>
   );
 
-  // 3) UI
   return (
     <div className="min-h-screen bg-gray-50 px-4 py-8">
       <div className="max-w-5xl mx-auto bg-white shadow-md rounded-2xl p-6">
@@ -82,7 +85,6 @@ export default function GuildDefenseBuildPage() {
           🛡️ 방어팀 필수 조합
         </h1>
 
-        {/* 가이드 박스 */}
         <div className="bg-yellow-50 border border-yellow-300 rounded-lg p-4 text-sm text-gray-800 mb-6">
           <p className="font-semibold mb-1">방어팀 구성 팁</p>
           <ul className="list-disc list-inside leading-relaxed">
@@ -103,7 +105,7 @@ export default function GuildDefenseBuildPage() {
               key={category}
               onClick={() => {
                 setSelectedCategory(category);
-                setOpenGroupName(null); // 카테고리 변경 시 열림 초기화
+                setOpenGroupName(null);
               }}
               className={`px-4 py-2 rounded-full border text-sm ${
                 selectedCategory === category
@@ -116,14 +118,14 @@ export default function GuildDefenseBuildPage() {
           ))}
         </div>
 
-        {/* 카테고리 설명 (줄바꿈 유지) */}
+        {/* 카테고리 설명 */}
         {categoryDesc && (
           <div className="text-sm text-gray-700 italic mb-4 text-center whitespace-pre-line">
             ※ {categoryDesc}
           </div>
         )}
 
-        {/* 이름(덱명) 목록 → 클릭 시 해당 이름의 모든 팀 카드 펼침 */}
+        {/* 이름(덱명) 아코디언 */}
         <div className="space-y-2">
           {Array.from(groupedByName.entries()).map(([groupName, groupTeams]) => (
             <div
@@ -135,9 +137,7 @@ export default function GuildDefenseBuildPage() {
                 onClick={() => setOpenGroupName(openGroupName === groupName ? null : groupName)}
               >
                 <span>{groupName}</span>
-                <span className="text-xs text-gray-500">
-                  {groupTeams.length}개 덱
-                </span>
+                <span className="text-xs text-gray-500">{groupTeams.length}개 덱</span>
               </button>
 
               {openGroupName === groupName && (
@@ -147,14 +147,9 @@ export default function GuildDefenseBuildPage() {
                       key={`${groupName}-${idx}`}
                       className="bg-white border border-gray-200 rounded-lg p-3"
                     >
-                      {/* 팀별 비고 */}
                       {team.note && (
-                        <p className="text-[11px] text-red-500 mb-2 italic">
-                          ※ {team.note}
-                        </p>
+                        <p className="text-[11px] text-red-500 mb-2 italic">※ {team.note}</p>
                       )}
-
-                      {/* 영웅 & 스킬 */}
                       {renderHeroes(team.heroes)}
                       {team.skillOrder && renderSkillOrder(team.skillOrder)}
                     </div>
