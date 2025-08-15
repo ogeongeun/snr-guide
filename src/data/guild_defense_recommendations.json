@@ -80,7 +80,7 @@
           "heroes": [
             { "name": "델론즈", "image": "dellons.png" },
             { "name": "콜트", "image": "colt.png" },
-            { "name": "바네사", "image": "silvia.png" }
+            { "name": "바네사", "image": "vanessa.png" }
           ],
           "skillOrder": ["vanessa1.png", "colt1.png", "colt2.png"],
          "note": "1.5티어"
