@@ -80,9 +80,10 @@
               { "name": "유이", "image": "/images/heroes/yui.png"}
             ],
             "skillOrder": [
-      "lee1.png",
+     
       "chancellor2.png",
-      "lee2.png"
+      "lee2.png",
+       "lee1.png"
             ]
           }
           
