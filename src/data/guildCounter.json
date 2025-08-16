@@ -75,9 +75,9 @@
             
             "team": [
               
-              { "name": "리", "image": "/images/heroes/lee.png"},
-              { "name": "첸슬러", "image": "/images/heroes/chancellor.png" },
-              { "name": "유이", "image": "/images/heroes/yui.png"}
+              { "name": "리", "image": "/images/heroes/lee.png","note":"막기100 필수"},
+              { "name": "첸슬러", "image": "/images/heroes/chancellor.png" ,"note":"막기100 필수"},
+              { "name": "유이", "image": "/images/heroes/yui.png" ,"note":"막기100 필수"}
             ],
             "skillOrder": [
      
