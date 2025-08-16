@@ -30,7 +30,7 @@
             "team": [
               
               { "name": "루디", "image": "/images/heroes/rudy.png"},
-              { "name": "플라튼", "image": "/images/heroes/jave.png" ,"note":"혼자 앞 배치"},
+              { "name": "플라튼", "image": "/images/heroes/platon.png" ,"note":"혼자 앞 배치"},
               { "name": "엘리스", "image": "/images/heroes/elise.png"}
             ],
             "note":"상대 콜트아래 스킬에 맞춰서 루디 방패로 해제하기",
