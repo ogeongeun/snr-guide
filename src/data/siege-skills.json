@@ -70,6 +70,7 @@
   ],
   
   "포디나의 성 (화요일)": [
+    
     {
      
       "skillOrders": [
@@ -488,6 +489,38 @@
     }
   ],
   "죽음의 성 (목요일)": [
+    {
+     
+      "skillOrders": [
+        {
+          "orderTitle": "비스킷 사용최고점 (델론즈 즉격 운빨덱) ",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["jin1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["jin2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                 "rachel2.png","lina2.png","bisket1.png", "taka1.png","taka2.png", "lina1.png",
+                "rachel1.png", "rachel2.png", "jin1.png","taka2.png","taka1.png","jin2.png","bisket1.png","lina2.png","lina1.png","rachel2.png","taka2.png","taka1.png"
+                
+              ]
+              
+               
+            }
+          ]
+        }
+        
+      
+     
+       
+      ]
+    },
      {
      
       "skillOrders": [

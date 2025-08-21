@@ -352,6 +352,39 @@
       {
         "team": [
           {
+            "name": "비스킷",
+            "image": "bisket.png",
+             "note":"2초이상 좋음"
+          },
+          {
+            "name": "레이첼",
+            "image": "rachel.png",
+            "note":"2초월(전반 들어가면 좋음)"
+          },
+          {
+            "name": "타카",
+            "image": "taka.png"
+            ,"note": "뒤배치"
+          },
+          {
+            "name": "진",
+            "image": "jin.png",
+            "note":"전반"
+          },
+          {
+            "name": "리나",
+            "image": "lina.png"
+          
+          }
+        ],
+        "tags": [
+          
+        ],
+        "note": "파이 대신 레이첼(전반들어가면 리트확률낮아짐)"
+      },
+      {
+        "team": [
+          {
             "name": "에이스",
             "image": "ace.png",
              "note":""
