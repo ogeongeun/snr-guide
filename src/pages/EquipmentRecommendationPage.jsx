@@ -9,15 +9,21 @@ const EquipmentRecommendPage = () => {
   const [showModal, setShowModal] = useState(false);
 
   const heroEntries = Object.entries(equipmentData).filter(([_, hero]) =>
-    hero.name.toLowerCase().includes(searchTerm.toLowerCase())
+    (hero.name || '').toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   const selectedHero = selectedHeroKey ? equipmentData[selectedHeroKey] : null;
 
+  // roles 내에서 실제 역할 키만 추출 (ring 제외)
+  const getRoleKeys = (hero) => {
+    if (!hero?.roles) return [];
+    return Object.keys(hero.roles).filter((k) => k !== 'ring');
+  };
+
   // 역할 자동 선택
   useEffect(() => {
     if (selectedHero) {
-      const roleKeys = Object.keys(selectedHero.roles || {});
+      const roleKeys = getRoleKeys(selectedHero);
       if (roleKeys.length === 1) {
         setSelectedRole(roleKeys[0]);
       }
@@ -33,6 +39,9 @@ const EquipmentRecommendPage = () => {
       }
     }
   }, [selectedHero, selectedRole]);
+
+  // 캐릭터 공통 반지 추천 (roles.ring)
+  const getCommonRing = () => selectedHero?.roles?.ring || '';
 
   return (
     <div className="p-6 max-w-5xl mx-auto">
@@ -79,12 +88,26 @@ const EquipmentRecommendPage = () => {
               ✖
             </button>
 
-            {/* 역할 선택 */}
-            {Object.keys(selectedHero.roles || {}).length > 1 && (
+            {/* 영웅 이름 */}
+            <h2 className="text-xl font-bold text-center mb-2">
+              {selectedHero.name}
+            </h2>
+
+            {/* 캐릭터 밑에 ~반지 추천 (roles.ring) */}
+            {getCommonRing() && (
               <div className="mb-4 text-center">
-                <h2 className="text-lg font-semibold mb-2">역할 선택</h2>
+                <span className="inline-block text-xs px-2 py-1 rounded-full bg-amber-100 border border-amber-300">
+                  💍 반지 추천: <strong>{getCommonRing()}</strong>
+                </span>
+              </div>
+            )}
+
+            {/* 역할 선택 */}
+            {getRoleKeys(selectedHero).length > 1 && (
+              <div className="mb-4 text-center">
+                <h3 className="text-lg font-semibold mb-2">역할 선택</h3>
                 <div className="flex justify-center flex-wrap gap-3">
-                  {Object.keys(selectedHero.roles || {}).map((role) => (
+                  {getRoleKeys(selectedHero).map((role) => (
                     <button
                       key={role}
                       onClick={() => {
@@ -108,7 +131,7 @@ const EquipmentRecommendPage = () => {
             {selectedRole &&
               Object.keys(selectedHero.roles[selectedRole] || {}).length > 1 && (
                 <div className="mb-4 text-center">
-                  <h2 className="text-md font-medium mb-2">초월 단계 선택</h2>
+                  <h3 className="text-md font-medium mb-2">초월 단계 선택</h3>
                   <div className="flex justify-center flex-wrap gap-2">
                     {Object.keys(selectedHero.roles[selectedRole] || {}).map(
                       (stage) => (
@@ -136,18 +159,22 @@ const EquipmentRecommendPage = () => {
                   {selectedHero.name} ({selectedRole}, {selectedStage}) 장비 세팅
                 </h3>
 
-                {selectedHero.roles[selectedRole][selectedStage].map((build, idx) => (
-                  <div
-                    key={idx}
-                    className="border rounded-lg p-4 bg-gray-50 shadow-sm mb-4"
-                  >
-                    <p className="font-semibold text-sm">세트: {build.set}</p>
-                    <p className="text-sm mt-1">주 옵션: {build.mainOption}</p>
-                    {build.note && (
-                      <p className="text-xs text-gray-500 mt-2 italic">💬 {build.note}</p>
-                    )}
-                  </div>
-                ))}
+                {selectedHero.roles[selectedRole][selectedStage].map(
+                  (build, idx) => (
+                    <div
+                      key={idx}
+                      className="border rounded-lg p-4 bg-gray-50 shadow-sm mb-4"
+                    >
+                      <p className="font-semibold text-sm">세트: {build.set}</p>
+                      <p className="text-sm mt-1">주 옵션: {build.mainOption}</p>
+                      {build.note && (
+                        <p className="text-xs text-gray-500 mt-2 italic">
+                          💬 {build.note}
+                        </p>
+                      )}
+                    </div>
+                  )
+                )}
               </div>
             )}
           </div>

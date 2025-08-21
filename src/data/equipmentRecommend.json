@@ -1,4 +1,32 @@
 {
+  "juri": {
+    "name": "쥬리",
+    "image": "/images/heroes/juri.png",
+    "roles": {
+      "ring":"6성 cc반지",
+      "디버퍼": {
+        "전체": [
+          {
+            "set": "주술사",
+            "mainOption": "방어구:모공%/모공%",
+            "note": "그냥 속공 짬뽕하면됨"
+          }
+         
+        ]
+      },
+      "딜러": {
+        "전체": [
+         
+          {
+            "set": "복수자",
+            "mainOption": "치확%/치확%/모공%/모공%",
+            "note":"속공 챙겨줘야함"
+          }
+        ]
+      }
+     
+    }
+  },
   "pie": {
     "name": "파이",
     "image": "/images/heroes/pie.png",
@@ -31,7 +59,7 @@
     "name": "로지",
     "image": "/images/heroes/lozy.png",
     "roles": {
-     
+      "ring": "부활 반지",
        "cc": {
        
         "전체": [
@@ -48,6 +76,7 @@
     "name": "플라튼",
     "image": "/images/heroes/platon.png",
     "roles": {
+       "ring": "부활 반지",
       "탱커": {
        
         "전체": [
@@ -64,8 +93,9 @@
   },
   "bisket": {
     "name": "비스킷",
-    "image": "/images/heroes/bisket",
+    "image": "/images/heroes/bisket.png",
     "roles": {
+       "ring": "부활 반지",
       "버퍼": {
        
         "전체": [
@@ -75,6 +105,30 @@
             "note": "2초월까진 무조건 필수(1스킬,패시브 스강)"
           }
           
+        ]
+      }
+      
+    }
+  },
+  "colt": {
+    "name": "콜트",
+    "image": "/images/heroes/colt.png",
+    "roles": {
+       "ring": "불사 반지",
+      "버퍼": {
+       
+        "전체": [
+             {
+            "set": "주술사",
+            "mainOption": "모공%/모공%/모공%/모공%",
+            "note": "속공77 / 효적66%맞추기 + 패시브34%"
+          }
+          ,
+           {
+            "set": "복수자",
+            "mainOption": "모공%/모공%/모공%/모공%",
+            "note": "속공77 / 효적66%맞추기 + 패시브34%"
+          }
         ]
       }
       
@@ -105,6 +159,7 @@
     "name": "델론즈",
     "image": "/images/heroes/dellons.png",
     "roles": {
+       "ring": "불사 반지",
       "딜러": {
        
         "전체": [
@@ -163,6 +218,7 @@
     "name": "태오",
     "image": "/images/heroes/teo.png",
     "roles": {
+       "ring": "권능 반지",
       "pve": {
         "0~5초월": [
              {
@@ -205,6 +261,7 @@
     "name": "연희",
     "image": "/images/heroes/Yeonhee.png",
     "roles": {
+       "ring": "불사 반지",
        "딜러": {
        
         "전체": [
@@ -226,6 +283,7 @@
     "name": "실베스타",
     "image": "/images/heroes/silvesta.png",
     "roles": {
+       "ring": "불사 반지",
        "딜러": {
        
         "전체": [
@@ -368,6 +426,7 @@
     "name": "멜키르",
     "image": "/images/heroes/Melkir.png",
     "roles": {
+       "ring": "권능 반지",
       "악몽&무함&모험": {
        
         "전체": [
@@ -398,6 +457,7 @@
     "name": "바네사",
     "image": "/images/heroes/vanessa.png",
     "roles": {
+       "ring": "권능 or 불사 반지",
       "길드전,무탑 등": {
        
         "전체": [
@@ -443,6 +503,7 @@
     "name": "린",
     "image": "/images/heroes/rin.png",
     "roles": {
+       "ring": "권능 or 불사 반지",
       "딜러": {
        
         "전체": [
@@ -503,7 +564,7 @@
     "name": "카르마",
     "image": "/images/heroes/carma.png",
     "roles": {
-     
+      "ring": "권능 or 부활 반지",
        "딜탱": {
        
        
@@ -575,6 +636,7 @@
     "name": "아일린",
     "image": "/images/heroes/eileene.png",
     "roles": {
+       "ring": "불사or권능 반지",
       "pvp용 cc": {
        
         "전체": [
@@ -694,6 +756,7 @@
     "name": "에이스",
     "image": "/images/heroes/ace.png",
     "roles": {
+       "ring": "불사or부활 반지",
       "토템": {
        
         "전체": [
@@ -733,6 +796,7 @@
     "name": "유신",
     "image": "/images/heroes/Yushin.png",
     "roles": {
+       "ring": "권능 or 불사 반지",
       "cc": {
        
         "전체": [
@@ -752,6 +816,7 @@
     "name": "니아",
     "image": "/images/heroes/nia.png",
     "roles": {
+       "ring": "권능 or 불사 반지",
       "cc": {
        
         "전체": [
