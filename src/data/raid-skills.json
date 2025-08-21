@@ -90,19 +90,19 @@
       ]
     }
   ],
-   "강철의 포식자": [
+   "강철의 포식자(15단계)": [
     {
      
       "skillOrders": [
         {
-          "orderTitle": "자동(표준) ",
+          "orderTitle": "2방컷 ",
           "skills": [
            
             {
               
               "images": [
-                "evan2.png", "lucy2.png", "asura1.png","pascal2.png", "pascal1.png",
-                  "asura2.png"
+                "lina2.png", "lucy2.png", "bisket1.png","victoria1.png", "pascal2.png",
+                  "pascal1.png"
                 
               ]
               
@@ -110,35 +110,21 @@
           ]
         },
          {
-          "orderTitle": "자동(앞라인 단단) ",
+          "orderTitle": "3방컷 ",
           "skills": [
            
             {
               
               "images": [
-                "evan2.png",  "asura1.png","victoria2.png","pascal2.png", "pascal1.png",
-                  "asura2.png"
-                
-              ]
-              
-            }
-          ]
-        },
-         {
-          "orderTitle": "자동(딜 부족) ",
-          "skills": [
-           
-            {
-              
-              "images": [
-                "evan2.png", "lucy2.png", "asura1.png","victoria2.png","pascal2.png", "pascal1.png",
-                  "asura2.png"
+                "bisket1.png",  "lucy2.png","lina2.png","pascal2.png", "pascal1.png",
+                  "lina1.png"
                 
               ]
               
             }
           ]
         }
+        
         
         
         
@@ -151,14 +137,38 @@
      
       "skillOrders": [
         {
-          "orderTitle": "자동(1쫄작) ",
+          "orderTitle": "3방컷 ",
           "skills": [
            
             {
               
               "images": [
-                "asura2.png", "lucy2.png", "asura1.png","pascal2.png", "pascal1.png",
-                  "lucy1.png"
+                "evan2.png", "bisket1.png", "victoria2.png","pascal2.png", "pascal1.png"
+                  
+                
+              ]
+              
+            }
+          ]
+        },
+         {
+          "orderTitle": "4방컷 ",
+          "skills": [
+           
+            {
+              
+              "images": [
+                "evan2.png", "bisket1.png","pascal2.png", "pascal1.png","lucy1.png"
+                  
+                
+              ]
+              
+            },
+            {
+              
+              "images": [
+                "evan2.png","lucy2.png", "bisket1.png","pascal2.png", "pascal1.png","lucy1.png"
+                  
                 
               ]
               
