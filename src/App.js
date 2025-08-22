@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import FarmingEfficiency from './pages/FarmingEfficiency';
 import EssentialHeroesPage from './pages/EssentialHeroesPage';
 import RaidGuidePage from './pages/RaidGuidePage';
-import Layout from './pages/Layout';
+import GlobalBackButton from './pages/GlobalBackButton';
 import SiegePage from './pages/SiegePage';
 import SiegeSkillDetailPage from './pages/SiegeSkillDetailPage';
 import SkillOrderPage from './pages/SkillOrderPage';
@@ -31,7 +31,7 @@ const App = () => {
   return (
     <Router>
       <Routes>
-         <Route element={<Layout />}>
+           <GlobalBackButton />
         <Route path="/" element={<Home />} />
         <Route path="/farming" element={<FarmingEfficiency />} />
         <Route path="/essential-heroes" element={<EssentialHeroesPage />} />
@@ -60,7 +60,7 @@ const App = () => {
     <Route path="/voodoo" element={<VoodooPage />} />
 
 
-</Route>
+
       </Routes>
     </Router>
   );
