@@ -30,8 +30,9 @@ import VoodooPage from './pages/VoodooPage';
 const App = () => {
   return (
     <Router>
+       <GlobalBackButton />
       <Routes>
-           <GlobalBackButton />
+          
         <Route path="/" element={<Home />} />
         <Route path="/farming" element={<FarmingEfficiency />} />
         <Route path="/essential-heroes" element={<EssentialHeroesPage />} />
