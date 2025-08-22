@@ -72,6 +72,26 @@
         ]
       }
     }
+    
+  },
+  "zick": {
+    "name": "지크",
+    "image": "/images/heroes/zick.png",
+    "roles": {
+      "ring": "권능 반지",
+       "레이드": {
+       
+        "전체": [
+             {
+            "set": "복수자",
+            "mainOption": "치확%/치확%/모공%/모공%",
+            "note": ""
+          }
+          
+        ]
+      }
+    }
+    
   },"platon": {
     "name": "플라튼",
     "image": "/images/heroes/platon.png",

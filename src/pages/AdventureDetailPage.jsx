@@ -11,7 +11,6 @@ const AdventureDetailPage = () => {
 
   const renderHeroes = (heroes) => (
     <div className="grid grid-cols-5 gap-2 mt-2">
-      
       {heroes.map((hero, idx) => (
         <div
           key={idx}

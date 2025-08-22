@@ -45,7 +45,6 @@ const EquipmentRecommendPage = () => {
 
   return (
     <div className="p-6 max-w-5xl mx-auto">
-      
       <h1 className="text-2xl font-bold text-center mb-6">🛡️ 장비 추천</h1>
 
       <input
