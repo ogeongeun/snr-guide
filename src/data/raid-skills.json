@@ -1,17 +1,17 @@
 {
-  "파멸의 눈동자": [
+  "파멸의 눈동자(15단계)": [
     {
      
       "skillOrders": [
         {
-          "orderTitle": "자동",
+          "orderTitle": "오토",
           "skills": [
            
             {
               
               "images": [
-                "rachel2.png", "sein1.png", "yui1.png", 
-                "lina1.png",  "rachel1.png",
+                "yui2.png", "bisket1.png", "yui1.png", 
+                "rachel2.png","sein1.png",  "rachel1.png",
                 "evan2.png"
               ]
               
