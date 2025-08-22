@@ -35,6 +35,7 @@ const Adventure = () => {
 
   return (
     <div className="p-6 bg-gradient-to-b from-blue-50 to-white min-h-screen">
+      
       <h2 className="text-3xl font-bold text-center text-gray-800 mb-6">
         📘 모험 덱 목록
       </h2>
