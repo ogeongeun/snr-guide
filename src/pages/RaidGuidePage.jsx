@@ -1,3 +1,4 @@
+// src/pages/RaidGuidePage.jsx
 import { useNavigate } from 'react-router-dom';
 import raidTeamsData from '../data/raid_teams.json';
 
@@ -5,7 +6,6 @@ const RaidGuidePage = () => {
   const navigate = useNavigate();
 
   const goDetail = (bossKey, teamIndex) => {
-    // 🚫 자동 스크롤 없음
     const encoded = encodeURIComponent(bossKey);
     navigate(`/raid-skill/${encoded}/${teamIndex}`);
   };
@@ -33,31 +33,33 @@ const RaidGuidePage = () => {
                   >
                     <p className="font-semibold text-gray-800 mb-3">팀 {teamIndex + 1}</p>
 
-                    {/* 한 줄 고정 + 가로 스크롤(자동 이동 X) */}
+                    {/* 한 줄 고정 + 가로 스크롤 */}
                     <div className="-mx-1 overflow-x-auto">
                       <div className="inline-flex gap-3 px-1">
                         {team.team.map((hero, idx) => (
-                           
-          <div
-            key={idx}
-            className="flex flex-col items-center justify-start bg-white border rounded-lg p-1 shadow-sm h-[110px]"
-          >
-            <img
-              src={`/images/heroes/${hero.image}`}
-              alt={hero.name}
-              className="w-14 h-14 object-contain"
-            />
-            <p className="text-[10px] mt-1 text-center">{hero.name}</p>
-            {hero.note ? (
-              <p className="text-[9px] text-red-500 text-center italic mt-0.5">
-                {hero.note}
-              </p>
-            ) : (
-              <div className="h-[14px]" /> // 빈 공간 확보용
-            )}
-          </div>
-        )
-                        )}
+                          <div
+                            key={idx}
+                            className="flex flex-col items-center justify-start bg-white border rounded-lg p-1 shadow-sm h-[110px]"
+                          >
+                            {/* ✅ 이미지 동일 크기 박스 */}
+                            <div className="w-14 h-14 flex items-center justify-center">
+                              <img
+                                src={`/images/heroes/${hero.image}`}
+                                alt={hero.name}
+                                className="max-w-full max-h-full object-contain"
+                              />
+                            </div>
+
+                            <p className="text-[10px] mt-1 text-center">{hero.name}</p>
+                            {hero.note ? (
+                              <p className="text-[9px] text-red-500 text-center italic mt-0.5">
+                                {hero.note}
+                              </p>
+                            ) : (
+                              <div className="h-[14px]" /> // 빈 공간 확보
+                            )}
+                          </div>
+                        ))}
                       </div>
                     </div>
 
