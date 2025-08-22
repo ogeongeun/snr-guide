@@ -10,6 +10,29 @@
             {
               
               "images": [
+                "bisket1.png","yui1.png", 
+                "rachel2.png","sein1.png",  "zick2.png",
+                "zick1.png"
+              ]
+              
+            }
+          ]
+        }
+        
+      
+        
+      ]
+    },
+    {
+     
+      "skillOrders": [
+        {
+          "orderTitle": "오토",
+          "skills": [
+           
+            {
+              
+              "images": [
                 "yui2.png", "bisket1.png", "yui1.png", 
                 "rachel2.png","sein1.png",  "rachel1.png",
                 "evan2.png"
