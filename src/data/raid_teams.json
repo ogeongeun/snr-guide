@@ -5,7 +5,7 @@
         
         { "name": "에반", "image": "evan.png" },
         { "name": "유이", "image": "yui.png" },
-        { "name": "세인", "image": "sein.png","note":"치확49%/약확24%(레이첼 스강지 약확19%)" },
+        { "name": "세인", "image": "sein.png","note":"치확49%/약확24%" },
         { "name": "레이첼", "image": "rachel.png" },
         { "name": "비스킷", "image": "bisket.png","note":" 1스킬,패시브 스강" }
       ],
