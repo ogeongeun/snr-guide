@@ -746,32 +746,7 @@
       }
     ],
     "흑한의 성 (토요일)": [
-       {
-        "team": [
-          {
-            "name": "풍연",
-            "image": "poongyeon.png"
-          },
-           { "name": "비스킷", "image": "/images/heroes/bisket.png" ,"note": "2초월시 좋음" },
-          {
-            "name": "타카",
-            "image": "taka.png"
-            ,"note": "뒤배치"
-          },
-          {
-            "name": "리나",
-            "image": "lina.png"
-          },
-          {
-            "name": "레이첼",
-            "image": "rachel.png"
-          }
-        ],
-        "tags": [
-          "최종아님"
-        ]
-     
-      },
+      
          {
         "team": [
           {
@@ -918,6 +893,35 @@
           "에스파다 기용"
         ]
        
+      },
+       {
+        "team": [
+          {
+            "name": "아수라",
+            "image": "asura.png"
+          },
+          {
+            "name": "비스킷",
+            "image": "bisket.png"
+          },
+          {
+            "name": "파스칼",
+            "image": "pascal.png"
+            ,"note": "뒤배치"
+          },
+          {
+            "name": "레오",
+            "image": "leo.png"
+          },
+          {
+            "name": "바네사",
+            "image": "vanessa.png"
+          }
+        ],
+        "tags": [
+          "에스파다 기용"
+        ],
+        "note": "아수라 2스킬은 피없을떄 알아서 사용"
       },
       {
         "team": [

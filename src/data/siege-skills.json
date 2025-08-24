@@ -1235,6 +1235,33 @@
         
       ]
     },
+    {
+      "skillOrders": [
+        {
+          "orderTitle": "최고점",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["vanessa2.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["vanessa1.png","bisket1.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "asura1.png","pascal2.png","pascal1.png","pascal2.png","asura2.png","pascal1.png","pascal2.png","asura1.png","pascal1.png","asura2.png","bisket1.png","pascal2.png","asura2.png","pascal1.png","pascal2.png"
+                
+              ]
+              
+               
+            }
+          ]
+        }
+        
+      ]
+    },
      {
       "skillOrders": [
         {
