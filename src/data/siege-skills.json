@@ -814,6 +814,34 @@
      
       "skillOrders": [
         {
+          "orderTitle": "비스킷 6초시 사용(그전은 효율 떨어짐)",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["taka1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["taka2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "rachel2.png","bisket1.png","zick1.png","yui1.png","rachel1.png","taka1.png","taka2.png","zick2.png","rachel2.png","rachel2.png","bisket1.png","rachel1.png","taka1.png","taka2.png","taka1.png","zick2.png","yui1.png","rachel2.png","taka2.png","taka1.png"
+                
+              ]
+              
+               
+            }
+          ]
+        }
+        
+      ]
+    },
+    {
+     
+      "skillOrders": [
+        {
           "orderTitle": "1,2스테이지 타카 원킬나면 지크 스킬x",
           "skills": [
             {
@@ -987,7 +1015,7 @@
             {
               "stageTitle": "3스테이지",
               "images": [
-                "rachel2.png",{ "image": "bisket2.png", "label": "버프해제" },"lina2.png","bisket1.png","taka1.png","taka2.png","poongyeon2.png","lina1.png",{ "image": "bisket2.png", "label": "버프해제" },"rachel2.png","taka2.png","taka1.png","lina2.png","poongyeon2.png",{ "image": "bisket2.png", "label": "버프해제" },"bisket1.png","taka2.png","taka1.png"
+                "rachel2.png",{ "image": "bisket2.png", "label": "버프해제" },"lina2.png","bisket1.png","taka1.png","taka2.png","poongyeon1.png","rachel2.png",{ "image": "bisket2.png", "label": "버프해제" },"rachel2.png","taka2.png","taka1.png","lina1.png","lina2.png",{ "image": "bisket2.png", "label": "버프해제" },"bisket1.png","taka2.png","taka1.png"
                 
               ]
               

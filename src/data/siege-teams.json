@@ -597,6 +597,36 @@
       
     ],
     "고대용의 성 (금요일)": [
+      {
+        "team": [
+          {
+            "name": "지크",
+            "image": "zick.png"
+          },
+          {
+            "name": "유이",
+            "image": "yui.png"
+          },
+          {
+            "name": "타카",
+            "image": "taka.png"
+            ,"note": "뒤배치"
+          },
+          {
+            "name": "레이첼",
+            "image": "rachel.png",
+           "note":"암살자 치확100,약공70%(6초월)"
+          },
+          {
+            "name": "비스킷",
+            "image": "bisket.png"
+          }
+        ],
+        "tags": [
+          "비스킷 사용(최고점)"
+        ],
+        "note": ""
+      },
        {
         "team": [
           {
@@ -716,6 +746,32 @@
       }
     ],
     "흑한의 성 (토요일)": [
+       {
+        "team": [
+          {
+            "name": "풍연",
+            "image": "poongyeon.png"
+          },
+           { "name": "비스킷", "image": "/images/heroes/bisket.png" ,"note": "2초월시 좋음" },
+          {
+            "name": "타카",
+            "image": "taka.png"
+            ,"note": "뒤배치"
+          },
+          {
+            "name": "리나",
+            "image": "lina.png"
+          },
+          {
+            "name": "레이첼",
+            "image": "rachel.png"
+          }
+        ],
+        "tags": [
+          "최종아님"
+        ]
+     
+      },
          {
         "team": [
           {
@@ -817,7 +873,7 @@
           {
             "name": "지크",
             "image": "zick.png",
-            "note":"뒤배치(약공15%)"
+            "note":"뒤배치(약공46%%/비스킷6초시 15%)"
           },
           {
             "name": "레오",
