@@ -48,71 +48,33 @@
       ]
     }
   ],
-  "우마왕": [
+  "우마왕(15단계)": [
     {
      
       "skillOrders": [
         {
-          "orderTitle": "자동(정석1) ",
+          "orderTitle": "오토 ",
           "skills": [
            
             {
               
               "images": [
-                "blackrose1.png", "evan2.png", "yui1.png","espada1.png", "espada2.png",
-                 "Caron2.png", "Caron1.png"
-                
-              ]
-              
-            }
-          ]
-        },
-         {
-          "orderTitle": "자동(정석2) ",
-          "skills": [
-           
-            {
-              
-              "images": [
-                "blackrose1.png", "evan2.png","espada1.png", "espada2.png",
-                "yui1.png", "Caron2.png", "Caron1.png"
+                "blackrose2.png", "bisket1.png", "espada1.png","espada2.png", "lina1.png",
+                 "lina2.png", "Caron2.png","Caron1.png"
                 
               ]
               
             }
           ]
         }
-        
-        
-      
-        
-      ]
-    },
-    {
-     
-      "skillOrders": [
-        {
-          "orderTitle": "자동(2쫄작) ",
-          "skills": [
-           
-            {
-              
-              "images": [
-                "blackrose1.png", "espada1.png", "espada2.png",
-                 "Caron2.png", "blackrose2.png","Caron1.png"
-                
-              ]
-              
-            }
-          ]
-        }
-        
+         
         
         
       
         
       ]
     }
+    
   ],
    "강철의 포식자(15단계)": [
     {

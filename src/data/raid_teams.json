@@ -25,27 +25,19 @@
       "note": "안정적 대신 느림(지크 4초월 전 사용)"
     }
   ],
-  "우마왕": [
+  "우마왕(15단계)": [
     {
       "team": [
-        { "name": "에스파다", "image": "espada.png" },
-        { "name": "유이", "image": "yui.png" },
-        { "name": "블랙로즈", "image": "blackrose.png" },
+       
+        { "name": "리나", "image": "lina.png" },
+        { "name": "블랙로즈", "image": "blackrose.png","note":"복수자(치치받받)" },
+         { "name": "에스파다", "image": "espada.png" ,"note":"필수(팀 속공 4~5번째)"},
         { "name": "카론", "image": "karon.png" },
-        { "name": "에반", "image": "evan.png" }
+        { "name": "비스킷", "image": "bisket.png","note":"2초월 필수" }
       ],
-      "note": "블랙로즈 쫄컷 중요"
-    },
-    {
-      "team": [
-        { "name": "에스파다", "image": "espada.png" },
-       
-        { "name": "블랙로즈", "image": "blackrose.png" },
-        { "name": "카론", "image": "karon.png" }
-       
-      ],
-      "note": "2쫄작"
+      "note": "에스파다 2스 최소컷 113만,블랙로즈 쫄컷 18000딜"
     }
+    
   ],
   "강철의 포식자(15단계)": [
     {
