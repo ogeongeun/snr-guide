@@ -33,34 +33,32 @@ const RaidGuidePage = () => {
                   >
                     <p className="font-semibold text-gray-800 mb-3">팀 {teamIndex + 1}</p>
 
-                    {/* 한 줄 고정 + 가로 스크롤 */}
-                    <div className="-mx-1 overflow-x-auto">
-                      <div className="inline-flex gap-3 px-1">
-                        {team.team.map((hero, idx) => (
-                          <div
-                            key={idx}
-                            className="flex flex-col items-center justify-start bg-white border rounded-lg p-1 shadow-sm h-[110px]"
-                          >
-                            {/* ✅ 이미지 동일 크기 박스 */}
-                            <div className="w-14 h-14 flex items-center justify-center">
-                              <img
-                                src={`/images/heroes/${hero.image}`}
-                                alt={hero.name}
-                                className="max-w-full max-h-full object-contain"
-                              />
-                            </div>
-
-                            <p className="text-[10px] mt-1 text-center">{hero.name}</p>
-                            {hero.note ? (
-                              <p className="text-[9px] text-red-500 text-center italic mt-0.5">
-                                {hero.note}
-                              </p>
-                            ) : (
-                              <div className="h-[14px]" /> // 빈 공간 확보
-                            )}
+                    {/* ✅ 영웅들을 스크롤 없이 grid로 */}
+                    <div className={`grid gap-2`} style={{ gridTemplateColumns: `repeat(${team.team.length}, minmax(0,1fr))` }}>
+                      {team.team.map((hero, idx) => (
+                        <div
+                          key={idx}
+                          className="flex flex-col items-center justify-start bg-white border rounded-lg p-1 shadow-sm h-[95px]"
+                        >
+                          {/* 이미지 크기 줄임 */}
+                          <div className="w-12 h-12 flex items-center justify-center">
+                            <img
+                              src={`/images/heroes/${hero.image}`}
+                              alt={hero.name}
+                              className="max-w-full max-h-full object-contain"
+                            />
                           </div>
-                        ))}
-                      </div>
+
+                          <p className="text-[9px] mt-1 text-center">{hero.name}</p>
+                          {hero.note ? (
+                            <p className="text-[8px] text-red-500 text-center italic mt-0.5">
+                              {hero.note}
+                            </p>
+                          ) : (
+                            <div className="h-[12px]" /> // 빈 공간 확보
+                          )}
+                        </div>
+                      ))}
                     </div>
 
                     {/* 팀 전체 note */}
