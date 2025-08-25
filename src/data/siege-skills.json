@@ -4,6 +4,40 @@
      
       "skillOrders": [
          {
+          "orderTitle": "연구 ",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["Yeonhee1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["luri1.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "bisket1.png", "bisket2.png", "lina2.png", "luri2.png",
+                 "Yeonhee2.png","luri1.png","Yeonhee1.png",
+                "bisket2.png", 
+                "lina1.png", "bisket1.png","luri2.png","luri1.png","lina2.png",
+                "bisket2.png","Yeonhee1.png","luri2.png","luri1.png","Yeonhee2.png"
+              ]
+              
+            }
+          ]
+        }
+        
+         
+        
+      
+        
+      ]
+    },
+    {
+     
+      "skillOrders": [
+         {
           "orderTitle": "루리6,바네사6초월(기대값300만점)",
           "skills": [
             {
