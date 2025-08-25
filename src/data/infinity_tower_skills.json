@@ -239,7 +239,7 @@
       "1스테이지": ["lina2.png","teo1.png","dellons1.png",{ "image": "pie2.png", "label": "크리스 불사에 사용" }],
       "2스테이지": ["pie1.png","teo2.png","eileene2.png","lina1.png",{ "image": "pie2.png", "label": "크리스 불사에 사용" }],
       "3스테이지": [
-        "lina2.png","teo1.png","dellons1.png.png","pie1.png","teo2.png"]
+        "lina2.png","teo1.png","dellons1.png","pie1.png","teo2.png"]
     }
     
    
