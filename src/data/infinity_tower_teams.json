@@ -317,6 +317,36 @@
     }
     ]
 },
+"202층": {
+  "teams": [
+    {
+      "description": "",
+      "heroes": [
+        { "name": "바네사", "image": "/images/heroes/vanessa.png" },
+          { "name": "린", "image": "/images/heroes/rin.png","note":"뒤배치" },
+              { "name": "연희", "image": "/images/heroes/Yeonhee.png" ,"note":"뒤배치"},
+           { "name": "리나", "image": "/images/heroes/lina.png" },
+        { "name": "멜키르", "image": "/images/heroes/Melkir.png" }
+    
+      ]
+    }
+    ]
+},
+"205층": {
+  "teams": [
+     {
+      "description": "",
+      "heroes": [
+        { "name": "아일린", "image": "/images/heroes/eileene.png" },
+          { "name": "델론즈", "image": "/images/heroes/dellons.png" },
+              { "name": "테오", "image": "/images/heroes/teo.png" },
+           { "name": "리나", "image": "/images/heroes/lina.png" },
+        { "name": "파이", "image": "/images/heroes/pie.png","note":"바네사 대체가능" }
+    
+      ]
+    }
+    ]
+},
 "일반층": {
   "teams": [
     {

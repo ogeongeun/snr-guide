@@ -222,6 +222,28 @@
     
    
   },
+  "202층": {
+    "0": {
+       "videoUrl": "https://youtu.be/uyAjAAa2D9Q?t=375&si=2M5Jj5TTdIIkKRXt",
+      "1스테이지": ["Yeonhee2.png","Yeonhee1.png"],
+      "2스테이지": ["rin2.png","vanessa2.png","rin1.png","vanessa1.png"],
+      "3스테이지": [
+        "melkir1.png","melkir2.png","lina2.png","Yeonhee2.png","rin2.png"]
+    }
+    
+   
+  },
+    "205층": {
+    "0": {
+       "videoUrl": "https://youtu.be/uyAjAAa2D9Q?t=1025&si=5_K4moO75QNzIbe6",
+      "1스테이지": ["lina2.png","teo1.png","dellons1.png",{ "image": "pie2.png", "label": "크리스 불사에 사용" }],
+      "2스테이지": ["pie1.png","teo2.png","eileene2.png","lina1.png",{ "image": "pie2.png", "label": "크리스 불사에 사용" }],
+      "3스테이지": [
+        "lina2.png","teo1.png","dellons1.png.png","pie1.png","teo2.png"]
+    }
+    
+   
+  },
   "일반층": {
     "0": {
       "1스테이지": ["melkir2.png","teo1.png","teo2.png"],
