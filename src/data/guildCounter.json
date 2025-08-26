@@ -412,6 +412,23 @@
           { "name": "멜키르", "image": "/images/heroes/Melkir.png" }
         ],
         "recommendedCounters": [
+          {
+              
+            "team": [
+               { "name": "리나", "image": "/images/heroes/lina.png","note":"6초이상" },
+              { "name": "발리스타", "image": "/images/heroes/ballista.png","note":"6초이상" },
+              { "name": "아일린", "image": "/images/heroes/eileene.png" }
+            ],
+            "note":"발리 스킬에 한명이상 죽어야함",
+            "skillOrder": [
+      "lina2.png",
+      "ballista1.png",
+      "lina1.png"
+     
+            ]
+            
+      
+          },
         {
               
             "team": [
@@ -770,16 +787,30 @@
     "방덱":[
       {
         "id": "team4",
-        "label": "콜트 방덱",
+        "label": "콜트+플라튼 방덱",
         "defenseTeam": [
         
-          { "name": "첸슬러", "image": "/images/heroes/chancellor.png" },
+          { "name": "파이", "image": "/images/heroes/pie.png" },
          
           { "name": "콜트", "image": "/images/heroes/colt.png" },
-           { "name": "카르마", "image": "/images/heroes/carma.png" }
+           { "name": "플라튼", "image": "/images/heroes/platon.png" }
         ],
         "recommendedCounters": [
-          
+          {
+            "team": [
+              { "name": "바네사", "image": "/images/heroes/vanessa.png" },
+              { "name": "연희", "image": "/images/heroes/yeonhee.png"},
+              { "name": "로지", "image": "/images/heroes/lozy.png" }
+            ],
+            "note": "",
+             "skillOrder": [
+    
+      "vanessa1.png",
+      "Yeonhee2.png",
+      "vanessa2.png"
+     
+            ]
+          }
          
           
          

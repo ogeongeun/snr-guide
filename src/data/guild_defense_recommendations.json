@@ -50,17 +50,7 @@
        
         
         
-        {
-          "teamId": 3,
-          "name": "테오덱",
-          "heroes": [
-            { "name": "로지", "image": "lozy.png" },
-            { "name": "테오", "image": "teo.png", "note": "약공 세팅" },
-            { "name": "아일린", "image": "eileene.png", "note": "고초월 스파이크 대체가능" }
-          ],
-          "skillOrder": [ "eileene2.png","lozy1.png", "teo2.png"],
-          "note": "2티어"
-        },
+        
          
         
         {
@@ -84,47 +74,26 @@
           ],
           "skillOrder": ["vanessa1.png", "colt1.png", "colt2.png"],
          "note": "1.5티어"
-        },
-        {
-          "teamId": 3,
-          "name": "델론즈덱",
-          "heroes": [
-            { "name": "파이", "image": "pie.png", "note": "레이첼,제이브 대체" },
-            { "name": "델론즈", "image": "dellons.png", "note": "2초월이상 (뒤배치)" },
-            { "name": "아일린", "image": "eileene.png" }
-          ],
-          "skillOrder": [ "pie1.png","eileene2.png", "dellons2.png"],
-          "note": "2티어"
-        },
-        {
-          "teamId": 3,
-          "name": "델론즈덱",
-          "heroes": [
-            { "name": "로지", "image": "lozy.png" },
-            { "name": "델론즈", "image": "dellons.png", "note": "2초월이상 (뒤배치)" },
-            { "name": "아일린", "image": "eileene.png" }
-          ],
-          "skillOrder": ["eileene2.png", "dellons1.png", "dellons2.png"],
-          "note": "3티어"
-         
-        },
-        {
-          "teamId": 3,
-          "name": "델론즈덱",
-          "heroes": [
-            { "name": "발리스타", "image": "ballista.png", "note": "콜트, 풍연 대체가능" },
-            { "name": "델론즈", "image": "dellons.png", "note": "2초월이상 (뒤배치)" },
-            { "name": "스파이크", "image": "spike.png" }
-          ],
-          "skillOrder": ["dellons2.png", "spike2.png", "ballista1.png"],
-        "note": "4티어"
         }
+        
+        
         
       ]
     },
     "마덱": {
       "desc": "메인딜러(연희,린)두고 \n 나머지 두자리(바네사,실베스타,니아,유신,멜키르,쥬리)중\n  속공 높은거 넣기\n ! 니아 바네사 안겹치게",
       "teams": [
+        {
+          "teamId": 0,
+          "name": "연희덱",
+          "heroes": [
+            { "name": "로지", "image": "lozy.png" },
+            { "name": "연희", "image": "Yeonhee.png", "note": "딜러(뒤배치)" },
+            { "name": "바네사", "image": "vanessa.png","note":"조율자(효적/효저/막막)" }
+          ],
+          "skillOrder": ["vanessa1.png", "Yeonhee2.png", "Yeonhee1.png"],
+          "note": "1티어(사기급)/내실덱"
+        },
          {
           "teamId": 0,
           "name": "연희덱",
@@ -282,23 +251,7 @@
            "skillOrder": ["colt1.png", "colt2.png"],
           "note": "1티어"
         },
-      {
-          "teamId": 0,
-         "name": "콜트+플라튼 방덱",
-          "heroes": [
-            
-           
-            { "name": "첸슬러", "image": "chancellor.png" ,"note":"6초일때 추천"},
-             { "name": "콜트", "image": "colt.png"},
-             {
-              "name": "플라튼",
-              "image": "platon.png"
-            }
-           
-          ],
-           "skillOrder": ["platon2.png", "colt1.png", "colt2.png"],
-          "note": "1티어"
-        },
+      
         {
           "teamId": 0,
            "name": "콜트+플라튼 방덱",
@@ -348,59 +301,10 @@
            
           ],
            "skillOrder": ["platon2.png", "colt1.png", "colt2.png"],
-          "note": "1.5티어(개 가성비)"
-        },
-        {
-          "teamId": 0,
-          "name": "첸슬러덱",
-          "heroes": [
-            
-           
-            { "name": "스파이크", "image": "spike.png" },
-             {
-              "name": "첸슬러",
-              "image": "chancellor.png"
-              
-             
-
-            },
-            { "name": "에이스", "image": "ace.png","note":"헬레니아 대체가능" }
-          ],
-           "skillOrder": ["chancellor2.png", "ace2.png", "spike2.png"],
-        "note": "4티어"
-        }
-      ]
-    },
-    "번외": {
-      "teams": [
-       
-        {
-          "teamId": 0,
-          "name": "쓰레기",
-          "heroes": [
-            { "name": "유이", "image": "yui.png" },
-            { "name": "풍연", "image": "poongyeon.png" },
-            { "name": "에반", "image": "evan.png" }
-          ],
-          "skillOrder": ["evan2.png", "poongyeon1.png", "poongyeon2.png"],
-          "note": "쓸거 없을때"
-        },
-        {
-          "teamId": 0,
-          "name": "쓰레기",
-          "heroes": [
-            { "name": "에반", "image": "evan.png" },
-            {
-              "name": "루리",
-              "image": "luri.png",
-              "note": "고초월 타카 대체가능"
-            },
-            { "name": "유이", "image": "yui.png" }
-          ],
-          "skillOrder": ["evan2.png", "luri2.png", "luri1.png"],
-          "note": ""
+          "note": "2티어(개 가성비)"
         }
       ]
     }
+    
   }
 }
