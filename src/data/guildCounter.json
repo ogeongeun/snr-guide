@@ -478,6 +478,36 @@
           
         ]
       }, 
+       {
+        "id": "team2",
+        "label": "연희 마덱",
+        "defenseTeam": [
+           { "name": "로지", "image": "/images/heroes/lozy.png" },
+          { "name": "연희", "image": "/images/heroes/yeonhee.png" },
+      
+          { "name": "바네사", "image": "/images/heroes/vanessa.png" }
+        ],
+        "recommendedCounters": [
+        {
+              
+            "team": [
+               { "name": "플라튼", "image": "/images/heroes/platon.png"},
+              { "name": "첸슬러", "image": "/images/heroes/chancellor.png","note":"효저 높아야함" },
+              { "name": "엘리스", "image": "/images/heroes/elise.png" ,"note":"리나 대체가능"}
+            ],
+            
+            "skillOrder": [
+      "chancellor2.png",
+      "elise1.png",
+      "platon2.png"
+     
+            ],
+             "note":"밸런스 진형(앞열 3명두기)"
+      
+          }
+          
+        ]
+      }, 
       {
         "id": "team2",
         "label": "연희 마덱",
