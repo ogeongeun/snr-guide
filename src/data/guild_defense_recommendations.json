@@ -278,7 +278,7 @@
           "heroes": [
             
            
-            { "name": "엘리스", "image": "elise.png" },
+            { "name": "엘리스", "image": "elise.png" ,"note":"부활 필수"},
              { "name": "콜트", "image": "colt.png"},
              {
               "name": "플라튼",
