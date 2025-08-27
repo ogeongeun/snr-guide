@@ -327,6 +327,36 @@
      
       "skillOrders": [
         {
+          "orderTitle": "최고점(비스킷 사용)",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["ariel2.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["bisket2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "ariel1.png", "lina2.png", "bisket1.png", "luri2.png",
+                "luri1.png", "Yeonhee1.png","ariel1.png","ariel2.png","lina1.png", "luri2.png","luri1.png","bisket1.png","ariel1.png","lina2.png","luri2.png","luri1.png","Yeonhee1.png"
+                
+              ]
+              
+               
+            }
+          ]
+        }
+       
+        
+      ]
+    },
+    {
+     
+      "skillOrders": [
+        {
           "orderTitle": "최고점(바네사 6초이상)",
           "skills": [
             {

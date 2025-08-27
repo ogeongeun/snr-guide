@@ -217,6 +217,35 @@
             ,"note": "뒤배치"
           },
           {
+            "name": "비스킷",
+            "image": "bisket.png",
+            "note":"암살자(딜 세팅)"
+          },
+          {
+            "name": "연희",
+            "image": "Yeonhee.png"
+          }
+        ],
+        "tags": [
+          "화상면역 -> 아리엘"
+        ]
+      },
+      {
+        "team": [
+          {
+            "name": "아리엘",
+            "image": "ariel.png"
+          },
+          {
+            "name": "리나",
+            "image": "lina.png"
+          },
+          {
+            "name": "루리",
+            "image": "luri.png"
+            ,"note": "뒤배치"
+          },
+          {
             "name": "바네사",
             "image": "vanessa.png"
           },
