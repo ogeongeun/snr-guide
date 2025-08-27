@@ -57,7 +57,7 @@
           "teamId": 3,
           "name": "콜트덱",
           "heroes": [
-            { "name": "델론즈", "image": "dellons.png" },
+            { "name": "델론즈", "image": "dellons.png","note":"약공 세팅" },
             { "name": "콜트", "image": "colt.png" },
             { "name": "실비아", "image": "silvia.png" ,"note": "복수자(치치모모)/속공옵션"}
           ],
@@ -68,7 +68,7 @@
           "teamId": 3,
           "name": "콜트덱",
           "heroes": [
-            { "name": "델론즈", "image": "dellons.png" },
+            { "name": "델론즈", "image": "dellons.png","note":"약공 세팅" },
             { "name": "콜트", "image": "colt.png" },
             { "name": "바네사", "image": "vanessa.png" }
           ],
@@ -105,6 +105,17 @@
           "skillOrder": ["nia2.png", "Yeonhee2.png", "Yeonhee1.png"],
           "note": "1티어/내실덱"
         },
+         {
+          "teamId": 0,
+          "name": "연희덱",
+          "heroes": [
+            { "name": "로지", "image": "lozy.png" },
+            { "name": "연희", "image": "Yeonhee.png", "note": "딜러(뒤배치)" },
+            { "name": "니아", "image": "nia.png" ,"note":"주술사(효적/효적/막막)"}
+          ],
+          "skillOrder": ["nia2.png", "Yeonhee2.png", "Yeonhee1.png"],
+          "note": "1티어/속공덱(속공 최대치 세팅)"
+        },
         
         {
           "teamId": 0,
@@ -133,8 +144,8 @@
             { "name": "연희", "image": "Yeonhee.png", "note": "딜러(뒤배치)" },
             { "name": "쥬리", "image": "juri.png" }
           ],
-          "skillOrder": ["Yeonhee2.png","juri2.png","vanessa1.png"  ],
-          "note": "1티어"
+          "skillOrder": ["vanessa1.png","juri2.png","Yeonhee2.png"  ],
+          "note": "1티어(속공 최대치 세팅)"
       
         },
        
@@ -155,7 +166,7 @@
           "name": "린덱",
           "heroes": [
             { "name": "멜키르", "image": "Melkir.png" },
-            { "name": "린", "image": "rin.png" , "note": "가능하면 약공 세팅"},
+            { "name": "린", "image": "rin.png" , "note": "약공 세팅"},
             {
               "name": "유신",
               "image": "Yushin.png",
@@ -175,7 +186,7 @@
               "note": "주술사(효적/효적/막/믹)"
             },
             { "name": "연희", "image": "Yeonhee.png", "note": "딜러(뒤배치)" },
-            { "name": "린", "image": "rin.png", "note": "가능하면 약공 세팅"}
+            { "name": "린", "image": "rin.png", "note": "약공 세팅"}
           ],
           "skillOrder": ["rin2.png", "Yeonhee2.png", "Yeonhee1.png"],
          "note": "1티어"
@@ -234,7 +245,7 @@
             }
            
           ],
-           "skillOrder": ["colt1.png", "colt2.png"],
+           "skillOrder": ["platon2.png","colt1.png", "colt2.png"],
           "note": "1티어"
         },
       

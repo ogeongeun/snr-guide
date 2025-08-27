@@ -433,7 +433,7 @@
               
             "team": [
                { "name": "콜트", "image": "/images/heroes/colt.png" },
-              { "name": "테오", "image": "/images/heroes/teo.png" },
+              { "name": "테오", "image": "/images/heroes/teo.png","note":"약공세팅" },
               { "name": "델론즈", "image": "/images/heroes/dellons.png" ,"note":"아일린 대체가능"}
             ],
             
