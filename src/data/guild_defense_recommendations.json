@@ -8,11 +8,11 @@
           "name": "테오덱",
           "heroes": [
             { "name": "파이", "image": "pie.png" },
-            { "name": "태오", "image": "teo.png", "note": "약공 세팅" },
+            { "name": "태오", "image": "teo.png" },
             { "name": "유신", "image": "Yushin.png" }
           ],
           "skillOrder": [ "pie1.png", "teo2.png","Yushin1.png"],
-          "note": "1티어"
+          "note": "1티어/속공220 미만시 추적자 태오"
         },
         {
           "teamId": 1,
@@ -23,7 +23,7 @@
             { "name": "아일린", "image": "eileene.png" }
           ],
           "skillOrder": [ "colt1.png", "colt2.png","teo2.png"],
-          "note": "1티어"
+          "note": "1티어/속공220 미만시 추적자 태오"
         },
         {
           "teamId": 3,
@@ -45,7 +45,7 @@
             { "name": "파이", "image": "pie.png", "note": "콜트 대체" }
           ],
           "skillOrder": [ "pie1.png", "eileene2.png","teo1.png"],
-          "note": "1.5티어"
+          "note": "1.5티어/속공220 미만시 추적자 태오"
         },
        
         
@@ -92,7 +92,7 @@
             { "name": "바네사", "image": "vanessa.png","note":"조율자(효적/효저/막막)" }
           ],
           "skillOrder": ["vanessa1.png", "Yeonhee2.png", "Yeonhee1.png"],
-          "note": "1티어/내실덱"
+          "note": "1티어/내실덱(바네사,로지 효저100가까이)"
         },
          {
           "teamId": 0,
@@ -103,7 +103,7 @@
             { "name": "니아", "image": "nia.png" ,"note":"조율자(효적/효저/막막)"}
           ],
           "skillOrder": ["nia2.png", "Yeonhee2.png", "Yeonhee1.png"],
-          "note": "1티어/내실덱"
+          "note": "1티어/내실덱(니아,로지 효저100가까이)"
         },
          {
           "teamId": 0,
@@ -130,7 +130,7 @@
             { "name": "실베스타", "image": "silvesta.png" }
           ],
           "skillOrder": ["vanessa1.png", "Yeonhee2.png", "Yeonhee1.png"],
-          "note": "1티어"
+          "note": "1티어/속공 최대치 세팅"
         },
         {
           "teamId": 0,
@@ -145,7 +145,7 @@
             { "name": "쥬리", "image": "juri.png" }
           ],
           "skillOrder": ["vanessa1.png","juri2.png","Yeonhee2.png"  ],
-          "note": "1티어(속공 최대치 세팅)"
+          "note": "1티어/속공 최대치 세팅"
       
         },
        
@@ -158,7 +158,7 @@
             { "name": "니아", "image": "nia.png" }
           ],
           "skillOrder": ["nia2.png", "Yeonhee2.png", "Yeonhee1.png"],
-          "note": "1티어"
+          "note": "1티어/속공 최대치 세팅"
          
         },
         {
@@ -174,7 +174,7 @@
             }
           ],
           "skillOrder": ["Yushin1.png", "rin2.png", "melkir1.png"],
-          "note": "1티어"
+          "note": "1티어/속공 최대치 세팅"
         },
         {
           "teamId": 0,
@@ -189,7 +189,7 @@
             { "name": "린", "image": "rin.png", "note": "약공 세팅"}
           ],
           "skillOrder": ["rin2.png", "Yeonhee2.png", "Yeonhee1.png"],
-         "note": "1티어"
+         "note": "1티어/속공 최대치 세팅"
         }
        
       ]
