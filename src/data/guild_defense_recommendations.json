@@ -19,7 +19,7 @@
           "name": "테오덱",
           "heroes": [
             { "name": "콜트", "image": "colt.png"},
-            { "name": "태오", "image": "teo.png", "note": "약공 세팅" },
+            { "name": "태오", "image": "teo.png"},
             { "name": "아일린", "image": "eileene.png" }
           ],
           "skillOrder": [ "colt1.png", "colt2.png","teo2.png"],
@@ -41,11 +41,11 @@
           "name": "테오덱",
           "heroes": [
             { "name": "아일린", "image": "eileene.png", "note": "cc" },
-            { "name": "태오", "image": "teo.png", "note": "약공 세팅" },
+            { "name": "태오", "image": "teo.png"},
             { "name": "파이", "image": "pie.png", "note": "콜트 대체" }
           ],
           "skillOrder": [ "pie1.png", "eileene2.png","teo1.png"],
-          "note": "1.5티어/속공220 미만시 추적자 태오"
+          "note": "1.5티어/속공220 안될시 추적자 태오"
         },
        
         
@@ -154,6 +154,21 @@
           ],
           "skillOrder": ["Yushin1.png", "rin2.png", "melkir1.png"],
           "note": "1티어/속공 최대치 세팅"
+        },
+        {
+          "teamId": 2,
+          "name": "린덱",
+          "heroes": [
+            { "name": "멜키르", "image": "Melkir.png" ,"note":"조율자 약공100,효저100세팅"},
+            { "name": "린", "image": "rin.png" , "note": "추적자 세팅"},
+            {
+              "name": "유신",
+              "image": "Yushin.png",
+              "note": "2초월 이상/조율자 약공100,효저100세팅"
+            }
+          ],
+          "skillOrder": ["Yushin1.png", "rin2.png", "melkir1.png"],
+          "note": "1티어/내실 세팅(속공x)"
         },
         {
           "teamId": 0,
