@@ -1079,7 +1079,7 @@
             {
               "stageTitle": "3스테이지",
               "images": [
-                "rachel2.png",{ "image": "bisket2.png", "label": "버프해제" },"lina2.png","bisket1.png","taka1.png","taka2.png","poongyeon1.png","rachel2.png",{ "image": "bisket2.png", "label": "버프해제" },"rachel2.png","taka2.png","taka1.png","lina1.png","lina2.png",{ "image": "bisket2.png", "label": "버프해제" },"bisket1.png","taka2.png","taka1.png"
+                "rachel2.png",{ "image": "bisket2.png", "label": "버프해제" },"lina2.png","bisket1.png","taka1.png","taka2.png","poongyeon1.png","poongyeon2.png",{ "image": "bisket2.png", "label": "버프해제" },"rachel2.png","taka2.png","taka1.png","lina1.png","lina2.png",{ "image": "bisket2.png", "label": "버프해제" },"bisket1.png","taka2.png","taka1.png"
                 
               ]
               
