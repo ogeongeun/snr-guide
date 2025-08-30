@@ -159,12 +159,12 @@
           "teamId": 2,
           "name": "린덱",
           "heroes": [
-            { "name": "멜키르", "image": "Melkir.png" ,"note":"조율자 약공100,효저100세팅"},
+            { "name": "멜키르", "image": "Melkir.png" ,"note":"조율자 약공100,효저100,나ㅁ는거 효적세팅"},
             { "name": "린", "image": "rin.png" , "note": "추적자 세팅"},
             {
               "name": "유신",
               "image": "Yushin.png",
-              "note": "2초월 이상/조율자 약공100,효저100세팅"
+              "note": "2초월 이상/조율자 약공100,효저100,남는거 효적세팅"
             }
           ],
           "skillOrder": ["Yushin1.png", "rin2.png", "melkir1.png"],
