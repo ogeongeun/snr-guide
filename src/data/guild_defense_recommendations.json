@@ -83,28 +83,7 @@
     "마덱": {
       "desc": "메인딜러(연희,린)두고 \n 나머지 두자리(바네사,실베스타,니아,유신,멜키르,쥬리)중\n  속공 높은거 넣기\n ! 니아 바네사 안겹치게",
       "teams": [
-        {
-          "teamId": 0,
-          "name": "연희덱",
-          "heroes": [
-            { "name": "로지", "image": "lozy.png" },
-            { "name": "연희", "image": "Yeonhee.png", "note": "딜러(뒤배치)" },
-            { "name": "바네사", "image": "vanessa.png","note":"조율자(효적/효저/막막)" }
-          ],
-          "skillOrder": ["vanessa1.png", "Yeonhee2.png", "Yeonhee1.png"],
-          "note": "1티어/내실덱(바네사,로지 효저100가까이)"
-        },
-         {
-          "teamId": 0,
-          "name": "연희덱",
-          "heroes": [
-            { "name": "로지", "image": "lozy.png" },
-            { "name": "연희", "image": "Yeonhee.png", "note": "딜러(뒤배치)" },
-            { "name": "니아", "image": "nia.png" ,"note":"조율자(효적/효저/막막)"}
-          ],
-          "skillOrder": ["nia2.png", "Yeonhee2.png", "Yeonhee1.png"],
-          "note": "1티어/내실덱(니아,로지 효저100가까이)"
-        },
+        
          {
           "teamId": 0,
           "name": "연희덱",
