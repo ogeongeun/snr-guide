@@ -63,18 +63,8 @@
           ],
           "skillOrder": ["dellons1.png", "colt1.png", "colt2.png"],
          "note": "3티어"
-        },
-         {
-          "teamId": 3,
-          "name": "콜트덱",
-          "heroes": [
-            { "name": "델론즈", "image": "dellons.png","note":"약공 세팅" },
-            { "name": "콜트", "image": "colt.png" },
-            { "name": "바네사", "image": "vanessa.png" }
-          ],
-          "skillOrder": ["vanessa1.png", "colt1.png", "colt2.png"],
-         "note": "1.5티어"
         }
+         
         
         
         
