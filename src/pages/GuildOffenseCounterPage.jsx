@@ -16,25 +16,45 @@ export default function GuildOffenseListPage() {
     ? data.categories[selectedCategory]
     : EMPTY_LIST;
 
-  // render helpers
+  // 이미지 경로 보정
+  const heroImg = (src) =>
+    src?.startsWith('/images/') ? src : `/images/heroes/${src || ''}`;
+
+  // 공통 렌더러
+  const SkillStrip = ({ skills, size = 'w-9 h-9' }) => {
+    if (!Array.isArray(skills) || skills.length === 0) return null;
+    return (
+      <div className="flex flex-wrap gap-2">
+        {skills.map((img, idx) => (
+          <img
+            key={`${img}-${idx}`}
+            src={`/images/skills/${img}`}
+            alt={`Skill ${idx + 1}`}
+            className={`${size} border rounded`}
+          />
+        ))}
+      </div>
+    );
+  };
+
   const renderHeroCard = (hero) => (
     <div
-      key={hero.name}
+      key={`${hero.name}-${hero.image}`}
       className="flex flex-col items-center bg-white border rounded-lg p-1 shadow-sm"
     >
       <div className="w-14 h-14 flex items-center justify-center">
         <img
-          src={hero.image}
+          src={heroImg(hero.image)}
           alt={hero.name}
           className="w-14 h-14 object-contain block"
         />
       </div>
-      <p className="text-[10px] mt-1 mb-0 text-center">{hero.name}</p>
       {hero.note ? (
         <p className="text-[9px] text-red-500 italic mt-0.5 text-center">{hero.note}</p>
       ) : (
         <div className="h-[14px]" />
       )}
+      <p className="text-[10px] mt-1 mb-0 text-center">{hero.name}</p>
     </div>
   );
 
@@ -87,7 +107,7 @@ export default function GuildOffenseListPage() {
       </div>
 
       <p className="text-sm font-semibold text-red-500 mb-4">
-        라벨(예: 태오 공덱)을 클릭하세요! 해당 라벨의 추천 카운터 팀들이 펼쳐집니다.
+        라벨(예: 태오 공덱)을 클릭하세요! 패턴(스킬 순서)별 카운터 버튼이 보입니다.
       </p>
 
       {/* 라벨별 아코디언 */}
@@ -104,32 +124,91 @@ export default function GuildOffenseListPage() {
 
             {openLabel === label && (
               <div className="px-4 pb-4 space-y-4 border-t">
-                {items.map(({ idx, entry }, i) => (
-                  <div
-                    key={`${label}-${idx}-${i}`}
-                    className="w-full border rounded-lg p-4 shadow bg-white"
-                  >
-                    <h2 className="text-lg font-semibold mb-2">
-                      [{selectedCategory}] #{idx + 1} {entry.label}
-                    </h2>
+                {items.map(({ idx, entry }, i) => {
+                  const hasVariants = Array.isArray(entry.defenseVariants) && entry.defenseVariants.length > 0;
+                  const legacyCounters = Array.isArray(entry.recommendedCounters) ? entry.recommendedCounters : [];
 
-                    {/* 상대 방어팀 미리보기 */}
-                    <div className="grid grid-cols-3 gap-2 mb-3">
-                      {entry.defenseTeam?.map(renderHeroCard)}
-                    </div>
+                  return (
+                    <div
+                      key={`${label}-${idx}-${i}`}
+                      className="w-full border rounded-lg p-4 shadow bg-white"
+                    >
+                      <h2 className="text-lg font-semibold mb-2">
+                        [{selectedCategory}] #{idx + 1} {entry.label}
+                      </h2>
 
-                    <div className="flex justify-end">
-                      <button
-                        onClick={() =>
-                          navigate(`/guild-offense-detail/${selectedCategory}/${idx}`)
-                        }
-                        className="px-3 py-1.5 text-sm rounded-md border border-blue-600 text-blue-600 hover:bg-blue-50"
-                      >
-                        카운터덱 보기
-                      </button>
+                      {/* 상대 방어팀 미리보기 */}
+                      {Array.isArray(entry.defenseTeam) && entry.defenseTeam.length > 0 && (
+                        <>
+                          <p className="text-xs font-semibold text-gray-600 mb-1">상대팀</p>
+                          <div className="grid grid-cols-3 gap-2 mb-3">
+                            {entry.defenseTeam.map(renderHeroCard)}
+                          </div>
+                        </>
+                      )}
+
+                      {/* ✅ 신규 구조: defenseVariants 각 패턴 표시 */}
+                      {hasVariants ? (
+                        <div className="space-y-4">
+                          {entry.defenseVariants.map((v, vIdx) => (
+                            <div
+                              key={`variant-${vIdx}`}
+                              className="border rounded-md p-3 bg-gray-50"
+                            >
+                              <div className="flex items-center justify-between mb-2">
+                                <p className="text-sm font-semibold text-gray-700">
+                                  패턴 #{vIdx + 1}
+                                </p>
+                                <span className="text-[11px] text-gray-500">
+                                  카운터 {Array.isArray(v.counters) ? v.counters.length : 0}개
+                                </span>
+                              </div>
+
+                              {/* 방어팀 스킬 순서 */}
+                              <div className="mb-2">
+                                <p className="text-xs font-semibold text-gray-600 mb-1">
+                                  방어팀 스킬 순서
+                                </p>
+                                <SkillStrip skills={v.defenseSkills} />
+                              </div>
+
+                              <div className="flex justify-end">
+                                <button
+                                  onClick={() =>
+                                    navigate(
+                                      `/guild-offense-detail/${encodeURIComponent(
+                                        selectedCategory
+                                      )}/${idx}?variant=${vIdx}`
+                                    )
+                                  }
+                                  className="px-3 py-1.5 text-sm rounded-md border border-blue-600 text-blue-600 hover:bg-blue-50"
+                                >
+                                  카운터덱 보기
+                                </button>
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      ) : (
+                        // ✅ 레거시 구조: recommendedCounters만 있을 때
+                        <div className="flex justify-end">
+                          <button
+                            onClick={() =>
+                              navigate(
+                                `/guild-offense-detail/${encodeURIComponent(
+                                  selectedCategory
+                                )}/${idx}`
+                              )
+                            }
+                            className="px-3 py-1.5 text-sm rounded-md border border-blue-600 text-blue-600 hover:bg-blue-50"
+                          >
+                            카운터덱 보기
+                          </button>
+                        </div>
+                      )}
                     </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             )}
           </div>
