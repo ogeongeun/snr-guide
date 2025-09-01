@@ -29,6 +29,7 @@
               "colt2.png"
             ],
             "counters": [
+              
               {
                 "team": [
                   {
@@ -80,6 +81,33 @@
                       "platon2.png",
                       "rudy2.png",
                       "elise2.png"
+                    ]
+                  }
+                ]
+              },
+              {
+                "team": [
+                  {
+                    "name": "리나",
+                    "image": "/images/heroes/lina.png"
+                  },
+                  {
+                    "name": "델론즈",
+                    "image": "/images/heroes/dellons.png"
+                  },
+                  {
+                    "name": "아일린",
+                    "image": "/images/heroes/elileene.png"
+                  }
+                ],
+                
+                "skillOrders": [
+                  {
+                    "label": "속공 이길 때",
+                    "skills": [
+                      "dellons2.png",
+                      "dellons2.png",
+                      "eileene2.png"
                     ]
                   }
                 ]

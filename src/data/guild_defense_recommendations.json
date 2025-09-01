@@ -22,7 +22,7 @@
             { "name": "태오", "image": "teo.png"},
             { "name": "아일린", "image": "eileene.png" }
           ],
-          "skillOrder": [ "colt1.png", "colt2.png","teo2.png"],
+          "skillOrder": [ "teo2.png", "colt1.png","colt2.png"],
           "note": "1티어/속공220 미만시 추적자 태오"
         },
         {
