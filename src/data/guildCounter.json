@@ -857,8 +857,9 @@
               {
                 "team": [
                   {
-                    "name": "에이스",
-                    "image": "/images/heroes/ace.png"
+                    "name": "루디",
+                    "image": "/images/heroes/ace.png",
+                    "note":"6초이상/ 에반 대체가능"
                   },
                   {
                     "name": "테오",
@@ -866,19 +867,19 @@
                     "note": "무조건 약공세팅"
                   },
                   {
-                    "name": "델론즈",
-                    "image": "/images/heroes/dellons.png",
+                    "name": "파이",
+                    "image": "/images/heroes/pie.png",
                     "note": "아일린 대체가능"
                   }
                 ],
-                "note": "상대 유신 디버프해제전에 콜트아래 스킬 쓰지않도록 스킬순서 꼬아서 가기",
+               
                 "skillOrders": [
                   {
                     "label": "속공 질 때",
                     "skills": [
                       "teo1.png",
-                      "teo2.png",
-                      "dellons2.png"
+                      "rudy2.png",
+                      "teo2.png"
                     ]
                   }
                 ]
