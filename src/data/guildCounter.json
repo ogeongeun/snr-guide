@@ -97,7 +97,7 @@
                   },
                   {
                     "name": "아일린",
-                    "image": "/images/heroes/elileene.png"
+                    "image": "/images/heroes/eileene.png"
                   }
                 ],
                 
@@ -106,7 +106,7 @@
                     "label": "속공 이길 때",
                     "skills": [
                       "dellons2.png",
-                      "dellons2.png",
+                      "dellons1.png",
                       "eileene2.png"
                     ]
                   }
