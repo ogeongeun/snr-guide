@@ -283,6 +283,32 @@
               {
                 "team": [
                   {
+                    "name": "바네사",
+                    "image": "/images/heroes/vanessa.png"
+                  },
+                  {
+                    "name": "태오",
+                    "image": "/images/heroes/teo.png"
+                  },
+                  {
+                    "name": "쥬리",
+                    "image": "/images/heroes/juri.png"
+                  }
+                ],
+                "skillOrders": [
+                  {
+                    "label": "속공 이길 때",
+                    "skills": [
+                      "vanessa1.png",
+                      "juri2.png",
+                      "Yeonhee2.png"
+                    ]
+                  }
+                ]
+              },
+              {
+                "team": [
+                  {
                     "name": "리나",
                     "image": "/images/heroes/lina.png"
                   },
@@ -445,6 +471,87 @@
                   }
                 ]
               }
+              
+            ]
+          }
+           ]
+      },
+      {
+        "id": "team1",
+        "label": "태오 공덱",
+        "defenseTeam": [
+          {
+            "name": "아일린",
+            "image": "/images/heroes/eileene.png"
+          },
+          {
+            "name": "태오",
+            "image": "/images/heroes/teo.png"
+          },
+          {
+            "name": "유신",
+            "image": "/images/heroes/yushin.png"
+          }
+        ],
+        "defenseVariants": [
+          {
+            "defenseSkills": ["Yushin1.png","teo1.png","teo2.png"],
+            "counters": [
+              
+              {
+                "team": [
+                  {
+                    "name": "바네사",
+                    "image": "/images/heroes/vanessa.png"
+                  },
+                  {
+                    "name": "태오",
+                    "image": "/images/heroes/teo.png"
+                  },
+                  {
+                    "name": "쥬리",
+                    "image": "/images/heroes/juri.png"
+                  }
+                ],
+                "skillOrders": [
+                  {
+                    "label": "속공 이길 때",
+                    "skills": [
+                      "vanessa1.png",
+                      "juri2.png",
+                      "Yeonhee2.png"
+                    ]
+                  }
+                ]
+              },
+              {
+                "team": [
+                  {
+                    "name": "빅토리아",
+                    "image": "/images/heroes/victoria.png"
+                  },
+                  {
+                    "name": "태오",
+                    "image": "/images/heroes/teo.png"
+                  },
+                  {
+                    "name": "쥬리",
+                    "image": "/images/heroes/juri.png"
+                  }
+                ],
+                "skillOrders": [
+                  {
+                    "label": "속공 질 때",
+                    "skills": [
+                      "juri2.png",
+                      "Yeonhee2.png",
+                      "Yeonhee1.png"
+                    ]
+                  }
+                ]
+              }
+             
+              
             ]
           }
         ]
@@ -1746,6 +1853,59 @@
                       "platon2.png",
                       "lucy2.png",
                       "yui1.png"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "team4",
+        "label": "콜트+플라튼 방덱",
+        "defenseTeam": [
+          {
+            "name": "쥬리",
+            "image": "/images/heroes/juri.png"
+          },
+          {
+            "name": "콜트",
+            "image": "/images/heroes/colt.png"
+          },
+          {
+            "name": "플라튼",
+            "image": "/images/heroes/platon.png"
+          }
+        ],
+        "defenseVariants": [
+          {
+            "defenseSkills": ["juri2.png","platon2.png","colt2.png"],
+            "counters": [
+              
+              {
+                "team": [
+                  {
+                    "name": "루시",
+                    "image": "/images/heroes/rucy.png"
+                  },
+                  {
+                    "name": "플라튼",
+                    "image": "/images/heroes/platon.png"
+                  },
+                  {
+                    "name": "엘리스",
+                    "image": "/images/heroes/elise.png"
+                  }
+                ],
+                
+                "skillOrders": [
+                  {
+                    "label": "속공 질 때",
+                    "skills": [
+                      "lucy2.png",
+                      "elise2.png",
+                      "elise1.png"
                     ]
                   }
                 ]
