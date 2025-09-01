@@ -1730,8 +1730,9 @@
         "label": "콜트+플라튼 방덱",
         "defenseTeam": [
           {
-            "name": "엘리스",
-            "image": "/images/heroes/elise.png"
+            "name": "카린",
+            "image": "/images/heroes/carin.png",
+            "note":"또는 엘리스"
           },
           {
             "name": "콜트",
@@ -1743,9 +1744,38 @@
           }
         ],
         "defenseVariants": [
+          
           {
-            "defenseSkills": [],
+            "defenseSkills": ["platon2.png","colt1.png","colt2.png"],
             "counters": [
+               {
+                "team": [
+                  {
+                    "name": "엘리스",
+                    "image": "/images/heroes/elise.png"
+                 
+                  },
+                  {
+                    "name": "플라튼",
+                    "image": "/images/heroes/platon.png"
+                  },
+                  {
+                    "name": "루시",
+                    "image": "/images/heroes/lucy.png"
+                    
+                  }
+                ],
+                "skillOrders": [
+                  {
+                    "label": "속공 질 때",
+                    "skills": [
+                      "platon2.png",
+                      "lucy2.png",
+                      "elise2.png"
+                    ]
+                  }
+                ]
+              },
               {
                 "team": [
                   {
