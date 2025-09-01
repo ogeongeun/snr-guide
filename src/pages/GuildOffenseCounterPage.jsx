@@ -126,7 +126,7 @@ export default function GuildOffenseListPage() {
               <div className="px-4 pb-4 space-y-4 border-t">
                 {items.map(({ idx, entry }, i) => {
                   const hasVariants = Array.isArray(entry.defenseVariants) && entry.defenseVariants.length > 0;
-                  const legacyCounters = Array.isArray(entry.recommendedCounters) ? entry.recommendedCounters : [];
+                  
 
                   return (
                     <div
