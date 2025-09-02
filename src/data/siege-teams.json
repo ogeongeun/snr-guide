@@ -78,6 +78,38 @@
       }
     ],
     "포디나의 성 (화요일)": [
+       {
+        "team": [
+          {
+            "name": "클로에",
+            "image": "chloe.png"
+          },
+          
+          {
+            "name": "비스킷",
+            "image": "bisket.png",
+            "note":"복수자(치확/모공)"
+          },
+          {
+            "name": "루리",
+            "image": "luri.png"
+            ,"note": "뒤배치"
+          },
+          {
+            "name": "리나",
+            "image": "lina.png"
+          },
+          {
+            "name": "연희",
+            "image": "Yeonhee.png",
+            "note":"불사반지"
+          }
+        ],
+        "tags": [
+          "비스킷 굳이 딜셋 아니여도 쓸수는있음"
+        ]
+        
+      },
       {
         "team": [
           {

@@ -104,7 +104,40 @@
   ],
   
   "포디나의 성 (화요일)": [
-    
+    {
+     
+      "skillOrders": [
+        
+        {
+          "orderTitle": "투창 먼저",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["bisket2.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["chloe2.png","bisket1.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "Yeonhee1.png", "luri2.png", "luri1.png","lina2.png","lina1.png","chloe2.png",
+                "luri2.png", "luri1.png","Yeonhee1.png","bisket1.png",
+               { "image": "chloe2.png", "label": "쿨돌떄까지 기다리기" },"lina2.png","luri2.png","luri1.png","Yeonhee1.png"
+              
+              ],
+              "labels": {
+                "3": "투창",
+                "9": "투창"
+               
+               }
+               
+            }
+          ]
+        }
+      ]
+    },
     {
      
       "skillOrders": [
