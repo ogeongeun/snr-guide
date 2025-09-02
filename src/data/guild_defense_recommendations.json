@@ -53,6 +53,36 @@
           },
           "note": "1티어/속공220 미만시 추적자 태오"
         },
+         {
+          "teamId": 1,
+          "name": "테오덱",
+          "heroes": [
+            {
+              "name": "파이",
+              "image": "pie.png"
+            },
+            {
+              "name": "태오",
+              "image": "teo.png"
+            },
+            {
+              "name": "콜트",
+              "image": "colt.png"
+       
+            }
+          ],
+          "skillOrders": {
+            "threshold": 220,
+            "공통": [
+             
+              "pie1.png",
+              "teo2.png",
+              "colt2.png"
+            ]
+            
+          },
+          "note": "1티어/속공220 미만시 추적자 태오"
+        },
         {
           "teamId": 1,
           "name": "테오덱",
