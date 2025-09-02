@@ -276,12 +276,16 @@
             },
             {
               "name": "니아",
-              "image": "nia.png",
-              "note": "주술사(효적/효적/막막)"
+              "image": "nia.png"
+              
             }
           ],
           "skillOrders": {
             "속공덱": [
+              "vanessa1.png",
+              "Yeonhee2.png",
+              "Yeonhee1.png"
+            ],  "내실덱": [
               "vanessa1.png",
               "Yeonhee2.png",
               "Yeonhee1.png"
