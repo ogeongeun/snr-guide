@@ -997,6 +997,62 @@
       },
       {
         "id": "team2",
+        "label": "린 마덱",
+        "defenseTeam": [
+          {
+            "name": "쥬리",
+            "image": "/images/heroes/juri.png"
+          },
+          {
+            "name": "린",
+            "image": "/images/heroes/rin.png"
+          },
+          {
+            "name": "멜키르",
+            "image": "/images/heroes/Melkir.png"
+          }
+        ],
+        "defenseVariants": [
+          {
+            "defenseSkills": ["rin2.png","juri2.png","Melkir2.png"],
+            "counters": [
+              
+              {
+                "team": [
+                  {
+                    "name": "바네사",
+                    "image": "/images/heroes/vanessa.png",
+                    "note":"주술사(약공100%)"
+                  },
+                  {
+                    "name": "연희",
+                    "image": "/images/heroes/yeonhee.png",
+                    "note": "약공세팅이면 좋음"
+                  },
+                  {
+                    "name": "쥬리",
+                    "image": "/images/heroes/juri.png"
+                   
+                  }
+                ],
+               
+                "skillOrders": [
+                  {
+                    "label": "속공 질 때",
+                    "skills": [
+                      "vanessa1.png",
+                      "juri2.png",
+                      "Yeonhee2.png"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "team2",
         "label": "실베스타 마덱",
         "defenseTeam": [
           {
@@ -1102,6 +1158,7 @@
           }
         ]
       },
+      
       {
         "id": "team2",
         "label": "연희 마덱",
@@ -1968,6 +2025,35 @@
               {
                 "team": [
                   {
+                    "name": "엘리스",
+                    "image": "/images/heroes/elise.png"
+                 
+                  },
+                  {
+                    "name": "첸슬러",
+                    "image": "/images/heroes/chancellor.png"
+                  },
+                  {
+                    "name": "헬레니아",
+                    "image": "/images/heroes/helenia.png"
+                    
+                  }
+                ],
+                 
+                "skillOrders": [
+                  {
+                    "label": "속공 질 때",
+                    "skills": [
+                      "elise2.png",
+                      "helenia1.png",
+                      "elise1.png"
+                    ]
+                  }
+                ]
+              },
+              {
+                "team": [
+                  {
                     "name": "레이첼",
                     "image": "/images/heroes/rachel.png",
                     "note": "6초이상/딜세팅"
@@ -2097,6 +2183,59 @@
                   }
                 ]
               }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "team4",
+        "label": "플라튼 방덱",
+        "defenseTeam": [
+          {
+                    "name": "플라튼",
+                    "image": "/images/heroes/platon.png"
+                  },
+                  {
+                    "name": "엘리스",
+                    "image": "/images/heroes/elise.png"
+                  },
+                  {
+                    "name": "레오",
+                    "image": "/images/heroes/leo.png"
+                  }
+        ],
+        "defenseVariants": [
+          {
+            "defenseSkills": [],
+            "counters": [
+              {
+                "team": [
+                  {
+                    "name": "유신",
+                    "image": "/images/heroes/yushin.png"
+                  },
+                  {
+                    "name": "루리",
+                    "image": "/images/heroes/luri.png"
+                  },
+                  {
+                    "name": "리나",
+                    "image": "/images/heroes/lina.png"
+                  }
+                ],
+            
+                "skillOrders": [
+                  {
+                    "label": "속공 이길 때",
+                    "skills": [
+                      "Yushin1.png",
+                      "luri2.png",
+                      "luri1.png"
+                    ]
+                  }
+                ]
+              }
+              
             ]
           }
         ]
