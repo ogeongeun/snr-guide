@@ -24,7 +24,9 @@
           "heroes": [
             {
               "name": "파이",
-              "image": "pie.png"
+              "image": "pie.png",
+              "note":"내실일때 약공80%챙기기"
+
             },
             {
               "name": "태오",
@@ -36,6 +38,7 @@
               "note":"조율자"
             }
           ],
+      
           "skillOrders": {
             "threshold": 220,
             "속공덱": [
@@ -51,7 +54,7 @@
                "teo2.png"
             ]
           },
-          "note": "1티어/속공220 미만시 추적자 태오"
+          "note": "1티어/속공220 미만시 추적자 태오 "
         },
          {
           "teamId": 1,
@@ -59,7 +62,8 @@
           "heroes": [
             {
               "name": "파이",
-              "image": "pie.png"
+              "image": "pie.png",
+                "note":"내실일때 약공80%챙기기"
             },
             {
               "name": "태오",
@@ -117,7 +121,8 @@
           "heroes": [
             {
               "name": "파이",
-              "image": "pie.png"
+              "image": "pie.png",
+                "note":"내실일때 약공80%챙기기"
             },
             {
               "name": "콜트",
@@ -267,7 +272,8 @@
           "heroes": [
             {
               "name": "바네사",
-              "image": "vanessa.png"
+              "image": "vanessa.png",
+              "note":"내실일때 바네사 주술사 약공100%세팅"
             },
             {
               "name": "연희",
@@ -292,7 +298,7 @@
             ]
            
           },
-          "note": "1티어/속공덱(속공 최대치 세팅)"
+          "note": "1티어/속공덱"
         },
         {
           "teamId": 2,
@@ -305,7 +311,7 @@
             {
               "name": "린",
               "image": "rin.png",
-              "note": "약공 세팅"
+              "note": "내실일때 약공 세팅"
             },
             {
               "name": "유신",

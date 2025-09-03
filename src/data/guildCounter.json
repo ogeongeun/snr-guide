@@ -1123,7 +1123,7 @@
         ],
         "defenseVariants": [
           {
-            "defenseSkills": [],
+            "defenseSkills": ["vanessa1.png","Yeonhee2.png","Yeonhee1.png"],
             "counters": [
               {
                 "team": [
@@ -1158,7 +1158,60 @@
           }
         ]
       },
-      
+      {
+        "id": "team2",
+        "label": "연희 마덱",
+        "defenseTeam": [
+          {
+            "name": "로지",
+            "image": "/images/heroes/lozy.png"
+          },
+          {
+            "name": "연희",
+            "image": "/images/heroes/yeonhee.png"
+          },
+          {
+            "name": "니아",
+            "image": "/images/heroes/vanessa.png"
+          }
+        ],
+        "defenseVariants": [
+          {
+            "defenseSkills": ["nia2.png","Yeonhee2.png","Yeonhee1.png"],
+            "counters": [
+              {
+                "team": [
+                  {
+                    "name": "파이",
+                    "image": "/images/heroes/pie.png"
+                  },
+                  {
+                    "name": "콜트",
+                    "image": "/images/heroes/colt.png"
+                   
+                  },
+                  {
+                    "name": "아일린",
+                    "image": "/images/heroes/eileene.png"
+                
+                  }
+                ],
+         
+                "skillOrders": [
+                  {
+                    "label": "속공 질 때",
+                    "skills": [
+                      "colt1.png",
+                      "colt2.png",
+                      "pie1.png"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
       {
         "id": "team2",
         "label": "연희 마덱",
