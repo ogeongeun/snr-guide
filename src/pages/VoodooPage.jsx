@@ -51,6 +51,7 @@ export default function VoodooPage() {
       🎯 영웅 뽑기 부두술
     </h2>
     <div className="bg-blue-50 p-4 rounded-xl shadow-sm space-y-2 text-sm text-gray-800">
+      <p>• 프로필 에리/테두리 실버로 설정</p>
       <p>• 오후 11:11분 부터 뽑기 진행</p>
      
      
