@@ -336,6 +336,36 @@
           "note": "1티어/속공 최대치 세팅"
         },
         {
+          "teamId": 2,
+          "name": "린덱",
+          "heroes": [
+            {
+              "name": "멜키르",
+              "image": "Melkir.png"
+            },
+            {
+              "name": "린",
+              "image": "rin.png",
+              "note": "내실일때 약공 세팅"
+            },
+            {
+              "name": "바네사",
+              "image": "vanessa.png"
+             
+            }
+          ],
+          "skillOrders": {
+            "공통": [
+              "vanessa1.png",
+                   "melkir2.png",
+              "rin2.png"
+         
+            ]
+           
+          },
+          "note": "1티어/속공 최대치 세팅"
+        },
+        {
           "teamId": 0,
           "name": "연희덱",
           "heroes": [
