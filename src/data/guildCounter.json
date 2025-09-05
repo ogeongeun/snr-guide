@@ -1185,7 +1185,8 @@
                   },
                   {
                     "name": "쥬리",
-                    "image": "/images/heroes/juri.png"
+                    "image": "/images/heroes/juri.png",
+                          "note":"약공90/효적60이상"
                    
                   }
                 ],
