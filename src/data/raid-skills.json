@@ -52,6 +52,7 @@
     {
      
       "skillOrders": [
+        
         {
           "orderTitle": "오토 ",
           "skills": [
@@ -66,7 +67,18 @@
               
             }
           ]
-        },
+        }
+         
+        
+        
+      
+        
+      ]
+    },
+    {
+     
+      "skillOrders": [
+        
         {
           "orderTitle": "오토 ",
           "skills": [
