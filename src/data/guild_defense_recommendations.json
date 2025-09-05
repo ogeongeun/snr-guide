@@ -350,7 +350,8 @@
             },
             {
               "name": "바네사",
-              "image": "vanessa.png"
+              "image": "vanessa.png",
+               "note": "내실일때 약공 세팅"
              
             }
           ],
