@@ -911,6 +911,98 @@
                 ]
               }
             ]
+          },
+           {
+            "defenseSkills": ["vanessa1.png","Yeonhee1.png","rin2.png"],
+            "counters": [
+               
+              {
+                "team": [
+                  {
+                    "name": "아라곤",
+                    "image": "/images/heroes/aragon.png",
+                    "note": "카르마 대체가능"
+                  },
+                  {
+                    "name": "첸슬러",
+                    "image": "/images/heroes/chancellor.png"
+                  },
+                  {
+                    "name": "엘리스",
+                    "image": "/images/heroes/elise.png",
+                    "note": "리나 대체가능"
+                  }
+                ],
+                "note": "밸런스 진형(앞열 3명두기)",
+                "skillOrders": [
+                  {
+                    "label": "속공 질 때",
+                    "skills": [
+                      "chancellor2.png",
+                      "elise1.png",
+                      "aragon1.png"
+                    ]
+                  }
+                ]
+              },
+              {
+                "team": [
+                  {
+                    "name": "루디",
+                    "image": "/images/heroes/rudy.png"
+                    
+                  },
+                  {
+                    "name": "카르마",
+                    "image": "/images/heroes/carma.png",
+                    "note":"뒤배치"
+                  },
+                  {
+                    "name": "리나",
+                    "image": "/images/heroes/lina.png"
+               
+                  }
+                ],
+                
+                "skillOrders": [
+                  {
+                    "label": "속공 질 때",
+                    "skills": [
+                      "rudy2.png",
+                      "lina1.png",
+                      "carma2.png"
+                    ]
+                  }
+                ]
+              },
+              {
+                "team": [
+                  {
+                    "name": "발리스타",
+                    "image": "/images/heroes/ballista.png"
+                  },
+                  {
+                    "name": "콜트",
+                    "image": "/images/heroes/colt.png"
+                  },
+                  {
+                    "name": "엘리스",
+                    "image": "/images/heroes/elise.png"
+                  }
+                ],
+                "note": "상대하고 초월 비슷해야될듯",
+                "skillOrders": [
+                  {
+                    "label": "속공 질 때",
+                    "skills": [
+                      "elise1.png",
+                      "colt1.png",
+                      "colt2.png"
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
