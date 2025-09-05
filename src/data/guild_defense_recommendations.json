@@ -453,7 +453,65 @@
             ]
             
           },
-          "note": "1티어"
+          "note": "1.5티어"
+        },
+         {
+          "teamId": 0,
+          "name": "콜트+플라튼 방덱",
+          "heroes": [
+            {
+              "name": "파이",
+              "image": "pie.png",
+              "note":"수문장(약공/효적/막/막)"
+            },
+            {
+              "name": "콜트",
+              "image": "colt.png"
+            },
+            {
+              "name": "플라튼",
+              "image": "platon.png",
+              "note":"5성부활 이상"
+            }
+          ],
+          "skillOrders": {
+            "공통": [
+              "pie1.png",
+              "colt1.png",
+              "colt2.png"
+            ]
+            
+          },
+          "note": "1티어/파이속공이 콜트 속공보다 높아야함"
+        },
+        {
+          "teamId": 0,
+          "name": "콜트+플라튼 방덱",
+          "heroes": [
+            {
+              "name": "엘리스",
+              "image": "elise.png",
+              "note":"5성부활 이상"
+            },
+            {
+              "name": "콜트",
+              "image": "colt.png"
+            },
+            {
+              "name": "플라튼",
+              "image": "platon.png",
+              "note":"5성부활 이상"
+            }
+          ],
+          "skillOrders": {
+            "공통": [
+              "platon2.png",
+              "colt1.png",
+              "colt2.png"
+            ]
+            
+          },
+          "note": "1.5티어"
         }
       ]
     }
