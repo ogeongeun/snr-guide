@@ -793,6 +793,37 @@
           {
             "defenseSkills": ["rin2.png","vanessa1.png","Yeonhee1.png"],
             "counters": [
+               {
+                "team": [
+                  {
+                    "name": "쥬리",
+                    "image": "/images/heroes/juri.png",
+                  "note":"약공90/효적60이상"
+                   
+                  },
+                  {
+                    "name": "연희",
+                    "image": "/images/heroes/yeonhee.png",
+                       "note":"약공세팅이면 좋음"
+                  },
+                  {
+                    "name": "바네사",
+                    "image": "/images/heroes/vanessa.png",
+                    "note":"약공90/효적60이상"
+                  }
+                ],
+            
+                "skillOrders": [
+                  {
+                    "label": "속공 질 때",
+                    "skills": [
+                      "vanessa1.png",
+                      "juri2.png",
+                      "Yeonhee2.png"
+                    ]
+                  }
+                ]
+              },
               {
                 "team": [
                   {
@@ -904,6 +935,37 @@
           {
             "defenseSkills": ["rin2.png","Melkir1.png","Yushin1.png"],
             "counters": [
+                {
+                "team": [
+                  {
+                    "name": "쥬리",
+                    "image": "/images/heroes/juri.png",
+                  "note":"약공90/효적60이상"
+                   
+                  },
+                  {
+                    "name": "연희",
+                    "image": "/images/heroes/yeonhee.png",
+                       "note":"약공세팅이면 좋음"
+                  },
+                  {
+                    "name": "바네사",
+                    "image": "/images/heroes/vanessa.png",
+                    "note":"약공90/효적60이상"
+                  }
+                ],
+            
+                "skillOrders": [
+                  {
+                    "label": "속공 질 때",
+                    "skills": [
+                      "vanessa1.png",
+                      "juri2.png",
+                      "Yeonhee2.png"
+                    ]
+                  }
+                ]
+              },
               {
                 "team": [
                   {
@@ -1510,6 +1572,37 @@
           {
             "defenseSkills": ["rin2.png","Melkir2.png","vanessa1.png"],
             "counters": [
+              {
+                "team": [
+                  {
+                    "name": "쥬리",
+                    "image": "/images/heroes/juri.png",
+                  "note":"약공90/효적60이상"
+                   
+                  },
+                  {
+                    "name": "연희",
+                    "image": "/images/heroes/yeonhee.png",
+                       "note":"약공세팅이면 좋음"
+                  },
+                  {
+                    "name": "바네사",
+                    "image": "/images/heroes/vanessa.png",
+                    "note":"약공90/효적60이상"
+                  }
+                ],
+            
+                "skillOrders": [
+                  {
+                    "label":"속공 질 때",
+                    "skills": [
+                      "vanessa1.png",
+                      "juri2.png",
+                      "Yeonhee2.png"
+                    ]
+                  }
+                ]
+              },
               {
                 "team": [
                   {
