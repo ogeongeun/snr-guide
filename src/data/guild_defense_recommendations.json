@@ -271,35 +271,32 @@
           "name": "연희덱",
           "heroes": [
             {
-              "name": "바네사",
-              "image": "vanessa.png",
-              "note":"내실일때 바네사 주술사 약공100%세팅"
+              "name": "로지",
+              "image": "lozy.png"
             },
             {
               "name": "연희",
               "image": "Yeonhee.png",
-              "note": "딜러(뒤배치)"
+              "note": "추적자(약공80,치확80이상)"
             },
             {
-              "name": "니아",
-              "image": "nia.png"
-              
+              "name": "바네사",
+              "image": "vanessa.png",
+              "note": "조율자(효저130/효적60이상)"
             }
           ],
+          
           "skillOrders": {
-            "속공덱": [
-              "vanessa1.png",
-              "Yeonhee2.png",
-              "Yeonhee1.png"
-            ],  "내실덱": [
+            "내실덱": [
               "vanessa1.png",
               "Yeonhee2.png",
               "Yeonhee1.png"
             ]
-           
+            
           },
-          "note": "1티어/속공덱"
+          "note":"op티어/표기상 효저100이최대지만 그이상치로 세팅하면 실제론 오름(파이크 펫까지)"
         },
+        
         {
           "teamId": 2,
           "name": "린덱",
@@ -316,7 +313,7 @@
             {
               "name": "유신",
               "image": "Yushin.png",
-              "note": "2초월 이상"
+              "note": "2초월 이상/내실일때 조율자(효저130/효적60)"
             }
           ],
           "skillOrders": {
@@ -382,8 +379,8 @@
             },
             {
               "name": "린",
-              "image": "rin.png",
-              "note": "약공 세팅"
+              "image": "rin.png"
+          
             }
           ],
           "skillOrders": {
@@ -429,6 +426,35 @@
             ]
           },
           "note": "2티어"
+        },
+        {
+          "teamId": 0,
+          "name": "콜트+플라튼 방덱",
+          "heroes": [
+            {
+              "name": "파이",
+              "image": "pie.png",
+              "note":"수문장(약공/효적/막/막)"
+            },
+            {
+              "name": "콜트",
+              "image": "colt.png"
+            },
+            {
+              "name": "플라튼",
+              "image": "platon.png",
+              "note":"5성부활 이상"
+            }
+          ],
+          "skillOrders": {
+            "공통": [
+              "pie1.png",
+              "colt1.png",
+              "colt2.png"
+            ]
+            
+          },
+          "note": "op티어/파이속공이 콜트 속공보다 높아야함"
         },
         {
           "teamId": 0,
@@ -486,35 +512,7 @@
           },
           "note": "1.5티어"
         },
-         {
-          "teamId": 0,
-          "name": "콜트+플라튼 방덱",
-          "heroes": [
-            {
-              "name": "파이",
-              "image": "pie.png",
-              "note":"수문장(약공/효적/막/막)"
-            },
-            {
-              "name": "콜트",
-              "image": "colt.png"
-            },
-            {
-              "name": "플라튼",
-              "image": "platon.png",
-              "note":"5성부활 이상"
-            }
-          ],
-          "skillOrders": {
-            "공통": [
-              "pie1.png",
-              "colt1.png",
-              "colt2.png"
-            ]
-            
-          },
-          "note": "1티어/파이속공이 콜트 속공보다 높아야함"
-        },
+         
         {
           "teamId": 0,
           "name": "콜트+플라튼 방덱",

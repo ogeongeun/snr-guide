@@ -81,6 +81,7 @@ export default function GuildOffenseListPage() {
           <li>상대 속공 이길 수 있으면 미러전도 OK</li>
           <li>힐러는 상대 방덱이 아니면 굳이 넣지 않기</li>
           <li>공격 때마다 전설 반지 돌려쓰기</li>
+          <li>정보없는곳 공격할때는 방덱으로가는게 승률 좋음</li>
           <li className="text-red-500">도전 후 패배 시 공지방 구글 시트에 기록</li>
           <li className="text-red-500">도전 전 구글 시트 참고</li>
         </ul>
