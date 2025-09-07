@@ -29,6 +29,38 @@
               "colt2.png"
             ],
             "counters": [
+                 {
+                "team": [
+                  {
+                    "name": "루디",
+                    "image": "/images/heroes/rudy.png",
+                    "note":"장비추천 확인"
+                
+                  },
+                  {
+                    "name": "제이브",
+                    "image": "/images/heroes/jave.png",
+                     "note":"장비추천 확인"
+                   
+                  },
+                  {
+                    "name": "리나",
+                    "image": "/images/heroes/lina.png"
+                     
+                  }
+                ],
+                "note":"효저 높여서 콜트 폭탄 안걸리게 하는 세팅/파이크 펫",
+                "skillOrders": [
+                  {
+                    "label": "공통",
+                    "skills": [
+                      "jave2.png",
+                      "rudy2.png",
+                      "lina1.png"
+                    ]
+                  }
+                ]
+              },
                {
                 "team": [
                   {
