@@ -8,20 +8,20 @@
           "skills": [
             {
               "stageTitle": "1스테이지",
-              "images": ["Yeonhee1.png"]
+              "images": ["luri1.png"]
             },
             {
               "stageTitle": "2스테이지",
-              "images": ["luri1.png"]
+              "images": ["Yeonhee1.png"]
             },
             {
               "stageTitle": "3스테이지",
               "images": [
-                "bisket1.png", "bisket2.png", "lina2.png", "luri2.png",
-                 "Yeonhee2.png","luri1.png","Yeonhee1.png",
+                "luri2.png", "bisket2.png", "bisket1.png", "lina2.png",
+                 "lina1.png","luri2.png","luri1.png",
                 "bisket2.png", 
-                "lina1.png", "bisket1.png","luri2.png","luri1.png","lina2.png",
-                "bisket2.png","Yeonhee1.png","luri2.png","luri1.png","Yeonhee2.png"
+                "Yeonhee1.png", "evan2.png","luri2.png","bisket1.png","luri1.png",
+                "bisket2.png","lina2.png","Yeonhee1.png","luri2.png","luri1.png"
               ]
               
             }
