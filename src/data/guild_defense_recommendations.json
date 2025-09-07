@@ -96,7 +96,7 @@
           "heroes": [
             {
               "name": "아일린",
-              "image": "pie.png"
+              "image": "eileene.png"
               
 
             },
@@ -115,7 +115,7 @@
             "threshold": 220,
             "속공덱": [
              
-              "nia1.png",
+              "nia2.png",
               "teo2.png",
               "teo1.png"
             ]
