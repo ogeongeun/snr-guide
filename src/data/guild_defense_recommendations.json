@@ -62,7 +62,8 @@
           "heroes": [
             {
               "name": "레이첼",
-              "image": "rachel.png"
+              "image": "rachel.png",
+              "note":"6초월시 사용"
               
 
             },
