@@ -56,6 +56,72 @@
           },
           "note": "1티어/속공220 미만시 추적자 태오 "
         },
+        {
+          "teamId": 1,
+          "name": "테오덱",
+          "heroes": [
+            {
+              "name": "레이첼",
+              "image": "rachel.png"
+              
+
+            },
+            {
+              "name": "태오",
+              "image": "teo.png"
+            },
+            {
+              "name": "아일린",
+              "image": "eileene.png",
+              "note":"조율자"
+            }
+          ],
+      
+          "skillOrders": {
+            "threshold": 220,
+            "공통": [
+             
+              "rachel1.png",
+              "teo2.png",
+              "teo1.png"
+            ]
+            
+          },
+          "note": "1.5티어/속공220 미만시 추적자 태오 "
+        },
+        {
+          "teamId": 1,
+          "name": "테오덱",
+          "heroes": [
+            {
+              "name": "아일린",
+              "image": "pie.png"
+              
+
+            },
+            {
+              "name": "태오",
+              "image": "teo.png"
+            },
+            {
+              "name": "니아",
+              "image": "nia.png"
+              
+            }
+          ],
+      
+          "skillOrders": {
+            "threshold": 220,
+            "속공덱": [
+             
+              "nia1.png",
+              "teo2.png",
+              "teo1.png"
+            ]
+            
+          },
+          "note": "1티어/속공220 미만시 추적자 태오 "
+        },
          {
           "teamId": 1,
           "name": "테오덱",
