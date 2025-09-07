@@ -476,12 +476,12 @@
             {
               "name": "스파이크",
               "image": "spike.png",
-              "note": "6초월시 사용"
+              "note": "6초월시 사용(부옵:효저)"
             },
             {
               "name": "아라곤",
               "image": "aragon.png",
-              "note": "6초월시 사용"
+              "note": "6초월시 사용(부옵:효저)"
             }
           ],
           "skillOrders": {
@@ -530,12 +530,12 @@
             {
               "name": "첸슬러",
               "image": "chancellor.png",
-              "note": "6초월시 사용"
+              "note": "6초월시 사용(부옵:효저)"
             },
             {
               "name": "스파이크",
               "image": "spike.png",
-              "note": "6초월시 사용"
+              "note": "6초월시 사용(부옵:효저)"
             },
             {
               "name": "플라튼",
