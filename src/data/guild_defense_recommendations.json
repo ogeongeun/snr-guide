@@ -544,9 +544,10 @@
           ],
           "skillOrders": {
             "내실덱": [
-              "platon2.png",
+              
               "chancellor2.png",
               "spike2.png"
+              "platon2.png",
             ]
            
           },
