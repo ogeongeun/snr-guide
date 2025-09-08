@@ -2725,6 +2725,44 @@
                     "image": "/images/heroes/platon.png"
                   },
                   {
+                    "name": "루리",
+                    "image": "/images/heroes/luri.png",
+                    "note":"권능반지나 부활반지 필수(6초기준 약공60세팅)"
+                  },
+                  {
+                    "name": "리나",
+                    "image": "/images/heroes/lina.png",
+                    "note":"부활반지있으면 승률 오름"
+                  }
+                ],
+                "note": "상대 방덱이 효저 세팅일때(즉사가 안통할때)",
+                "skillOrders": [
+                  {
+                    "label": "속공 질 때",
+                    "skills": [
+                      "luri2.png",
+                      "platon2.png",
+                      "luri1.png"
+                    ]
+                  },
+                  {
+                    "label": "속공 이길 때",
+                    "skills": [
+                   
+                      "platon2.png",
+                      "luri2.png",
+                      "luri1.png"
+                    ]
+                  }
+                ]
+              },
+              {
+                "team": [
+                  {
+                    "name": "플라튼",
+                    "image": "/images/heroes/platon.png"
+                  },
+                  {
                     "name": "카르마",
                     "image": "/images/heroes/carma.png"
                   },
