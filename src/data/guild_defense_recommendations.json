@@ -123,120 +123,9 @@
           },
           "note": "1티어/속공220 미만시 추적자 태오 "
         },
-         {
-          "teamId": 1,
-          "name": "테오덱",
-          "heroes": [
-            {
-              "name": "파이",
-              "image": "pie.png",
-                "note":"내실일때 약공80%챙기기"
-            },
-            {
-              "name": "태오",
-              "image": "teo.png"
-            },
-            {
-              "name": "콜트",
-              "image": "colt.png"
+         
        
-            }
-          ],
-          "skillOrders": {
-            "threshold": 220,
-            "공통": [
-             
-              "pie1.png",
-              "teo2.png",
-              "colt2.png"
-            ]
-            
-          },
-          "note": "1티어/속공220 미만시 추적자 태오"
-        },
-        {
-          "teamId": 1,
-          "name": "테오덱",
-          "heroes": [
-            {
-              "name": "콜트",
-              "image": "colt.png"
-            },
-            {
-              "name": "태오",
-              "image": "teo.png"
-            },
-            {
-              "name": "아일린",
-              "image": "eileene.png"
-            }
-          ],
-          "skillOrders": {
-            "threshold": 220,
-           
-            "공통": [
-              "teo2.png",
-              "teo1.png",
-              "colt1.png"
-            ]
-          },
-          "note": "1티어/속공220 미만시 추적자 태오"
-        },
-        {
-          "teamId": 3,
-          "name": "콜트덱",
-          "heroes": [
-            {
-              "name": "파이",
-              "image": "pie.png",
-                "note":"내실일때 약공80%챙기기"
-            },
-            {
-              "name": "콜트",
-              "image": "colt.png"
-            },
-            {
-              "name": "첸슬러",
-              "image": "chancellor.png"
-            }
-          ],
-          "skillOrders": {
-            
-            "공통": [
-              "chancellor2.png",
-              "colt1.png",
-              "pie1.png"
-            ]
-          },
-          "note": "2티어"
-        },
-        {
-          "teamId": 3,
-          "name": "콜트덱",
-          "heroes": [
-            {
-              "name": "아일린",
-              "image": "eileene.png"
-            },
-            {
-              "name": "콜트",
-              "image": "colt.png"
-            },
-            {
-              "name": "델론즈",
-              "image": "dellons.png"
-            }
-          ],
-          "skillOrders": {
-            "공통": [
-              "dellons2.png",
-              "colt1.png",
-              "colt2.png"
-            ]
-            
-          },
-          "note": "2티어/아일린2라고 예상하니까 델론즈 위부터 써야함"
-        },
+        
         {
           "teamId": 1,
           "name": "테오덱",
@@ -270,70 +159,14 @@
             ]
           },
           "note": "1.5티어/속공220 안될시 추적자 태오"
-        },
-        {
-          "teamId": 3,
-          "name": "콜트덱",
-          "heroes": [
-            {
-              "name": "델론즈",
-              "image": "dellons.png",
-              "note": "약공 세팅"
-            },
-            {
-              "name": "콜트",
-              "image": "colt.png"
-            },
-            {
-              "name": "실비아",
-              "image": "silvia.png",
-              "note": "복수자(치치모모)/속공옵션"
-            }
-          ],
-          "skillOrders": {
-            "공통": [
-              "dellons1.png",
-              "colt1.png",
-              "colt2.png"
-            ]
-           
-          },
-          "note": "3티어"
         }
+       
       ]
     },
     "마덱": {
+       "desc": "연희 로지 바네사 이덱 우선 배치(사기임)",
       "teams": [
-        {
-          "teamId": 0,
-          "name": "연희덱",
-          "heroes": [
-            {
-              "name": "로지",
-              "image": "lozy.png"
-            },
-            {
-              "name": "연희",
-              "image": "Yeonhee.png",
-              "note": "딜러(뒤배치)"
-            },
-            {
-              "name": "니아",
-              "image": "nia.png",
-              "note": "주술사(효적/효적/막막)"
-            }
-          ],
-          "skillOrders": {
-            "속공덱": [
-              "nia2.png",
-              "Yeonhee2.png",
-              "Yeonhee1.png"
-            ]
-            
-          },
-          "note": "1티어/속공덱(속공 최대치 세팅)"
-        },
-        {
+         {
           "teamId": 0,
           "name": "연희덱",
           "heroes": [
@@ -363,6 +196,36 @@
           },
           "note":"op티어/표기상 효저100이최대지만 그이상치로 세팅하면 실제론 오름(파이크 펫까지)"
         },
+        {
+          "teamId": 0,
+          "name": "연희덱",
+          "heroes": [
+            {
+              "name": "로지",
+              "image": "lozy.png"
+            },
+            {
+              "name": "연희",
+              "image": "Yeonhee.png",
+              "note": "딜러(뒤배치)"
+            },
+            {
+              "name": "니아",
+              "image": "nia.png",
+              "note": "주술사(효적/효적/막막)"
+            }
+          ],
+          "skillOrders": {
+            "속공덱": [
+              "nia2.png",
+              "Yeonhee2.png",
+              "Yeonhee1.png"
+            ]
+            
+          },
+          "note": "1티어/속공덱(속공 최대치 세팅)"
+        },
+       
         
         {
           "teamId": 2,
@@ -399,37 +262,7 @@
           },
           "note": "1티어/속공 최대치 세팅"
         },
-        {
-          "teamId": 2,
-          "name": "린덱",
-          "heroes": [
-            {
-              "name": "멜키르",
-              "image": "Melkir.png"
-            },
-            {
-              "name": "린",
-              "image": "rin.png",
-              "note": "내실일때 약공 세팅"
-            },
-            {
-              "name": "바네사",
-              "image": "vanessa.png",
-               "note": "내실일때 약공 세팅"
-             
-            }
-          ],
-          "skillOrders": {
-            "공통": [
-              "vanessa1.png",
-                   "melkir2.png",
-              "rin2.png"
-         
-            ]
-           
-          },
-          "note": "1티어/속공 최대치 세팅"
-        },
+        
         {
           "teamId": 0,
           "name": "연희덱",
@@ -463,7 +296,7 @@
       ]
     },
     "방덱": {
-      "desc": "제이브 방덱 절대 사용 x",
+      "desc": "콜트,플라튼,파이 이덱 우선 배치(사기임)",
       "teams": [
         {
           "teamId": 0,
@@ -553,33 +386,7 @@
           },
           "note": "1.5티어"
         },
-        {
-          "teamId": 0,
-          "name": "콜트+플라튼 방덱",
-          "heroes": [
-            {
-              "name": "카린",
-              "image": "carin.png"
-            },
-            {
-              "name": "콜트",
-              "image": "colt.png"
-            },
-            {
-              "name": "플라튼",
-              "image": "platon.png"
-            }
-          ],
-          "skillOrders": {
-            "내실덱": [
-              "platon2.png",
-              "colt1.png",
-              "colt2.png"
-            ]
-            
-          },
-          "note": "1.5티어"
-        },
+        
          
         {
           "teamId": 0,
@@ -588,7 +395,7 @@
             {
               "name": "엘리스",
               "image": "elise.png",
-              "note":"5성부활 이상"
+              "note":"부활반지 필수"
             },
             {
               "name": "콜트",
