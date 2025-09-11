@@ -94,7 +94,7 @@ const Home = () => {
             rel="noopener noreferrer"
             className="hover:underline"
           >
-            우울할 때 보는 영상
+            클릭-->우울할 때 보는 영상
           </a>
         </p>
 
