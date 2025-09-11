@@ -8,49 +8,48 @@ const Home = () => {
       description: '요일별 공성전 영웅, 스킬순서',
       emoji: '🏰'
     },
-       {
+    {
       title: '길드전',
       path: '/guild-defense',
       description: '길드전 방어팀 공격팀 추천',
       emoji: '🛡️'
     },
-     {
-  title: '총력전',
-  path: '/grand-battle',
-  description: '총력전 전용 팀 구성 및 공략 정보',
-  emoji: '⚔️'
-},
-
     {
-  title: '무한의 탑',
-  path: '/infinity-tower',
-  description: '층별 조건에 맞춘 공략 덱 정보',
-  emoji: '🏯'
-},{
-  title: '시련의 탑',
-  path: '/trial-tower',
-  description: '층별 조건에 맞춘 공략 덱 정보',
-  emoji: '💀'
-},
-
-     {
-  title: '모험',
-  path: '/adventure',
-  description: '모험 콘텐츠용 클리어 덱',
-  emoji: '🗺️'
-}, {
-  title: '장비 추천',
-  path: '/equipment',
-  description: '영웅들의 장비 추천',
-  emoji: '🛠'
-},
-{
-  title: '장신구 세공법',
-  path: '/accessory-custom',
-  description: '무탑/결장/보스/쫄작용 추천 조합',
-  emoji: '💍'
-},
-
+      title: '총력전',
+      path: '/grand-battle',
+      description: '총력전 전용 팀 구성 및 공략 정보',
+      emoji: '⚔️'
+    },
+    {
+      title: '무한의 탑',
+      path: '/infinity-tower',
+      description: '층별 조건에 맞춘 공략 덱 정보',
+      emoji: '🏯'
+    },
+    {
+      title: '시련의 탑',
+      path: '/trial-tower',
+      description: '층별 조건에 맞춘 공략 덱 정보',
+      emoji: '💀'
+    },
+    {
+      title: '모험',
+      path: '/adventure',
+      description: '모험 콘텐츠용 클리어 덱',
+      emoji: '🗺️'
+    },
+    {
+      title: '장비 추천',
+      path: '/equipment',
+      description: '영웅들의 장비 추천',
+      emoji: '🛠'
+    },
+    {
+      title: '장신구 세공법',
+      path: '/accessory-custom',
+      description: '무탑/결장/보스/쫄작용 추천 조합',
+      emoji: '💍'
+    },
     {
       title: '레이드',
       path: '/raid-guide',
@@ -75,12 +74,6 @@ const Home = () => {
       description: '경험치/루비 손익 기준 효율 계산',
       emoji: '🔍'
     },
-    
-    
-    
-    
-   
-
   ];
 
   return (
@@ -92,15 +85,27 @@ const Home = () => {
             본 콘텐츠는 천우회 길드 전용이며, 무단 사용 및 복제를 금합니다.
           </p>
         </h1>
-        <p className="text-center text-sm text-gray-500 mb-6 italic">made by 건근본</p>
-<Link to="/voodoo">
-  <div className="text-center text-lg font-bold text-purple-700 bg-purple-100 rounded-xl py-2 mb-6 shadow-sm hover:bg-purple-200 cursor-pointer transition">
-    🧙‍♂️ 1급 비밀 부두술
-  </div>
-</Link>
+        <p className="text-center text-sm text-gray-500 mb-2 italic">made by 건근본</p>
+        {/* 추가 부분 */}
+        <p className="text-center text-xs text-blue-500 mb-6 italic">
+          <a 
+            href="https://www.youtube.com/live/c5_GUQaME_c?si=_Y_Bfh_MdIQ9rHdN" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            우울할 때 보는 영상
+          </a>
+        </p>
+
+        <Link to="/voodoo">
+          <div className="text-center text-lg font-bold text-purple-700 bg-purple-100 rounded-xl py-2 mb-6 shadow-sm hover:bg-purple-200 cursor-pointer transition">
+            🧙‍♂️ 1급 비밀 부두술
+          </div>
+        </Link>
+
         {/* 카드 리스트 */}
-     <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-4">
- 
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {features.map((feature, index) => (
             <Link
               to={feature.path}
