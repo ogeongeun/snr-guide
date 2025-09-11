@@ -172,7 +172,8 @@
           "heroes": [
             {
               "name": "로지",
-              "image": "lozy.png"
+              "image": "lozy.png",
+              "note":"best:부활반지에 즉사세공/안되면 즉사반지"
             },
             {
               "name": "연희",
@@ -195,6 +196,37 @@
             
           },
           "note":"op티어/표기상 효저100이최대지만 그이상치로 세팅하면 실제론 오름(파이크 펫까지)"
+        },
+        {
+          "teamId": 0,
+          "name": "연희덱",
+          "heroes": [
+            {
+              "name": "쥬리",
+              "image": "juri.png",
+              "note":"주술사/약공80%,효적80/즉사반지"
+            },
+            {
+              "name": "연희",
+              "image": "Yeonhee.png",
+              "note": "추적자(약공80,치확80이상)"
+            },
+            {
+              "name": "바네사",
+              "image": "vanessa.png",
+              "note": "조율자(효저100/효적60이상)+파이크펫,효저15반지"
+            }
+          ],
+          
+          "skillOrders": {
+            "내실덱": [
+              "vanessa1.png",
+              "Yeonhee2.png",
+              "Yeonhee1.png"
+            ]
+            
+          },
+          "note":"1.5티어/방덱카운터 연바로가 안될때 사용"
         },
         {
           "teamId": 0,
@@ -254,13 +286,13 @@
             ],
             "내실덱": [
               
+              "Yushin1.png",
               "rin2.png",
-              "melkir2.png",
-              "Yushin1.png"
+              "melkir2.png"
               
             ]
           },
-          "note": "1티어/속공 최대치 세팅"
+          "note": "1티어/속공230이상일때 속공덱/그 아래일시 내실덱으로 세팅"
         },
         
         {
@@ -275,11 +307,12 @@
             {
               "name": "연희",
               "image": "Yeonhee.png",
-              "note": "딜러(뒤배치)"
+              "note": "추적자가 좋아보임"
             },
             {
               "name": "린",
-              "image": "rin.png"
+              "image": "rin.png",
+               "note": "추적자가 좋아보임"
           
             }
           ],
@@ -300,32 +333,33 @@
       "teams": [
         {
           "teamId": 0,
-          "name": "로지방덱",
+          "name": "레이첼 방덱",
           "heroes": [
             {
-              "name": "로지",
-              "image": "lozy.png"
+              "name": "카르마",
+              "image": "carma.png",
+              "note":"추적자(치약공공)"
             },
             {
-              "name": "스파이크",
-              "image": "spike.png",
-              "note": "6초월시 사용(부옵:효저)"
+              "name": "레이첼",
+              "image": "rachel.png",
+              "note": "6초월시 사용(복수자/치치공공)"
             },
             {
-              "name": "아라곤",
-              "image": "aragon.png",
-              "note": "6초월시 사용(부옵:효저)"
+              "name": "리나",
+              "image": "lina.png"
+             
             }
           ],
           "skillOrders": {
             
             "내실덱": [
-              "aragon1.png",
-              "spike2.png",
-              "lozy1.png"
+              "rachel2.png",
+              "rachel1.png",
+              "carma2.png"
             ]
           },
-          "note": "2티어"
+          "note": "2티어/파이크 펫"
         },
         {
           "teamId": 0,
@@ -338,7 +372,8 @@
             },
             {
               "name": "콜트",
-              "image": "colt.png"
+              "image": "colt.png",
+              "note":"즉반 or cc반지"
             },
             {
               "name": "플라튼",
@@ -358,33 +393,34 @@
         },
         {
           "teamId": 0,
-          "name": "플라튼방덱",
+          "name": "레이첼 방덱",
           "heroes": [
             {
-              "name": "첸슬러",
-              "image": "chancellor.png",
-              "note": "6초월시 사용(부옵:효저)"
+              "name": "레이첼",
+              "image": "rachel.png",
+              "note": "6초월시 사용(복수자/치치공공)"
+            },
+            {
+              "name": "파이",
+              "image": "pie.png"
+            
             },
             {
               "name": "스파이크",
               "image": "spike.png",
-              "note": "6초월시 사용(부옵:효저)"
-            },
-            {
-              "name": "플라튼",
-              "image": "platon.png"
+              "note":"6초월시 사용(추적자/치약받받)"
             }
           ],
           "skillOrders": {
             "내실덱": [
               
-              "chancellor2.png",
+              "rachel1.png",
               "spike2.png",
-              "platon2.png"
+              "pie1.png"
             ]
            
           },
-          "note": "1.5티어"
+          "note": "1.5티어/파이크펫"
         },
         
          
@@ -399,7 +435,8 @@
             },
             {
               "name": "콜트",
-              "image": "colt.png"
+              "image": "colt.png",
+                "note":"즉반 or cc반지"
             },
             {
               "name": "플라튼",
