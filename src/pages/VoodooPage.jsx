@@ -36,11 +36,12 @@ export default function VoodooPage() {
               💍 전설 장신구획득 부두술
             </h2>
             <div className="bg-yellow-50 p-4 rounded-xl shadow-sm space-y-2 text-sm text-gray-800">
+              <p>• 11-1,12-1에서 전반이 잘나온다는 소문이 무성함</p>
               <p>• 프로필 미믹으로 설정</p>
               <p>• 테두리 골드or이벤트</p>
               <p>• 생일7.7/여성</p>
               <p>• 상태메시지에 간절하게 전반달라고하기(ex 6성 불사반지 주세요 제발)</p>
-              
+             
             </div>
           </div>
         )}
