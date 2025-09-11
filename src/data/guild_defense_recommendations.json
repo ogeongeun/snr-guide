@@ -60,31 +60,68 @@
           "teamId": 1,
           "name": "테오덱",
           "heroes": [
-            {
-              "name": "레이첼",
-              "image": "rachel.png",
-              "note":"6초월시 사용"
-              
-
-            },
+           
             {
               "name": "태오",
               "image": "teo.png"
             },
+             {
+              "name": "레이첼",
+              "image": "rachel.png",
+              "note":"6초월시 사용,뒤배치(복수자/치약공공)"
+              
+
+            },
             {
               "name": "아일린",
               "image": "eileene.png",
-              "note":"조율자"
+              "note":"뒤배치(추적자/치약공공)"
             }
           ],
       
           "skillOrders": {
             "threshold": 220,
-            "공통": [
+            "내실": [
              
+              "rachel2.png",
+                   "rachel1.png",
+              "eileene1.png"
+         
+            ]
+            
+          },
+          "note": "1.5티어/속공220 미만시 추적자 태오 "
+        },
+         {
+          "teamId": 1,
+          "name": "테오덱",
+          "heroes": [
+           
+            {
+              "name": "태오",
+              "image": "teo.png"
+            },
+             {
+              "name": "델론즈",
+              "image": "dellons.png",
+              "note":"뒤배치(추적자/치약공공)"
+              
+
+            },
+            {
+              "name": "아일린",
+              "image": "eileene.png",
+              "note":"뒤배치(추적자/치약공공)"
+            }
+          ],
+      
+          "skillOrders": {
+            "threshold": 220,
+            "내실": [
+             
+              "rachel2.png",
               "rachel1.png",
-              "teo2.png",
-              "teo1.png"
+              "dellons2.png"
             ]
             
           },
@@ -195,7 +232,7 @@
             ]
             
           },
-          "note":"op티어/표기상 효저100이최대지만 그이상치로 세팅하면 실제론 오름(파이크 펫까지)"
+          "note":"op티어/표기상 효저100이최대지만 그이상치로 세팅하면 실제론 오름/파이크 펫까지"
         },
         {
           "teamId": 0,
@@ -368,7 +405,7 @@
             {
               "name": "파이",
               "image": "pie.png",
-              "note":"복수자(약공/효적/모공/모공)/레이첼 대체가능할수도"
+              "note":"복수자(약공/약공/모공/모공)/레이첼 대체가능할수도"
             },
             {
               "name": "콜트",
@@ -389,7 +426,7 @@
             ]
             
           },
-          "note": "op티어/파이속공이 콜트 속공보다 높아야함"
+          "note": "op티어/파이속공이 콜트 속공보다 높아야함+파이크펫보다 이린 펫쓰는게 나음"
         },
         {
           "teamId": 0,
