@@ -136,7 +136,8 @@
            
             {
               "name": "태오",
-              "image": "teo.png"
+              "image": "teo.png",
+              "note":"뒤배치(추적자/치약공공)"
             },
              {
               "name": "델론즈",
@@ -147,8 +148,8 @@
             },
             {
               "name": "아일린",
-              "image": "eileene.png",
-              "note":"뒤배치(추적자/치약공공)"
+              "image": "eileene.png"
+              
             }
           ],
       
