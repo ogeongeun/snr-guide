@@ -82,10 +82,10 @@
           "skillOrders": {
             "threshold": 220,
             "내실덱": [
+              "eileene2.png",
+              "teo1.png",
+                   "rachel1.png"
              
-              "rachel2.png",
-                   "rachel1.png",
-              "eileene2.png"
          
             ]
             
@@ -119,9 +119,10 @@
             "threshold": 220,
             "내실덱": [
              
-              "rachel2.png",
+          "teo1.png",
                    "rachel1.png",
-              "eileene2.png"
+                       
+              "dellons2.png"
          
             ]
             
@@ -155,8 +156,8 @@
             "threshold": 220,
             "내실덱": [
              
-              "rachel2.png",
-              "rachel1.png",
+              "eileene2.png",
+              "teo2.png",
               "dellons2.png"
             ]
             
