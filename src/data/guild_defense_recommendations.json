@@ -102,6 +102,42 @@
               "image": "teo.png"
             },
              {
+              "name": "레이첼",
+              "image": "rachel.png",
+              "note":"뒤배치(복수자/치약공공)"
+              
+
+            },
+            {
+              "name": "델론즈",
+              "image": "eileene.png",
+              "note":"뒤배치(추적자/치약공공)"
+            }
+          ],
+      
+          "skillOrders": {
+            "threshold": 220,
+            "내실덱": [
+             
+              "rachel2.png",
+                   "rachel1.png",
+              "eileene2.png"
+         
+            ]
+            
+          },
+          "note": "1.5티어/방덱잡이 내실세팅 속공x "
+        },
+         {
+          "teamId": 1,
+          "name": "테오덱",
+          "heroes": [
+           
+            {
+              "name": "태오",
+              "image": "teo.png"
+            },
+             {
               "name": "델론즈",
               "image": "dellons.png",
               "note":"뒤배치(추적자/치약공공)"
