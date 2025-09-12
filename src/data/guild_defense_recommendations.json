@@ -127,39 +127,7 @@
           },
          "note": "1.5티어/방덱잡이 내실세팅 속공x "
         },
-         {
-          "teamId": 1,
-          "name": "테오덱",
-          "heroes": [
-            {
-              "name": "아일린",
-              "image": "eileene.png"
-              
-
-            },
-            {
-              "name": "태오",
-              "image": "teo.png"
-            },
-            {
-              "name": "니아",
-              "image": "nia.png"
-              
-            }
-          ],
-      
-          "skillOrders": {
-            "threshold": 220,
-            "속공덱": [
-             
-              "nia2.png",
-              "teo2.png",
-              "teo1.png"
-            ]
-            
-          },
-          "note": "1티어/속공220 미만시 추적자 태오 "
-        },
+        
         
          
        
