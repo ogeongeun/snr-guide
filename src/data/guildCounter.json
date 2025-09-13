@@ -1674,7 +1674,8 @@
                   },
                   {
                     "name": "니아",
-                    "image": "/images/heroes/nia.png"
+                    "image": "/images/heroes/nia.png",
+                    "note":"패시브제외 효적80밎추기"
                   }
                 ],
                 "note": "상대가 내실 연바로일때",
