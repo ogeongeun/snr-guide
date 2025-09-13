@@ -1826,7 +1826,8 @@
             "counters": [
               {
                 "team": [
-                  {
+                  
+              {
                     "name": "엘리스",
                     "image": "/images/heroes/elise.png"
                   },
@@ -1852,6 +1853,9 @@
                   }
                 ]
               },
+              {
+                "team": [
+                  
                   {
                     "name": "발리스타",
                     "image": "/images/heroes/ballista.png"
