@@ -1827,6 +1827,32 @@
               {
                 "team": [
                   {
+                    "name": "엘리스",
+                    "image": "/images/heroes/elise.png"
+                  },
+                  {
+                    "name": "스파이크",
+                    "image": "/images/heroes/spike.png"
+                  },
+                  {
+                    "name": "아라곤",
+                    "image": "/images/heroes/aragon.png",
+                    "note":"첸슬러 대체가능"
+                  }
+                ],
+                "note": "상대하고 초월 비슷해야될듯",
+                "skillOrders": [
+                  {
+                    "label": "공통",
+                    "skills": [
+                      "spike2.png",
+                      "aragon1.png",
+                      "elise2.png"
+                    ]
+                  }
+                ]
+              },
+                  {
                     "name": "발리스타",
                     "image": "/images/heroes/ballista.png"
                   },
