@@ -32,21 +32,22 @@
                  {
                 "team": [
                   {
-                    "name": "유이",
-                    "image": "/images/heroes/yui.png"
+                    "name": "바네사",
+                    "image": "/images/heroes/vanessa.png"
                    
                 
                   },
                   {
-                    "name": "연희",
-                    "image": "/images/heroes/yeonhee.png"
+                    "name": "린",
+                    "image": "/images/heroes/rin.png"
                    
                    
                   },
                   {
-                    "name": "쥬리",
-                    "image": "/images/heroes/juri.png",
-                    "note":"권능 반지"
+                    "name": "오를리",
+                    "image": "/images/heroes/orly.png",
+                    "note":"6초이상 추천(2초도 잘하면 될수도있음)"
+                 
                      
                   }
                 ],
@@ -55,9 +56,53 @@
                   {
                     "label": "공통",
                     "skills": [
-                      "juri2.png",
-                      "Yeonhee2.png",
-                      "Yeonhee1.png"
+                      "orly2.png",
+                      "rin2.png",
+                      "vanessa1.png"
+                    ]
+                  }
+                ]
+              }
+               
+            ]
+          },
+          {
+            "defenseSkills": [
+              "pie1.png",
+              "colt1.png",
+              "colt2.png"
+            ],
+            "counters": [
+                 {
+                "team": [
+                  {
+                    "name": "바네사",
+                    "image": "/images/heroes/vanessa.png"
+                   
+                
+                  },
+                  {
+                    "name": "린",
+                    "image": "/images/heroes/rin.png"
+                   
+                   
+                  },
+                  {
+                    "name": "오를리",
+                    "image": "/images/heroes/orly.png",
+                    "note":"6초이상 추천(2초도 잘하면 될수도있음)"
+                 
+                     
+                  }
+                ],
+                "note":"",
+                "skillOrders": [
+                  {
+                    "label": "속공 질 때",
+                    "skills": [
+                      "rin2.png",
+                      "orly2.png",
+                      "vanessa1.png"
                     ]
                   }
                 ]
