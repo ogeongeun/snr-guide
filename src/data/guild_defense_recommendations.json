@@ -468,6 +468,36 @@
         },
         {
           "teamId": 0,
+          "name": "콜트+플라튼 방덱",
+          "heroes": [
+            {
+              "name": "레이첼",
+              "image": "rachel.png",
+                 "note":"추적자(약/약or공/공공)/약공90/속공 콜트보다 높게"
+            },
+            {
+              "name": "콜트",
+              "image": "colt.png",
+              "note":"즉반 or cc반지"
+            },
+            {
+              "name": "플라튼",
+              "image": "platon.png",
+              "note":"5성부활 이상"
+            }
+          ],
+          "skillOrders": {
+            "공통": [
+              "rachel1.png",
+              "colt1.png",
+              "colt2.png"
+            ]
+            
+          },
+          "note": "1티어/레이첼 속공이 콜트 속공보다 높아야함+파이크펫보다 이린 펫쓰는게 나음"
+        },
+        {
+          "teamId": 0,
           "name": "레이첼 방덱",
           "heroes": [
             {
