@@ -2727,6 +2727,35 @@
               {
                 "team": [
                   {
+                    "name": "린",
+                    "image": "/images/heroes/rin.png"
+                  },
+                  {
+                    "name": "연희",
+                    "image": "/images/heroes/Yeonhee.png",
+                    "note":"권능 반지 필수"
+                  },
+                  {
+                    "name": "바네사",
+                    "image": "/images/heroes/vanessa.png"
+                  }
+                ],
+                "note": "승률60~70% 덱 풀 약하신분들 도전추천",
+                "skillOrders": [
+                  {
+                    "label": "속공 이길 때",
+                    "skills": [
+                      "Yeonhee2.png",
+                      "rin2.png",
+                      "Yeonhee1.png"
+                     
+                    ]
+                  }
+                ]
+              },
+              {
+                "team": [
+                  {
                     "name": "바네사",
                     "image": "/images/heroes/vanessa.png"
                   },
