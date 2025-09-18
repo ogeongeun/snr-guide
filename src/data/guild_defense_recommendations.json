@@ -336,7 +336,38 @@
               
             ]
           },
-          "note": "1티어/속공230이상일때 속공덱/그 아래일시 내실덱으로 세팅"
+          "note": "1티어/속공230이상일때 속공덱/그 아래일시 내실덱으로 세팅/속공이 더 좋아보임"
+        },
+         {
+          "teamId": 2,
+          "name": "실베스타 덱",
+          "heroes": [
+            {
+              "name": "오를리",
+              "image": "orly.png"
+            },
+            {
+              "name": "실베스타",
+              "image": "silvesta.png",
+              "note": "약공 세팅"
+            },
+            {
+              "name": "연희",
+              "image": "Yeonhee.png",
+              "note": "바네사나 유신등 서브딜러도괜찮아보임"
+            }
+          ],
+          "skillOrders": {
+           
+            "내실덱": [
+              
+              "orly2.png",
+              "Yeonhee2.png",
+              "silvesta1.png"
+              
+            ]
+          },
+          "note": "1티어/내실세팅"
         },
         
         {
@@ -400,11 +431,13 @@
             
             "내실덱": [
               "rachel1.png",
-              "baillista1.png",
+
+              "ballista1.png",
+
               "silvesta1.png"
             ]
           },
-          "note": "2티어"
+          "note": "1.5티어"
         },
         {
           "teamId": 0,
@@ -536,7 +569,7 @@
             {
               "name": "엘리스",
               "image": "elise.png",
-              "note":"부활반지 필수"
+              "note":"부활반지 필수/카린 대체가능"
             },
             {
               "name": "콜트",
@@ -551,7 +584,7 @@
           ],
           "skillOrders": {
             "공통": [
-              "platon2.png",
+             
               "colt1.png",
               "colt2.png"
             ]
