@@ -241,6 +241,37 @@
           },
           "note":"op티어/표기상 효저100이최대지만 그이상치로 세팅하면 실제론 오름/파이크 펫까지"
         },
+         {
+          "teamId": 0,
+          "name": "연희덱",
+          "heroes": [
+            {
+              "name": "오를리",
+              "image": "orly.png",
+              "note": "조율자(모공/모공/효저100)+파이크펫,권능에 효저 세공,또는 권능"
+            },
+            {
+              "name": "연희",
+              "image": "Yeonhee.png",
+              "note": "추적자(약공80,치확80이상)"
+            },
+            {
+              "name": "바네사",
+              "image": "vanessa.png",
+              "note": "조율자(효저100/효적60이상)+파이크펫,권능에 효저 세공,또는 권능"
+            }
+          ],
+          
+          "skillOrders": {
+            "내실덱": [
+              "vanessa1.png",
+              "Yeonhee2.png",
+              "orly2.png"
+            ]
+            
+          },
+          "note":"1.5티어/표기상 효저100이최대지만 그이상치로 세팅하면 실제론 오름/파이크 펫까지"
+        },
         {
           "teamId": 0,
           "name": "연희덱",
@@ -266,7 +297,7 @@
             "내실덱": [
               "vanessa1.png",
               "Yeonhee2.png",
-              "Yeonhee1.png"
+              "juri2.png"
             ]
             
           },

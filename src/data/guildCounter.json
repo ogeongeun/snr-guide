@@ -1186,6 +1186,59 @@
             ]
           }
         ]
+      },
+       {
+        "id": "team2",
+        "label": "델론즈 공덱",
+        "defenseTeam": [
+          {
+            "name": "파이",
+            "image": "/images/heroes/pie.png"
+          },
+          {
+            "name": "델론즈",
+            "image": "/images/heroes/dellons.png"
+          },
+          {
+            "name": "콜트",
+            "image": "/images/heroes/colt.png"
+          }
+        ],
+        "defenseVariants": [
+          {
+            "defenseSkills": ["pie1.png","colt1.png","colt2.png"],
+            "counters": [
+              {
+                "team": [
+                  {
+                    "name": "유신",
+                    "image": "/images/heroes/yushin.png"
+                 
+                  },
+                  {
+                    "name": "린",
+                    "image": "/images/heroes/rin.png"
+                  },
+                  {
+                    "name": "연희",
+                    "image": "/images/heroes/Yeonhee.png"
+                  }
+                ],
+                
+                "skillOrders": [
+                  {
+                    "label": "속공 이길 때",
+                    "skills": [
+                      "rin2.png",
+                      "Yeonhee2.png",
+                      "Yeonhee1.png"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "마덱": [
@@ -1794,6 +1847,63 @@
           }
         ]
       },
+      {
+        "id": "team2",
+        "label": "연희 마덱",
+        "defenseTeam": [
+          {
+            "name": "바네사",
+            "image": "/images/heroes/vanessa.png"
+          },
+          {
+            "name": "연희",
+            "image": "/images/heroes/yeonhee.png"
+          },
+          {
+            "name": "쥬리",
+            "image": "/images/heroes/juri.png"
+          
+          }
+        ],
+        "defenseVariants": [
+          {
+            "defenseSkills": ["vanessa1.png","Yeonhee2.png","juri2.png"],
+            "counters": [
+              
+              {
+                "team": [
+                  {
+                    "name": "첸슬러",
+                    "image": "/images/heroes/chancellor.png"
+                  },
+                  {
+                    "name": "아라곤",
+                    "image": "/images/heroes/aragon.png"
+                   
+                  },
+                  {
+                    "name": "룩",
+                    "image": "/images/heroes/look.png"
+                   
+                  }
+                ],
+            
+                "skillOrders": [
+                  {
+                    "label": "공통",
+                    "skills": [
+                      "chancellor2.png",
+                      "look2.png",
+                      "aragon1.png"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      
       {
         "id": "team2",
         "label": "연희 마덱",
@@ -3305,8 +3415,8 @@
               {
                 "team": [
                   {
-                    "name": "리나",
-                    "image": "/images/heroes/lina.png"
+                    "name": "풍연",
+                    "image": "/images/heroes/poongyeon.png"
                   },
                   {
                     "name": "루리",
@@ -3496,6 +3606,59 @@
                       "Yushin1.png",
                       "luri2.png",
                       "luri1.png"
+                    ]
+                  }
+                ]
+              }
+              
+            ]
+          }
+        ]
+      },
+      {
+        "id": "team4",
+        "label": "플라튼 방덱",
+        "defenseTeam": [
+          {
+                    "name": "플라튼",
+                    "image": "/images/heroes/platon.png"
+                  },
+                  {
+                    "name": "카린",
+                    "image": "/images/heroes/carin.png"
+                  },
+                  {
+                    "name": "로지",
+                    "image": "/images/heroes/lozy.png"
+                  }
+        ],
+        "defenseVariants": [
+          {
+            "defenseSkills": ["platon2.png","lozy1.png"],
+            "counters": [
+              {
+                "team": [
+                  {
+                    "name": "파이",
+                    "image": "/images/heroes/pie.png"
+                  },
+                  {
+                    "name": "태오",
+                    "image": "/images/heroes/teo.png"
+                  },
+                  {
+                    "name": "플라튼",
+                    "image": "/images/heroes/platon.png"
+                  }
+                ],
+            
+                "skillOrders": [
+                  {
+                    "label": "공통",
+                    "skills": [
+                      "platon2.png",
+                      "pie1.png",
+                      "teo1.png"
                     ]
                   }
                 ]
