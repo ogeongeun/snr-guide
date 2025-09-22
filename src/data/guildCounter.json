@@ -354,6 +354,61 @@
         "label": "델론즈 공덱",
         "defenseTeam": [
           {
+            "name": "바네사",
+            "image": "/images/heroes/vanessa.png"
+          },
+          {
+            "name": "델론즈",
+            "image": "/images/heroes/dellons.png"
+          },
+          {
+            "name": "로지",
+            "image": "/images/heroes/lozy.png"
+          }
+        ],
+        "defenseVariants": [
+          {
+            "defenseSkills": ["vanessa1.png","dellons2.png","dellons1.png"],
+            "counters": [
+              {
+                "team": [
+                  {
+                    "name": "니아",
+                    "image": "/images/heroes/nia.png"
+               
+                  },
+                  {
+                    "name": "델론즈",
+                    "image": "/images/heroes/teo.png"
+          
+                  },
+                  {
+                    "name": "발리스타",
+                    "image": "/images/heroes/ballista.png"
+              
+                  }
+                ],
+           
+                "skillOrders": [
+                  {
+                    "label": "속공 이길 때",
+                    "skills": [
+                      "nia2.png",
+                      "dellons2.png",
+                      "dellons1.png"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "team1",
+        "label": "델론즈 공덱",
+        "defenseTeam": [
+          {
             "name": "스파이크",
             "image": "/images/heroes/spike.png"
           },
@@ -1734,6 +1789,63 @@
                     ]
                   }
                 ]
+              },
+              {
+                "team": [
+                  {
+                    "name": "리나",
+                    "image": "/images/heroes/lina.png",
+                    "note": "6초이상(효저90이상)"
+                  },
+                  {
+                    "name": "발리스타",
+                    "image": "/images/heroes/ballista.png",
+                    "note": "6초이상"
+                  },
+                  {
+                    "name": "아일린",
+                    "image": "/images/heroes/eileene.png"
+                  }
+                ],
+                "note": "발리 스킬에 한명이상 죽어야함",
+                "skillOrders": [
+                  {
+                    
+                    "skills": [
+                      "lina2.png",
+                      "ballista1.png",
+                      "lina1.png"
+                    ]
+                  }
+                ]
+              },{
+                "team": [
+                  {
+                    "name": "리나",
+                    "image": "/images/heroes/lina.png",
+                    "note": "6초이상(효저90이상)"
+                  },
+                  {
+                    "name": "발리스타",
+                    "image": "/images/heroes/ballista.png",
+                    "note": "6초이상"
+                  },
+                  {
+                    "name": "콜트",
+                    "image": "/images/heroes/colt.png"
+                  }
+                ],
+                "note": "발리 스킬에 한명이상 죽어야함",
+                "skillOrders": [
+                  {
+                    
+                    "skills": [
+                      "colt2.png",
+                      "lina2.png",
+                      "ballista1.png"
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -2485,6 +2597,36 @@
                 "team": [
                   {
                     "name": "리나",
+                    "image": "/images/heroes/lina.png",
+                    "note": "6초이상(효저90이상)"
+                  },
+                  {
+                    "name": "발리스타",
+                    "image": "/images/heroes/ballista.png",
+                    "note": "6초이상"
+                  },
+                  {
+                    "name": "콜트",
+                    "image": "/images/heroes/colt.png"
+                  }
+                ],
+                "note": "발리 스킬에 한명이상 죽어야함",
+                "skillOrders": [
+                  {
+                    
+                    "skills": [
+                      "colt2.png",
+                      "lina2.png",
+                      "ballista1.png"
+                    
+                    ]
+                  }
+                ]
+              },
+              {
+                "team": [
+                  {
+                    "name": "리나",
                     "image": "/images/heroes/lina.png"
                   },
                   {
@@ -2857,6 +2999,74 @@
             "counters": [
               {
                 "team": [
+                  
+                  {
+                    "name": "플라튼",
+                    "image": "/images/heroes/platon.png",
+                       "note":"첸슬러 대체가능/부활반지"
+                   
+                  },
+                  {
+                    "name": "카론",
+                    "image": "/images/heroes/caron.png",
+                    "note":"뒤배치/부활반지"
+                  },
+                  {
+                    "name": "리나",
+                    "image": "/images/heroes/lina.png",
+                    "note":"부활반지"
+                  }
+                ],
+                "note": "장비 잘 줘야됨(장비추천 페이지 꼭 환인후 세팅",
+                "skillOrders": [
+                  {
+                    "label": "속공 질때",
+                    "skills": [
+                      "caron1.png"
+                      
+                      
+                     
+                    ]
+                  }
+                ]
+              },
+              {
+                "team": [
+                  
+                  {
+                    "name": "플라튼",
+                    "image": "/images/heroes/platon.png",
+                       "note":"첸슬러 대체가능/부활반지"
+                   
+                  },
+                  {
+                    "name": "루시",
+                    "image": "/images/heroes/rucy.png",
+                    "note":"뒤배치/부활반지"
+                  },
+                  {
+                    "name": "엘리스",
+                    "image": "/images/heroes/elise.png",
+                    "note":"부활반지"
+                  }
+                ],
+                "note": "장비 잘 줘야됨(장비추천 페이지 꼭 환인후 세팅",
+                "skillOrders": [
+                  {
+                    "label": "속공 질때",
+                    "skills": [
+                      "platon2.png",
+                      "lucy2.png",
+                      "elise2.png"
+                      
+                      
+                     
+                    ]
+                  }
+                ]
+              },
+              {
+                "team": [
                   {
                     "name": "루시",
                     "image": "/images/heroes/lucy.png"
@@ -3076,6 +3286,61 @@
                   }
                 ]
               }
+            ]
+          }
+        ]
+      },
+       {
+        "id": "team4",
+        "label": "콜트+플라튼 방덱",
+        "defenseTeam": [
+          {
+            "name": "스파이크",
+            "image": "/images/heroes/spike.png"
+          },
+          {
+            "name": "콜트",
+            "image": "/images/heroes/colt.png"
+          },
+          {
+            "name": "플라튼",
+            "image": "/images/heroes/platon.png"
+          }
+        ],
+        "defenseVariants": [
+          {
+            "defenseSkills": ["juri2.png","platon2.png","colt2.png"],
+            "counters": [
+              {
+                "team": [
+                  {
+                    "name": "리나",
+                    "image": "/images/heroes/lina.png"
+                  },
+                  {
+                    "name": "루리",
+                    "image": "/images/heroes/luri.png",
+                    "note":"권능 반지 필수"
+                  },
+                  {
+                    "name": "카린",
+                    "image": "/images/heroes/carin.png"
+                  }
+                ],
+                "note": "승률60~70% 덱 풀 약하신분들 도전추천",
+                "skillOrders": [
+                  {
+                    "label": "공통",
+                    "skills": [
+                      "luri2.png",
+                      "luri1.png"
+                     
+                    ]
+                  }
+                ]
+              }
+              
+              
             ]
           }
         ]

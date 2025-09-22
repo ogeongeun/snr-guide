@@ -16,7 +16,7 @@
   },
   "categories": {
     "공덱": {
-      "desc": "테오,델론즈,아일린 조합 사용x 방덱한끼 식사임",
+
       "teams": [
         {
           "teamId": 1,
@@ -33,25 +33,21 @@
               "image": "teo.png"
             },
             {
-              "name": "유신",
-              "image": "Yushin.png",
-              "note":"조율자"
+              "name": "콜트",
+              "image": "colt.png"
+              
             }
           ],
       
           "skillOrders": {
             "threshold": 220,
-            "속공덱": [
-             
-              "pie1.png",
-              "Yushin1.png",
-              "teo1.png"
-            ],
+           
             "내실덱": [
-              "teo1.png",
-             
               "pie1.png",
+             
+              "colt2.png",
                "teo2.png"
+               
             ]
           },
           "note": "1티어/속공220 미만시 추적자 태오 "
@@ -75,7 +71,7 @@
             {
               "name": "아일린",
               "image": "eileene.png",
-              "note":"뒤배치(추적자/치약공공)"
+             "note":"조율자(효저100/효적60이상)"
             }
           ],
       
@@ -92,43 +88,7 @@
           },
           "note": "1.5티어/방덱잡이 내실세팅 속공x "
         },
-         {
-          "teamId": 1,
-          "name": "테오덱",
-          "heroes": [
-           
-            {
-              "name": "태오",
-              "image": "teo.png"
-            },
-             {
-              "name": "레이첼",
-              "image": "rachel.png",
-              "note":"뒤배치(복수자/치약공공)"
-              
-
-            },
-            {
-              "name": "델론즈",
-              "image": "dellons.png",
-              "note":"뒤배치(추적자/치약공공)"
-            }
-          ],
-      
-          "skillOrders": {
-            "threshold": 220,
-            "내실덱": [
-             
-          "teo1.png",
-                   "rachel1.png",
-                       
-              "dellons2.png"
-         
-            ]
-            
-          },
-          "note": "1.5티어/방덱잡이 내실세팅 속공x "
-        },
+        
          {
           "teamId": 1,
           "name": "테오덱",
@@ -148,7 +108,8 @@
             },
             {
               "name": "아일린",
-              "image": "eileene.png"
+              "image": "eileene.png",
+              "note":"조율자(효저100/효적60이상)"
               
             }
           ],
@@ -177,7 +138,7 @@
             {
               "name": "아일린",
               "image": "eileene.png",
-              "note": "cc"
+             "note":"조율자(효저100/효적60이상)"
             },
             {
               "name": "태오",
@@ -485,16 +446,17 @@
               "note": "6초월시 사용(복수자/치치공공)"
             },
             {
-              "name": "리나",
-              "image": "lina.png"
+              "name": "스파이크",
+              "image": "spike.png",
+              "note":"6초이상 사용"
              
             }
           ],
           "skillOrders": {
             
             "내실덱": [
+              "spike2.png",
               "rachel1.png",
-              
               "carma2.png"
             ]
           },
@@ -598,9 +560,9 @@
           "name": "콜트+플라튼 방덱",
           "heroes": [
             {
-              "name": "엘리스",
-              "image": "elise.png",
-              "note":"부활반지 필수/카린 대체가능"
+              "name": "카린",
+              "image": "carin.png"
+            
             },
             {
               "name": "콜트",
@@ -618,6 +580,37 @@
              
               "colt1.png",
               "colt2.png"
+            ]
+            
+          },
+          "note": "2티어"
+        },
+         {
+          "teamId": 0,
+          "name": "콜트+플라튼 방덱",
+          "heroes": [
+            {
+              "name": "실베스타",
+              "image": "silvesta.png"
+            
+            },
+            {
+              "name": "콜트",
+              "image": "colt.png",
+                "note":"즉반 or cc반지"
+            },
+            {
+              "name": "플라튼",
+              "image": "platon.png",
+              "note":"5성부활 이상"
+            }
+          ],
+          "skillOrders": {
+            "공통": [
+             "platon2.png",
+            
+              "colt2.png",
+              "silvesta1.png"
             ]
             
           },
