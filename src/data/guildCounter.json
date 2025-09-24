@@ -2044,8 +2044,8 @@
                     "image": "/images/heroes/aragon.png"
                   },
                   {
-                    "name": "스파이크",
-                    "image": "/images/heroes/spike.png",
+                    "name": "첸슬러",
+                    "image": "/images/heroes/chancellor.png",
                     "note":"첸슬러 대체가능"
                   },
                   {
@@ -2058,7 +2058,8 @@
                   {
                     "label": "공통",
                     "skills": [
-                      "spike2.png"
+                      "elise1.png",
+                      "elise2.png"
                    
                     ]
                   }
