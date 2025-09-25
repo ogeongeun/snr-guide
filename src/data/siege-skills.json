@@ -18,7 +18,7 @@
               "stageTitle": "3스테이지",
               "images": [
                 "luri2.png", "bisket2.png", "bisket1.png", "miho1.png",
-                 "lina1.png","luri1.png","luri2.png",
+                 "lina2.png","luri1.png","luri2.png",
                 "bisket2.png", 
                 "miho2.png", "miho1.png","luri1.png","bisket1.png","luri2.png",
                 "bisket2.png","lina2.png","miho1.png","luri1.png","luri2.png"
@@ -428,21 +428,51 @@
      
       "skillOrders": [
         {
+          "orderTitle": "최고점(미호 사용)",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["bisket2.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["miho2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+              "lina2.png", "bisket1.png", "miho1.png","luri2.png",
+                "luri1.png", "miho2.png","ariel1.png","ariel2.png","miho1.png", "luri2.png","luri1.png","bisket1.png","lina2.png","miho2.png","miho1.png","luri2.png","luri1.png"
+                
+              ]
+              
+               
+            }
+          ]
+        }
+       
+        
+      ]
+    },
+    {
+     
+      "skillOrders": [
+        {
           "orderTitle": "최고점(비스킷 사용)",
           "skills": [
             {
               "stageTitle": "1스테이지",
-              "images": ["ariel2.png"]
+              "images": ["bisket2.png"]
             },
             {
               "stageTitle": "2스테이지",
-              "images": ["bisket2.png"]
+              "images": ["ariel2.png"]
             },
             {
               "stageTitle": "3스테이지",
               "images": [
                 "ariel1.png", "lina2.png", "bisket1.png", "luri2.png",
-                "luri1.png", "Yeonhee1.png","ariel1.png","ariel2.png","lina1.png", "luri2.png","luri1.png","bisket1.png","ariel1.png","lina2.png","luri2.png","luri1.png","Yeonhee1.png"
+                "luri1.png", "Yeonhee1.png","ariel1.png","ariel2.png","lina1.png", "luri2.png","luri1.png","ariel1.png","bisket1.png","lina2.png","luri2.png","luri1.png","Yeonhee1.png"
                 
               ]
               
@@ -671,8 +701,8 @@
             {
               "stageTitle": "3스테이지",
               "images": [
-                 "rachel2.png","lina2.png","bisket1.png", "taka1.png","taka2.png", "lina1.png",
-                "rachel1.png", "rachel2.png", "jin1.png","taka1.png","taka2.png","jin2.png","bisket1.png","lina2.png","rachel2.png","taka2.png","taka1.png","jin1.png"
+                 "bisket1.png","rachel2.png","lina2.png", "taka1.png","taka2.png", "rachel1.png",
+                "lina1.png", "jin2.png", "rachel2.png","bisket1.png","taka1.png","taka2.png","lina2.png","rachel1.png","jin2.png","rachel2.png","taka2.png","taka1.png"
                 
               ]
               
@@ -979,7 +1009,29 @@
      
       "skillOrders": [
         {
-          "orderTitle": "비스킷 6초시 사용(그전은 효율 떨어짐)",
+          "orderTitle": "레이첼 6초",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["rachel1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["taka1.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+               "bisket1.png","rachel2.png","taka2.png","zick2.png","yui1.png","rachel1.png","taka1.png","taka2.png","zick2.png","bisket1.png","rachel2.png","rachel1.png","taka2.png","taka1.png","yui1.png","zick2.png","rachel2.png","taka2.png"
+                
+              ]
+              
+               
+            }
+          ]
+        },
+        {
+          "orderTitle": "레이첼 2초월",
           "skills": [
             {
               "stageTitle": "1스테이지",
@@ -1167,7 +1219,7 @@
      
       "skillOrders": [
         {
-          "orderTitle": "(비스킷 최최최고점)1,2스테이지 풍연으로 한방",
+          "orderTitle": "레이첼 6초시",
           "skills": [
             {
               "stageTitle": "1스테이지",
@@ -1180,7 +1232,30 @@
             {
               "stageTitle": "3스테이지",
               "images": [
-                "rachel2.png",{ "image": "bisket2.png", "label": "버프해제" },"lina2.png","bisket1.png","taka1.png","taka2.png","poongyeon1.png","poongyeon2.png",{ "image": "bisket2.png", "label": "버프해제" },"rachel2.png","taka1.png","taka2.png","lina1.png","lina2.png",{ "image": "bisket2.png", "label": "버프해제" },"bisket1.png","taka2.png","taka1.png"
+                "bisket1.png",{ "image": "bisket2.png", "label": "버프해제" },"rachel2.png","lina2.png","taka1.png","taka2.png","rachel1.png",{ "image": "bisket2.png", "label": "버프해제" },"rachel2.png","bisket1.png","taka1.png","taka2.png","lina1.png",{ "image": "bisket2.png", "label": "버프해제" },"rachel1.png","rachel2.png","taka1.png","taka2.png"
+                
+              ]
+              
+               
+            }
+          
+          ]
+        },
+        {
+          "orderTitle": "22턴 스킬 밀렸을때",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["poongyeon1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["poongyeon2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "bisket1.png",{ "image": "bisket2.png", "label": "버프해제" },"rachel2.png","lina2.png","taka1.png","taka2.png","rachel1.png",{ "image": "poongyeon2.png", "label": "스킬 밀렸을 때" },{ "image": "bisket2.png", "label": "버프해제" },"rachel2.png","bisket1.png","taka2.png","taka1.png","lina1.png",{ "image": "bisket2.png", "label": "버프해제" },"rachel1.png","rachel2.png","taka2.png"
                 
               ]
               
@@ -1189,6 +1264,7 @@
           
           ]
         }
+        
        
    
         
@@ -1347,7 +1423,7 @@
     {
       "skillOrders": [
         {
-          "orderTitle": "최고점(비스킷사용) /최종x",
+          "orderTitle": "최고점(비스킷사용) /최종",
           "skills": [
             {
               "stageTitle": "1스테이지",
@@ -1360,7 +1436,7 @@
             {
               "stageTitle": "3스테이지",
               "images": [
-                "rachel2.png","bisket1.png","sein1.png","zick2.png","zick1.png","sein1.png","leo1.png","rachel2.png","sein1.png","zick2.png","bisket1.png","sein1.png","zick1.png","rachel2.png","sein1.png","zick2.png","leo1.png","zick2.png","sein1.png"
+                "rachel2.png","bisket1.png","sein1.png","zick2.png","leo1.png","sein1.png","zick1.png","rachel2.png","sein1.png","zick2.png","bisket1.png","sein1.png","leo1.png","rachel2.png","sein1.png","zick2.png","zick1.png","sein1.png"
                 
               ]
               
