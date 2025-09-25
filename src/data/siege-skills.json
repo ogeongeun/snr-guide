@@ -4,6 +4,40 @@
      
       "skillOrders": [
          {
+          "orderTitle": "미호 사용덱 최고점",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["miho2.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["luri1.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "luri2.png", "bisket2.png", "bisket1.png", "miho1.png",
+                 "lina1.png","luri1.png","luri2.png",
+                "bisket2.png", 
+                "miho2.png", "miho1.png","luri1.png","bisket1.png","luri2.png",
+                "bisket2.png","lina2.png","miho1.png","luri1.png","luri2.png"
+              ]
+              
+            }
+          ]
+        }
+        
+         
+        
+      
+        
+      ]
+    },
+    {
+     
+      "skillOrders": [
+         {
           "orderTitle": "리나힐, 에반 방패 둘다 써야 쿨타임 안꼬임 ",
           "skills": [
             {
