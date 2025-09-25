@@ -104,6 +104,38 @@
       }
     ],
     "포디나의 성 (화요일)": [
+      {
+        "team": [
+          {
+            "name": "클로에",
+            "image": "chloe.png"
+          },
+          
+          {
+            "name": "비스킷",
+            "image": "bisket.png",
+            "note":"복수자(치확100/치피160/공2600)"
+          },
+          {
+            "name": "루리",
+            "image": "luri.png"
+            ,"note": "뒤배치"
+          },
+          {
+            "name": "리나",
+            "image": "lina.png"
+          },
+          {
+            "name": "미호",
+            "image": "miho.png"
+    
+          }
+        ],
+        "tags": [
+         
+        ]
+        
+      },
        {
         "team": [
           {

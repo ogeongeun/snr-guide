@@ -143,6 +143,40 @@
       "skillOrders": [
         
         {
+          "orderTitle": "투창 먼저/미호사용 고점덱",
+          "skills": [
+            {
+              "stageTitle": "1스테이지",
+              "images": ["miho1.png"]
+            },
+            {
+              "stageTitle": "2스테이지",
+              "images": ["bisket2.png"]
+            },
+            {
+              "stageTitle": "3스테이지",
+              "images": [
+                "bisket1.png", "luri2.png", "luri1.png","miho2.png","lina2.png","chloe2.png",
+                "miho1.png", "luri2.png","luri1.png","bisket1.png",
+              "miho2.png","chloe2.png","miho1.png","lina2.png","luri2.png","luri1.png","miho2.png","miho1.png"
+              
+              ],
+              "labels": {
+                "3": "투창",
+                "9": "투창"
+               
+               }
+               
+            }
+          ]
+        }
+      ]
+    },
+    {
+     
+      "skillOrders": [
+        
+        {
           "orderTitle": "투창 먼저",
           "skills": [
             {
