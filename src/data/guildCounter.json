@@ -729,6 +729,32 @@
               {
                 "team": [
                   {
+                    "name": "엘리스",
+                    "image": "/images/heroes/elise.png"
+                  },
+                  {
+                    "name": "카르마",
+                    "image": "/images/heroes/carma.png"
+                  },
+                  {
+                    "name": "루디",
+                    "image": "/images/heroes/rudy.png"
+                  }
+                ],
+                "skillOrders": [
+                  {
+                    "label": "속공 질 때",
+                    "skills": [
+                      "rudy2.png",
+                      "carma2.png"
+                     
+                    ]
+                  }
+                ]
+              },
+              {
+                "team": [
+                  {
                     "name": "쥬리",
                     "image": "/images/heroes/juri.png"
                   },
@@ -3031,6 +3057,7 @@
                   }
                 ]
               },
+               
               {
                 "team": [
                   
@@ -3042,7 +3069,7 @@
                   },
                   {
                     "name": "루시",
-                    "image": "/images/heroes/rucy.png",
+                    "image": "/images/heroes/lucy.png",
                     "note":"뒤배치/부활반지"
                   },
                   {
@@ -3059,6 +3086,41 @@
                       "platon2.png",
                       "lucy2.png",
                       "elise2.png"
+                      
+                      
+                     
+                    ]
+                  }
+                ]
+              },
+              {
+                "team": [
+                  
+                  {
+                    "name": "파이",
+                    "image": "/images/heroes/pie.png"
+                    
+                   
+                  },
+                  {
+                    "name": "델론즈",
+                    "image": "/images/heroes/dellons.png",
+                    "note":"뒤배치"
+                  },
+                  {
+                    "name": "레이첼",
+                    "image": "/images/heroes/rachel.png"
+        
+                  }
+                ],
+                "note": "셋다 내실 장비로 ",
+                "skillOrders": [
+                  {
+                    "label": "공통",
+                    "skills": [
+                      "rachel2.png",
+                       "dellons2.png",
+                        "pie2.png"
                       
                       
                      
