@@ -403,9 +403,9 @@
           "name": "레이첼 방덱",
           "heroes": [
             {
-              "name": "발리스타",
-              "image": "ballista.png",
-              "note":"추적자(치약공공)"
+              "name": "스파이크",
+              "image": "spike.png"
+             
             },
             {
               "name": "레이첼",
@@ -422,11 +422,12 @@
           "skillOrders": {
             
             "내실덱": [
+               "spike2.png",
               "rachel1.png",
 
-              "ballista1.png",
+             
 
-              "silvesta1.png"
+              "silvesta2.png"
             ]
           },
           "note": "1.5티어"

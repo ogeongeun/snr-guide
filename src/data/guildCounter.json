@@ -1344,6 +1344,38 @@
           {
             "defenseSkills": ["rin2.png","vanessa1.png","Yeonhee1.png"],
             "counters": [
+              {
+                "team": [
+                  {
+                    "name": "발리스타",
+                    "image": "/images/heroes/ballista.png",
+                  "note":"4초월/4권능 이상"
+                   
+                  },
+                  {
+                    "name": "태오",
+                    "image": "/images/heroes/teo.png",
+                       "note":"약공세팅"
+                  },
+                  {
+                    "name": "아일린",
+                    "image": "/images/heroes/eileene.png",
+                    "note":"델론즈 대체가능"
+                  }
+                ],
+            "note": "상대 권능 있을때 사용",
+                "skillOrders": [
+                  {
+                    "label": "속공 질 때",
+                    "skills": [
+                      "teo1.png",
+                      "ballista1.png",
+                      "teo2.png"
+                    ]
+                  }
+                ]
+              },
+              
                {
                 "team": [
                   {
@@ -1466,7 +1498,37 @@
            {
             "defenseSkills": ["vanessa1.png","Yeonhee1.png","rin2.png"],
             "counters": [
-               
+               {
+                "team": [
+                  {
+                    "name": "발리스타",
+                    "image": "/images/heroes/ballista.png",
+                  "note":"4초월/4권능 이상"
+                   
+                  },
+                  {
+                    "name": "태오",
+                    "image": "/images/heroes/teo.png",
+                       "note":"약공세팅"
+                  },
+                  {
+                    "name": "아일린",
+                    "image": "/images/heroes/eileene.png",
+                    "note":"델론즈 대체가능"
+                  }
+                ],
+            "note": "상대 권능 있을때 사용",
+                "skillOrders": [
+                  {
+                    "label": "속공 이길 때",
+                    "skills": [
+                      "teo1.png",
+                      "ballista1.png",
+                      "teo2.png"
+                    ]
+                  }
+                ]
+              },
               {
                 "team": [
                   {
@@ -1575,9 +1637,41 @@
           }
         ],
         "defenseVariants": [
+          
           {
             "defenseSkills": ["rin2.png","Melkir1.png","Yushin1.png"],
             "counters": [
+              {
+                "team": [
+                  {
+                    "name": "발리스타",
+                    "image": "/images/heroes/ballista.png",
+                  "note":"4초월/4권능 이상"
+                   
+                  },
+                  {
+                    "name": "태오",
+                    "image": "/images/heroes/teo.png",
+                       "note":"약공세팅"
+                  },
+                  {
+                    "name": "아일린",
+                    "image": "/images/heroes/eileene.png",
+                    "note":"델론즈 대체가능"
+                  }
+                ],
+            "note": "상대 권능 있을때 사용",
+                "skillOrders": [
+                  {
+                    "label": "속공 질 때",
+                    "skills": [
+                      "teo1.png",
+                      "ballista1.png",
+                      "teo2.png"
+                    ]
+                  }
+                ]
+              },
               {
                 "team": [
                   {
@@ -2066,6 +2160,36 @@
               {
                 "team": [
                   {
+                    "name": "플라튼",
+                    "image": "/images/heroes/platon.png",
+                    "note":"속공 질거면 플라튼 장비 빡세게 가져가야함"
+                  },
+                  {
+                    "name": "발리스타",
+                    "image": "/images/heroes/ballista.png",
+                    "note":"5성 권능 필수"
+                  },
+                  {
+                    "name": "콜트",
+                    "image": "/images/heroes/colt.png"
+                  }
+                ],
+                "note": "상대하고 초월 비슷해야될듯",
+                "skillOrders": [
+                  {
+                    "label": "속공 이기면 쉬움",
+                    "skills": [
+                      "colt1.png",
+                      "colt2.png",
+                      "ballista1.png"
+                   
+                    ]
+                  }
+                ]
+              },
+              {
+                "team": [
+                  {
                     "name": "아라곤",
                     "image": "/images/heroes/aragon.png"
                   },
@@ -2086,6 +2210,35 @@
                     "skills": [
                       "elise1.png",
                       "elise2.png"
+                   
+                    ]
+                  }
+                ]
+              },
+              {
+                "team": [
+                  {
+                    "name": "아라곤",
+                    "image": "/images/heroes/aragon.png"
+                  },
+                  {
+                    "name": "스파이크",
+                    "image": "/images/heroes/spike.png"
+                   
+                  },
+                  {
+                    "name": "엘리스",
+                    "image": "/images/heroes/elise.png"
+                  }
+                ],
+                "note": "상대하고 초월 비슷해야될듯",
+                "skillOrders": [
+                  {
+                    "label": "공통",
+                    "skills": [
+                      "aragon1.png",
+                      "elise2.png",
+                      "spike2.png"
                    
                     ]
                   }
@@ -2256,6 +2409,37 @@
           {
             "defenseSkills": ["vanessa1.png","Yeonhee2.png","Yeonhee1.png"],
             "counters": [
+              {
+                "team": [
+                  {
+                    "name": "발리스타",
+                    "image": "/images/heroes/ballista.png",
+                  "note":"4초월/5권능 이상"
+                   
+                  },
+                  {
+                    "name": "태오",
+                    "image": "/images/heroes/teo.png",
+                       "note":"약공세팅"
+                  },
+                  {
+                    "name": "아일린",
+                    "image": "/images/heroes/eileene.png",
+                    "note":"델론즈 대체가능"
+                  }
+                ],
+            "note": "상대 권능 있을때 사용",
+                "skillOrders": [
+                  {
+                    "label": "속공 이길 때",
+                    "skills": [
+                      "teo1.png",
+                      "ballista1.png",
+                      "teo2.png"
+                    ]
+                  }
+                ]
+              },
               {
                 "team": [
                   {
@@ -2563,6 +2747,37 @@
               {
                 "team": [
                   {
+                    "name": "발리스타",
+                    "image": "/images/heroes/ballista.png",
+                  "note":"4초월/4권능 이상"
+                   
+                  },
+                  {
+                    "name": "태오",
+                    "image": "/images/heroes/teo.png",
+                       "note":"약공세팅"
+                  },
+                  {
+                    "name": "아일린",
+                    "image": "/images/heroes/eileene.png",
+                    "note":"델론즈 대체가능"
+                  }
+                ],
+            "note": "상대 권능 있을때 사용",
+                "skillOrders": [
+                  {
+                    "label": "속공 질 때",
+                    "skills": [
+                      "teo1.png",
+                      "ballista1.png",
+                      "teo2.png"
+                    ]
+                  }
+                ]
+              },
+              {
+                "team": [
+                  {
                     "name": "쥬리",
                     "image": "/images/heroes/juri.png",
                   "note":"약공90/효적60이상"
@@ -2855,6 +3070,37 @@
               {
                 "team": [
                   {
+                    "name": "발리스타",
+                    "image": "/images/heroes/ballista.png",
+                  "note":"4초월/4권능 이상"
+                   
+                  },
+                  {
+                    "name": "태오",
+                    "image": "/images/heroes/teo.png",
+                       "note":"약공세팅"
+                  },
+                  {
+                    "name": "아일린",
+                    "image": "/images/heroes/eileene.png",
+                    "note":"델론즈 대체가능"
+                  }
+                ],
+            "note": "상대 권능 있을때 사용",
+                "skillOrders": [
+                  {
+                    "label": "속공 이길 때",
+                    "skills": [
+                      "teo1.png",
+                      "ballista1.png",
+                      "teo2.png"
+                    ]
+                  }
+                ]
+              },
+              {
+                "team": [
+                  {
                     "name": "리나",
                     "image": "/images/heroes/lina.png",
                     "note": "6초이상(효저90이상)"
@@ -3028,6 +3274,42 @@
                 "team": [
                   
                   {
+                    "name": "레이첼",
+                    "image": "/images/heroes/rachel.png"
+                       
+                   
+                  },
+                  {
+                    "name": "델론즈",
+                    "image": "/images/heroes/dellons.png",
+                    "note":"뒤배치/치확100,약확100/팀내 속공2순위"
+                  },
+                  {
+                    "name": "파이",
+                    "image": "/images/heroes/pie.png"
+                  
+                  }
+                ],
+                "note": "델론즈 팀내 속공 2순위",
+                "skillOrders": [
+                  {
+                    "label": "속공 이길 때",
+                    "skills": [
+                      "rachel2.png",
+                      "dellons2.png",
+                      "pie2.png"
+                      
+                      
+                     
+                    ]
+                  }
+                ]
+              },
+              
+              {
+                "team": [
+                  
+                  {
                     "name": "플라튼",
                     "image": "/images/heroes/platon.png",
                        "note":"첸슬러 대체가능/부활반지"
@@ -3188,8 +3470,8 @@
               {
                 "team": [
                   {
-                    "name": "린",
-                    "image": "/images/heroes/rin.png"
+                    "name": "유신",
+                    "image": "/images/heroes/yushin.png"
                   },
                   {
                     "name": "연희",
@@ -3201,14 +3483,14 @@
                     "image": "/images/heroes/vanessa.png"
                   }
                 ],
-                "note": "승률60~70% 덱 풀 약하신분들 도전추천",
+                
                 "skillOrders": [
                   {
                     "label": "속공 이길 때",
                     "skills": [
+                      "Yushin2.png",
                       "Yeonhee2.png",
-                      "rin2.png",
-                      "Yeonhee1.png"
+                      "Yushin1.png"
                      
                     ]
                   }
