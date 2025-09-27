@@ -45,8 +45,9 @@
             "내실덱": [
               "pie1.png",
              
-              "colt2.png",
-               "teo2.png"
+          
+               "teo2.png",
+                  "colt2.png"
                
             ]
           },
@@ -79,7 +80,7 @@
             "threshold": 220,
             "내실덱": [
               "eileene2.png",
-              "teo1.png",
+              "teo2.png",
                    "rachel1.png"
              
          
@@ -118,9 +119,9 @@
             "threshold": 220,
             "내실덱": [
              
-              "eileene2.png",
+              "dellons2.png",
               "teo2.png",
-              "dellons2.png"
+              "teo1.png"
             ]
             
           },
@@ -153,7 +154,7 @@
           "skillOrders": {
             "속공덱": [
               "pie1.png",
-              "eileene2.png",
+              "teo2.png",
               "teo1.png"
             ],
             "내실덱": [
@@ -202,37 +203,7 @@
           },
           "note":"op티어/표기상 효저100이최대지만 그이상치로 세팅하면 실제론 오름/파이크 펫까지"
         },
-         {
-          "teamId": 0,
-          "name": "연희덱",
-          "heroes": [
-            {
-              "name": "오를리",
-              "image": "orly.png",
-              "note": "조율자(모공/모공/효저100)+파이크펫,권능에 효저 세공,또는 권능"
-            },
-            {
-              "name": "연희",
-              "image": "Yeonhee.png",
-              "note": "추적자(약공80,치확80이상)"
-            },
-            {
-              "name": "바네사",
-              "image": "vanessa.png",
-              "note": "조율자(효저100/효적60이상)+파이크펫,권능에 효저 세공,또는 권능"
-            }
-          ],
-          
-          "skillOrders": {
-            "내실덱": [
-              "vanessa1.png",
-              "Yeonhee2.png",
-              "orly2.png"
-            ]
-            
-          },
-          "note":"1.5티어/표기상 효저100이최대지만 그이상치로 세팅하면 실제론 오름/파이크 펫까지"
-        },
+         
         {
           "teamId": 0,
           "name": "연희덱",
@@ -329,6 +300,38 @@
             ]
           },
           "note": "1티어/속공230이상일때 속공덱/그 아래일시 내실덱으로 세팅/속공이 더 좋아보임"
+        },
+        {
+          "teamId": 2,
+          "name": "린덱",
+          "heroes": [
+            {
+              "name": "실베스타",
+              "image": "silvesta.png",
+              "note":"6초월이상"
+            },
+            {
+              "name": "린",
+              "image": "rin.png",
+              "note": "내실일때 약공 세팅"
+            },
+            {
+              "name": "유신",
+              "image": "Yushin.png",
+              "note": "2초월 이상/내실일때 조율자(효저90/효적60)/멜키르 대체가능"
+            }
+          ],
+          "skillOrders": {
+            
+            "내실덱": [
+              
+              "rin2.png",
+              "Yushin2.png",
+              "silvesta1.png"
+              
+            ]
+          },
+          "note": "op티어/속공230이상일때 속공덱/그 아래일시 내실덱으로 세팅/속공이 더 좋아보임"
         },
          {
           "teamId": 2,
@@ -521,7 +524,7 @@
             ]
             
           },
-          "note": "1티어/레이첼 속공이 콜트 속공보다 높아야함+파이크펫보다 이린 펫쓰는게 나음"
+          "note": "op티어/레이첼 속공이 콜트 속공보다 높아야함+파이크펫보다 이린 펫쓰는게 나음"
         },
         {
           "teamId": 0,
