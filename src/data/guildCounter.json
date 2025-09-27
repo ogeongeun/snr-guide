@@ -2190,6 +2190,36 @@
               {
                 "team": [
                   {
+                    "name": "니아",
+                    "image": "/images/heroes/nia.png"
+                    
+                  },
+                  {
+                    "name": "린",
+                    "image": "/images/heroes/rin.png"
+                    
+                  },
+                  {
+                    "name": "유신",
+                    "image": "/images/heroes/Yushin.png"
+                  }
+                ],
+                
+                "skillOrders": [
+                  {
+                    "label": "속공 이길때",
+                    "skills": [
+                      "nia2.png",
+                      "Yushin1.png",
+                      "rin2.png"
+                   
+                    ]
+                  }
+                ]
+              },
+              {
+                "team": [
+                  {
                     "name": "아라곤",
                     "image": "/images/heroes/aragon.png"
                   },
