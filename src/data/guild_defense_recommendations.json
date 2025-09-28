@@ -323,10 +323,18 @@
           ],
           "skillOrders": {
             
-            "공통": [
+            "속공덱": [
               
               "rin2.png",
-              "Yushin2.png",
+              "Yushin1.png",
+              "silvesta1.png"
+              
+            ],
+            "내실덱": [
+              
+            
+              "Yushin1.png",
+                "rin2.png",
               "silvesta1.png"
               
             ]
