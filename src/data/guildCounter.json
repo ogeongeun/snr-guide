@@ -29,6 +29,75 @@
               "teo2.png"
             ],
             "counters": [
+               {
+                "team": [
+                  {
+                    "name": "파이",
+                    "image": "/images/heroes/pie.png"
+                   
+                
+                  },
+                  {
+                    "name": "델론즈",
+                    "image": "/images/heroes/dellons.png"
+                   
+                   
+                  },
+                  {
+                    "name": "쥬리",
+                    "image": "/images/heroes/juri.png",
+                    "note":"효적70에 딜세팅"
+                 
+                 
+                     
+                  }
+                ],
+                "note":"쥬리 속공마지막이면 좋긴함",
+                "skillOrders": [
+                  {
+                    "label": "속공 이길때",
+                    "skills": [
+                      "juri2.png",
+                      "dellons2.png",
+                      "pie2.png"
+                    ]
+                  }
+                ]
+              },
+               {
+                "team": [
+                  {
+                    "name": "바네사",
+                    "image": "/images/heroes/vanessa.png"
+                   
+                
+                  },
+                  {
+                    "name": "테오",
+                    "image": "/images/heroes/rin.png"
+                   
+                   
+                  },
+                  {
+                    "name": "오를리",
+                    "image": "/images/heroes/orly.png",
+                    "note":"6초이상 추천(2초도 잘하면 될수도있음)"
+                 
+                     
+                  }
+                ],
+                "note":"",
+                "skillOrders": [
+                  {
+                    "label": "공통",
+                    "skills": [
+                      "orly2.png",
+                      "rin2.png",
+                      "vanessa1.png"
+                    ]
+                  }
+                ]
+              },
                  {
                 "team": [
                   {
@@ -3661,6 +3730,64 @@
                   }
                 ]
               }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "team4",
+        "label": "콜트+플라튼 방덱",
+        "defenseTeam": [
+          {
+            "name": "실베스타",
+            "image": "/images/heroes/silvesta.png"
+          },
+          {
+            "name": "콜트",
+            "image": "/images/heroes/colt.png"
+          },
+          {
+            "name": "플라튼",
+            "image": "/images/heroes/platon.png"
+          }
+        ],
+        "defenseVariants": [
+          {
+            "defenseSkills": ["platon2.png","colt1","colt2.png"],
+            "counters": [
+              {
+                "team": [
+                  {
+                    "name": "루시",
+                    "image": "/images/heroes/lucy.png",
+                    "note":"부활반지"
+                  },
+                  {
+                    "name": "첸슬러",
+                    "image": "/images/heroes/chancellor.png"
+              
+                  },
+                  {
+                    "name": "엘리스",
+                    "image": "/images/heroes/elise.png",
+                    "note":"부활반지"
+                  }
+                ],
+                "note": "승률60~70% 덱 풀 약하신분들 도전추천",
+                "skillOrders": [
+                  {
+                    "label": "속공 질 때",
+                    "skills": [
+                      "lucy1.png",
+                      "lucy2.png",
+                      "elise2.png"
+                     
+                    ]
+                  }
+                ]
+              }
+              
+              
             ]
           }
         ]
