@@ -14,13 +14,11 @@ const EquipmentRecommendPage = () => {
 
   const selectedHero = selectedHeroKey ? equipmentData[selectedHeroKey] : null;
 
-  // roles 내에서 실제 역할 키만 추출 (ring 제외)
   const getRoleKeys = (hero) => {
     if (!hero?.roles) return [];
     return Object.keys(hero.roles).filter((k) => k !== 'ring');
   };
 
-  // 역할 자동 선택
   useEffect(() => {
     if (selectedHero) {
       const roleKeys = getRoleKeys(selectedHero);
@@ -30,7 +28,6 @@ const EquipmentRecommendPage = () => {
     }
   }, [selectedHero]);
 
-  // 초월 단계 자동 선택
   useEffect(() => {
     if (selectedHero && selectedRole) {
       const stageKeys = Object.keys(selectedHero.roles[selectedRole] || {});
@@ -40,8 +37,12 @@ const EquipmentRecommendPage = () => {
     }
   }, [selectedHero, selectedRole]);
 
-  // 캐릭터 공통 반지 추천 (roles.ring)
   const getCommonRing = () => selectedHero?.roles?.ring || '';
+
+  const parseOptions = (options) => {
+    if (!options) return [];
+    return options.split('/').map((opt) => opt.trim());
+  };
 
   return (
     <div className="p-6 max-w-5xl mx-auto">
@@ -55,6 +56,7 @@ const EquipmentRecommendPage = () => {
         className="w-full px-4 py-2 mb-6 border rounded-lg shadow"
       />
 
+      {/* 영웅 리스트 */}
       <div className="grid grid-cols-3 sm:grid-cols-5 gap-4 mb-6">
         {heroEntries.map(([key, hero]) => (
           <button
@@ -63,10 +65,17 @@ const EquipmentRecommendPage = () => {
               setSelectedHeroKey(key);
               setSelectedRole(null);
               setSelectedStage(null);
-              setShowModal(true); // 모달 열기
+              setShowModal(true);
             }}
-            className="flex flex-col items-center border rounded-lg p-2 bg-white hover:shadow"
+            className="relative flex flex-col items-center border rounded-lg p-2 bg-white hover:shadow"
           >
+            {/* 🎯 프리셋 추천 배지 */}
+            {hero.isPresetHero && (
+              <span className="absolute top-1 right-1 bg-green-500 text-white text-[10px] px-2 py-0.5 rounded-full shadow">
+                🎯 프리셋
+              </span>
+            )}
+
             <img
               src={hero.image}
               alt={hero.name}
@@ -77,7 +86,7 @@ const EquipmentRecommendPage = () => {
         ))}
       </div>
 
-      {/* 모달 창 */}
+      {/* 모달 */}
       {showModal && selectedHero && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white rounded-lg shadow-lg max-w-xl w-full p-6 relative">
@@ -88,12 +97,10 @@ const EquipmentRecommendPage = () => {
               ✖
             </button>
 
-            {/* 영웅 이름 */}
             <h2 className="text-xl font-bold text-center mb-2">
               {selectedHero.name}
             </h2>
 
-            {/* 캐릭터 밑에 ~반지 추천 (roles.ring) */}
             {getCommonRing() && (
               <div className="mb-4 text-center">
                 <span className="inline-block text-xs px-2 py-1 rounded-full bg-amber-100 border border-amber-300">
@@ -102,7 +109,6 @@ const EquipmentRecommendPage = () => {
               </div>
             )}
 
-            {/* 역할 선택 */}
             {getRoleKeys(selectedHero).length > 1 && (
               <div className="mb-4 text-center">
                 <h3 className="text-lg font-semibold mb-2">역할 선택</h3>
@@ -127,7 +133,6 @@ const EquipmentRecommendPage = () => {
               </div>
             )}
 
-            {/* 초월 선택 */}
             {selectedRole &&
               Object.keys(selectedHero.roles[selectedRole] || {}).length > 1 && (
                 <div className="mb-4 text-center">
@@ -152,7 +157,6 @@ const EquipmentRecommendPage = () => {
                 </div>
               )}
 
-            {/* 장비 출력 */}
             {selectedRole && selectedStage && (
               <div className="border-t pt-4 mt-4">
                 <h3 className="text-lg font-semibold text-center mb-4">
@@ -165,12 +169,31 @@ const EquipmentRecommendPage = () => {
                       key={idx}
                       className="border rounded-lg p-4 bg-gray-50 shadow-sm mb-4"
                     >
-                      <p className="font-semibold text-sm">세트: {build.set}</p>
-                      <p className="text-sm mt-1">주 옵션: {build.mainOption}</p>
+                      <p className="font-semibold text-sm mb-3">
+                        세트: {build.set}
+                      </p>
+
+                      <div className="grid grid-cols-4 gap-2 mb-3">
+                        {parseOptions(build.mainOption).map((opt, i) => (
+                          <div
+                            key={i}
+                            className="flex items-center justify-center border rounded-lg bg-white p-2 shadow text-xs text-center"
+                          >
+                            {opt}
+                          </div>
+                        ))}
+                      </div>
+
+                      {build.subOption && (
+                        <div className="border rounded-md bg-blue-50 border-blue-300 px-3 py-2 text-xs font-medium text-gray-700 mb-2">
+                          📊 조건: {build.subOption}
+                        </div>
+                      )}
+
                       {build.note && (
-                        <p className="text-xs text-gray-500 mt-2 italic">
-                          💬 {build.note}
-                        </p>
+                        <div className="border rounded-md bg-yellow-50 border-yellow-300 px-3 py-2 text-xs font-medium text-gray-700">
+                          ⚡ 부옵: {build.note}
+                        </div>
                       )}
                     </div>
                   )
