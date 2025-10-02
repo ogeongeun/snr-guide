@@ -203,7 +203,37 @@
           },
           "note":"op티어/표기상 효저100이최대지만 그이상치로 세팅하면 실제론 오름/파이크 펫까지"
         },
-         
+         {
+          "teamId": 0,
+          "name": "오를리 덱",
+          "heroes": [
+            {
+              "name": "연희",
+              "image": "Yeonhee.png",
+              "note":"추적자(약치공공)/5불사이상"
+            },
+            {
+              "name": "오를리",
+              "image": "orly.png",
+              "note": "조율자(방방받받)/5부활이상/6초이상"
+            },
+            {
+              "name": "바네사",
+              "image": "vanessa.png",
+              "note": "추적자(약치공공)/5권능이상"
+            }
+          ],
+          
+          "skillOrders": {
+            "내실덱": [
+              "vanessa1.png",
+              "orly2.png",
+              "Yeonhee1.png"
+            ]
+            
+          },
+          "note":"op티어/반지랑 6초월이상이여야함"
+        },
         {
           "teamId": 0,
           "name": "연희덱",
