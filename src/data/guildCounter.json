@@ -3625,34 +3625,7 @@
                   }
                 ]
               },
-              {
-                "team": [
-                  {
-                    "name": "리나",
-                    "image": "/images/heroes/lina.png"
-                  },
-                  {
-                    "name": "루리",
-                    "image": "/images/heroes/luri.png",
-                    "note":"권능 반지 필수"
-                  },
-                  {
-                    "name": "카린",
-                    "image": "/images/heroes/carin.png"
-                  }
-                ],
-                "note": "승률60~70% 덱 풀 약하신분들 도전추천",
-                "skillOrders": [
-                  {
-                    "label": "공통",
-                    "skills": [
-                      "luri2.png",
-                      "luri1.png"
-                     
-                    ]
-                  }
-                ]
-              },
+              
               {
                 "team": [
                   {
