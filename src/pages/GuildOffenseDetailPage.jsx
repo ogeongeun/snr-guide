@@ -51,7 +51,7 @@ export default function GuildOffenseDetailPage() {
   const SkillStrip = ({ skills, size = 'w-10 h-10' }) => {
     if (!Array.isArray(skills) || skills.length === 0) return null;
     return (
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-2 justify-center">
         {skills.map((img, i) => (
           <img
             key={`${img}-${i}`}
@@ -69,7 +69,7 @@ export default function GuildOffenseDetailPage() {
     ? entry.defenseNotes.filter(Boolean)
     : [];
 
-  // --- 신규 구조: defenseVariants 선택 처리 ---
+  // --- 신규 구조 ---
   const variants = Array.isArray(entry.defenseVariants)
     ? entry.defenseVariants
     : null;
@@ -82,7 +82,7 @@ export default function GuildOffenseDetailPage() {
     ? entry.recommendedCounters
     : [];
 
-  // 카운터 카드 (신규/레거시 공용)
+  // --- 카운터 카드 (추천도 포함) ---
   const renderCounterCard = (recommended, j) => {
     const grouped = Array.isArray(recommended.skillOrders)
       ? recommended.skillOrders
@@ -94,8 +94,23 @@ export default function GuildOffenseDetailPage() {
     return (
       <div
         key={j}
-        className="mb-6 border border-gray-300 rounded-xl p-4 bg-white shadow-sm"
+        className="mb-6 border border-gray-300 rounded-xl p-4 bg-white shadow-sm hover:shadow-md transition"
       >
+        {/* ⭐ 추천도 표시 */}
+        {recommended.recommendation && (
+          <div className="text-center mb-2">
+            <span className="text-yellow-500 text-sm font-bold">
+              {'★'.repeat(Number(recommended.recommendation))}
+            </span>
+            <span className="text-gray-300 text-sm font-bold">
+              {'☆'.repeat(3 - Number(recommended.recommendation))}
+            </span>
+            <p className="text-[11px] text-gray-600 mt-1">
+              추천도 {recommended.recommendation}/3
+            </p>
+          </div>
+        )}
+
         {/* 팀 */}
         {Array.isArray(recommended.team) && recommended.team.length > 0 && (
           <div
@@ -147,7 +162,7 @@ export default function GuildOffenseDetailPage() {
         <span className="text-sm font-semibold">{entry.label || '라벨없음'}</span>
       </div>
 
-      {/* 상대 방어팀 요약 + (선택) 스킬 순서 */}
+      {/* 상대 방어팀 요약 */}
       {Array.isArray(entry.defenseTeam) && entry.defenseTeam.length > 0 && (
         <div className="mb-6 border border-blue-200 rounded-xl p-4 bg-blue-50/40">
           <p className="text-xs font-semibold text-gray-700 mb-2">상대 방어팀 (요약)</p>
@@ -155,8 +170,7 @@ export default function GuildOffenseDetailPage() {
             {entry.defenseTeam.map(renderHeroCard)}
           </div>
 
-          {/* variant가 선택되어 있으면 해당 패턴의 스킬 순서 표시,
-              아니면 레거시 defenseSkillOrder가 있을 때만 표시 */}
+          {/* variant가 선택되어 있으면 해당 패턴의 스킬 순서 표시 */}
           {variants &&
           typeof variantIdx === 'number' &&
           !Number.isNaN(variantIdx) &&
@@ -175,7 +189,7 @@ export default function GuildOffenseDetailPage() {
         </div>
       )}
 
-      {/* 공통 메모 */}
+      {/* 방어 메모 */}
       {defenseNotes.length > 0 && (
         <div className="mb-4">
           {defenseNotes.map((n, i) => (
@@ -184,13 +198,12 @@ export default function GuildOffenseDetailPage() {
         </div>
       )}
 
-      {/* 본문: defenseVariants 우선, 없으면 레거시 */}
+      {/* 본문 */}
       {variants && variants.length > 0 ? (
         typeof variantIdx === 'number' &&
         !Number.isNaN(variantIdx) &&
         variantIdx >= 0 &&
         variantIdx < variants.length ? (
-          // 선택한 패턴만
           <div className="mb-6 border border-gray-300 rounded-xl p-4 bg-white shadow-sm">
             <div className="flex items-center justify-between mb-2">
               <h3 className="text-lg font-semibold">패턴 #{variantIdx + 1}</h3>
@@ -199,7 +212,6 @@ export default function GuildOffenseDetailPage() {
               </span>
             </div>
 
-        
             <div className="mt-4">
               {Array.isArray(variants[variantIdx].counters) &&
               variants[variantIdx].counters.length > 0 ? (
@@ -210,7 +222,6 @@ export default function GuildOffenseDetailPage() {
             </div>
           </div>
         ) : (
-          // 모든 패턴 나열
           <div className="space-y-6">
             {variants.map((v, vIdx) => (
               <div
@@ -241,7 +252,6 @@ export default function GuildOffenseDetailPage() {
           </div>
         )
       ) : (
-        // 레거시
         <>
           <h3 className="text-lg font-semibold mt-2 mb-3">추천 카운터덱</h3>
           {legacyCounters.length === 0 ? (

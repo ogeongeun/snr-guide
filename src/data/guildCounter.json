@@ -1,153 +1,156 @@
-{
-  "categories": {
-    "공덱": [
-        {
-        "id": "team1",
-        "label": "태오 공덱",
-        "defenseTeam": [
+  {
+    "categories": {
+      "공덱": [
           {
-            "name": "카구라",
-            "image": "/images/heroes/cagura.png"
-          },
-          {
-            "name": "태오",
-            "image": "/images/heroes/teo.png"
-          },
-          {
-            "name": "델론즈",
-            "image": "/images/heroes/dellons.png"
-          }
-        ],
-        "defenseNotes": [
-          "패턴(스킬순서)에 따라 카운터 구성이 달라짐"
-        ],
-        "defenseVariants": [
-          {
-            "defenseSkills": [
-              "cagura2.png",
-              "teo2.png",
-              "teo1.png"
-            ],
-            "counters": [
-               {
-                "team": [
-                  {
-                    "name": "리나",
-                    "image": "/images/heroes/lina.png"
-                   
+          "id": "team1",
+          "label": "태오 공덱",
+          "defenseTeam": [
+            {
+              "name": "카구라",
+              "image": "/images/heroes/cagura.png"
+            },
+            {
+              "name": "태오",
+              "image": "/images/heroes/teo.png"
+            },
+            {
+              "name": "델론즈",
+              "image": "/images/heroes/dellons.png"
+            }
+          ],
+          "defenseNotes": [
+            "패턴(스킬순서)에 따라 카운터 구성이 달라짐"
+          ],
+          "defenseVariants": [
+            {
+              "defenseSkills": [
+                "cagura2.png",
+                "teo2.png",
+                "teo1.png"
+              ],
+              "counters": [
+                {
+                    "recommendation": 3,
+                  "team": [
+                    {
+                      "name": "리나",
+                      "image": "/images/heroes/lina.png"
+                    
+                  
+                    },
+                    {
+                      "name": "카르마",
+                      "image": "/images/heroes/carma.png",
+                      "note":"프리셋2"
+                    
+                    
+                    },
+                    {
+                      "name": "루디",
+                      "image": "/images/heroes/rudy.png",
+                        "note":"프리셋2"
+                    
+                  
+                  
+                      
+                    }
+                  ],
+            
+                  "skillOrders": [
+                    {
+                      "label": "속공 질 때",
+                      "skills": [
+                        "rudy2.png",
+                        "carma2.png",
+                        "lina1.png"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "recommendation": 2,
+                  "team": [
+                    {
+                      "name": "데이지",
+                      "image": "/images/heroes/dage.png"
+                    
+                  
+                    },
+                    {
+                      "name": "연희",
+                      "image": "/images/heroes/Yeonhee.png"
+                    
+                    
+                    
+                    },
+                    {
+                      "name": "쥬리",
+                      "image": "/images/heroes/juri.png"
+                    
+                  
+                  
+                      
+                    }
+                  ],
+            
+                  "skillOrders": [
+                    {
+                      "label": "속공 질때",
+                      "skills": [
+                        "juri2.png",
+                        "Yeonhee2.png",
+                        "Yeonhee1.png"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "recommendation": 3,
+                  "team": [
+                    {
+                      "name": "루디",
+                      "image": "/images/heroes/rudy.png",
+                        "note":"프리셋2"
+                    
+                  
+                    },
+                    {
+                      "name": "제이브",
+                      "image": "/images/heroes/jave.png",
+                  "note":"프리셋2/부활반지 필수"
+                    
+                    
+                    
+                    },
+                    {
+                      "name": "룩",
+                      "image": "/images/heroes/look.png",
+                      "note":""
+                    
+                  
+                  
+                      
+                    }
+                  ],
+            "note":"제이브만 반지 끼면됨",
+                  "skillOrders": [
+                    {
+                      "label": "속공 질때",
+                      "skills": [
+                        "rudy2.png",
+                        "jave2.png",
+                        "look2.png"
+                      ]
+                    }
+                  ]
+                }
                 
-                  },
-                  {
-                    "name": "카르마",
-                    "image": "/images/heroes/carma.png",
-                    "note":"프리셋2"
-                   
-                   
-                  },
-                  {
-                    "name": "루디",
-                    "image": "/images/heroes/rudy.png",
-                       "note":"프리셋2"
-                   
-                 
-                 
-                     
-                  }
-                ],
-          
-                "skillOrders": [
-                  {
-                    "label": "속공 질 때",
-                    "skills": [
-                      "rudy2.png",
-                      "carma2.png",
-                      "lina1.png"
-                    ]
-                  }
-                ]
-              },
-               {
-                "team": [
-                  {
-                    "name": "데이지",
-                    "image": "/images/heroes/dage.png"
-                   
                 
-                  },
-                  {
-                    "name": "연희",
-                    "image": "/images/heroes/Yeonhee.png"
-                   
-                   
-                   
-                  },
-                  {
-                    "name": "쥬리",
-                    "image": "/images/heroes/juri.png"
-                   
-                 
-                 
-                     
-                  }
-                ],
-          
-                "skillOrders": [
-                  {
-                    "label": "속공 질때",
-                    "skills": [
-                      "juri2.png",
-                      "Yeonhee2.png",
-                      "Yeonhee1.png"
-                    ]
-                  }
-                ]
-              },
-               {
-                "team": [
-                  {
-                    "name": "루디",
-                    "image": "/images/heroes/rudy.png",
-                       "note":"프리셋2"
-                   
-                
-                  },
-                  {
-                    "name": "제이브",
-                    "image": "/images/heroes/jave.png",
-                 "note":"프리셋2/부활반지 필수"
-                   
-                   
-                   
-                  },
-                  {
-                    "name": "룩",
-                    "image": "/images/heroes/look.png",
-                    "note":""
-                   
-                 
-                 
-                     
-                  }
-                ],
-          "note":"제이브만 반지 끼면됨",
-                "skillOrders": [
-                  {
-                    "label": "속공 질때",
-                    "skills": [
-                      "rudy2.png",
-                      "jave2.png",
-                      "look2.png"
-                    ]
-                  }
-                ]
-              }
-              
-               
-            ]
-          }
-          
-        ]
-      },
+              ]
+            }
+            
+          ]
+        },
        {
         "id": "team1",
         "label": "태오 공덱",
@@ -177,6 +180,7 @@
             ],
             "counters": [
                {
+                "recommendation": 1,
                 "team": [
                   {
                     "name": "파이",
@@ -199,7 +203,7 @@
                      
                   }
                 ],
-                "note":"쥬리 속공마지막이면 좋긴함",
+                "note":"상대 권능 아닐때",
                 "skillOrders": [
                   {
                     "label": "속공 이길때",
@@ -211,41 +215,9 @@
                   }
                 ]
               },
-               {
-                "team": [
-                  {
-                    "name": "바네사",
-                    "image": "/images/heroes/vanessa.png"
-                   
-                
-                  },
-                  {
-                    "name": "테오",
-                    "image": "/images/heroes/rin.png"
-                   
-                   
-                  },
-                  {
-                    "name": "오를리",
-                    "image": "/images/heroes/orly.png",
-                    "note":"6초이상 추천(2초도 잘하면 될수도있음)"
-                 
-                     
-                  }
-                ],
-                "note":"",
-                "skillOrders": [
-                  {
-                    "label": "공통",
-                    "skills": [
-                      "orly2.png",
-                      "rin2.png",
-                      "vanessa1.png"
-                    ]
-                  }
-                ]
-              },
+              
                  {
+                  "recommendation": 2,
                 "team": [
                   {
                     "name": "바네사",
@@ -290,6 +262,7 @@
             ],
             "counters": [
                  {
+                  "recommendation": 2,
                 "team": [
                   {
                     "name": "바네사",
@@ -358,17 +331,19 @@
             ],
             "counters": [
                  {
+                  "recommendation": 3,
                 "team": [
+                  
                   {
                     "name": "루디",
                     "image": "/images/heroes/rudy.png",
-                    "note":"장비추천 확인"
+                    "note":"프리셋1"
                 
                   },
                   {
                     "name": "제이브",
                     "image": "/images/heroes/jave.png",
-                     "note":"장비추천 확인"
+                     "note":"프리셋2/부활반지"
                    
                   },
                   {
@@ -390,6 +365,7 @@
                 ]
               },
                {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "아라곤",
@@ -400,7 +376,7 @@
                   {
                     "name": "제이브",
                     "image": "/images/heroes/jave.png",
-                     "note":"장비추천 확인"
+                     "note":"프리셋2/부활반지"
                    
                   },
                   {
@@ -422,6 +398,7 @@
                 ]
               },
               {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "아라곤",
@@ -436,7 +413,7 @@
                   {
                     "name": "첸슬러",
                     "image": "/images/heroes/chancellor.png",
-           "note":"장비추천 확인"
+           "note":"프리셋2"
                   }
                 ],
                 "note":"효저 높여서 콜트 폭탄 안걸리게 하는 세팅/파이크 펫",
@@ -452,6 +429,7 @@
                 ]
               },
               {
+                "recommendation": 1,
                 "team": [
                   {
                     "name": "리나",
@@ -479,6 +457,7 @@
                 ]
               },
               {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "바네사",
@@ -487,7 +466,7 @@
                   {
                     "name": "연희",
                     "image": "/images/heroes/yeonhee.png",
-                    "note": "전반 껴야 할만함"
+                    "note": "불사또는 권능"
                   },
                   {
                     "name": "유신",
@@ -697,16 +676,17 @@
             "defenseSkills": ["pie1.png","teo2.png","teo1.png"],
             "counters": [
               {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "리",
                     "image": "/images/heroes/lee.png",
-                    "note": "조율자/막기100 필수"
+                    "note": "수문장/막기100/받받 필수"
                   },
                   {
                     "name": "첸슬러",
                     "image": "/images/heroes/chancellor.png",
-                    "note": "막기100 필수"
+                    "note": "프리셋2"
                   },
                   {
                     "name": "유이",
@@ -732,7 +712,7 @@
       },
       {
         "id": "team1",
-        "label": "태오 공덱",
+        "label": "콜트 공덱",
         "defenseTeam": [
           {
             "name": "파이",
@@ -808,14 +788,17 @@
             "defenseSkills": ["pie1.png","teo2.png","teo1.png"],
             "counters": [
               {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "쥬리",
-                    "image": "/images/heroes/juri.png"
+                    "image": "/images/heroes/juri.png",
+                    "note":"권능"
                   },
                   {
                     "name": "실베스타",
-                    "image": "/images/heroes/silvesta.png"
+                    "image": "/images/heroes/silvesta.png",
+                    "note":"불사또는 부활"
                   },
                   {
                     "name": "오를리",
@@ -835,6 +818,7 @@
                 ]
               },
               {
+                "recommendation": 1,
                 "team": [
                   {
                     "name": "쥬리",
@@ -863,7 +847,42 @@
                     ]
                   }
                 ]
+              },
+              
+              {
+                "recommendation": 2,
+                "team": [
+                  {
+                    "name": "쥬리",
+                    "image": "/images/heroes/juri.png",
+                    "note":"권능"
+                  
+                  },
+                  {
+                    "name": "연희",
+                    "image": "/images/heroes/Yeonhee.png"
+                 
+                  },
+                  {
+                    "name": "유이",
+                    "image": "/images/heroes/yui.png",
+                    "note":"프리셋2"
+                   
+                  }
+                ],
+                "note":"상대 권능반지 없을떄",
+                "skillOrders": [
+                  {
+                    "label": "공통",
+                    "skills": [
+                      "juri2.png",
+                      "Yeonhee2.png",
+                      "Yeonhee1.png"
+                    ]
+                  }
+                ]
               }
+              
             ]
           }
         ]
@@ -943,17 +962,19 @@
             "defenseSkills": ["eileene2.png","teo1.png","teo2.png"],
             "counters": [
                {
+                "recommendation": 3,
                 "team": [
                   {
                     "name": "루디",
-                    "image": "/images/heroes/rudy.png"
+                    "image": "/images/heroes/rudy.png",
+                    "note":"프리셋2/부활반지 필수"
                    
                 
                   },
                   {
                     "name": "제이브",
                     "image": "/images/heroes/jave.png",
-                    "note":"부활반지 필수"
+                    "note":"프리셋2/부활반지 필수"
                    
                    
                    
@@ -961,7 +982,7 @@
                   {
                     "name": "룩",
                     "image": "/images/heroes/look.png",
-                    "note":"생"
+                    "note":"장비추천확인"
                    
                  
                  
@@ -981,6 +1002,7 @@
                 ]
               },
               {
+                "recommendation": 3,
                 "team": [
                   {
                     "name": "엘리스",
@@ -988,11 +1010,13 @@
                   },
                   {
                     "name": "카르마",
-                    "image": "/images/heroes/carma.png"
+                    "image": "/images/heroes/carma.png",
+                    "note":"프리셋2"
                   },
                   {
                     "name": "루디",
-                    "image": "/images/heroes/rudy.png"
+                    "image": "/images/heroes/rudy.png",
+                    "note":"프리셋2"
                   }
                 ],
                 "skillOrders": [
@@ -1007,10 +1031,12 @@
                 ]
               },
               {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "쥬리",
-                    "image": "/images/heroes/juri.png"
+                    "image": "/images/heroes/juri.png",
+                    "note":"권능 반지"
                   },
                   {
                     "name": "실베스타",
@@ -1034,6 +1060,7 @@
                 ]
               },
               {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "룩",
@@ -1045,7 +1072,8 @@
                   },
                   {
                     "name": "첸슬러",
-                    "image": "/images/heroes/chancellor.png"
+                    "image": "/images/heroes/chancellor.png",
+                    "note":"프리셋2"
                   }
                 ],
                 "skillOrders": [
@@ -1060,6 +1088,7 @@
                 ]
               },
               {
+                "recommendation": 1,
                 "team": [
                   {
                     "name": "바네사",
@@ -1086,6 +1115,7 @@
                 ]
               },
               {
+                "recommendation": 3,
                 "team": [
                   {
                     "name": "리나",
@@ -1093,11 +1123,13 @@
                   },
                   {
                     "name": "카르마",
-                    "image": "/images/heroes/carma.png"
+                    "image": "/images/heroes/carma.png",
+                    "note":"프리셋2/권능반지"
                   },
                   {
                     "name": "첸슬러",
-                    "image": "/images/heroes/chancellor.png"
+                    "image": "/images/heroes/chancellor.png",
+                    "note":"프리셋2"
                   }
                 ],
                 "skillOrders": [
@@ -1113,10 +1145,12 @@
               },
              
               {
+                "recommendation": 3,
                 "team": [
                   {
                     "name": "첸슬러",
-                    "image": "/images/heroes/chancellor.png"
+                    "image": "/images/heroes/chancellor.png",
+                    "note":"프리셋2"
                   },
                   {
                     "name": "아라곤",
@@ -1140,20 +1174,22 @@
                 ]
               },
               {
+                "recommendation": 3,
                 "team": [
                   {
                     "name": "루디",
                     "image": "/images/heroes/rudy.png",
-                    "note": "조율자 세팅/2초이상"
+                   "note":"프리셋2"
                   },
                   {
                     "name": "제이브",
-                    "image": "/images/heroes/jave.png"
+                    "image": "/images/heroes/jave.png",
+                    "note":"프리셋2"
                   },
                   {
                     "name": "카르마",
                     "image": "/images/heroes/carma.png",
-                    "note": "리나 대체가능"
+                  "note":"프리셋2"
                   }
                 ],
                 "skillOrders": [
@@ -1168,6 +1204,7 @@
                 ]
               },
               {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "아일린",
@@ -1175,7 +1212,8 @@
                   },
                   {
                     "name": "태오",
-                    "image": "/images/heroes/teo.png"
+                    "image": "/images/heroes/teo.png",
+                    "note":"권능또는 부활반지"
                   },
                   {
                     "name": "클로에",
@@ -1223,17 +1261,19 @@
             "defenseSkills": ["Yushin1.png","teo1.png","teo2.png"],
             "counters": [
                {
+                "recommendation": 3,
                 "team": [
                   {
                     "name": "루디",
-                    "image": "/images/heroes/rudy.png"
+                    "image": "/images/heroes/rudy.png",
+                    "note":"프리셋2"
                    
                 
                   },
                   {
                     "name": "제이브",
                     "image": "/images/heroes/jave.png",
-                    "note":"부활반지 필수"
+                   "note":"프리셋2/부활반지"
                    
                    
                    
@@ -1261,6 +1301,7 @@
                 ]
               },
               {
+                "recommendation": 3,
                 "team": [
                   {
                     "name": "스파이크",
@@ -1289,6 +1330,7 @@
                 ]
               },
               {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "바네사",
@@ -1315,6 +1357,7 @@
                 ]
               },
               {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "빅토리아",
@@ -1637,6 +1680,7 @@
             "defenseSkills": ["rin2.png","vanessa1.png","Yeonhee1.png"],
             "counters": [
               {
+                "recommendation": 3,
                 "team": [
                   {
                     "name": "발리스타",
@@ -1669,6 +1713,7 @@
               },
               
                {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "쥬리",
@@ -1679,7 +1724,7 @@
                   {
                     "name": "연희",
                     "image": "/images/heroes/yeonhee.png",
-                       "note":"약공세팅이면 좋음"
+                       "note":"프리셋2"
                   },
                   {
                     "name": "바네사",
@@ -1700,6 +1745,7 @@
                 ]
               },
               {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "아라곤",
@@ -1708,7 +1754,8 @@
                   },
                   {
                     "name": "첸슬러",
-                    "image": "/images/heroes/chancellor.png"
+                    "image": "/images/heroes/chancellor.png",
+                    "note":"프리셋2"
                   },
                   {
                     "name": "엘리스",
@@ -1729,16 +1776,18 @@
                 ]
               },
               {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "루디",
-                    "image": "/images/heroes/rudy.png"
+                    "image": "/images/heroes/rudy.png",
+                    "note":"프리셋2"
                     
                   },
                   {
                     "name": "카르마",
                     "image": "/images/heroes/carma.png",
-                    "note":"뒤배치"
+                    "note":"프리셋2/권능"
                   },
                   {
                     "name": "리나",
@@ -1759,18 +1808,20 @@
                 ]
               },
               {
+                "recommendation": 3,
                 "team": [
                   {
                     "name": "발리스타",
-                    "image": "/images/heroes/ballista.png"
+                    "image": "/images/heroes/ballista.png",
+                    "note":"4권능"
                   },
                   {
                     "name": "콜트",
                     "image": "/images/heroes/colt.png"
                   },
                   {
-                    "name": "엘리스",
-                    "image": "/images/heroes/elise.png"
+                    "name": "플라튼",
+                    "image": "/images/heroes/platon.png"
                   }
                 ],
                 "note": "상대하고 초월 비슷해야될듯",
@@ -1778,9 +1829,10 @@
                   {
                     "label": "속공 질 때",
                     "skills": [
-                      "elise1.png",
+                      
                       "colt1.png",
-                      "colt2.png"
+                      "colt2.png",
+                      "ballista1.png"
                     ]
                   }
                 ]
@@ -1791,6 +1843,7 @@
             "defenseSkills": ["vanessa1.png","Yeonhee1.png","rin2.png"],
             "counters": [
                {
+                "recommendation": 3,
                 "team": [
                   {
                     "name": "발리스타",
@@ -1801,7 +1854,7 @@
                   {
                     "name": "태오",
                     "image": "/images/heroes/teo.png",
-                       "note":"약공세팅"
+                       "note":"약공/4권능"
                   },
                   {
                     "name": "아일린",
@@ -1822,6 +1875,7 @@
                 ]
               },
               {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "아라곤",
@@ -1830,7 +1884,8 @@
                   },
                   {
                     "name": "첸슬러",
-                    "image": "/images/heroes/chancellor.png"
+                    "image": "/images/heroes/chancellor.png",
+                    "note":"프리셋2"
                   },
                   {
                     "name": "엘리스",
@@ -1851,16 +1906,18 @@
                 ]
               },
               {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "루디",
-                    "image": "/images/heroes/rudy.png"
+                    "image": "/images/heroes/rudy.png",
+                    "note":"프리셋2"
                     
                   },
                   {
                     "name": "카르마",
                     "image": "/images/heroes/carma.png",
-                    "note":"뒤배치"
+                   "note":"프리셋2"
                   },
                   {
                     "name": "리나",
@@ -1881,18 +1938,20 @@
                 ]
               },
               {
+                "recommendation": 3,
                 "team": [
                   {
                     "name": "발리스타",
-                    "image": "/images/heroes/ballista.png"
+                    "image": "/images/heroes/ballista.png",
+                    "note":"4권능이상"
                   },
                   {
                     "name": "콜트",
                     "image": "/images/heroes/colt.png"
                   },
                   {
-                    "name": "엘리스",
-                    "image": "/images/heroes/elise.png"
+                    "name": "플라튼",
+                    "image": "/images/heroes/platon.png"
                   }
                 ],
                 "note": "상대하고 초월 비슷해야될듯",
@@ -1900,9 +1959,10 @@
                   {
                     "label": "속공 질 때",
                     "skills": [
-                      "elise1.png",
+                     
                       "colt1.png",
-                      "colt2.png"
+                      "colt2.png",
+                       "ballista1.png"
                     ]
                   }
                 ]
@@ -1934,6 +1994,7 @@
             "defenseSkills": ["rin2.png","Melkir1.png","Yushin1.png"],
             "counters": [
               {
+                "recommendation": 3,
                 "team": [
                   {
                     "name": "발리스타",
@@ -1965,6 +2026,7 @@
                 ]
               },
               {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "오를리",
@@ -1974,7 +2036,8 @@
                   },
                   {
                     "name": "린",
-                    "image": "/images/heroes/rin.png"
+                    "image": "/images/heroes/rin.png",
+                    "note":"4권능"
                       
                   },
                   {
@@ -1997,6 +2060,7 @@
                 ]
               },
               {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "쥬리",
@@ -2007,7 +2071,7 @@
                   {
                     "name": "연희",
                     "image": "/images/heroes/yeonhee.png",
-                       "note":"약공세팅이면 좋음"
+                       "note":"프리셋2"
                   },
                   {
                     "name": "바네사",
@@ -2027,38 +2091,9 @@
                   }
                 ]
               },
-                {
-                "team": [
-                  {
-                    "name": "쥬리",
-                    "image": "/images/heroes/juri.png",
-                  "note":"약공90/효적60이상"
-                   
-                  },
-                  {
-                    "name": "연희",
-                    "image": "/images/heroes/yeonhee.png",
-                       "note":"약공세팅이면 좋음"
-                  },
-                  {
-                    "name": "바네사",
-                    "image": "/images/heroes/vanessa.png",
-                    "note":"약공90/효적60이상"
-                  }
-                ],
-            
-                "skillOrders": [
-                  {
-                    "label": "속공 질 때",
-                    "skills": [
-                      "vanessa1.png",
-                      "juri2.png",
-                      "Yeonhee2.png"
-                    ]
-                  }
-                ]
-              },
+                
               {
+                "recommendation": 3,
                 "team": [
                   {
                     "name": "리나",
@@ -2068,7 +2103,7 @@
                   {
                     "name": "발리스타",
                     "image": "/images/heroes/ballista.png",
-                    "note": "6초이상"
+                    "note": "6초이상/4권능"
                   },
                   {
                     "name": "아일린",
@@ -2088,6 +2123,7 @@
                 ]
               },
               {
+                "recommendation": 1,
                 "team": [
                   {
                     "name": "유신",
@@ -2116,11 +2152,12 @@
                 ]
               },
               {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "루디",
                     "image": "/images/heroes/rudy.png",
-                    "note":"6초이상/ 에반 대체가능"
+                    "note":"6초이상/프리셋2"
                   },
                   {
                     "name": "테오",
@@ -2171,7 +2208,7 @@
             "defenseSkills": ["rin2.png","juri2.png","Melkir2.png"],
             "counters": [
               
-              {
+              {"recommendation": 2,
                 "team": [
                   {
                     "name": "바네사",
@@ -2203,6 +2240,7 @@
                 ]
               },
               {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "리나",
@@ -2212,7 +2250,7 @@
                   {
                     "name": "발리스타",
                     "image": "/images/heroes/ballista.png",
-                    "note": "6초이상"
+                    "note": "6초이상/4권능이상"
                   },
                   {
                     "name": "아일린",
@@ -2231,6 +2269,7 @@
                   }
                 ]
               },{
+                "recommendation": 3,
                 "team": [
                   {
                     "name": "리나",
@@ -2285,6 +2324,7 @@
             "defenseSkills": [],
             "counters": [
               {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "아라곤",
@@ -2337,9 +2377,11 @@
         ],
         "defenseVariants": [
           {
+            
             "defenseSkills": ["vanessa1.png","orly2.png","Yeonhee1.png"],
             "counters": [
               {
+                "recommendation": 3,
                 "team": [
                   {
                     "name": "플라튼",
@@ -2370,6 +2412,7 @@
                 ]
               },
               {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "로지",
@@ -2482,10 +2525,12 @@
             "counters": [
               
               {
+                "recommendation": 3,
                 "team": [
                   {
                     "name": "첸슬러",
-                    "image": "/images/heroes/chancellor.png"
+                    "image": "/images/heroes/chancellor.png",
+                    "note":"프리셋2"
                   },
                   {
                     "name": "아라곤",
@@ -2537,6 +2582,7 @@
             "defenseSkills": ["vanessa1.png","Yeonhee2.png","Yeonhee1.png"],
             "counters": [
               {
+                "recommendation": 3,
                 "team": [
                   {
                     "name": "플라튼",
@@ -2553,10 +2599,10 @@
                     "image": "/images/heroes/colt.png"
                   }
                 ],
-                "note": "상대하고 초월 비슷해야될듯",
+                "note": "속공지면 승률 반반 속공이기면 무조건 거의이김",
                 "skillOrders": [
                   {
-                    "label": "속공 이기면 쉬움",
+                    "label": "속공 이길때",
                     "skills": [
                       "colt1.png",
                       "colt2.png",
@@ -2567,6 +2613,7 @@
                 ]
               },
               {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "니아",
@@ -2579,8 +2626,8 @@
                     
                   },
                   {
-                    "name": "유신",
-                    "image": "/images/heroes/Yushin.png"
+                    "name": "로지",
+                    "image": "/images/heroes/lozy.png"
                   }
                 ],
                 
@@ -2597,6 +2644,7 @@
                 ]
               },
               {
+                "recommendation": 3,
                 "team": [
                   {
                     "name": "아라곤",
@@ -2605,7 +2653,7 @@
                   {
                     "name": "첸슬러",
                     "image": "/images/heroes/chancellor.png",
-                    "note":"첸슬러 대체가능"
+                    "note":"프리셋2"
                   },
                   {
                     "name": "엘리스",
@@ -2625,6 +2673,7 @@
                 ]
               },
               {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "아라곤",
@@ -2655,6 +2704,7 @@
               },
               
               {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "플라튼",
@@ -2663,7 +2713,7 @@
                   {
                     "name": "첸슬러",
                     "image": "/images/heroes/chancellor.png",
-                    "note": "효저 높아야함"
+                    "note": "프리셋2"
                   },
                   {
                     "name": "엘리스",
@@ -2684,6 +2734,7 @@
                 ]
               },
               {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "실베스타",
@@ -3680,6 +3731,7 @@
             "defenseSkills": ["pie1.png","colt1.png","colt2.png"],
             "counters": [
               {
+                "recommendation": 2,
                 "team": [
                   
                   {
@@ -3716,6 +3768,7 @@
               },
               
               {
+                "recommendation": 3,
                 "team": [
                   
                   {
@@ -3750,6 +3803,7 @@
               },
                
               {
+                "recommendation": 2,
                 "team": [
                   
                   {
@@ -3784,42 +3838,8 @@
                   }
                 ]
               },
-              {
-                "team": [
-                  
-                  {
-                    "name": "파이",
-                    "image": "/images/heroes/pie.png"
-                    
-                   
-                  },
-                  {
-                    "name": "델론즈",
-                    "image": "/images/heroes/dellons.png",
-                    "note":"뒤배치"
-                  },
-                  {
-                    "name": "레이첼",
-                    "image": "/images/heroes/rachel.png"
-        
-                  }
-                ],
-                "note": "셋다 내실 장비로 ",
-                "skillOrders": [
-                  {
-                    "label": "공통",
-                    "skills": [
-                      "rachel2.png",
-                       "dellons2.png",
-                        "pie2.png"
-                      
-                      
-                     
-                    ]
-                  }
-                ]
-              },
-              {
+             
+              {"recommendation": 1,
                 "team": [
                   {
                     "name": "루시",
@@ -3850,6 +3870,7 @@
               },
               
               {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "유신",
@@ -3878,34 +3899,9 @@
                   }
                 ]
               },
+              
               {
-                "team": [
-                  {
-                    "name": "바네사",
-                    "image": "/images/heroes/vanessa.png"
-                  },
-                  {
-                    "name": "연희",
-                    "image": "/images/heroes/yeonhee.png"
-                  },
-                  {
-                    "name": "로지",
-                    "image": "/images/heroes/lozy.png"
-                  }
-                ],
-                "note": "",
-                "skillOrders": [
-                  {
-                    "label": "속공 이길 때",
-                    "skills": [
-                      "vanessa1.png",
-                      "Yeonhee2.png",
-                      "vanessa2.png"
-                    ]
-                  }
-                ]
-              },
-              {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "유이",
@@ -3920,7 +3916,7 @@
                     "image": "/images/heroes/lucy.png"
                   }
                 ],
-                "note": "이긴전적있음/플라튼만 부활,나머지 둘은 생명반지",
+                "note": "이긴전적있음/루시,유이 부활",
                 "skillOrders": [
                   {
                     "label": "속공 질 때",
@@ -3958,6 +3954,7 @@
             "defenseSkills": ["juri2.png","platon2.png","colt2.png"],
             "counters": [
               {
+                "recommendation": 3,
                 "team": [
                   {
                     "name": "리나",
@@ -3987,10 +3984,11 @@
               },
               
               {
+                "recommendation": 3,
                 "team": [
                   {
                     "name": "루시",
-                    "image": "/images/heroes/rucy.png"
+                    "image": "/images/heroes/lucy.png"
                   },
                   {
                     "name": "플라튼",
@@ -4039,6 +4037,7 @@
             "defenseSkills": ["cagura2.png","colt1.png","colt2.png"],
             "counters": [
               {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "레이첼",
@@ -4070,10 +4069,11 @@
               },
               
               {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "루시",
-                    "image": "/images/heroes/rucy.png"
+                    "image": "/images/heroes/lucy.png"
                   },
                   {
                     "name": "플라튼",
@@ -4119,7 +4119,7 @@
         ],
         "defenseVariants": [
           {
-            "defenseSkills": ["platon2.png","colt1","colt2.png"],
+            "defenseSkills": ["platon2.png","colt1.png","colt2.png"],
             "counters": [
               {
                 "team": [
@@ -4177,9 +4177,10 @@
         ],
         "defenseVariants": [
           {
-            "defenseSkills": ["chancellor2.png","pie1","spike2.png"],
+            "defenseSkills": ["chancellor2.png","pie1.png","spike2.png"],
             "counters": [
               {
+                 "recommendation": 3,
                 "team": [
                   {
                     "name": "유이",
@@ -4189,7 +4190,7 @@
                   {
                     "name": "리",
                     "image": "/images/heroes/lee.png",
-                    "note":"혼자 앞"
+                    "note":"수문장/방방 받받"
               
                   },
                   {
@@ -4236,9 +4237,10 @@
         ],
         "defenseVariants": [
           {
-            "defenseSkills": ["juri2.png","platon2.png","colt2.png"],
+            "defenseSkills": ["spike2.png","platon2.png","colt2.png"],
             "counters": [
               {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "리나",
@@ -4296,6 +4298,7 @@
             "defenseSkills": ["platon2.png","colt1.png","colt2.png"],
             "counters": [
               {
+                "recommendation": 3,
                 "team": [
                   {
                     "name": "리나",
@@ -4324,6 +4327,7 @@
                 ]
               },
                {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "엘리스",
@@ -4352,6 +4356,7 @@
                 ]
               },
               {
+                "recommendation": 3,
                 "team": [
                   {
                     "name": "엘리스",
@@ -4381,6 +4386,7 @@
                 ]
               },
               {
+                "recommendation": 1,
                 "team": [
                   {
                     "name": "레이첼",
@@ -4433,9 +4439,11 @@
         "defenseVariants": [
           
           {
+
             "defenseSkills": ["platon2.png","colt1.png","colt2.png"],
             "counters": [
                {
+                "recommendation": 2,
                 "team": [
                   {
                     "name": "녹스",
@@ -4466,6 +4474,7 @@
                 ]
               },
               {
+                "recommendation": 3,
                 "team": [
                   {
                     "name": "리나",
@@ -4494,6 +4503,7 @@
                 ]
               },
                {
+                 "recommendation": 2,
                 "team": [
                   {
                     "name": "엘리스",
@@ -4522,6 +4532,7 @@
                 ]
               },
               {
+                 "recommendation": 3,
                 "team": [
                   {
                     "name": "엘리스",
@@ -4551,6 +4562,7 @@
                 ]
               },
               {
+                 "recommendation": 1,
                 "team": [
                   {
                     "name": "레이첼",
@@ -4605,6 +4617,7 @@
             "defenseSkills": [],
             "counters": [
               {
+                 "recommendation": 3,
                 "team": [
                   {
                     "name": "리나",
@@ -4633,6 +4646,7 @@
                 ]
               },
               {
+                 "recommendation": 3,
                 "team": [
                   {
                     "name": "플라튼",
@@ -4671,6 +4685,7 @@
                 ]
               },
               {
+                 "recommendation": 2,
                 "team": [
                   {
                     "name": "플라튼",
@@ -4698,6 +4713,7 @@
                 ]
               },
               {
+                 "recommendation": 1,
                 "team": [
                   {
                     "name": "바네사",
@@ -4725,6 +4741,7 @@
                 ]
               },
               {
+                 "recommendation": 1,
                 "team": [
                   {
                     "name": "리나",
@@ -4892,8 +4909,8 @@
                     "image": "/images/heroes/luri.png"
                   },
                   {
-                    "name": "쥬리",
-                    "image": "/images/heroes/juri.png"
+                    "name": "카린",
+                    "image": "/images/heroes/carin.png"
                   }
                 ],
                 "note": "",
@@ -4902,8 +4919,8 @@
                     "label": "속공 질 때",
                     "skills": [
                       "noho1.png",
-                      "juri2.png",
-                      "luri2.png"
+                      "luri2.png",
+                      "luri1.png"
                     ]
                   }
                 ]
@@ -4933,6 +4950,35 @@
           {
             "defenseSkills": [],
             "counters": [
+              {
+        "recommendation": 3,
+                "team": [
+                  {
+                    "name": "노호",
+                    "image": "/images/heroes/noho.png"
+             
+                  },
+                  {
+                    "name": "파스칼",
+                    "image": "/images/heroes/pascal.png"
+                  },
+                  {
+                    "name": "카린",
+                    "image": "/images/heroes/carin.png"
+                  }
+                ],
+             
+                "skillOrders": [
+                  {
+                    "label": "속공 이길 때",
+                    "skills": [
+                      "noho1.png",
+                      "pascal2.png",
+                      "pascal1.png"
+                    ]
+                  }
+                ]
+              },
               {
                 "team": [
                   {
