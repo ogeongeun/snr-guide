@@ -1,6 +1,151 @@
 {
   "categories": {
     "공덱": [
+        {
+        "id": "team1",
+        "label": "태오 공덱",
+        "defenseTeam": [
+          {
+            "name": "카구라",
+            "image": "/images/heroes/cagura.png"
+          },
+          {
+            "name": "태오",
+            "image": "/images/heroes/teo.png"
+          },
+          {
+            "name": "델론즈",
+            "image": "/images/heroes/dellons.png"
+          }
+        ],
+        "defenseNotes": [
+          "패턴(스킬순서)에 따라 카운터 구성이 달라짐"
+        ],
+        "defenseVariants": [
+          {
+            "defenseSkills": [
+              "cagura2.png",
+              "teo2.png",
+              "teo1.png"
+            ],
+            "counters": [
+               {
+                "team": [
+                  {
+                    "name": "리나",
+                    "image": "/images/heroes/lina.png"
+                   
+                
+                  },
+                  {
+                    "name": "카르마",
+                    "image": "/images/heroes/carma.png",
+                    "note":"수문장(치확/방/받/받) 부옵:막기"
+                   
+                   
+                  },
+                  {
+                    "name": "루디",
+                    "image": "/images/heroes/rudy.png"
+                   
+                 
+                 
+                     
+                  }
+                ],
+          
+                "skillOrders": [
+                  {
+                    "label": "속공 질 때",
+                    "skills": [
+                      "rudy2.png",
+                      "carma2.png",
+                      "lina1.png"
+                    ]
+                  }
+                ]
+              },
+               {
+                "team": [
+                  {
+                    "name": "데이지",
+                    "image": "/images/heroes/dage.png"
+                   
+                
+                  },
+                  {
+                    "name": "연희",
+                    "image": "/images/heroes/Yeonhee.png"
+                   
+                   
+                   
+                  },
+                  {
+                    "name": "쥬리",
+                    "image": "/images/heroes/juri.png"
+                   
+                 
+                 
+                     
+                  }
+                ],
+          
+                "skillOrders": [
+                  {
+                    "label": "속공 질때",
+                    "skills": [
+                      "juri2.png",
+                      "Yeonhee2.png",
+                      "Yeonhee1.png"
+                    ]
+                  }
+                ]
+              },
+               {
+                "team": [
+                  {
+                    "name": "루디",
+                    "image": "/images/heroes/rudy.png"
+                   
+                
+                  },
+                  {
+                    "name": "제이브",
+                    "image": "/images/heroes/jave.png",
+                    "note":"부활반지 필수"
+                   
+                   
+                   
+                  },
+                  {
+                    "name": "룩",
+                    "image": "/images/heroes/look.png",
+                    "note":"생"
+                   
+                 
+                 
+                     
+                  }
+                ],
+          
+                "skillOrders": [
+                  {
+                    "label": "속공 질때",
+                    "skills": [
+                      "rudy2.png",
+                      "jave2.png",
+                      "look2.png"
+                    ]
+                  }
+                ]
+              }
+              
+               
+            ]
+          }
+          
+        ]
+      },
        {
         "id": "team1",
         "label": "태오 공덱",
@@ -795,6 +940,44 @@
           {
             "defenseSkills": ["eileene2.png","teo1.png","teo2.png"],
             "counters": [
+               {
+                "team": [
+                  {
+                    "name": "루디",
+                    "image": "/images/heroes/rudy.png"
+                   
+                
+                  },
+                  {
+                    "name": "제이브",
+                    "image": "/images/heroes/jave.png",
+                    "note":"부활반지 필수"
+                   
+                   
+                   
+                  },
+                  {
+                    "name": "룩",
+                    "image": "/images/heroes/look.png",
+                    "note":"생"
+                   
+                 
+                 
+                     
+                  }
+                ],
+          
+                "skillOrders": [
+                  {
+                    "label": "속공 질때",
+                    "skills": [
+                      "rudy2.png",
+                      "jave2.png",
+                      "look2.png"
+                    ]
+                  }
+                ]
+              },
               {
                 "team": [
                   {
@@ -1037,6 +1220,44 @@
           {
             "defenseSkills": ["Yushin1.png","teo1.png","teo2.png"],
             "counters": [
+               {
+                "team": [
+                  {
+                    "name": "루디",
+                    "image": "/images/heroes/rudy.png"
+                   
+                
+                  },
+                  {
+                    "name": "제이브",
+                    "image": "/images/heroes/jave.png",
+                    "note":"부활반지 필수"
+                   
+                   
+                   
+                  },
+                  {
+                    "name": "룩",
+                    "image": "/images/heroes/look.png",
+                    "note":"생"
+                   
+                 
+                 
+                     
+                  }
+                ],
+          
+                "skillOrders": [
+                  {
+                    "label": "속공 질때",
+                    "skills": [
+                      "rudy2.png",
+                      "jave2.png",
+                      "look2.png"
+                    ]
+                  }
+                ]
+              },
               {
                 "team": [
                   {
@@ -3757,6 +3978,89 @@
                     "skills": [
                       "luri2.png",
                       "luri1.png"
+                     
+                    ]
+                  }
+                ]
+              },
+              
+              {
+                "team": [
+                  {
+                    "name": "루시",
+                    "image": "/images/heroes/rucy.png"
+                  },
+                  {
+                    "name": "플라튼",
+                    "image": "/images/heroes/platon.png"
+                  },
+                  {
+                    "name": "엘리스",
+                    "image": "/images/heroes/elise.png"
+                  }
+                ],
+                
+                "skillOrders": [
+                  {
+                    "label": "속공 질 때",
+                    "skills": [
+                      "lucy2.png",
+                      "elise2.png",
+                      "elise1.png"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "team4",
+        "label": "콜트+플라튼 방덱",
+        "defenseTeam": [
+          {
+            "name": "카구라",
+            "image": "/images/heroes/cagura.png"
+          },
+          {
+            "name": "콜트",
+            "image": "/images/heroes/colt.png"
+          },
+          {
+            "name": "플라튼",
+            "image": "/images/heroes/platon.png"
+          }
+        ],
+        "defenseVariants": [
+          {
+            "defenseSkills": ["cagura2.png","colt1.png","colt2.png"],
+            "counters": [
+              {
+                "team": [
+                  {
+                    "name": "레이첼",
+                    "image": "/images/heroes/rachel.png"
+                  },
+                  {
+                    "name": "델론즈",
+                    "image": "/images/heroes/dellons.png",
+                    "note":"내실"
+                 
+                  },
+                  {
+                    "name": "파이",
+                    "image": "/images/heroes/pie.png"
+                  }
+                ],
+                "note": "극내실",
+                "skillOrders": [
+                  {
+                    "label": "속공 이길 때",
+                    "skills": [
+                      "rachel2.png",
+                      "pie2.png",
+                      "dellons2.png"
                      
                     ]
                   }

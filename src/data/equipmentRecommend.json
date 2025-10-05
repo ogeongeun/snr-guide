@@ -3,7 +3,7 @@
     "name": "쥬리",
     "image": "/images/heroes/juri.png",
     "roles": {
-      "ring":"6성 cc반지",
+      "ring":"6성 빙결+침묵",
       "디버퍼": {
         "전체": [
           {
@@ -63,7 +63,7 @@
     "image": "/images/heroes/cagura.png",
      "isPresetHero": true,  
     "roles": {
-      "ring": "피해량반지등 딜관련 반지",
+      "ring": "피해량반지등 딜관련 반지또는 즉사",
      
       "2스킬 스킬예약시": {
        
@@ -609,8 +609,9 @@
   "rudy": {
     "name": "루디",
     "image": "/images/heroes/rudy.png",
+     "isPresetHero": true, 
     "roles": {
-      "탱커": {
+      "프리셋1(범용)": {
        
         "전체": [
               {
@@ -618,6 +619,20 @@
             "mainOption": "방%/방%/받/받",
              "subOption": "효저95%",
            "note":"방%,효저"
+          }
+          
+          
+        ]
+       
+      },
+      "프리셋2(테오덱 상대)": {
+       
+        "전체": [
+              {
+            "set": "조율자",
+            "mainOption": "방%/방%/받/받",
+             "subOption": "막기100%/효저x",
+           "note":"막기"
           }
           
           
@@ -652,7 +667,7 @@
     "image": "/images/heroes/carma.png",
     "roles": {
       "ring": "권능 ",
-       "딜탱": {
+       "프리셋1(범용)": {
        
        
        
@@ -662,6 +677,22 @@
             "mainOption": "치확%/약확%/받/받",
              "subOption": "약공90%/치확90%",
              "note": "약공,치확"
+          }
+          
+        ]
+
+        
+      },
+      "프리셋2(길드전)": {
+       
+       
+       
+         "전체": [
+              {
+            "set": "수문장",
+            "mainOption": "치확%/방%/받/막",
+             "subOption": "막기67%",
+             "note": "막기"
           }
           
         ]
@@ -758,14 +789,28 @@
   "jave": {
     "name": "제이브",
     "image": "/images/heroes/jave.png",
+     "isPresetHero": true, 
     "roles": {
-      "cc": {
+      "프리셋1(범용)": {
        
         "전체": [
               {
             "set": "주술사",
-            "mainOption": "효적/모공/받/받",
+            "mainOption": "효적/모공/막/막",
            "note":"즉사 반지(부옵 막기/효저)"
+          }
+          
+          
+        ]
+       
+      },
+       "프리셋2(길드전)": {
+       
+        "전체": [
+              {
+            "set": "복수자",
+            "mainOption": "모공/모공/막/막",
+           "note":"막기,모공"
           }
           
           
@@ -981,6 +1026,23 @@
             "set": "수문장",
             "mainOption": "생%/생%/받/받",
             "note": "받피감39%,막기50% 이상적"
+          }
+          
+        ]
+      }
+     
+    }
+  },
+   "look": {
+    "name": "룩",
+    "image": "/images/heroes/look.png",
+    "roles": {
+      "탱커": {
+        "전체": [
+          {
+            "set": "수문장",
+            "mainOption": "생%/생%/받/받",
+            "note": "막기30%%"
           }
           
         ]
