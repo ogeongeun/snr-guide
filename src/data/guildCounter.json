@@ -40,13 +40,14 @@
                   {
                     "name": "카르마",
                     "image": "/images/heroes/carma.png",
-                    "note":"수문장(치확/방/받/받) 부옵:막기"
+                    "note":"프리셋2"
                    
                    
                   },
                   {
                     "name": "루디",
-                    "image": "/images/heroes/rudy.png"
+                    "image": "/images/heroes/rudy.png",
+                       "note":"프리셋2"
                    
                  
                  
@@ -105,14 +106,15 @@
                 "team": [
                   {
                     "name": "루디",
-                    "image": "/images/heroes/rudy.png"
+                    "image": "/images/heroes/rudy.png",
+                       "note":"프리셋2"
                    
                 
                   },
                   {
                     "name": "제이브",
                     "image": "/images/heroes/jave.png",
-                    "note":"부활반지 필수"
+                 "note":"프리셋2/부활반지 필수"
                    
                    
                    
@@ -120,14 +122,14 @@
                   {
                     "name": "룩",
                     "image": "/images/heroes/look.png",
-                    "note":"생"
+                    "note":""
                    
                  
                  
                      
                   }
                 ],
-          
+          "note":"제이브만 반지 끼면됨",
                 "skillOrders": [
                   {
                     "label": "속공 질때",
