@@ -3307,8 +3307,8 @@
             "name": "바네사",
             "image": "/images/heroes/vanessa.png"
           }
-        ],
-       
+        ]
+      },
           {
             "defenseSkills": ["rin2.png","Melkir2.png","vanessa1.png"],
             "counters": [
