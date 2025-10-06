@@ -30,43 +30,7 @@
                 "teo1.png"
               ],
               "counters": [
-                {
-                    "recommendation": 3,
-                  "team": [
-                    {
-                      "name": "리나",
-                      "image": "/images/heroes/lina.png"
-                    
-                  
-                    },
-                    {
-                      "name": "첸슬러",
-                      "image": "/images/heroes/chancellor.png"
-                 
-                    
-                    },
-                    {
-                      "name": "루디",
-                      "image": "/images/heroes/rudy.png",
-                        "note":"프리셋2"
-                    
-                  
-                  
-                      
-                    }
-                  ],
-            
-                  "skillOrders": [
-                    {
-                      "label": "속공 질 때",
-                      "skills": [
-                        "rudy2.png",
-                        "carma2.png",
-                        "lina1.png"
-                      ]
-                    }
-                  ]
-                },
+                
                 {
                   "recommendation": 2,
                   "team": [
