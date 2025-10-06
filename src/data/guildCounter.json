@@ -2065,6 +2065,7 @@
                   }
                 ]
               },
+              
               {
                 "recommendation": 2,
                 "team": [
@@ -3307,6 +3308,40 @@
           }
         ],
         "defenseVariants": [
+          {
+            "defenseSkills": ["rin2.png","Melkir2.png","vanessa1.png"],
+            "counters": [
+              {
+                "team": [
+                  {
+                    "name": "아라곤",
+                    "image": "/images/heroes/aragon.png",
+                  "note":"6초월/조율자(효저100,막기100)"
+                   
+                  },
+                  {
+                    "name": "태오",
+                    "image": "/images/heroes/teo.png",
+                       "note":"약공세팅"
+                  },
+                  {
+                    "name": "카구라",
+                    "image": "/images/heroes/cagura.png"
+                 
+                  }
+                ],
+            
+                "skillOrders": [
+                  {
+                    "label": "속공 질 때",
+                    "skills": [
+                      "cagura2.png",
+                      "teo1.png",
+                      "teo2.png"
+                    ]
+                  }
+                ]
+              },
           {
             "defenseSkills": ["rin2.png","Melkir2.png","vanessa1.png"],
             "counters": [
