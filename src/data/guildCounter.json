@@ -1,4 +1,4 @@
-  {
+{
     "categories": {
       "공덱": [
           {
@@ -61,9 +61,7 @@
                         "rudy2.png",
                         "carma2.png",
                         "lina1.png"
-                      ]
-                    } ]
-                },
+                      ] ],
                 {
                   "recommendation": 2,
                   "team": [
@@ -96,9 +94,7 @@
                         "juri2.png",
                         "Yeonhee2.png",
                         "Yeonhee1.png"
-                      ]
-                    } ]
-                },
+                      ] ],
                 {
                   "recommendation": 3,
                   "team": [
@@ -134,9 +130,7 @@
                         "rudy2.png",
                         "jave2.png",
                         "look2.png"
-                      ]
-                    } ]
-                },
+                      ] ],
                  {
                   "recommendation": 3,
                   "team": [
@@ -172,11 +166,7 @@
                         "rudy2.png",
                         "elise1.png",
                         "platon2.png"
-                      ]
-                    } ]
-                } ]
-          } ]
-        },
+                      ] ] ] ],
        {
         "id": "team1",
         "label": "태오 공덱",
@@ -235,9 +225,7 @@
                       "juri2.png",
                       "dellons2.png",
                       "pie2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               
                  {
                   "recommendation": 2,
@@ -269,10 +257,7 @@
                       "orly2.png",
                       "rin2.png",
                       "vanessa1.png"
-                    ]
-                  } ]
-              } ]
-          },
+                    ] ] ],
           {
             "defenseSkills": [
               "pie1.png",
@@ -310,11 +295,7 @@
                       "rin2.png",
                       "orly2.png",
                       "vanessa1.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team1",
         "label": "태오 공덱",
@@ -371,9 +352,7 @@
                       "jave2.png",
                       "rudy2.png",
                       "lina1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
                {
                 "recommendation": 2,
                 "team": [
@@ -402,9 +381,7 @@
                       "aragon1.png",
                       "jave2.png",
                       "lina1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 2,
                 "team": [
@@ -431,9 +408,7 @@
                       "spike2.png",
                       "chancellor2.png",
                       "aragon1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 1,
                 "team": [
@@ -457,9 +432,7 @@
                       "dellons2.png",
                       "dellons1.png",
                       "eileene2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 2,
                 "team": [
@@ -483,11 +456,7 @@
                       "Yeonhee1.png",
                       "Yushin1.png",
                       "vanessa1.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
        {
         "id": "team1",
         "label": "델론즈 공덱",
@@ -533,11 +502,7 @@
                       "teo1.png",
                       "colt1.png",
                       "colt2.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team1",
         "label": "델론즈 공덱",
@@ -583,11 +548,7 @@
                       "nia2.png",
                       "dellons2.png",
                       "dellons1.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team1",
         "label": "델론즈 공덱",
@@ -633,11 +594,7 @@
                       "rudy2.png",
                       "platon2.png",
                       "elise2.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team1",
         "label": "태오 공덱",
@@ -684,11 +641,7 @@
                       "chancellor2.png",
                       "lee2.png",
                       "lee1.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team1",
         "label": "콜트 공덱",
@@ -735,11 +688,7 @@
                       "aragon1.png",
                       "spike2.png",
                       "yui1.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team1",
         "label": "태오 공덱",
@@ -785,9 +734,7 @@
                       "orly2.png",
                       "juri2.png",
                       "silvesta1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 1,
                 "team": [
@@ -814,9 +761,7 @@
                       "juri2.png",
                       "dellons2.png",
                       "dellons1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               
               {
                 "recommendation": 2,
@@ -846,11 +791,7 @@
                       "juri2.png",
                       "Yeonhee2.png",
                       "Yeonhee1.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team1",
         "label": "콜트 공덱",
@@ -894,11 +835,7 @@
                       "Yeonhee1.png",
                       "Yushin1.png",
                       "vanessa1.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team1",
         "label": "태오 공덱",
@@ -954,9 +891,7 @@
                       "rudy2.png",
                       "jave2.png",
                       "look2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 3,
                 "team": [
@@ -981,9 +916,7 @@
                       "rudy2.png",
                       "carma2.png"
                      
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 2,
                 "team": [
@@ -1008,9 +941,7 @@
                       "orly2.png",
                       "juri2.png",
                       "silvesta1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 2,
                 "team": [
@@ -1034,9 +965,7 @@
                       "look2.png",
                       "aragon1.png",
                       "chancellor2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 1,
                 "team": [
@@ -1059,9 +988,7 @@
                       "vanessa1.png",
                       "juri2.png",
                       "Yeonhee2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 3,
                 "team": [
@@ -1086,9 +1013,7 @@
                       "chancellor2.png",
                       "carma2.png",
                       "lina1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
              
               {
                 "recommendation": 3,
@@ -1114,9 +1039,7 @@
                       "aragon1.png",
                       "chancellor2.png",
                       "elise2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 3,
                 "team": [
@@ -1142,9 +1065,7 @@
                       "rudy2.png",
                       "carma2.png",
                       "jave2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 2,
                 "team": [
@@ -1170,11 +1091,7 @@
                       "eileene2.png",
                       "teo2.png",
                       "teo1.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team1",
         "label": "태오 공덱",
@@ -1230,9 +1147,7 @@
                       "rudy2.png",
                       "jave2.png",
                       "look2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 3,
                 "team": [
@@ -1257,9 +1172,7 @@
                       "platon2.png",
                       "spike2.png",
                       "spike1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 2,
                 "team": [
@@ -1282,9 +1195,7 @@
                       "vanessa1.png",
                       "juri2.png",
                       "Yeonhee2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 2,
                 "team": [
@@ -1307,11 +1218,7 @@
                       "juri2.png",
                       "Yeonhee2.png",
                       "Yeonhee1.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team2",
         "label": "델론즈 공덱",
@@ -1354,9 +1261,7 @@
                       "nox1.png",
                       "chris2.png",
                       "nox2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -1378,9 +1283,7 @@
                       "rudy2.png",
                       "jave1.png",
                       "carma2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -1403,9 +1306,7 @@
                       "lee1.png",
                       "dellons2.png",
                       "rachel2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -1430,9 +1331,7 @@
                       "lee1.png",
                       "noho1.png",
                       "ballista1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -1455,11 +1354,7 @@
                       "Yushin1.png",
                       "vanessa1.png",
                       "vanessa2.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team2",
         "label": "델론즈 공덱",
@@ -1503,11 +1398,7 @@
                       "noho1.png",
                       "dellons2.png",
                       "ballista1.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
        {
         "id": "team2",
         "label": "델론즈 공덱",
@@ -1551,11 +1442,7 @@
                       "rin2.png",
                       "Yeonhee2.png",
                       "Yeonhee1.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      } ],
+                    ] ] ] ] ],
     "마덱": [
       {
         "id": "team2",
@@ -1604,9 +1491,7 @@
                       "teo1.png",
                       "ballista1.png",
                       "teo2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               
                {
                 "recommendation": 2,
@@ -1635,9 +1520,7 @@
                       "vanessa1.png",
                       "juri2.png",
                       "Yeonhee2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 2,
                 "team": [
@@ -1664,9 +1547,7 @@
                       "chancellor2.png",
                       "elise1.png",
                       "aragon1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 2,
                 "team": [
@@ -1694,9 +1575,7 @@
                       "rudy2.png",
                       "lina1.png",
                       "carma2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 3,
                 "team": [
@@ -1722,10 +1601,7 @@
                       "colt1.png",
                       "colt2.png",
                       "ballista1.png"
-                    ]
-                  } ]
-              } ]
-          },
+                    ] ] ],
            {
             "defenseSkills": ["vanessa1.png","Yeonhee1.png","rin2.png"],
             "counters": [
@@ -1756,9 +1632,7 @@
                       "teo1.png",
                       "ballista1.png",
                       "teo2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 2,
                 "team": [
@@ -1785,9 +1659,7 @@
                       "chancellor2.png",
                       "elise1.png",
                       "aragon1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 2,
                 "team": [
@@ -1815,9 +1687,7 @@
                       "rudy2.png",
                       "lina1.png",
                       "carma2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 3,
                 "team": [
@@ -1843,11 +1713,7 @@
                       "colt1.png",
                       "colt2.png",
                        "ballista1.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team2",
         "label": "린 마덱",
@@ -1896,9 +1762,7 @@
                       "teo1.png",
                       "ballista1.png",
                       "teo2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               
               {
                 "recommendation": 2,
@@ -1929,9 +1793,7 @@
                       "orly2.png",
                       "Yushin1.png",
                       "rin2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 2,
                 "team": [
@@ -1959,9 +1821,7 @@
                       "vanessa1.png",
                       "juri2.png",
                       "Yeonhee2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
                 
               {
                 "recommendation": 3,
@@ -1988,9 +1848,7 @@
                       "lina2.png",
                       "ballista1.png",
                       "lina1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 1,
                 "team": [
@@ -2015,9 +1873,7 @@
                       "Yushin1.png",
                       "rudy2.png",
                       "Yeonhee2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 2,
                 "team": [
@@ -2044,11 +1900,7 @@
                       "teo1.png",
                       "rudy2.png",
                       "teo2.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team2",
         "label": "린 마덱",
@@ -2096,9 +1948,7 @@
                       "vanessa1.png",
                       "juri2.png",
                       "Yeonhee2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 2,
                 "team": [
@@ -2124,9 +1974,7 @@
                       "lina2.png",
                       "ballista1.png",
                       "lina1.png"
-                    ]
-                  } ]
-              },{
+                    ] ],{
                 "recommendation": 3,
                 "team": [
                   {
@@ -2151,11 +1999,7 @@
                       "colt2.png",
                       "lina2.png",
                       "ballista1.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team2",
         "label": "실베스타 마덱",
@@ -2200,11 +2044,7 @@
                     "skills": [
                       "aragon1.png",
                       "chancellor2.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
        {
         "id": "team2",
         "label": "오를리 마덱",
@@ -2254,9 +2094,7 @@
                       "colt1.png",
                       "colt2.png",
                       "ballista1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
                {
             
             "defenseSkills": ["vanessa1.png","orly2.png","Yeonhee1.png"],
@@ -2287,9 +2125,7 @@
                       "colt1.png",
                       "colt2.png",
                       "pie2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 3,
                 "team": [
@@ -2316,9 +2152,7 @@
                       "colt1.png",
                       "colt2.png",
                       "silvesta1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 2,
                 "team": [
@@ -2345,11 +2179,7 @@
                       "vanessa1.png",
                       "teo2.png",
                       "teo1.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      }, {
+                    ] ] ] ], {
         "id": "team2",
         "label": "연희 마덱",
         "defenseTeam": [
@@ -2395,11 +2225,7 @@
                       "rin2.png",
                       "orly2.png",
                       "silvesta1.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team2",
         "label": "연희 마덱",
@@ -2448,11 +2274,7 @@
                       "chancellor2.png",
                       "look2.png",
                       "aragon1.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       
       {
         "id": "team2",
@@ -2500,9 +2322,7 @@
                       "colt2.png",
                       "ballista1.png"
                    
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 2,
                 "team": [
@@ -2529,9 +2349,7 @@
                       "Yushin1.png",
                       "rin2.png"
                    
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 3,
                 "team": [
@@ -2556,9 +2374,7 @@
                       "elise1.png",
                       "elise2.png"
                    
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 2,
                 "team": [
@@ -2584,9 +2400,7 @@
                       "elise2.png",
                       "spike2.png"
                    
-                    ]
-                  } ]
-              },
+                    ] ],
               
               {
                 "recommendation": 2,
@@ -2613,9 +2427,7 @@
                       "chancellor2.png",
                       "elise1.png",
                       "platon2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 2,
                 "team": [
@@ -2641,11 +2453,7 @@
                       "colt1.png",
                       "colt2.png"
                    
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team2",
         "label": "연희 마덱",
@@ -2688,9 +2496,7 @@
                       "platon2.png",
                       "colt1.png",
                       "ballista1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -2715,11 +2521,7 @@
                       "colt1.png",
                       "colt2.png",
                       "pie1.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team2",
         "label": "연희 마덱",
@@ -2766,9 +2568,7 @@
                       "teo1.png",
                       "ballista1.png",
                       "teo2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -2791,9 +2591,7 @@
                       "platon2.png",
                       "colt1.png",
                       "ballista1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -2818,9 +2616,7 @@
                       "chancellor2.png",
                       "elise1.png",
                       "aragon1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -2843,9 +2639,7 @@
                       "elise1.png",
                       "colt1.png",
                       "colt2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -2868,9 +2662,7 @@
                       "rudy2.png",
                       "jave1.png",
                       "jave2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -2894,9 +2686,7 @@
                       "teo1.png",
                       "eileene2.png",
                       "teo2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -2921,9 +2711,7 @@
                       "nia2.png",
                       "dellons2.png",
                       "dellons1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -2947,9 +2735,7 @@
                       "pie1.png",
                       "ace2.png",
                       "ballista1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -2973,9 +2759,7 @@
                       "Yushin1.png",
                       "Yushin2.png",
                       "Yeonhee2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -2999,9 +2783,7 @@
                       "Yushin1.png",
                       "Yeonhee2.png",
                       "Yeonhee1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -3025,11 +2807,7 @@
                       "noho1.png",
                       "ballista1.png",
                       "dellons2.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team2",
         "label": "린 마덱",
@@ -3077,9 +2855,7 @@
                       "cagura2.png",
                       "teo1.png",
                       "teo2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
           {
             "defenseSkills": ["rin2.png","Melkir2.png","vanessa1.png"],
             "counters": [
@@ -3109,9 +2885,7 @@
                       "teo1.png",
                       "ballista1.png",
                       "teo2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -3138,9 +2912,7 @@
                       "vanessa1.png",
                       "juri2.png",
                       "Yeonhee2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -3165,9 +2937,7 @@
                       "lina2.png",
                       "ballista1.png",
                       "lina1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -3193,9 +2963,7 @@
                       "lina2.png",
                       "ballista1.png"
                     
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -3218,9 +2986,7 @@
                       "eileene2.png",
                       "teo2.png",
                       "teo1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -3243,9 +3009,7 @@
                       "elise1.png",
                       "colt1.png",
                       "colt2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -3270,9 +3034,7 @@
                       "rin2.png",
                       "juri2.png",
                       "vanessa1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -3296,9 +3058,7 @@
                       "Yushin1.png",
                       "Yushin2.png",
                       "Yeonhee2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -3321,9 +3081,7 @@
                       "carma2.png",
                       "rudy2.png",
                       "jave1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -3348,9 +3106,7 @@
                       "nia2.png",
                       "dellons2.png",
                       "dellons1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -3375,10 +3131,7 @@
                       "pie1.png",
                       "ace2.png",
                       "ballista1.png"
-                    ]
-                  } ]
-              } ]
-          },
+                    ] ] ],
           {
             "defenseSkills": ["vanessa1.png","Melkir2.png","rin2.png"],
             "counters": [
@@ -3408,9 +3161,7 @@
                       "teo1.png",
                       "ballista1.png",
                       "teo2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -3435,9 +3186,7 @@
                       "lina2.png",
                       "ballista1.png",
                       "lina1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               
               {
                 "team": [
@@ -3461,9 +3210,7 @@
                       "elise1.png",
                       "colt1.png",
                       "colt2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               
              
               
@@ -3491,11 +3238,7 @@
                       "nia2.png",
                       "dellons2.png",
                       "dellons1.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      } ],
+                    ] ] ] ] ],
     "즉사방덱": [
       {
         "id": "team3",
@@ -3539,11 +3282,7 @@
                       "nox1.png",
                       "chris2.png",
                       "nox2.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      } ],
+                    ] ] ] ] ],
     "방덱": [
       {
         "id": "team4",
@@ -3596,9 +3335,7 @@
                       
                       
                      
-                    ]
-                  } ]
-              },
+                    ] ],
               
               {
                 "recommendation": 3,
@@ -3629,9 +3366,7 @@
                       
                       
                      
-                    ]
-                  } ]
-              },
+                    ] ],
                
               {
                 "recommendation": 2,
@@ -3664,9 +3399,7 @@
                       
                       
                      
-                    ]
-                  } ]
-              },
+                    ] ],
              
               {"recommendation": 1,
                 "team": [
@@ -3692,9 +3425,7 @@
                       "lucy2.png",
                       "caron2.png"
                      
-                    ]
-                  } ]
-              },
+                    ] ],
               
               {
                 "recommendation": 2,
@@ -3721,9 +3452,7 @@
                       "Yeonhee2.png",
                       "Yushin1.png"
                      
-                    ]
-                  } ]
-              },
+                    ] ],
               
               {
                 "recommendation": 2,
@@ -3748,11 +3477,7 @@
                       "platon2.png",
                       "lucy2.png",
                       "yui1.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team4",
         "label": "콜트+플라튼 방덱",
@@ -3797,9 +3522,7 @@
                       "luri2.png",
                       "luri1.png"
                      
-                    ]
-                  } ]
-              },
+                    ] ],
               
               {
                 "recommendation": 3,
@@ -3824,11 +3547,7 @@
                       "lucy2.png",
                       "elise2.png",
                       "elise1.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team4",
         "label": "콜트+플라튼 방덱",
@@ -3875,9 +3594,7 @@
                       "pie2.png",
                       "dellons2.png"
                      
-                    ]
-                  } ]
-              },
+                    ] ],
               
               {
                 "recommendation": 2,
@@ -3902,11 +3619,7 @@
                       "lucy2.png",
                       "elise2.png",
                       "elise1.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team4",
         "label": "콜트+플라튼 방덱",
@@ -3953,11 +3666,7 @@
                       "lucy2.png",
                       "elise2.png"
                      
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team4",
         "label": "파이 방덱",
@@ -4006,11 +3715,7 @@
                       "elise1.png",
                       "lee1.png"
                      
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
        {
         "id": "team4",
         "label": "콜트+플라튼 방덱",
@@ -4055,11 +3760,7 @@
                       "luri2.png",
                       "luri1.png"
                      
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team4",
         "label": "콜트+플라튼 방덱",
@@ -4106,9 +3807,7 @@
                       "luri2.png",
                       "luri1.png"
                      
-                    ]
-                  } ]
-              },
+                    ] ],
                {
                 "recommendation": 2,
                 "team": [
@@ -4133,9 +3832,7 @@
                       "platon2.png",
                       "lucy2.png",
                       "elise2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 3,
                 "team": [
@@ -4161,9 +3858,7 @@
                       "elise2.png",
                       "helenia1.png",
                       "elise1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 1,
                 "team": [
@@ -4188,11 +3883,7 @@
                       "rachel2.png",
                       "colt1.png",
                       "colt2.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team4",
         "label": "콜트+플라튼 방덱",
@@ -4242,9 +3933,7 @@
                       "chris1.png",
                       "lozy1.png"
                      
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "recommendation": 3,
                 "team": [
@@ -4269,9 +3958,7 @@
                       "luri2.png",
                       "luri1.png"
                      
-                    ]
-                  } ]
-              },
+                    ] ],
                {
                  "recommendation": 2,
                 "team": [
@@ -4296,9 +3983,7 @@
                       "platon2.png",
                       "lucy2.png",
                       "elise2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                  "recommendation": 3,
                 "team": [
@@ -4324,9 +4009,7 @@
                       "elise2.png",
                       "helenia1.png",
                       "elise1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                  "recommendation": 1,
                 "team": [
@@ -4351,11 +4034,7 @@
                       "rachel2.png",
                       "colt1.png",
                       "colt2.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team4",
         "label": "플라튼 방덱",
@@ -4401,9 +4080,7 @@
                       "luri2.png",
                       "luri1.png"
                      
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                  "recommendation": 3,
                 "team": [
@@ -4429,8 +4106,7 @@
                       "luri2.png",
                       "platon2.png",
                       "luri1.png"
-                    ]
-                  },
+                    ],
                   {
                     "label": "속공 이길 때",
                     "skills": [
@@ -4438,9 +4114,7 @@
                       "platon2.png",
                       "luri2.png",
                       "luri1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                  "recommendation": 2,
                 "team": [
@@ -4464,9 +4138,7 @@
                       "platon2.png",
                       "carma2.png",
                       "elise1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                  "recommendation": 1,
                 "team": [
@@ -4490,9 +4162,7 @@
                       "rin2.png",
                       "Melkir1.png",
                       "vanessa1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                  "recommendation": 1,
                 "team": [
@@ -4514,11 +4184,7 @@
                     "label": "속공 질 때",
                     "skills": [
                       "platon2.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       
       {
         "id": "team4",
@@ -4562,11 +4228,7 @@
                       "Yushin1.png",
                       "luri2.png",
                       "luri1.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team4",
         "label": "플라튼 방덱",
@@ -4609,11 +4271,7 @@
                       "platon2.png",
                       "pie1.png",
                       "teo1.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team4",
         "label": "카르마 방덱",
@@ -4656,11 +4314,7 @@
                       "noho1.png",
                       "luri2.png",
                       "luri1.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team4",
         "label": "카르마 방덱(힐러 포함)",
@@ -4705,9 +4359,7 @@
                       "noho1.png",
                       "pascal2.png",
                       "pascal1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -4731,11 +4383,7 @@
                       "evan2.png",
                       "chris1.png",
                       "yui1.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team4",
         "label": "제이브 방덱",
@@ -4779,9 +4427,7 @@
                       "evan2.png",
                       "noho1.png",
                       "yui1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -4805,9 +4451,7 @@
                       "evan2.png",
                       "chris2.png",
                       "yui1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -4830,11 +4474,7 @@
                       "evan2.png",
                       "pascal2.png",
                       "pascal1.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team4",
         "label": "제이브 방덱(힐러 포함)",
@@ -4878,9 +4518,7 @@
                       "evan2.png",
                       "chris1.png",
                       "yui1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -4903,9 +4541,7 @@
                       "evan2.png",
                       "pascal2.png",
                       "pascal1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -4928,9 +4564,7 @@
                       "noho1.png",
                       "luri2.png",
                       "luri1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -4954,9 +4588,7 @@
                       "chris1.png",
                     
                       "nox2.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -4979,11 +4611,7 @@
                     "skills": [
                       "noho1.png",
                       "taka2.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      } ],
+                    ] ] ] ] ],
     "번외": [
       {
         "id": "team4",
@@ -5024,9 +4652,7 @@
                       "lee1.png",
                       "poongyeon1.png",
                       "ballista1.png"
-                    ]
-                  } ]
-              },
+                    ] ],
               {
                 "team": [
                   {
@@ -5049,11 +4675,7 @@
                       "poongyeon1.png",
                       "poongyeon2.png",
                       "rei2.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      },
+                    ] ] ] ],
       {
         "id": "team4",
         "label": "한방덱",
@@ -5096,11 +4718,4 @@
                     "skills": [
                       "noho1.png",
                       "ballista1.png"
-                    ]
-                  } ]
-              } ]
-          } ]
-      } ]
-  
-}
-}}}]]
+                    ] ] ] ] ]}
