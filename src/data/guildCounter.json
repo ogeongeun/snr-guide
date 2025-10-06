@@ -2452,10 +2452,7 @@
                   }
                 ]
               },
-               {
-            
-            "defenseSkills": ["vanessa1.png","orly2.png","Yeonhee1.png"],
-            "counters": [
+             
               {
                 "recommendation": 3,
                 "team": [
