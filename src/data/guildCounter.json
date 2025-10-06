@@ -3312,6 +3312,7 @@
             "defenseSkills": ["rin2.png","Melkir2.png","vanessa1.png"],
             "counters": [
               {
+                 "recommendation": 1,
                 "team": [
                   {
                     "name": "아라곤",
