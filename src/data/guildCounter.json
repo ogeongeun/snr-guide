@@ -143,6 +143,46 @@
                       ]
                     }
                   ]
+                },
+                 {
+                  "recommendation": 3,
+                  "team": [
+                    {
+                      "name": "루디",
+                      "image": "/images/heroes/rudy.png",
+                        "note":"프리셋2"
+                    
+                  
+                    },
+                    {
+                      "name": "플라튼",
+                      "image": "/images/heroes/platon.png",
+                  "note":"부활반지"
+                    
+                    
+                    
+                    },
+                    {
+                      "name": "엘리스",
+                      "image": "/images/heroes/elise.png",
+                      "note":""
+                    
+                  
+                  
+                      
+                    }
+                  ],
+            "note":"",
+                  "skillOrders": [
+                    {
+                      "label": "속공 질때",
+                      "skills": [
+                        "rudy2.png",
+                        "elise1.png",
+                        "platon2.png"
+                      ]
+                    }
+                  ]
                 }
                 
                 
@@ -2407,6 +2447,72 @@
                       "colt1.png",
                       "colt2.png",
                       "ballista1.png"
+                    ]
+                  }
+                ]
+              },
+               {
+            
+            "defenseSkills": ["vanessa1.png","orly2.png","Yeonhee1.png"],
+            "counters": [
+              {
+                "recommendation": 3,
+                "team": [
+                  {
+                    "name": "플라튼",
+                    "image": "/images/heroes/platon.png"
+          
+                  },
+                  {
+                    "name": "콜트",
+                    "image": "/images/heroes/colt.png"
+                  },
+                  {
+                    "name": "파이",
+                    "image": "/images/heroes/pie.png",
+                    "note":"불사 반지"
+               
+                  }
+                ],
+                "note": "반지 비슷해야될듯/속공 이기면 더 쉬움",
+                "skillOrders": [
+                  {
+                    "label": "속공 이길 때",
+                    "skills": [
+                      "colt1.png",
+                      "colt2.png",
+                      "pie2.png"
+                    ]
+                  }
+                ]
+              },
+              {
+                "recommendation": 3,
+                "team": [
+                  {
+                    "name": "플라튼",
+                    "image": "/images/heroes/platon.png"
+          
+                  },
+                  {
+                    "name": "콜트",
+                    "image": "/images/heroes/colt.png"
+                  },
+                  {
+                    "name": "실베스타",
+                    "image": "/images/heroes/silvesta.png",
+                    "note":"불사/부활반지"
+               
+                  }
+                ],
+                "note": "반지 비슷해야될듯/속공 이기면 더 쉬움",
+                "skillOrders": [
+                  {
+                    "label": "속공 이길 때",
+                    "skills": [
+                      "colt1.png",
+                      "colt2.png",
+                      "silvesta1.png"
                     ]
                   }
                 ]
