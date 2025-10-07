@@ -1,3 +1,4 @@
+// src/pages/GuildOffenseDetailPage.jsx
 import { useParams, useSearchParams } from 'react-router-dom';
 import { useState } from 'react';
 import data from '../data/guildCounter.json';
@@ -34,6 +35,8 @@ export default function GuildOffenseDetailPage() {
   // ✅ 이미지 경로
   const heroImg = (src) =>
     src?.startsWith('/images/') ? src : `/images/heroes/${src || ''}`;
+  const petImg = (src) =>
+    src?.startsWith('/images/') ? src : `/images/pet/${src || ''}`;
 
   // ✅ 영웅 클릭 → 장비모달
   const handleHeroClick = (hero) => {
@@ -64,7 +67,9 @@ export default function GuildOffenseDetailPage() {
         />
       </div>
       {hero.note ? (
-        <p className="text-[9px] text-red-500 italic mt-0.5 text-center">{hero.note}</p>
+        <p className="text-[9px] text-red-500 italic mt-0.5 text-center">
+          {hero.note}
+        </p>
       ) : (
         <div className="h-[14px]" />
       )}
@@ -76,6 +81,32 @@ export default function GuildOffenseDetailPage() {
       )}
     </div>
   );
+
+  // ✅ 펫 아이콘 렌더러 (박스 포함)
+  const renderPetIcons = (pets) => {
+    if (!Array.isArray(pets) || pets.length === 0) return null;
+    return (
+      <div
+        className={`ml-3 flex ${
+          pets.length > 1 ? 'flex-col gap-2' : 'flex-row'
+        } items-center justify-center`}
+      >
+        {pets.map((p, i) => (
+          <div
+            key={`${p}-${i}`}
+            className="w-14 h-14 bg-gray-50 border border-gray-200 rounded-xl shadow-sm flex items-center justify-center"
+          >
+            <img
+              src={petImg(p)}
+              alt={`Pet ${i + 1}`}
+              className="w-8 h-8 object-contain opacity-95"
+              loading="lazy"
+            />
+          </div>
+        ))}
+      </div>
+    );
+  };
 
   // ✅ 스킬 아이콘
   const SkillStrip = ({ skills, size = 'w-10 h-10' }) => {
@@ -115,6 +146,7 @@ export default function GuildOffenseDetailPage() {
         key={j}
         className="mb-6 border border-gray-300 rounded-xl p-4 bg-white shadow-sm hover:shadow-md transition"
       >
+        {/* 추천도 */}
         {recommended.recommendation && (
           <div className="text-center mb-2">
             <span className="text-yellow-500 text-sm font-bold">
@@ -129,7 +161,8 @@ export default function GuildOffenseDetailPage() {
           </div>
         )}
 
-        {Array.isArray(recommended.team) && (
+        {/* 팀 + 펫 */}
+        <div className="flex justify-center items-start">
           <div
             className={`grid gap-2 ${
               recommended.team.length === 3 ? 'grid-cols-3' : 'grid-cols-5'
@@ -137,19 +170,31 @@ export default function GuildOffenseDetailPage() {
           >
             {recommended.team.map(renderHeroCard)}
           </div>
-        )}
 
+          {/* ✅ 펫 박스 표시 */}
+          {renderPetIcons(recommended.pet)}
+        </div>
+
+        {/* 설명 */}
         {recommended.note && (
-          <p className="text-sm text-gray-600 mt-2 italic">※ {recommended.note}</p>
+          <p className="text-sm text-gray-600 mt-2 italic">
+            ※ {recommended.note}
+          </p>
         )}
 
+        {/* 스킬 순서 */}
         {grouped && grouped.length > 0 ? (
           <div className="mt-3 space-y-3">
             <p className="text-sm font-semibold text-gray-700">스킬 순서</p>
             {grouped.map((g, gi) => (
-              <div key={`grp-${gi}`} className="border rounded-md p-2 bg-gray-50">
+              <div
+                key={`grp-${gi}`}
+                className="border rounded-md p-2 bg-gray-50"
+              >
                 {g.label && (
-                  <p className="text-xs font-semibold text-red-600 mb-1">{g.label}</p>
+                  <p className="text-xs font-semibold text-red-600 mb-1">
+                    {g.label}
+                  </p>
                 )}
                 <SkillStrip skills={g.skills} size="w-9 h-9" />
               </div>
@@ -165,7 +210,7 @@ export default function GuildOffenseDetailPage() {
     );
   };
 
-  // ✅ variant 렌더 (방어팀 스킬 순서 제거됨)
+  // ✅ variant 렌더
   const renderVariant = (variant, index) => (
     <div
       key={`variant-${index}`}
@@ -177,8 +222,6 @@ export default function GuildOffenseDetailPage() {
           카운터 {Array.isArray(variant.counters) ? variant.counters.length : 0}개
         </span>
       </div>
-
-      {/* 방어팀 스킬 순서 → 제거됨 */}
 
       <div className="mt-2">
         {Array.isArray(variant.counters) && variant.counters.length > 0 ? (
@@ -200,13 +243,17 @@ export default function GuildOffenseDetailPage() {
         <span className="text-sm font-semibold">[{decodedCategory}]</span>
         <span className="mx-2 text-gray-300">|</span>
         <span className="text-sm text-gray-500">라벨</span>{' '}
-        <span className="text-sm font-semibold">{entry.label || '라벨없음'}</span>
+        <span className="text-sm font-semibold">
+          {entry.label || '라벨없음'}
+        </span>
       </div>
 
-      {/* ✅ 상대 방어팀 (요약 + 스킬 순서만 표시) */}
+      {/* ✅ 상대 방어팀 */}
       {Array.isArray(entry.defenseTeam) && entry.defenseTeam.length > 0 && (
         <div className="mb-6 border border-blue-200 rounded-xl p-4 bg-blue-50/40">
-          <p className="text-xs font-semibold text-gray-700 mb-2">상대 방어팀 (요약)</p>
+          <p className="text-xs font-semibold text-gray-700 mb-2">
+            상대 방어팀 (요약)
+          </p>
           <div className="grid grid-cols-3 gap-2 mb-3">
             {entry.defenseTeam.map(renderHeroCard)}
           </div>
@@ -231,7 +278,9 @@ export default function GuildOffenseDetailPage() {
       {defenseNotes.length > 0 && (
         <div className="mb-4">
           {defenseNotes.map((n, i) => (
-            <p key={i} className="text-[12px] text-red-500 italic">※ {n}</p>
+            <p key={i} className="text-[12px] text-red-500 italic">
+              ※ {n}
+            </p>
           ))}
         </div>
       )}

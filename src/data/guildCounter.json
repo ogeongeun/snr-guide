@@ -33,6 +33,7 @@
                 
                 {
                   "recommendation": 2,
+                  "pet": ["yeonji.png", "chri.png"],
                   "team": [
                     {
                       "name": "데이지",
@@ -72,6 +73,7 @@
                 },
                 {
                   "recommendation": 3,
+                    "pet": ["ru.png", "pike.png"],
                   "team": [
                     {
                       "name": "루디",
@@ -92,6 +94,7 @@
                     {
                       "name": "룩",
                       "image": "/images/heroes/look.png",
+                       "preset":"프리셋2(길드전)",
                       "note":""
                     
                   
@@ -113,6 +116,7 @@
                 },
                  {
                   "recommendation": 3,
+                    "pet": ["pike.png", "ru.png"],
                   "team": [
                     {
                       "name": "루디",
@@ -190,6 +194,7 @@
             "counters": [
                {
                 "recommendation": 1,
+                  "pet": ["chri.png", "irin.png"],
                 "team": [
                   {
                     "name": "파이",
@@ -226,7 +231,7 @@
               },
               
                  {
-                  "recommendation": 2,
+                  "recommendation": 2,  "pet": ["yeonji.png", "chri.png"],
                 "team": [
                   {
                     "name": "바네사",
@@ -341,6 +346,7 @@
             "counters": [
                  {
                   "recommendation": 3,
+                    "pet": ["pike.png","ru.png"],
                 "team": [
                   
                   {
@@ -375,6 +381,7 @@
               },
                {
                 "recommendation": 2,
+                   "pet": ["pike.png","ru.png"],
                 "team": [
                   {
                     "name": "아라곤",
@@ -408,6 +415,7 @@
               },
               {
                 "recommendation": 2,
+                   "pet": ["pike.png","ru.png"],
                 "team": [
                   {
                     "name": "아라곤",
@@ -467,6 +475,7 @@
               },
               {
                 "recommendation": 2,
+                   "pet": ["yeonji.png","chri.png"],
                 "team": [
                   {
                     "name": "바네사",
@@ -686,6 +695,7 @@
             "counters": [
               {
                 "recommendation": 2,
+                   "pet": ["ru.png"],
                 "team": [
                   {
                     "name": "리",
@@ -1690,6 +1700,7 @@
             "counters": [
               {
                 "recommendation": 3,
+                   "pet": ["irin.png","rechel.png"],
                 "team": [
                   {
                     "name": "발리스타",
@@ -1724,6 +1735,7 @@
               
                {
                 "recommendation": 2,
+                   "pet": ["chri.png","yeonji.png"],
                 "team": [
                   {
                     "name": "쥬리",
@@ -1756,6 +1768,7 @@
               },
               {
                 "recommendation": 2,
+                   "pet": ["pike.png","ru.png"],
                 "team": [
                   {
                     "name": "아라곤",
@@ -1789,6 +1802,7 @@
               },
               {
                 "recommendation": 2,
+                   "pet": ["pike.png","ru.png"],
                 "team": [
                   {
                     "name": "루디",
@@ -1823,6 +1837,7 @@
               },
               {
                 "recommendation": 3,
+                   "pet": ["irin.png","chri.png"],
                 "team": [
                   {
                     "name": "발리스타",
@@ -1862,6 +1877,7 @@
             "counters": [
                {
                 "recommendation": 3,
+                   "pet": ["irin.png","rechel.png"],
                 "team": [
                   {
                     "name": "발리스타",
@@ -1897,6 +1913,7 @@
               },
               {
                 "recommendation": 2,
+                   "pet": ["pike.png","ru.png"],
                 "team": [
                   {
                     "name": "아라곤",
@@ -1929,6 +1946,7 @@
               },
               {
                 "recommendation": 2,
+                   "pet": ["pike.png","ru.png"],
                 "team": [
                   {
                     "name": "루디",
@@ -1963,6 +1981,7 @@
               },
               {
                 "recommendation": 3,
+                   "pet": ["chri.png","irin.png"],
                 "team": [
                   {
                     "name": "발리스타",
@@ -2021,6 +2040,7 @@
             "counters": [
               {
                 "recommendation": 3,
+                   "pet": ["irin.png","rechel.png"],
                 "team": [
                   {
                     "name": "발리스타",
@@ -2057,6 +2077,7 @@
              
               {
                 "recommendation": 2,
+                   "pet": ["chri.png","rechel.png"],
                 "team": [
                   {
                     "name": "쥬리",
@@ -2090,6 +2111,7 @@
                 
               {
                 "recommendation": 3,
+                   "pet": ["pike.png","rechel.png","irin.png"],
                 "team": [
                   {
                     "name": "리나",
@@ -2122,6 +2144,7 @@
              
               {
                 "recommendation": 2,
+                   "pet": ["irin.png","rechel.png"],
                 "team": [
                   {
                     "name": "루디",
