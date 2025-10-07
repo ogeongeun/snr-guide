@@ -1,11 +1,10 @@
 // src/components/EquipmentModal.jsx
-import { useState } from 'react';
+
 import equipmentData from '../data/equipmentRecommend.json';
 
 export default function EquipmentModal({ heroKey, presetTag, onClose }) {
   // ✅ Hook은 최상단에
-  const [selectedRole, setSelectedRole] = useState(null);
-  const [selectedStage, setSelectedStage] = useState(null);
+  
 
   const hero = equipmentData[heroKey];
   if (!hero) return null;
