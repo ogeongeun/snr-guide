@@ -1,8 +1,9 @@
 // src/pages/GuildDefenseBuildPage.jsx
 import { useState, useMemo } from 'react';
 import guildData from '../data/guild_defense_recommendations.json';
+import equipmentData from '../data/equipmentRecommend.json';
+import EquipmentModal from '../components/EquipmentModal'; // ✅ 공용 모달 불러오기
 
-// ✅ 고정 참조 상수
 const EMPTY_TEAMS = Object.freeze([]);
 const EMPTY_OBJ = Object.freeze({});
 
@@ -10,6 +11,10 @@ export default function GuildDefenseBuildPage() {
   const categoryNames = Object.keys(guildData.categories || {});
   const [selectedCategory, setSelectedCategory] = useState(categoryNames[0] || '공덱');
   const [openGroupName, setOpenGroupName] = useState(null);
+
+  // ✅ 영웅 클릭 시 모달 상태
+  const [selectedHeroKey, setSelectedHeroKey] = useState(null);
+  const [presetTag, setPresetTag] = useState(null);
 
   const currentCategory = guildData.categories[selectedCategory] || {};
   const categoryDesc = currentCategory.desc || '';
@@ -29,6 +34,18 @@ export default function GuildDefenseBuildPage() {
   const imgPath = (file, base) =>
     file?.startsWith?.('/images/') ? file : `${base}/${file}`;
 
+  // ✅ 영웅 클릭 시 모달 열기
+  const handleHeroClick = (hero) => {
+    const heroKey = Object.keys(equipmentData).find(
+      (key) => equipmentData[key].name === hero.name
+    );
+    if (heroKey) {
+      setSelectedHeroKey(heroKey);
+      setPresetTag(hero.preset || null); // guild_defense JSON 안 preset 값 연결
+    }
+  };
+
+  // ✅ 영웅 표시
   const renderHeroes = (heroes = []) => (
     <div
       className={`grid gap-2 mt-3 ${
@@ -36,9 +53,10 @@ export default function GuildDefenseBuildPage() {
       }`}
     >
       {heroes.map((hero, idx) => (
-        <div
+        <button
           key={`${hero.name}-${idx}`}
-          className="flex flex-col items-center bg-white border rounded-lg p-1 shadow-sm"
+          onClick={() => handleHeroClick(hero)}
+          className="flex flex-col items-center bg-white border rounded-lg p-1 shadow-sm hover:scale-105 transition"
         >
           <img
             src={imgPath(hero.image, '/images/heroes')}
@@ -52,22 +70,19 @@ export default function GuildDefenseBuildPage() {
             <div className="h-[14px]" />
           )}
           <p className="text-[10px] mt-1 text-center">{hero.name}</p>
-        </div>
+
+          {/* ✅ 프리셋 태그 표시 */}
+          {hero.preset && (
+            <span className="mt-1 text-[9px] px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200">
+              {hero.preset}
+            </span>
+          )}
+        </button>
       ))}
     </div>
   );
 
-  /**
-   * ✅ 스킬순서 렌더링 규칙
-   * - team.skillOrders 가 있으면 다음 우선순위로 표시:
-   *   1) 속공덱 (라벨: 속공덱)
-   *   2) 내실덱 (라벨: 내실덱)
-   *   3) 공통 (라벨 없이 일반 “스킬 순서”)
-   *   → 속공/내실이 모두 있으면 두 블록을 위(속공) → 아래(내실)로.
-   *   → 속공/내실 없이 공통만 있으면 한 블록만.
-   * - team.skillOrders 가 없고 legacy team.skillOrder 만 있으면 그걸 한 블록으로.
-   * - threshold 가 숫자이면 참고 배지로 노출.
-   */
+  // ✅ 스킬 순서 렌더링
   const renderSkillOrdersBlock = (team) => {
     const orders = team.skillOrders || EMPTY_OBJ;
     const hasFast = Array.isArray(orders['속공덱']) && orders['속공덱'].length > 0;
@@ -106,7 +121,6 @@ export default function GuildDefenseBuildPage() {
       </div>
     );
 
-    // 새 구조 존재 시
     if (hasFast || hasStable || hasCommon) {
       return (
         <div className="mt-3 space-y-4">
@@ -117,7 +131,6 @@ export default function GuildDefenseBuildPage() {
       );
     }
 
-    // 레거시 폴백
     if (Array.isArray(team.skillOrder) && team.skillOrder.length) {
       return (
         <div className="mt-3">
@@ -145,18 +158,16 @@ export default function GuildDefenseBuildPage() {
       <div className="max-w-5xl mx-auto bg-white shadow-md rounded-2xl p-6">
         <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">🛡️ 방어팀 필수 조합</h1>
 
-       
+        {/* 속공/내실 설명 */}
         <div className="bg-red-50 border border-red-300 rounded-lg p-4 text-sm text-red-800 mb-6">
-  <p className="font-semibold mb-1">속공덱 내실덱 개념</p>
-  <ul className="list-disc list-inside leading-relaxed">
-    <li>속공덱:속공220정도이상/메인딜러 속공/앞라인 효적,속공</li>
-    <li>내실덱:공덱-메인딜러 약공확률 80이상 /앞라인 딜러:조율자(효적60%,효저100%(파이크 펫+효저15%반지=총 효저 134%))</li>
-     <li>내실덱:방덱-방어구 받받 + 부옵션 막기(80이상)</li>
-      <li>콜플파,연바로 이거 두개덱을 우선으로 배치</li>
-    
-    
-  </ul>
-</div>
+          <p className="font-semibold mb-1">속공덱 내실덱 개념</p>
+          <ul className="list-disc list-inside leading-relaxed">
+            <li>속공덱: 속공220↑ / 메인딜러 속공 / 앞라인 효적·속공</li>
+            <li>내실덱: 공덱-약공80↑ / 앞라인 조율자(효적60%, 효저100%)</li>
+            <li>내실덱: 방덱-받받 + 부옵 막기(80↑)</li>
+            <li>콜플파·연바로 우선 배치</li>
+          </ul>
+        </div>
 
         {/* 카테고리 탭 */}
         <div className="flex gap-2 mb-4 justify-center flex-wrap">
@@ -185,7 +196,7 @@ export default function GuildDefenseBuildPage() {
           </div>
         )}
 
-        {/* 이름(덱명) 아코디언 */}
+        {/* 아코디언 덱 그룹 */}
         <div className="space-y-2">
           {Array.from(groupedByName.entries()).map(([groupName, groupTeams]) => (
             <div key={groupName} className="border border-gray-200 rounded-lg bg-gray-50">
@@ -200,7 +211,10 @@ export default function GuildDefenseBuildPage() {
               {openGroupName === groupName && (
                 <div className="p-3 border-t border-gray-200 space-y-3">
                   {groupTeams.map((team, idx) => (
-                    <div key={`${groupName}-${idx}`} className="bg-white border border-gray-200 rounded-lg p-3">
+                    <div
+                      key={`${groupName}-${idx}`}
+                      className="bg-white border border-gray-200 rounded-lg p-3"
+                    >
                       {team.note && (
                         <p className="text-[11px] text-red-500 mb-2 italic">※ {team.note}</p>
                       )}
@@ -215,6 +229,18 @@ export default function GuildDefenseBuildPage() {
           ))}
         </div>
       </div>
+
+      {/* ✅ 장비 모달 */}
+      {selectedHeroKey && (
+        <EquipmentModal
+          heroKey={selectedHeroKey}
+          presetTag={presetTag}
+          onClose={() => {
+            setSelectedHeroKey(null);
+            setPresetTag(null);
+          }}
+        />
+      )}
     </div>
   );
 }
