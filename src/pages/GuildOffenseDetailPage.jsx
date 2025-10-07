@@ -1,14 +1,20 @@
 // src/pages/GuildOffenseDetailPage.jsx
 import { useParams, useSearchParams } from 'react-router-dom';
+import { useState } from 'react';
 import data from '../data/guildCounter.json';
+import equipmentData from '../data/equipmentRecommend.json';
+import EquipmentModal from '../components/EquipmentModal';
 
 export default function GuildOffenseDetailPage() {
   const { category, teamIndex } = useParams();
   const [searchParams] = useSearchParams();
 
+  // ✅ 추가: 장비 모달 상태 관리
+  const [selectedHeroKey, setSelectedHeroKey] = useState(null);
+  const [presetTag, setPresetTag] = useState(null);
+
   const decodedCategory = decodeURIComponent(category || '');
   const idx = Number.parseInt(teamIndex, 10);
-
   const entry = data?.categories?.[decodedCategory]?.[idx];
 
   if (!entry) {
@@ -25,10 +31,22 @@ export default function GuildOffenseDetailPage() {
   const heroImg = (src) =>
     src?.startsWith('/images/') ? src : `/images/heroes/${src || ''}`;
 
+  // ✅ 영웅 클릭 시 장비 추천 모달 열기
+  const handleHeroClick = (hero) => {
+    const heroKey = Object.keys(equipmentData).find(
+      (key) => equipmentData[key].name === hero.name
+    );
+    if (heroKey) {
+      setSelectedHeroKey(heroKey);
+      setPresetTag(hero.preset || null);
+    }
+  };
+
   const renderHeroCard = (hero) => (
     <div
       key={`${hero.name}-${hero.image}`}
-      className="flex flex-col items-center bg-white border rounded-lg p-1 shadow-sm"
+      onClick={() => handleHeroClick(hero)} // ✅ 클릭 시 모달 오픈
+      className="flex flex-col items-center bg-white border rounded-lg p-1 shadow-sm hover:bg-blue-50 cursor-pointer transition"
     >
       <div className="w-14 h-14 flex items-center justify-center">
         <img
@@ -64,12 +82,10 @@ export default function GuildOffenseDetailPage() {
     );
   };
 
-  // --- 공통 방어 메모 ---
   const defenseNotes = Array.isArray(entry.defenseNotes)
     ? entry.defenseNotes.filter(Boolean)
     : [];
 
-  // --- 신규 구조 ---
   const variants = Array.isArray(entry.defenseVariants)
     ? entry.defenseVariants
     : null;
@@ -77,12 +93,10 @@ export default function GuildOffenseDetailPage() {
   const variantIdx =
     variantParam !== null ? Number.parseInt(variantParam, 10) : null;
 
-  // --- 레거시 카운터 ---
   const legacyCounters = Array.isArray(entry.recommendedCounters)
     ? entry.recommendedCounters
     : [];
 
-  // --- 카운터 카드 (추천도 포함) ---
   const renderCounterCard = (recommended, j) => {
     const grouped = Array.isArray(recommended.skillOrders)
       ? recommended.skillOrders
@@ -170,7 +184,6 @@ export default function GuildOffenseDetailPage() {
             {entry.defenseTeam.map(renderHeroCard)}
           </div>
 
-          {/* variant가 선택되어 있으면 해당 패턴의 스킬 순서 표시 */}
           {variants &&
           typeof variantIdx === 'number' &&
           !Number.isNaN(variantIdx) &&
@@ -260,6 +273,18 @@ export default function GuildOffenseDetailPage() {
             legacyCounters.map((rc, j) => renderCounterCard(rc, j))
           )}
         </>
+      )}
+
+      {/* ✅ 장비 모달 */}
+      {selectedHeroKey && (
+        <EquipmentModal
+          heroKey={selectedHeroKey}
+          presetTag={presetTag}
+          onClose={() => {
+            setSelectedHeroKey(null);
+            setPresetTag(null);
+          }}
+        />
       )}
     </div>
   );

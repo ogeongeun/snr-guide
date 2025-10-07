@@ -2,7 +2,7 @@
 import { useState, useMemo } from 'react';
 import guildData from '../data/guild_defense_recommendations.json';
 import equipmentData from '../data/equipmentRecommend.json';
-import EquipmentModal from '../components/EquipmentModal'; // ✅ 공용 모달 불러오기
+import EquipmentModal from '../components/EquipmentModal';
 
 const EMPTY_TEAMS = Object.freeze([]);
 const EMPTY_OBJ = Object.freeze({});
@@ -12,7 +12,6 @@ export default function GuildDefenseBuildPage() {
   const [selectedCategory, setSelectedCategory] = useState(categoryNames[0] || '공덱');
   const [openGroupName, setOpenGroupName] = useState(null);
 
-  // ✅ 영웅 클릭 시 모달 상태
   const [selectedHeroKey, setSelectedHeroKey] = useState(null);
   const [presetTag, setPresetTag] = useState(null);
 
@@ -20,7 +19,7 @@ export default function GuildDefenseBuildPage() {
   const categoryDesc = currentCategory.desc || '';
   const teamsRef = Array.isArray(currentCategory.teams) ? currentCategory.teams : EMPTY_TEAMS;
 
-  // 같은 name(덱명)끼리 묶기
+  // 🔹 같은 이름(덱명)끼리 묶기
   const groupedByName = useMemo(() => {
     const map = new Map();
     teamsRef.forEach((team) => {
@@ -34,18 +33,18 @@ export default function GuildDefenseBuildPage() {
   const imgPath = (file, base) =>
     file?.startsWith?.('/images/') ? file : `${base}/${file}`;
 
-  // ✅ 영웅 클릭 시 모달 열기
+  // 🔹 영웅 클릭 시 장비 모달 열기
   const handleHeroClick = (hero) => {
     const heroKey = Object.keys(equipmentData).find(
       (key) => equipmentData[key].name === hero.name
     );
     if (heroKey) {
       setSelectedHeroKey(heroKey);
-      setPresetTag(hero.preset || null); // guild_defense JSON 안 preset 값 연결
+      setPresetTag(hero.preset || null);
     }
   };
 
-  // ✅ 영웅 표시
+  // 🔹 영웅 표시
   const renderHeroes = (heroes = []) => (
     <div
       className={`grid gap-2 mt-3 ${
@@ -71,7 +70,6 @@ export default function GuildDefenseBuildPage() {
           )}
           <p className="text-[10px] mt-1 text-center">{hero.name}</p>
 
-          {/* ✅ 프리셋 태그 표시 */}
           {hero.preset && (
             <span className="mt-1 text-[9px] px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200">
               {hero.preset}
@@ -82,7 +80,7 @@ export default function GuildDefenseBuildPage() {
     </div>
   );
 
-  // ✅ 스킬 순서 렌더링
+  // 🔹 스킬 순서 표시
   const renderSkillOrdersBlock = (team) => {
     const orders = team.skillOrders || EMPTY_OBJ;
     const hasFast = Array.isArray(orders['속공덱']) && orders['속공덱'].length > 0;
@@ -158,7 +156,7 @@ export default function GuildDefenseBuildPage() {
       <div className="max-w-5xl mx-auto bg-white shadow-md rounded-2xl p-6">
         <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">🛡️ 방어팀 필수 조합</h1>
 
-        {/* 속공/내실 설명 */}
+        {/* 설명 */}
         <div className="bg-red-50 border border-red-300 rounded-lg p-4 text-sm text-red-800 mb-6">
           <p className="font-semibold mb-1">속공덱 내실덱 개념</p>
           <ul className="list-disc list-inside leading-relaxed">
@@ -169,7 +167,7 @@ export default function GuildDefenseBuildPage() {
           </ul>
         </div>
 
-        {/* 카테고리 탭 */}
+        {/* 카테고리 선택 */}
         <div className="flex gap-2 mb-4 justify-center flex-wrap">
           {categoryNames.map((category) => (
             <button
@@ -189,14 +187,14 @@ export default function GuildDefenseBuildPage() {
           ))}
         </div>
 
-        {/* 카테고리 설명 */}
+        {/* 설명문 */}
         {categoryDesc && (
           <div className="text-sm text-gray-700 italic mb-4 text-center whitespace-pre-line">
             ※ {categoryDesc}
           </div>
         )}
 
-        {/* 아코디언 덱 그룹 */}
+        {/* 덱 리스트 */}
         <div className="space-y-2">
           {Array.from(groupedByName.entries()).map(([groupName, groupTeams]) => (
             <div key={groupName} className="border border-gray-200 rounded-lg bg-gray-50">
@@ -219,7 +217,36 @@ export default function GuildDefenseBuildPage() {
                         <p className="text-[11px] text-red-500 mb-2 italic">※ {team.note}</p>
                       )}
 
-                      {renderHeroes(team.heroes)}
+                      {/* ✅ 영웅 + 펫 */}
+                      <div className="flex items-start justify-between">
+                        <div className="flex-1">{renderHeroes(team.heroes)}</div>
+
+                        {/* ✅ 펫 여러 개 → 위아래로 표시 */}
+                        {team.pet && (
+                          <div
+                            className={`ml-3 flex ${
+                              Array.isArray(team.pet) && team.pet.length > 1
+                                ? 'flex-col gap-2'
+                                : 'flex-row'
+                            } items-center justify-center`}
+                          >
+                            {(Array.isArray(team.pet) ? team.pet : [team.pet]).map((pet, i) => (
+                              <div
+                                key={`${pet}-${i}`}
+                                className="w-14 h-14 bg-gray-50 border border-gray-200 rounded-xl shadow-sm flex items-center justify-center"
+                              >
+                                <img
+                                  src={`/images/pet/${pet}`}
+                                  alt={`pet-${i}`}
+                                  className="w-8 h-8 object-contain opacity-95"
+                                  loading="lazy"
+                                />
+                              </div>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+
                       {renderSkillOrdersBlock(team)}
                     </div>
                   ))}
@@ -230,7 +257,6 @@ export default function GuildDefenseBuildPage() {
         </div>
       </div>
 
-      {/* ✅ 장비 모달 */}
       {selectedHeroKey && (
         <EquipmentModal
           heroKey={selectedHeroKey}
