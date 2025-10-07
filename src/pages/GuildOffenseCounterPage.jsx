@@ -76,14 +76,10 @@ export default function GuildOffenseListPage() {
       <div className="bg-yellow-50 border border-yellow-300 rounded-lg p-4 text-sm text-gray-800 mb-8">
         <p className="font-semibold mb-1">공격팀 구성 팁</p>
         <ul className="list-disc list-inside leading-relaxed">
-          <li>상대 속공높은곳은 방덱/속공낮은곳은 공덱으로 cc넣고 시작</li>
           
-        
-      
-         
           <li>정보없는곳 공격할때는 방덱으로가는게 승률 좋음</li>
-          <li className="text-red-500">도전 후 패배 시 공지방 구글 시트에 기록</li>
-          <li className="text-red-500">도전 전 구글 시트 참고</li>
+          <li className="text-red-500">상대 속공높은곳은 방덱(막기주고)</li>
+          <li className="text-red-500"> 속공낮은곳은 공덱으로 cc넣고 시작</li>
         </ul>
       </div>
 

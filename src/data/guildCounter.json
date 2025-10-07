@@ -42,14 +42,16 @@
                     },
                     {
                       "name": "연희",
-                      "image": "/images/heroes/Yeonhee.png"
+                      "image": "/images/heroes/Yeonhee.png",
+                      "preset":"프리셋2(내실)"
                     
                     
                     
                     },
                     {
                       "name": "쥬리",
-                      "image": "/images/heroes/juri.png"
+                      "image": "/images/heroes/juri.png",
+                          "preset":"프리셋2(내실)"
                     
                   
                   
@@ -74,14 +76,15 @@
                     {
                       "name": "루디",
                       "image": "/images/heroes/rudy.png",
-                        "note":"프리셋2"
+                          "preset":"프리셋2"
                     
                   
                     },
                     {
                       "name": "제이브",
                       "image": "/images/heroes/jave.png",
-                  "note":"프리셋2/부활반지 필수"
+                          "preset":"프리셋2(길드전)",
+                  "note":"부활반지 필수"
                     
                     
                     
@@ -114,6 +117,7 @@
                     {
                       "name": "루디",
                       "image": "/images/heroes/rudy.png",
+                       "preset":"프리셋2",
                         "note":"프리셋2"
                     
                   
@@ -121,6 +125,7 @@
                     {
                       "name": "플라튼",
                       "image": "/images/heroes/platon.png",
+                          "preset":"프리셋1(탱)",
                   "note":"부활반지"
                     
                     
@@ -1695,7 +1700,8 @@
                   {
                     "name": "태오",
                     "image": "/images/heroes/teo.png",
-                       "note":"약공세팅"
+                     "preset":"프리셋1(내실)",
+                       "note":"권능"
                   },
                   {
                     "name": "아일린",
@@ -1754,17 +1760,19 @@
                   {
                     "name": "아라곤",
                     "image": "/images/heroes/aragon.png",
-                    "note": "카르마 대체가능"
+                    "note":"막기장신구"
+               
                   },
                   {
                     "name": "첸슬러",
                     "image": "/images/heroes/chancellor.png",
-                    "note":"프리셋2"
+                      "preset":"프리셋2(길드전)"
+                
                   },
                   {
                     "name": "엘리스",
                     "image": "/images/heroes/elise.png",
-                    "note": "리나 대체가능"
+                    "note": "부활추천"
                   }
                 ],
                 "note": "밸런스 진형(앞열 3명두기)",
@@ -1785,13 +1793,15 @@
                   {
                     "name": "루디",
                     "image": "/images/heroes/rudy.png",
-                    "note":"프리셋2"
+                      "preset":"프리셋1(범용)"
+              
                     
                   },
                   {
                     "name": "카르마",
                     "image": "/images/heroes/carma.png",
-                    "note":"프리셋2/권능"
+                      "preset":"프리셋2(길드전)",
+                    "note":"권능"
                   },
                   {
                     "name": "리나",
@@ -1817,6 +1827,9 @@
                   {
                     "name": "발리스타",
                     "image": "/images/heroes/ballista.png",
+                      "preset":"프리셋2(속공)",
+                     
+                    
                     "note":"4권능"
                   },
                   {
@@ -1825,13 +1838,14 @@
                   },
                   {
                     "name": "플라튼",
-                    "image": "/images/heroes/platon.png"
+                    "image": "/images/heroes/platon.png",
+                      "preset":"프리셋2(속공)"
                   }
                 ],
                 "note": "상대하고 초월 비슷해야될듯",
                 "skillOrders": [
                   {
-                    "label": "속공 질 때",
+                    "label": "속공 이길 때",
                     "skills": [
                       
                       "colt1.png",
@@ -1852,17 +1866,20 @@
                   {
                     "name": "발리스타",
                     "image": "/images/heroes/ballista.png",
+                      "preset":"프리셋2(속공)",
                   "note":"4초월/4권능 이상"
                    
                   },
                   {
                     "name": "태오",
                     "image": "/images/heroes/teo.png",
+                      "preset":"프리셋2(속공)",
                        "note":"약공/4권능"
                   },
                   {
                     "name": "아일린",
                     "image": "/images/heroes/eileene.png",
+                      "preset":"속공",
                     "note":"델론즈 대체가능"
                   }
                 ],
@@ -1889,7 +1906,8 @@
                   {
                     "name": "첸슬러",
                     "image": "/images/heroes/chancellor.png",
-                    "note":"프리셋2"
+                      "preset":"프리셋2(길드전)"
+                 
                   },
                   {
                     "name": "엘리스",
@@ -1915,13 +1933,15 @@
                   {
                     "name": "루디",
                     "image": "/images/heroes/rudy.png",
-                    "note":"프리셋2"
+                      "preset":"프리셋1(범용)"
+               
                     
                   },
                   {
                     "name": "카르마",
                     "image": "/images/heroes/carma.png",
-                   "note":"프리셋2"
+                      "preset":"프리셋2(길드전)",
+               "note":"권능"
                   },
                   {
                     "name": "리나",
@@ -1947,6 +1967,7 @@
                   {
                     "name": "발리스타",
                     "image": "/images/heroes/ballista.png",
+                      "preset":"프리셋2(속공)",
                     "note":"4권능이상"
                   },
                   {
@@ -1955,13 +1976,14 @@
                   },
                   {
                     "name": "플라튼",
-                    "image": "/images/heroes/platon.png"
+                    "image": "/images/heroes/platon.png",
+                      "preset":"프리셋2(속공)"
                   }
                 ],
                 "note": "상대하고 초월 비슷해야될듯",
                 "skillOrders": [
                   {
-                    "label": "속공 질 때",
+                    "label": "속공 이길 때",
                     "skills": [
                      
                       "colt1.png",
@@ -2003,13 +2025,15 @@
                   {
                     "name": "발리스타",
                     "image": "/images/heroes/ballista.png",
+                      "preset":"프리셋1(내실)",
                   "note":"4초월/4권능 이상"
                    
                   },
                   {
                     "name": "태오",
                     "image": "/images/heroes/teo.png",
-                       "note":"약공세팅"
+                      "preset":"프리셋1(내실)"
+                   
                   },
                   {
                     "name": "아일린",
@@ -2030,40 +2054,7 @@
                 ]
               },
               
-              {
-                "recommendation": 2,
-                "team": [
-                  {
-                    "name": "오를리",
-                    "image": "/images/heroes/orly.png",
-                  "note":"2초이상 부터 사용가능/6초월시 승률 높아짐"
-                   
-                  },
-                  {
-                    "name": "린",
-                    "image": "/images/heroes/rin.png",
-                    "note":"4권능"
-                      
-                  },
-                  {
-                    "name": "유신",
-                    "image": "/images/heroes/yushin.png",
-                    "note":"조율자(효저130,효적60이상)"
-                    
-                  }
-                ],
-            
-                "skillOrders": [
-                  {
-                    "label": "속공 질 때",
-                    "skills": [
-                      "orly2.png",
-                      "Yushin1.png",
-                      "rin2.png"
-                    ]
-                  }
-                ]
-              },
+             
               {
                 "recommendation": 2,
                 "team": [
@@ -2076,7 +2067,7 @@
                   {
                     "name": "연희",
                     "image": "/images/heroes/yeonhee.png",
-                       "note":"프리셋2"
+                       "preset":"프리셋2(내실)"
                   },
                   {
                     "name": "바네사",
@@ -2108,7 +2099,8 @@
                   {
                     "name": "발리스타",
                     "image": "/images/heroes/ballista.png",
-                    "note": "6초이상/4권능"
+                    "preset":"프리셋1(내실)",
+                    "note": "6초이상/4권능이상"
                   },
                   {
                     "name": "아일린",
@@ -2118,7 +2110,7 @@
                 "note": "발리 스킬에 한명이상 죽어야함",
                 "skillOrders": [
                   {
-                    
+                    "label": "공통",
                     "skills": [
                       "lina2.png",
                       "ballista1.png",
@@ -2127,47 +2119,22 @@
                   }
                 ]
               },
-              {
-                "recommendation": 1,
-                "team": [
-                  {
-                    "name": "유신",
-                    "image": "/images/heroes/yushin.png",
-                    "note": "2초이상"
-                  },
-                  {
-                    "name": "연희",
-                    "image": "/images/heroes/yeonhee.png"
-                  },
-                  {
-                    "name": "루디",
-                    "image": "/images/heroes/rudy.png",
-                    "note": "6초이상"
-                  }
-                ],
-                "skillOrders": [
-                  {
-                    "label": "속공 질 때",
-                    "skills": [
-                      "Yushin1.png",
-                      "rudy2.png",
-                      "Yeonhee2.png"
-                    ]
-                  }
-                ]
-              },
+             
               {
                 "recommendation": 2,
                 "team": [
                   {
                     "name": "루디",
                     "image": "/images/heroes/rudy.png",
-                    "note":"6초이상/프리셋2"
+                    "preset":"프리셋2",
+                    "note":"6초이상/에반대체 가능"
                   },
                   {
-                    "name": "테오",
+                    "name": "태오",
                     "image": "/images/heroes/teo.png",
-                    "note": "무조건 약공세팅"
+                    "preset":"프리셋1(내실)"
+                   
+                    
                   },
                   {
                     "name": "파이",
@@ -2338,7 +2305,8 @@
                   },
                   {
                     "name": "첸슬러",
-                    "image": "/images/heroes/chancellor.png"
+                    "image": "/images/heroes/chancellor.png",
+                    "preset":"프리셋2(길드전)"
                   },
                   {
                     "name": "엘리스",
@@ -2390,7 +2358,8 @@
                 "team": [
                   {
                     "name": "플라튼",
-                    "image": "/images/heroes/platon.png"
+                    "image": "/images/heroes/platon.png",
+                    "preset":"프리셋2(속공)"
           
                   },
                   {
@@ -2400,11 +2369,12 @@
                   {
                     "name": "발리스타",
                     "image": "/images/heroes/ballista.png",
+                    "preset":"프리셋2(속공)",
                     "note":"5권능 이상"
                
                   }
                 ],
-                "note": "반지 비슷해야될듯/속공 이기면 더 쉬움",
+                "note": "",
                 "skillOrders": [
                   {
                     "label": "속공 이길 때",
@@ -2425,7 +2395,8 @@
                 "team": [
                   {
                     "name": "플라튼",
-                    "image": "/images/heroes/platon.png"
+                    "image": "/images/heroes/platon.png",
+                    "preset":"프리셋2(속공)"
           
                   },
                   {
@@ -2456,8 +2427,8 @@
                 "team": [
                   {
                     "name": "플라튼",
-                    "image": "/images/heroes/platon.png"
-          
+                    "image": "/images/heroes/platon.png",
+                "preset":"프리셋2(속공)"
                   },
                   {
                     "name": "콜트",
@@ -2466,6 +2437,7 @@
                   {
                     "name": "실베스타",
                     "image": "/images/heroes/silvesta.png",
+                          "preset":"프리셋2(속공)",
                     "note":"불사/부활반지"
                
                   }
@@ -2487,17 +2459,20 @@
                 "team": [
                   {
                     "name": "로지",
-                    "image": "/images/heroes/lozy.png"
+                    "image": "/images/heroes/lozy.png",
+                          "preset":"프리셋2(속공)"
           
                   },
                   {
-                    "name": "테오",
+                    "name": "태오",
                     "image": "/images/heroes/teo.png",
+                          "preset":"프리셋2(속공)",
                     "note":"5권능"
                   },
                   {
                     "name": "바네사",
-                    "image": "/images/heroes/vanessa.png"
+                    "image": "/images/heroes/vanessa.png",
+                          "preset":"프리셋2(속공)"
                
                   }
                 ],
@@ -2545,10 +2520,12 @@
                   {
                     "name": "실베스타",
                     "image": "/images/heroes/silvesta.png"
+                
                   },
                   {
                     "name": "오를리",
                     "image": "/images/heroes/orly.png"
+                   
                    
                   },
                   {
@@ -2602,7 +2579,7 @@
                   {
                     "name": "첸슬러",
                     "image": "/images/heroes/chancellor.png",
-                    "note":"프리셋2"
+                    "note":"프리셋1(범용)"
                   },
                   {
                     "name": "아라곤",
@@ -2611,7 +2588,8 @@
                   },
                   {
                     "name": "룩",
-                    "image": "/images/heroes/look.png"
+                    "image": "/images/heroes/look.png",
+                    "note":"효저챙기기"
                    
                   }
                 ],
@@ -2659,11 +2637,12 @@
                   {
                     "name": "플라튼",
                     "image": "/images/heroes/platon.png",
-                    "note":"속공 질거면 플라튼 장비 빡세게 가져가야함"
+                   "preset":"프리셋2(속공)"
                   },
                   {
                     "name": "발리스타",
                     "image": "/images/heroes/ballista.png",
+                    "preset":"프리셋2(속공)",
                     "note":"5성 권능 필수"
                   },
                   {
@@ -2671,7 +2650,7 @@
                     "image": "/images/heroes/colt.png"
                   }
                 ],
-                "note": "속공지면 승률 반반 속공이기면 무조건 거의이김",
+                "note": "",
                 "skillOrders": [
                   {
                     "label": "속공 이길때",
@@ -2690,16 +2669,19 @@
                   {
                     "name": "니아",
                     "image": "/images/heroes/nia.png"
+            
                     
                   },
                   {
                     "name": "린",
-                    "image": "/images/heroes/rin.png"
+                    "image": "/images/heroes/rin.png",
+                    "preset":"프리셋1(속공)"
                     
                   },
                   {
                     "name": "로지",
-                    "image": "/images/heroes/lozy.png"
+                    "image": "/images/heroes/lozy.png",
+                    "preset":"프리셋2(속공)"
                   }
                 ],
                 
@@ -2785,7 +2767,8 @@
                   {
                     "name": "첸슬러",
                     "image": "/images/heroes/chancellor.png",
-                    "note": "프리셋2"
+                    "preset":"프리셋1(범용)"
+               
                   },
                   {
                     "name": "엘리스",
@@ -2799,8 +2782,8 @@
                     "label": "속공 질 때",
                     "skills": [
                       "chancellor2.png",
-                      "elise1.png",
-                      "platon2.png"
+                      "elise2.png",
+                      "elise1.png"
                     ]
                   }
                 ]
@@ -2810,7 +2793,8 @@
                 "team": [
                   {
                     "name": "실베스타",
-                    "image": "/images/heroes/silvesta.png"
+                    "image": "/images/heroes/silvesta.png",
+                    "preset":"프리셋2(속공)"
                   },
                   {
                     "name": "콜트",
@@ -2819,7 +2803,8 @@
                   },
                   {
                     "name": "플라튼",
-                    "image": "/images/heroes/platon.png"
+                    "image": "/images/heroes/platon.png",
+                    "preset":"프리셋2(속공)"
                   }
                 ],
                 "note": "상대하고 초월 비슷해야될듯",
@@ -2827,9 +2812,10 @@
                   {
                     "label": "공통",
                     "skills": [
-                      "platon2.png",
+                     
                       "colt1.png",
-                      "colt2.png"
+                      "colt2.png",
+                      "silvesta1.png"
                    
                     ]
                   }
@@ -2942,17 +2928,20 @@
             "defenseSkills": ["vanessa1.png","Yeonhee2.png","Yeonhee1.png"],
             "counters": [
               {
+                  "recommendation": 3,
                 "team": [
                   {
                     "name": "발리스타",
                     "image": "/images/heroes/ballista.png",
+                    "preset":"프리셋2(속공)",
                   "note":"4초월/5권능 이상"
                    
                   },
                   {
                     "name": "태오",
                     "image": "/images/heroes/teo.png",
-                       "note":"약공세팅"
+                    "preset":"프리셋2(속공)"
+                    
                   },
                   {
                     "name": "아일린",
@@ -2973,10 +2962,12 @@
                 ]
               },
               {
+                  "recommendation": 3,
                 "team": [
                   {
                     "name": "발리스타",
-                    "image": "/images/heroes/ballista.png"
+                    "image": "/images/heroes/ballista.png",
+                    "preset":"프리셋2(속공)"
                   },
                   {
                     "name": "콜트",
@@ -2984,7 +2975,8 @@
                   },
                   {
                     "name": "플라튼",
-                    "image": "/images/heroes/platon.png"
+                    "image": "/images/heroes/platon.png",
+                    "preset":"프리셋2(속공)"
                   }
                 ],
                 "note": "상대하고 초월 비슷해야될듯",
@@ -2992,14 +2984,16 @@
                   {
                     "label": "공통",
                     "skills": [
-                      "platon2.png",
+                      
                       "colt1.png",
+                      "colt2.png",
                       "ballista1.png"
                     ]
                   }
                 ]
               },
               {
+                  "recommendation": 2,
                 "team": [
                   {
                     "name": "아라곤",
@@ -3008,7 +3002,8 @@
                   },
                   {
                     "name": "첸슬러",
-                    "image": "/images/heroes/chancellor.png"
+                    "image": "/images/heroes/chancellor.png",
+                    "preset":"프리셋1(범용)"
                   },
                   {
                     "name": "엘리스",
@@ -3029,6 +3024,7 @@
                 ]
               },
               {
+                  "recommendation": 2,
                 "team": [
                   {
                     "name": "발리스타",
@@ -3039,78 +3035,28 @@
                     "image": "/images/heroes/colt.png"
                   },
                   {
-                    "name": "엘리스",
-                    "image": "/images/heroes/elise.png"
+                    "name": "아라곤",
+                    "image": "/images/heroes/aragon.png",
+                    "note":"엘리스 대체가능"
                   }
                 ],
                 "note": "상대하고 초월 비슷해야될듯",
                 "skillOrders": [
                   {
-                    "label": "속공 질 때",
-                    "skills": [
-                      "elise1.png",
-                      "colt1.png",
-                      "colt2.png"
-                    ]
-                  }
-                ]
-              },
-              {
-                "team": [
-                  {
-                    "name": "리나",
-                    "image": "/images/heroes/lina.png"
-                  },
-                  {
-                    "name": "제이브",
-                    "image": "/images/heroes/jave.png"
-                  },
-                  {
-                    "name": "루디",
-                    "image": "/images/heroes/rudy.png"
-                  }
-                ],
-                "note": "스킬순서 애매 상대 덱마다 바꿔야할듯",
-                "skillOrders": [
-                  {
-                    "label": "속공 질 때",
-                    "skills": [
-                      "rudy2.png",
-                      "jave1.png",
-                      "jave2.png"
-                    ]
-                  }
-                ]
-              },
-              {
-                "team": [
-                  {
-                    "name": "아일린",
-                    "image": "/images/heroes/eileene.png"
-                  },
-                  {
-                    "name": "테오",
-                    "image": "/images/heroes/teo.png"
-                  },
-                  {
-                    "name": "에이스",
-                    "image": "/images/heroes/ace.png",
-                    "note": "속공 높은애 아무나"
-                  }
-                ],
-                "note": "상대 패시브 벗기고 패기",
-                "skillOrders": [
-                  {
                     "label": "속공 이길 때",
                     "skills": [
-                      "teo1.png",
-                      "eileene2.png",
-                      "teo2.png"
+                      
+                      "colt1.png",
+                      "colt2.png",
+                      "ballista1.png"
                     ]
                   }
                 ]
               },
+              
+             
               {
+                  "recommendation": 3,
                 "team": [
                   {
                     "name": "니아",
@@ -3119,7 +3065,8 @@
                   },
                   {
                     "name": "델론즈",
-                    "image": "/images/heroes/dellons.png"
+                    "image": "/images/heroes/dellons.png",
+                    "preset":"프리셋2(속공)"
                   },
                   {
                     "name": "에이스",
@@ -3138,119 +3085,10 @@
                     ]
                   }
                 ]
-              },
-              {
-                "team": [
-                  {
-                    "name": "파이",
-                    "image": "/images/heroes/pie.png"
-                  },
-                  {
-                    "name": "발리스타",
-                    "image": "/images/heroes/ballista.png"
-                  },
-                  {
-                    "name": "에이스",
-                    "image": "/images/heroes/ace.png",
-                    "note": "조율자 세팅"
-                  }
-                ],
-                "note": "에이스 2스킬로 디버프 해제",
-                "skillOrders": [
-                  {
-                    "label": "속공 질 때",
-                    "skills": [
-                      "pie1.png",
-                      "ace2.png",
-                      "ballista1.png"
-                    ]
-                  }
-                ]
-              },
-              {
-                "team": [
-                  {
-                    "name": "유신",
-                    "image": "/images/heroes/yushin.png",
-                    "note": "2초월 이상(조율자)"
-                  },
-                  {
-                    "name": "연희",
-                    "image": "/images/heroes/yeonhee.png"
-                  },
-                  {
-                    "name": "바네사",
-                    "image": "/images/heroes/vanessa.png"
-                  }
-                ],
-                "note": "상대보다 속공 낮을때(cc맞고 유신1스로 풀기)",
-                "skillOrders": [
-                  {
-                    "label": "속공 질 때",
-                    "skills": [
-                      "Yushin1.png",
-                      "Yushin2.png",
-                      "Yeonhee2.png"
-                    ]
-                  }
-                ]
-              },
-              {
-                "team": [
-                  {
-                    "name": "빅토리아",
-                    "image": "/images/heroes/victoria.png",
-                    "note": "마비 면역"
-                  },
-                  {
-                    "name": "연희",
-                    "image": "/images/heroes/yeonhee.png"
-                  },
-                  {
-                    "name": "유신",
-                    "image": "/images/heroes/yushin.png"
-                  }
-                ],
-                "note": "속공 딸릴때",
-                "skillOrders": [
-                  {
-                    "label": "속공 질 때",
-                    "skills": [
-                      "Yushin1.png",
-                      "Yeonhee2.png",
-                      "Yeonhee1.png"
-                    ]
-                  }
-                ]
-              },
-              {
-                "team": [
-                  {
-                    "name": "노호",
-                    "image": "/images/heroes/noho.png",
-                    "note": "속공 몰빵노호"
-                  },
-                  {
-                    "name": "발리스타",
-                    "image": "/images/heroes/ballista.png"
-                  },
-                  {
-                    "name": "레이첼",
-                    "image": "/images/heroes/rachel.png"
-                  }
-                ],
-                "note": "속공 먼저 따아햠",
-                "skillOrders": [
-                  {
-                    "label": "속공 이길 때",
-                    "skills": [
-                      "noho1.png",
-                      "ballista1.png",
-                      "dellons2.png"
-                    ]
-                  }
-                ]
               }
+              
+             
+              
             ]
           }
         ]
@@ -3808,14 +3646,16 @@
                   
                   {
                     "name": "레이첼",
-                    "image": "/images/heroes/rachel.png"
+                    "image": "/images/heroes/rachel.png",
+                    "preset":"프리셋1(내실)"
                        
                    
                   },
                   {
                     "name": "델론즈",
                     "image": "/images/heroes/dellons.png",
-                    "note":"뒤배치/치확100,약확100/팀내 속공2순위"
+                     "preset":"프리셋1(내실)",
+                    "note":"팀내 속공2순위/권능"
                   },
                   {
                     "name": "파이",
@@ -3826,7 +3666,7 @@
                 "note": "델론즈 팀내 속공 2순위",
                 "skillOrders": [
                   {
-                    "label": "속공 이길 때",
+                    "label": "속공 질 때",
                     "skills": [
                       "rachel2.png",
                       "dellons2.png",
@@ -3840,13 +3680,13 @@
               },
               
               {
-                "recommendation": 3,
+                "recommendation": 2,
                 "team": [
                   
                   {
                     "name": "플라튼",
                     "image": "/images/heroes/platon.png",
-                       "note":"첸슬러 대체가능/부활반지"
+                        "preset":"프리셋1(탱)"
                    
                   },
                   {
@@ -3881,7 +3721,7 @@
                   {
                     "name": "플라튼",
                     "image": "/images/heroes/platon.png",
-                       "note":"첸슬러 대체가능/부활반지"
+                       "preset":"프리셋1(탱)"
                    
                   },
                   {
@@ -3981,7 +3821,8 @@
                   },
                   {
                     "name": "플라튼",
-                    "image": "/images/heroes/platon.png"
+                    "image": "/images/heroes/platon.png",
+                     "preset":"프리셋1(내실)"
                   },
                   {
                     "name": "루시",
@@ -4025,35 +3866,7 @@
           {
             "defenseSkills": ["juri2.png","platon2.png","colt2.png"],
             "counters": [
-              {
-                "recommendation": 3,
-                "team": [
-                  {
-                    "name": "리나",
-                    "image": "/images/heroes/lina.png"
-                  },
-                  {
-                    "name": "루리",
-                    "image": "/images/heroes/luri.png",
-                    "note":"권능 반지 필수"
-                  },
-                  {
-                    "name": "카린",
-                    "image": "/images/heroes/carin.png"
-                  }
-                ],
-                "note": "승률60~70% 덱 풀 약하신분들 도전추천",
-                "skillOrders": [
-                  {
-                    "label": "공통",
-                    "skills": [
-                      "luri2.png",
-                      "luri1.png"
-                     
-                    ]
-                  }
-                ]
-              },
+             
               
               {
                 "recommendation": 3,
@@ -4064,7 +3877,8 @@
                   },
                   {
                     "name": "플라튼",
-                    "image": "/images/heroes/platon.png"
+                    "image": "/images/heroes/platon.png",
+                     "preset":"프리셋1(탱)"
                   },
                   {
                     "name": "엘리스",
@@ -4113,11 +3927,13 @@
                 "team": [
                   {
                     "name": "레이첼",
-                    "image": "/images/heroes/rachel.png"
+                    "image": "/images/heroes/rachel.png",
+                     "preset":"프리셋2(속공)"
                   },
                   {
                     "name": "델론즈",
                     "image": "/images/heroes/dellons.png",
+                     "preset":"프리셋1(내실)",
                     "note":"내실"
                  
                   },
@@ -4126,7 +3942,7 @@
                     "image": "/images/heroes/pie.png"
                   }
                 ],
-                "note": "극내실",
+                "note": "레이첼 위쓰고 카구라가 죽어야함",
                 "skillOrders": [
                   {
                     "label": "속공 이길 때",
@@ -4149,7 +3965,8 @@
                   },
                   {
                     "name": "플라튼",
-                    "image": "/images/heroes/platon.png"
+                    "image": "/images/heroes/platon.png",
+                     "preset":"프리셋1(탱)"
                   },
                   {
                     "name": "엘리스",
@@ -4202,7 +4019,8 @@
                   },
                   {
                     "name": "첸슬러",
-                    "image": "/images/heroes/chancellor.png"
+                    "image": "/images/heroes/chancellor.png",
+                     "preset":"프리셋1(범용)"
               
                   },
                   {
@@ -4315,17 +4133,18 @@
                 "recommendation": 2,
                 "team": [
                   {
-                    "name": "리나",
-                    "image": "/images/heroes/lina.png"
+                    "name": "풍연",
+                    "image": "/images/heroes/poongyeon.png"
                   },
                   {
                     "name": "루리",
                     "image": "/images/heroes/luri.png",
+                      "preset":"프리셋1(길드전)",
                     "note":"권능 반지 필수"
                   },
                   {
-                    "name": "카린",
-                    "image": "/images/heroes/carin.png"
+                    "name": "리나",
+                    "image": "/images/heroes/lina.png"
                   }
                 ],
                 "note": "승률60~70% 덱 풀 약하신분들 도전추천",
@@ -4333,6 +4152,7 @@
                   {
                     "label": "공통",
                     "skills": [
+                      "lina2.png",
                       "luri2.png",
                       "luri1.png"
                      
@@ -4379,6 +4199,7 @@
                   {
                     "name": "루리",
                     "image": "/images/heroes/luri.png",
+                      "preset":"프리셋1(범용)",
                     "note":"권능 반지 필수"
                   },
                   {
@@ -4408,7 +4229,8 @@
                   },
                   {
                     "name": "플라튼",
-                    "image": "/images/heroes/platon.png"
+                    "image": "/images/heroes/platon.png",
+                      "preset":"프리셋1(탱)"
                   },
                   {
                     "name": "루시",
@@ -4437,7 +4259,8 @@
                   },
                   {
                     "name": "첸슬러",
-                    "image": "/images/heroes/chancellor.png"
+                    "image": "/images/heroes/chancellor.png",
+                      "preset":"프리셋2(길드전)"
                   },
                   {
                     "name": "헬레니아",
@@ -4456,36 +4279,8 @@
                     ]
                   }
                 ]
-              },
-              {
-                "recommendation": 1,
-                "team": [
-                  {
-                    "name": "레이첼",
-                    "image": "/images/heroes/rachel.png",
-                    "note": "6초이상/딜세팅"
-                  },
-                  {
-                    "name": "콜트",
-                    "image": "/images/heroes/colt.png"
-                  },
-                  {
-                    "name": "델론즈",
-                    "image": "/images/heroes/dellons.png",
-                    "note": "추적자"
-                  }
-                ],
-                "skillOrders": [
-                  {
-                    "label": "속공 질 때",
-                    "skills": [
-                      "rachel2.png",
-                      "colt1.png",
-                      "colt2.png"
-                    ]
-                  }
-                ]
               }
+             
             ]
           }
         ]
@@ -4555,6 +4350,7 @@
                   {
                     "name": "루리",
                     "image": "/images/heroes/luri.png",
+                      "preset":"프리셋1(길드전)",
                     "note":"권능 반지 필수"
                   },
                   {
@@ -4565,8 +4361,18 @@
                 "note": "승률60~70% 덱 풀 약하신분들 도전추천",
                 "skillOrders": [
                   {
-                    "label": "공통",
+                    "label": "속공 이길 때",
                     "skills": [
+                      "lina2.png",
+                      "luri2.png",
+                      "luri1.png"
+                     
+                    ]
+                  },
+                  {
+                    "label": "속공 질 때",
+                    "skills": [
+                
                       "luri2.png",
                       "luri1.png"
                      
@@ -4584,7 +4390,8 @@
                   },
                   {
                     "name": "플라튼",
-                    "image": "/images/heroes/platon.png"
+                    "image": "/images/heroes/platon.png",
+                      "preset":"프리셋1(탱)"
                   },
                   {
                     "name": "루시",
@@ -4613,7 +4420,8 @@
                   },
                   {
                     "name": "첸슬러",
-                    "image": "/images/heroes/chancellor.png"
+                    "image": "/images/heroes/chancellor.png",
+                      "preset":"프리셋2(길드전)"
                   },
                   {
                     "name": "헬레니아",
@@ -4632,36 +4440,8 @@
                     ]
                   }
                 ]
-              },
-              {
-                 "recommendation": 1,
-                "team": [
-                  {
-                    "name": "레이첼",
-                    "image": "/images/heroes/rachel.png",
-                    "note": "6초이상/딜세팅"
-                  },
-                  {
-                    "name": "콜트",
-                    "image": "/images/heroes/colt.png"
-                  },
-                  {
-                    "name": "델론즈",
-                    "image": "/images/heroes/dellons.png",
-                    "note": "추적자"
-                  }
-                ],
-                "skillOrders": [
-                  {
-                    "label": "속공 질 때",
-                    "skills": [
-                      "rachel2.png",
-                      "colt1.png",
-                      "colt2.png"
-                    ]
-                  }
-                ]
               }
+             
             ]
           }
         ]
@@ -4698,11 +4478,12 @@
                   {
                     "name": "루리",
                     "image": "/images/heroes/luri.png",
+                      "preset":"프리셋1(길드전)",
                     "note":"권능 반지 필수"
                   },
                   {
-                    "name": "카린",
-                    "image": "/images/heroes/carin.png"
+                    "name": "풍연",
+                    "image": "/images/heroes/poongyeon.png"
                   }
                 ],
                 "note": "승률60~70% 덱 풀 약하신분들 도전추천",
@@ -4710,6 +4491,7 @@
                   {
                     "label": "공통",
                     "skills": [
+                      "lina2.png",
                       "luri2.png",
                       "luri1.png"
                      
@@ -4727,7 +4509,8 @@
                   {
                     "name": "루리",
                     "image": "/images/heroes/luri.png",
-                    "note":"권능반지나 부활반지 필수(6초기준 약공60세팅)"
+                      "preset":"프리셋1(길드전)",
+                    "note":"권능반지나 부활반지 필수"
                   },
                   {
                     "name": "리나",
@@ -4756,62 +4539,8 @@
                   }
                 ]
               },
-              {
-                 "recommendation": 2,
-                "team": [
-                  {
-                    "name": "플라튼",
-                    "image": "/images/heroes/platon.png"
-                  },
-                  {
-                    "name": "카르마",
-                    "image": "/images/heroes/carma.png"
-                  },
-                  {
-                    "name": "엘리스",
-                    "image": "/images/heroes/elise.png"
-                  }
-                ],
-                "note": "카르마 암살자",
-                "skillOrders": [
-                  {
-                    "label": "속공 질 때",
-                    "skills": [
-                      "platon2.png",
-                      "carma2.png",
-                      "elise1.png"
-                    ]
-                  }
-                ]
-              },
-              {
-                 "recommendation": 1,
-                "team": [
-                  {
-                    "name": "바네사",
-                    "image": "/images/heroes/vanessa.png"
-                  },
-                  {
-                    "name": "린",
-                    "image": "/images/heroes/rin.png"
-                  },
-                  {
-                    "name": "멜키르",
-                    "image": "/images/heroes/Melkir.png"
-                  }
-                ],
-                "note": "",
-                "skillOrders": [
-                  {
-                    "label": "속공 질 때",
-                    "skills": [
-                      "rin2.png",
-                      "Melkir1.png",
-                      "vanessa1.png"
-                    ]
-                  }
-                ]
-              },
+              
+              
               {
                  "recommendation": 1,
                 "team": [
@@ -4918,28 +4647,41 @@
             "defenseSkills": ["platon2.png","lozy1.png"],
             "counters": [
               {
+                "recommendation": 3,
                 "team": [
                   {
-                    "name": "파이",
-                    "image": "/images/heroes/pie.png"
+                    "name": "리나",
+                    "image": "/images/heroes/lina.png"
                   },
                   {
-                    "name": "태오",
-                    "image": "/images/heroes/teo.png"
+                    "name": "루리",
+                    "image": "/images/heroes/luri.png",
+                      "preset":"프리셋1(길드전)",
+                    "note":"권능 반지 필수"
                   },
                   {
-                    "name": "플라튼",
-                    "image": "/images/heroes/platon.png"
+                    "name": "카린",
+                    "image": "/images/heroes/carin.png"
                   }
                 ],
-            
+                "note": "승률60~70% 덱 풀 약하신분들 도전추천",
                 "skillOrders": [
                   {
-                    "label": "공통",
+                    "label": "속공 이길 때",
                     "skills": [
-                      "platon2.png",
-                      "pie1.png",
-                      "teo1.png"
+                      "lina2.png",
+                      "luri2.png",
+                      "luri1.png"
+                     
+                    ]
+                  },
+                  {
+                    "label": "속공 질 때",
+                    "skills": [
+                
+                      "luri2.png",
+                      "luri1.png"
+                     
                     ]
                   }
                 ]

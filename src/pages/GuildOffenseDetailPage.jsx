@@ -1,4 +1,3 @@
-// src/pages/GuildOffenseDetailPage.jsx
 import { useParams, useSearchParams } from 'react-router-dom';
 import { useState } from 'react';
 import data from '../data/guildCounter.json';
@@ -9,13 +8,18 @@ export default function GuildOffenseDetailPage() {
   const { category, teamIndex } = useParams();
   const [searchParams] = useSearchParams();
 
-  // ✅ 추가: 장비 모달 상태 관리
+  // ✅ 장비 모달 상태
   const [selectedHeroKey, setSelectedHeroKey] = useState(null);
   const [presetTag, setPresetTag] = useState(null);
 
   const decodedCategory = decodeURIComponent(category || '');
   const idx = Number.parseInt(teamIndex, 10);
   const entry = data?.categories?.[decodedCategory]?.[idx];
+
+  // ✅ variant 쿼리 파라미터
+  const variantParam = searchParams.get('variant');
+  const variantIdx =
+    variantParam !== null ? Number.parseInt(variantParam, 10) : null;
 
   if (!entry) {
     return (
@@ -27,25 +31,29 @@ export default function GuildOffenseDetailPage() {
     );
   }
 
-  // --- helpers ---
+  // ✅ 이미지 경로
   const heroImg = (src) =>
     src?.startsWith('/images/') ? src : `/images/heroes/${src || ''}`;
 
-  // ✅ 영웅 클릭 시 장비 추천 모달 열기
+  // ✅ 영웅 클릭 → 장비모달
   const handleHeroClick = (hero) => {
     const heroKey = Object.keys(equipmentData).find(
       (key) => equipmentData[key].name === hero.name
     );
     if (heroKey) {
+      const detectedPreset =
+        hero.preset ||
+        (hero.note && hero.note.includes('프리셋') ? hero.note : null);
       setSelectedHeroKey(heroKey);
-      setPresetTag(hero.preset || null);
+      setPresetTag(detectedPreset);
     }
   };
 
+  // ✅ 영웅 카드
   const renderHeroCard = (hero) => (
     <div
       key={`${hero.name}-${hero.image}`}
-      onClick={() => handleHeroClick(hero)} // ✅ 클릭 시 모달 오픈
+      onClick={() => handleHeroClick(hero)}
       className="flex flex-col items-center bg-white border rounded-lg p-1 shadow-sm hover:bg-blue-50 cursor-pointer transition"
     >
       <div className="w-14 h-14 flex items-center justify-center">
@@ -56,16 +64,20 @@ export default function GuildOffenseDetailPage() {
         />
       </div>
       {hero.note ? (
-        <p className="text-[9px] text-red-500 italic mt-0.5 text-center">
-          {hero.note}
-        </p>
+        <p className="text-[9px] text-red-500 italic mt-0.5 text-center">{hero.note}</p>
       ) : (
         <div className="h-[14px]" />
       )}
       <p className="text-[10px] mt-1 text-center">{hero.name}</p>
+      {(hero.preset || (hero.note && hero.note.includes('프리셋'))) && (
+        <span className="mt-1 text-[9px] px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200">
+          {hero.preset || hero.note}
+        </span>
+      )}
     </div>
   );
 
+  // ✅ 스킬 아이콘
   const SkillStrip = ({ skills, size = 'w-10 h-10' }) => {
     if (!Array.isArray(skills) || skills.length === 0) return null;
     return (
@@ -85,18 +97,11 @@ export default function GuildOffenseDetailPage() {
   const defenseNotes = Array.isArray(entry.defenseNotes)
     ? entry.defenseNotes.filter(Boolean)
     : [];
-
   const variants = Array.isArray(entry.defenseVariants)
     ? entry.defenseVariants
-    : null;
-  const variantParam = searchParams.get('variant');
-  const variantIdx =
-    variantParam !== null ? Number.parseInt(variantParam, 10) : null;
-
-  const legacyCounters = Array.isArray(entry.recommendedCounters)
-    ? entry.recommendedCounters
     : [];
 
+  // ✅ 카운터 카드
   const renderCounterCard = (recommended, j) => {
     const grouped = Array.isArray(recommended.skillOrders)
       ? recommended.skillOrders
@@ -110,7 +115,6 @@ export default function GuildOffenseDetailPage() {
         key={j}
         className="mb-6 border border-gray-300 rounded-xl p-4 bg-white shadow-sm hover:shadow-md transition"
       >
-        {/* ⭐ 추천도 표시 */}
         {recommended.recommendation && (
           <div className="text-center mb-2">
             <span className="text-yellow-500 text-sm font-bold">
@@ -125,8 +129,7 @@ export default function GuildOffenseDetailPage() {
           </div>
         )}
 
-        {/* 팀 */}
-        {Array.isArray(recommended.team) && recommended.team.length > 0 && (
+        {Array.isArray(recommended.team) && (
           <div
             className={`grid gap-2 ${
               recommended.team.length === 3 ? 'grid-cols-3' : 'grid-cols-5'
@@ -136,12 +139,10 @@ export default function GuildOffenseDetailPage() {
           </div>
         )}
 
-        {/* 설명 */}
         {recommended.note && (
           <p className="text-sm text-gray-600 mt-2 italic">※ {recommended.note}</p>
         )}
 
-        {/* 스킬 순서 */}
         {grouped && grouped.length > 0 ? (
           <div className="mt-3 space-y-3">
             <p className="text-sm font-semibold text-gray-700">스킬 순서</p>
@@ -164,10 +165,36 @@ export default function GuildOffenseDetailPage() {
     );
   };
 
+  // ✅ variant 렌더 (방어팀 스킬 순서 제거됨)
+  const renderVariant = (variant, index) => (
+    <div
+      key={`variant-${index}`}
+      className="mb-2 border border-gray-300 rounded-xl p-4 bg-white shadow-sm"
+    >
+      <div className="flex items-center justify-between mb-2">
+        <h3 className="text-lg font-semibold">패턴 #{index + 1}</h3>
+        <span className="text-xs text-gray-500">
+          카운터 {Array.isArray(variant.counters) ? variant.counters.length : 0}개
+        </span>
+      </div>
+
+      {/* 방어팀 스킬 순서 → 제거됨 */}
+
+      <div className="mt-2">
+        {Array.isArray(variant.counters) && variant.counters.length > 0 ? (
+          variant.counters.map((rc, j) => renderCounterCard(rc, j))
+        ) : (
+          <p className="text-sm text-gray-500">등록된 카운터덱이 없습니다.</p>
+        )}
+      </div>
+    </div>
+  );
+
   return (
     <div className="p-6 max-w-4xl mx-auto">
       <h1 className="text-3xl font-bold mb-2 text-center">카운터덱 상세</h1>
 
+      {/* ✅ 카테고리, 라벨 */}
       <div className="mb-3 text-center">
         <span className="text-sm text-gray-500">카테고리</span>{' '}
         <span className="text-sm font-semibold">[{decodedCategory}]</span>
@@ -176,29 +203,27 @@ export default function GuildOffenseDetailPage() {
         <span className="text-sm font-semibold">{entry.label || '라벨없음'}</span>
       </div>
 
-      {/* 상대 방어팀 요약 */}
+      {/* ✅ 상대 방어팀 (요약 + 스킬 순서만 표시) */}
       {Array.isArray(entry.defenseTeam) && entry.defenseTeam.length > 0 && (
         <div className="mb-6 border border-blue-200 rounded-xl p-4 bg-blue-50/40">
           <p className="text-xs font-semibold text-gray-700 mb-2">상대 방어팀 (요약)</p>
-          <div className="grid grid-cols-3 gap-2 mb-2">
+          <div className="grid grid-cols-3 gap-2 mb-3">
             {entry.defenseTeam.map(renderHeroCard)}
           </div>
 
-          {variants &&
-          typeof variantIdx === 'number' &&
-          !Number.isNaN(variantIdx) &&
-          variants[variantIdx] ? (
-            <>
-              <p className="text-xs font-semibold text-gray-700 mb-1">방어팀 스킬 순서</p>
-              <SkillStrip skills={variants[variantIdx].defenseSkills} size="w-8 h-8" />
-            </>
-          ) : Array.isArray(entry.defenseSkillOrder) &&
-            entry.defenseSkillOrder.length > 0 ? (
-            <>
-              <p className="text-xs font-semibold text-gray-700 mb-1">방어팀 스킬 순서</p>
-              <SkillStrip skills={entry.defenseSkillOrder} size="w-8 h-8" />
-            </>
-          ) : null}
+          {variantIdx !== null &&
+            variants[variantIdx] &&
+            Array.isArray(variants[variantIdx].defenseSkills) && (
+              <>
+                <p className="text-xs font-semibold text-gray-700 mb-1">
+                  방어팀 스킬 순서
+                </p>
+                <SkillStrip
+                  skills={variants[variantIdx].defenseSkills}
+                  size="w-8 h-8"
+                />
+              </>
+            )}
         </div>
       )}
 
@@ -211,68 +236,18 @@ export default function GuildOffenseDetailPage() {
         </div>
       )}
 
-      {/* 본문 */}
-      {variants && variants.length > 0 ? (
+      {/* ✅ variant 출력 */}
+      {variants.length > 0 ? (
         typeof variantIdx === 'number' &&
         !Number.isNaN(variantIdx) &&
         variantIdx >= 0 &&
         variantIdx < variants.length ? (
-          <div className="mb-6 border border-gray-300 rounded-xl p-4 bg-white shadow-sm">
-            <div className="flex items-center justify-between mb-2">
-              <h3 className="text-lg font-semibold">패턴 #{variantIdx + 1}</h3>
-              <span className="text-xs text-gray-500">
-                카운터 {Array.isArray(variants[variantIdx].counters) ? variants[variantIdx].counters.length : 0}개
-              </span>
-            </div>
-
-            <div className="mt-4">
-              {Array.isArray(variants[variantIdx].counters) &&
-              variants[variantIdx].counters.length > 0 ? (
-                variants[variantIdx].counters.map((rc, j) => renderCounterCard(rc, j))
-              ) : (
-                <p className="text-sm text-gray-500">등록된 카운터덱이 없습니다.</p>
-              )}
-            </div>
-          </div>
+          renderVariant(variants[variantIdx], variantIdx)
         ) : (
-          <div className="space-y-6">
-            {variants.map((v, vIdx) => (
-              <div
-                key={`variant-${vIdx}`}
-                className="mb-2 border border-gray-300 rounded-xl p-4 bg-white shadow-sm"
-              >
-                <div className="flex items-center justify-between mb-2">
-                  <h3 className="text-lg font-semibold">패턴 #{vIdx + 1}</h3>
-                  <span className="text-xs text-gray-500">
-                    카운터 {Array.isArray(v.counters) ? v.counters.length : 0}개
-                  </span>
-                </div>
-
-                <div className="mt-1">
-                  <p className="text-xs font-semibold text-gray-700 mb-1">방어팀 스킬 순서</p>
-                  <SkillStrip skills={v.defenseSkills} size="w-8 h-8" />
-                </div>
-
-                <div className="mt-4">
-                  {Array.isArray(v.counters) && v.counters.length > 0 ? (
-                    v.counters.map((rc, j) => renderCounterCard(rc, j))
-                  ) : (
-                    <p className="text-sm text-gray-500">등록된 카운터덱이 없습니다.</p>
-                  )}
-                </div>
-              </div>
-            ))}
-          </div>
+          variants.map((v, vIdx) => renderVariant(v, vIdx))
         )
       ) : (
-        <>
-          <h3 className="text-lg font-semibold mt-2 mb-3">추천 카운터덱</h3>
-          {legacyCounters.length === 0 ? (
-            <p className="text-sm text-gray-500">등록된 카운터덱이 없습니다.</p>
-          ) : (
-            legacyCounters.map((rc, j) => renderCounterCard(rc, j))
-          )}
-        </>
+        <p className="text-sm text-gray-500">등록된 defenseVariants가 없습니다.</p>
       )}
 
       {/* ✅ 장비 모달 */}

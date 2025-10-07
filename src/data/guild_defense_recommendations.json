@@ -8,6 +8,7 @@
           "skillOrders": {
             "속공덱": "string[]",
             "내실덱": "string[]",
+            
             "threshold?": "number (optional; guidance only)"
           },
           "note?": "string"
@@ -332,7 +333,7 @@
           
           {
             "teamId": 0,
-            "name": "연희덱",
+            "name": "연희,린 덱",
             "heroes": [
               {
                 "name": "바네사",
@@ -361,6 +362,41 @@
               
             },
             "note": "1티어/속공 최대치 세팅"
+          }
+          ,
+          {
+            "teamId": 0,
+            "name": "연희,린 덱",
+            "heroes": [
+              {
+                "name": "바네사",
+                "image": "vanessa.png",
+                "preset": "프리셋1(내실)"
+              },
+              {
+                "name": "연희",
+                "image": "Yeonhee.png",
+                  "preset": "프리셋2(내실)",
+                  "note":"5불사"
+              },
+              {
+                "name": "린",
+                "image": "rin.png",
+                  "preset": "프리셋2(내실)",
+                  "note":"6권능 추천"
+            
+              }
+            ],
+                         "pet": ["chri.png","yeonji.png"],
+            "skillOrders": {
+              "공통": [
+                "vanessa1.png",
+                "Yeonhee2.png",
+                "rin2.png"
+              ]
+              
+            },
+            "note": "1티어/내실"
           }
         ]
       },
@@ -487,14 +523,15 @@
             ],
               "pet": ["irin.png","pike.png"],
             "skillOrders": {
-              "공통": [
-                "pie1.png",
+              
+               "공통": [
+                "pie2.png",
                 "colt1.png",
                 "colt2.png"
               ]
               
             },
-            "note": "op티어/파이속공이 콜트 속공보다 높아야함+파이크펫보다 이린 펫쓰는게 나음"
+            "note": "op티어/파이속공이 콜트 속공보다 높아야함,파이위시작 가능"
           },
           {
             "teamId": 0,
